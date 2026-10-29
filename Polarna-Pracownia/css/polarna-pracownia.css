@@ -1,0 +1,564 @@
+/* Polarna Pracownia 1.0.0 | arkusz motywu; bez CSS klienta */
+:root{--pp-text-heading:#e5f5ff;--pp-text-shadow:0 1px 0 #000;--pp-ink:#06101a;--pp-panel:#0c202c;--pp-burgundy:#71142b;--pp-bronze:#718da2;--pp-gold:#b9d3e3;--pp-gold-bright:#effbff;--pp-ivory:#e4edf2;--pp-muted:#a2b8c8;--pp-teal:#4289a9;--pp-teal-bright:#7fcde9;--pp-disabled:#718391;--pp-hud-center:332px;--pp-hp-width:102px;--pp-hp-height:92px;--pp-hp-bottom:-8px;--pp-skill-arm-width:168px;--pp-skill-arm-gap:51px;--pp-skill-right:var(--pp-skill-left);--pp-hud-w:400px;--pp-bottom-w:664px;--pp-frame-gold:#7b9db4;--pp-frame-light:#cce5f2;--pp-frame-dark:#05111b;--pp-rarity:#9da1a7;}
+.border-window .header-label{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.dialogue-window header .h_content{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.quest-log > .header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.skills-window > .main-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.mail-box > .main-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.settings-window > .main-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.help-window2 > .main-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.game-window-positioner button{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.game-window-positioner input[type="button"]{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.game-window-positioner input[type="submit"]{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.game-window-positioner button:disabled{color:var(--pp-disabled);text-shadow:var(--pp-text-shadow);}
+.main-buttons-container .button{background-color:#101920;border-color:#416c8b;box-shadow:inset 0 0 0 1px #06090c, inset 0 0 8px #0009;}
+.main-buttons-container .button:hover{background-color:#42171b;border-color:var(--pp-bronze);background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.main-buttons-container .button.active{background-color:#42171b;border-color:var(--pp-bronze);background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.game-window-positioner input:not(.chat-input-wrapper *){color:var(--pp-ivory);background-color:#080d10d9;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.game-window-positioner textarea:not(.chat-input-wrapper *){color:var(--pp-ivory);background-color:#080d10d9;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.game-window-positioner select:not(.chat-input-wrapper *){color:var(--pp-ivory);background-color:#080d10d9;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.chat-input-wrapper input{color:var(--pp-ivory);background-color:#080d10d9;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.chat-input-wrapper textarea{color:var(--pp-ivory);background-color:#080d10d9;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.game-window-positioner input:not(.chat-input-wrapper *):focus{border-color:var(--pp-teal);box-shadow:0 0 0 1px #123e40, inset 0 0 5px #000;}
+.game-window-positioner textarea:not(.chat-input-wrapper *):focus{border-color:var(--pp-teal);box-shadow:0 0 0 1px #123e40, inset 0 0 5px #000;}
+.game-window-positioner select:not(.chat-input-wrapper *):focus{border-color:var(--pp-teal);box-shadow:0 0 0 1px #123e40, inset 0 0 5px #000;}
+.chat-input-wrapper input:focus{border-color:var(--pp-teal);box-shadow:0 0 0 1px #123e40, inset 0 0 5px #000;}
+.chat-input-wrapper textarea:focus{border-color:var(--pp-teal);box-shadow:0 0 0 1px #123e40, inset 0 0 5px #000;}
+.popup-menu{color:var(--pp-ivory);background-color:#080d10f2;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.alerts-layer .option{color:var(--pp-ivory);background-color:#080d10f2;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.console-layer .option{color:var(--pp-ivory);background-color:#080d10f2;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.mAlert-layer .option{color:var(--pp-ivory);background-color:#080d10f2;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.mAlert-mobile-layer .option{color:var(--pp-ivory);background-color:#080d10f2;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.popup-menu .menu-item{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;}
+.popup-menu .menu-item:hover:not(.disabled){color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:var(--pp-gold-bright);}
+.alerts-layer .option:hover:not(.disabled){color:var(--pp-text-heading);background-color:#29333bf2;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+.console-layer .option:hover:not(.disabled){color:var(--pp-text-heading);background-color:#29333bf2;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+.mAlert-layer .option:hover:not(.disabled){color:var(--pp-text-heading);background-color:#29333bf2;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+.mAlert-mobile-layer .option:hover:not(.disabled){color:var(--pp-text-heading);background-color:#29333bf2;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+:is(.alerts-layer, .console-layer, .mAlert-layer, .mAlert-mobile-layer)
+  .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option{color:var(--pp-ivory);background-color:#0d141a;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option{color:var(--pp-ivory);background-color:#0d141a;border-color:#385c76;text-shadow:var(--pp-text-shadow);}
+.menu-list .menu-option{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;}
+:is(.alerts-layer, .console-layer, .mAlert-layer, .mAlert-mobile-layer)
+  .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option:hover:not(.disabled){color:var(--pp-text-heading);background-color:#16232c;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+.dropdown-menu .menu-wrapper .wrapper .bck-wrapper .option:hover{color:var(--pp-text-heading);background-color:#16232c;border-color:var(--pp-bronze);text-shadow:var(--pp-text-shadow);}
+.menu-list .menu-option:hover:not(.disabled){color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:var(--pp-gold-bright);}
+.tip-wrapper{color:#e1edf5;background-color:transparent;border-color:#96b9d0;text-shadow:var(--pp-text-shadow);box-shadow:0 0 0 1px #9ab8cc,0 2px 7px #0008;background-image:none;}
+.tip-wrapper > .content{color:#e1edf5;background-color:#07131fcc;background-image:none;border-color:#96b9d0;text-shadow:var(--pp-text-shadow);box-shadow:inset 0 0 0 1px #142c3c,0 2px 7px #0008;}
+.tip-wrapper[data-type=t_item]{--pp-rarity:#9da1a7;color:var(--pp-ivory);box-shadow:0 0 0 1px #9ab8cc,0 2px 7px #0008;background-color:transparent;}
+.tip-wrapper[data-type=t_item]:is([data-item-type=t-uniupg],[data-item-type=unique],[data-item-type=elite],[data-item-type=t-elite]){--pp-rarity:#fffb00;}
+.tip-wrapper[data-type=t_item]:is([data-item-type=t-her],[data-item-type=heroic]){--pp-rarity:#38b8eb;}
+.tip-wrapper[data-type=t_item]:is([data-item-type=t-upgraded],[data-item-type=upgraded]){--pp-rarity:#ff59af;}
+.tip-wrapper[data-type=t_item]:is([data-item-type=t-leg],[data-item-type=legendary]){--pp-rarity:#ff8400;}
+.tip-wrapper[data-type=t_item]:is([data-item-type=t-art],[data-item-type=artefact]){--pp-rarity:#e84646;}
+.tip-wrapper[data-type=t_item] .item-head{background-image:linear-gradient(110deg,#491125b8,#0c2534a8);border-color:#8caec1;box-shadow:inset 0 1px 0 #7aa3c066,inset 0 -1px 0 #06090c,0 1px 0 #06090c;}
+.tip-wrapper[data-type=t_item] .item-head .item{background-image:radial-gradient(ellipse at 50% 100%,color-mix(in srgb,var(--pp-rarity) 55%,transparent),transparent 68%),#06101a;border-color:#577e9a;box-shadow:inset 0 0 0 1px #06090c,0 0 5px color-mix(in srgb,var(--pp-rarity) 42%,transparent);}
+.tip-wrapper[data-type=t_item] .item-head .item-name{text-shadow:var(--pp-text-shadow);}
+.tip-wrapper[data-type=t_item] .item-head :is(.item-type,.item-builds){color:var(--pp-muted);}
+.tip-wrapper[data-type=t_item] .item-tip-section:not(.no-border):not(:last-child){border-bottom-color:#577e9a66;box-shadow:0 1px 0 #0008;}
+.tip-wrapper[data-type=t_item] .item-tip-section.s-7{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);}
+.tip-wrapper .title{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.tip-wrapper .nick{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.layer.interface-layer .main-column.left-column{background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#3d6582;box-shadow:inset 0 0 18px #000c, inset 0 0 0 1px #243b4c;}
+.layer.interface-layer .main-column.right-column{background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#3d6582;box-shadow:inset 0 0 18px #000c, inset 0 0 0 1px #243b4c;}
+.layer.interface-layer .main-column.right-column .border{background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-10x114.png);border-color:#3d6582;box-shadow:inset 0 0 18px #000c, inset 0 0 0 1px #243b4c;background-position:0 0;}
+.layer.interface-layer .main-column .extended-stats .border{background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-10x114.png);border-color:#3d6582;box-shadow:inset 0 0 18px #000c, inset 0 0 0 1px #243b4c;background-position:0 0;}
+.left-column .inner-wrapper .chat-tpl .chat-pannel{background-color:#070b0ee8;}
+.chat-message .time{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);}
+.chat-message .timestamp{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);}
+.chat-message .system{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);}
+.new-chat-window{background-color:#070b0e;text-shadow:var(--pp-text-shadow);}
+.chat-input-wrapper{background-color:#070b0e;text-shadow:var(--pp-text-shadow);}
+.chat-channel-card-wrapper{background-color:#070b0e;text-shadow:var(--pp-text-shadow);}
+.new-chat-window .chat-message-wrapper{background-color:#070b0e;border-color:#395d78;border-top-color:#406987;border-bottom-color:#2a4559;}
+.chat-input-wrapper .magic-input-wrapper{background-color:#070b0e;border-color:#395d78;}
+.chat-input-wrapper .control-wrapper .menu-card{background-color:#070b0e;border-color:#395d78;}
+.chat-input-wrapper .control-wrapper .chat-config-wrapper{background-color:#070b0e;border-color:#395d78;}
+.border-window .content{color:var(--pp-ivory);background-color:#0d1419;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.border-window.mAlert .paper-background{color:var(--pp-ivory);background-color:#0d1419;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.border-window.mAlert-mobile-layer .paper-background{color:var(--pp-ivory);background-color:#0d1419;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.border-window .content a{color:var(--pp-teal-bright);}
+.border-window .header-label-positioner .header-label{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:url(../assets-production/img/polarna/crimson-tile.png);background-color:#491022;box-shadow:inset 0 1px #cce3ee,inset 0 -2px #698b9f;}
+.trade-window header .h_background .middle{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.border-window .header-label-positioner .header-label .text{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.trade-window header .h_content{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.addons-panel .left-column .main-header .addon-list-label{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.dialogue-window .border-image{background-color:#070b0ee8;border-color:#49799c;box-shadow:0 0 0 1px #06090c, 0 0 0 2px #49799c, 0 0 0 3px #1c2e3c, 0 4px 14px #000c;}
+.dialogue-window .dialogue-background-color{background-color:#080d10e8;background-image:linear-gradient(100deg, #0f181ef2 0, #080c0fe8 58%, #131d24e8 100%);}
+.dialogue-window .content .npc-dialogue-wrapper .h_content{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.dialogue-window .content .npc-message{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.dialogue-window .content .answers li{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);border-bottom-color:#426c8b80;}
+.dialogue-window .content .answers li:hover{color:var(--pp-text-heading);background-color:#5b1b2199;text-shadow:var(--pp-text-shadow);}
+.dialogue-window .content .answers li.exit{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.dialogue-window .content .answers li.line_exit{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.dialogue-window .content .npc-message a{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.shop-wrapper .shop-background .paper-1{background-color:#0d1419;background-image:linear-gradient(135deg, #283239 0, #0a1014 55%, #111a20 100%);box-shadow:inset 0 0 10px #000;}
+.shop-wrapper .shop-background .paper-2{background-color:#0d1419;background-image:linear-gradient(135deg, #283239 0, #0a1014 55%, #111a20 100%);box-shadow:inset 0 0 10px #000;}
+.shop-wrapper .shop-content .shop-items.scrollable{background-color:#0d1419;background-image:linear-gradient(135deg, #283239 0, #0a1014 55%, #111a20 100%);box-shadow:inset 0 0 10px #000;}
+.button.green{color:#e7f3fb;text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;}
+.button.green:not(.disabled):hover{color:var(--pp-text-heading);background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.clan{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.clan .card-content{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.addons-panel{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.mail-box{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.quest-log{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.auctions{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.card-content table{border-color:#325269;background-color:#0c1318;}
+.auctions table{border-color:#325269;background-color:#0c1318;}
+.mail-box table{border-color:#325269;background-color:#0c1318;}
+.card-content table tr:nth-of-type(odd){background-color:#152129;}
+.auctions table tr:nth-of-type(odd){background-color:#152129;}
+.mail-box table tr:nth-of-type(odd){background-color:#152129;}
+.card-content table td{border-color:#325269;}
+.auctions table td{border-color:#325269;}
+.mail-box table td{border-color:#325269;}
+.game-window-positioner .character_wrapper .stats-wrapper .header-title-wrapper .header-title{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.button{color:#e7f3fb;text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;}
+.btn-min{color:#e7f3fb;text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;}
+.card-button-test{color:#e7f3fb;text-shadow:var(--pp-text-shadow);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;}
+.button.active{color:var(--pp-text-heading);border-color:#6795b7;box-shadow:inset 0 0 0 1px #140709, inset 0 1px #8fb2ca, 0 0 5px #000;text-shadow:var(--pp-text-shadow);background-color:#3b1419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.card-button-test.active{color:var(--pp-text-heading);border-color:#6795b7;box-shadow:inset 0 0 0 1px #140709, inset 0 1px #8fb2ca, 0 0 5px #000;text-shadow:var(--pp-text-shadow);background-color:#3b1419;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.tw-tabs > div.is-active{color:var(--pp-text-heading);border-color:#6795b7;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;text-shadow:var(--pp-text-shadow);background-color:#3b1419;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.button.pressed{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;background-color:#3b1419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.tw-tabs > div.active{border-color:#6795b7;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tw-one-tab.active{border-color:#6795b7;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tw-one-tab.is-active{border-color:#6795b7;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tabs-nav:not(.chat-channel-card-wrapper) > div.active{border-color:#6795b7;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.chat-channel-card-wrapper > .chat-channel-card.active{border-color:#6795b7;color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:linear-gradient(#533039, #16232c);box-shadow:inset 0 0 0 1px #4b7391;}
+.button:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);background-size:auto,256px 256px;background-position:0 0;}
+.btn-min:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);background-size:auto,256px 256px;background-position:0 0;}
+.card-button-test:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:var(--pp-gold-bright);}
+.tw-tabs > div:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.tw-one-tab:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.tabs-nav:not(.chat-channel-card-wrapper) > div:not(.disabled):hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#141f27;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);border-color:var(--pp-gold-bright);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.button.disabled{color:var(--pp-disabled);background-color:#0d1419;background-image:linear-gradient(#10253099,#07131dcc),url(../assets-production/img/polarna/surface-tile.png);border-color:#384b59;box-shadow:inset 0 0 5px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.btn-min.disabled{color:var(--pp-disabled);background-color:#0d1419;background-image:linear-gradient(#10253099,#07131dcc),url(../assets-production/img/polarna/surface-tile.png);border-color:#384b59;box-shadow:inset 0 0 5px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tw-tabs > div.disabled{color:var(--pp-disabled);background-color:#0d1419;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);border-color:#384b59;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tw-one-tab.disabled{color:var(--pp-disabled);background-color:#0d1419;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);border-color:#384b59;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.border-window.transparent .border-image{background-color:#0a1014eb;background-image:linear-gradient(145deg, #2e353b 0, #0d1318 45%, #10191f 100%);border-radius:3px;box-shadow:inset 0 0 0 1px #06090c, inset 0 0 12px #000b, 0 3px 10px #000b;}
+.border-window.transparent .content{color:var(--pp-ivory);background-color:transparent;background-image:none;text-shadow:var(--pp-text-shadow);}
+.border-window.transparent .header-label-positioner .header-label{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.game-window-positioner :is(.widget-window, .configuration-window) .content{background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.game-window-positioner input[type="checkbox"]{accent-color:#7b3038;}
+.game-window-positioner input[type="radio"]{accent-color:#7b3038;}
+.skills-window .left-column{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .right-column{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .left-column .scroll-wrapper{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .right-column .scroll-wrapper{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .left-column .scroll-pane{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .right-column .scroll-pane{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.skills-window .left-column .list-label-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:linear-gradient(#5c2026 0%, #351418 24%, #121c23 70%, #0a1014 100%);}
+.skills-window .right-column .points-header-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:linear-gradient(#5c2026 0%, #351418 24%, #121c23 70%, #0a1014 100%);}
+.skills-window .left-column .skills-wrapper .description-wrapper{color:var(--pp-ivory);border-color:#32536b;text-shadow:var(--pp-text-shadow);background-color:#152129;}
+.skills-window .right-column .description-wrapper{color:var(--pp-ivory);border-color:#32536b;text-shadow:var(--pp-text-shadow);}
+.skills-window .right-column .board-wrapper{color:var(--pp-ivory);border-color:#32536b;text-shadow:var(--pp-text-shadow);}
+.border-window:not(.transparent){color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.left-grouped-list-and-right-description-window{color:var(--pp-ivory);background-color:#0d1318;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+:is(.border-window:not(.transparent), .left-grouped-list-and-right-description-window)
+  :is(.left-column, .right-column, .middle-column, .column){background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#385c76;}
+.premium-panel .product-kind .premium-item-wrapper .premium-item{color:var(--pp-ivory);border-color:#4c7ea2;box-shadow:inset 0 0 0 1px #06090c, inset 0 0 10px #000b, 0 1px 3px #000;text-shadow:var(--pp-text-shadow);background-image:none;background-color:#0d1419;}
+.premium-panel .product-kind .premium-item-wrapper .premium-item:hover{background-color:#42191f;border-color:var(--pp-gold-bright);box-shadow:inset 0 0 0 1px #16090a, inset 0 0 12px #0008, 0 0 6px #6695b766;}
+.premium-panel .product-kind .premium-item-wrapper .premium-item.active{background-color:#42191f;border-color:var(--pp-gold-bright);box-shadow:inset 0 0 0 1px #16090a, inset 0 0 12px #0008, 0 0 6px #6695b766;}
+.premium-panel .product-kind .premium-item-wrapper .premium-item .premium-text{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.interface-element-background-color-1{color:var(--pp-ivory);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.interface-element-background-color-2{color:var(--pp-ivory);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.interface-element-background-color-3{color:var(--pp-ivory);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.interface-element-background-color-4{color:var(--pp-ivory);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);text-shadow:var(--pp-text-shadow);}
+.interface-element-middle-1-background{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-2-background{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-3-background{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-4-background{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-1-background-stretch{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-2-background-stretch{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-middle-3-background-stretch{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-color:#0d141a;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.interface-element-bottom-bar-background{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);box-shadow:none;border-image-source:url(../assets-production/img/polarna/footer.png);}
+.interface-element-bottom-bar-background-stretch{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);box-shadow:none;border-image-source:url(../assets-production/img/polarna/footer.png);}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper{color:var(--pp-ivory);background-color:#0f181e;background-image:linear-gradient(90deg, #27343d 0, #0f181e 55%, #101920 100%);border-color:#3a607b;text-shadow:var(--pp-text-shadow);}
+.battle-controller .graphics .middle-graphic{color:var(--pp-ivory);background-color:#0b1115;background-image:linear-gradient(145deg, #282f34 0, #0a1014 52%, #0e151a 100%);text-shadow:var(--pp-text-shadow);}
+.battle-controller .battle-content .left-column{color:var(--pp-ivory);background-color:#0b1115;background-image:linear-gradient(145deg, #282f34 0, #0a1014 52%, #0e151a 100%);text-shadow:var(--pp-text-shadow);}
+.battle-controller .battle-content .right-column{color:var(--pp-ivory);background-color:#0b1115;background-image:linear-gradient(145deg, #282f34 0, #0a1014 52%, #0e151a 100%);text-shadow:var(--pp-text-shadow);}
+.battle-controller .graphics .divide-wood{background-color:#232b31;border-color:#416b89;box-shadow:inset 1px 0 #5b8db2, inset -1px 0 #06090c;}
+.battle-controller .battle-content .time-wrapper .time-progress-bar{background-color:#070b0e;box-shadow:inset 0 0 4px #000, 0 0 0 1px #06090c;}
+.interface-element-active-card-border-image{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);border-image-source:url(../assets-production/img/polarna/tab-active.png);}
+.interface-element-active-card-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.interface-element-active-card-background-stretch{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);border-image-source:url(../assets-production/img/polarna/tab-active.png);}
+.interface-element-card-background{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);background-image:url(../assets-production/img/polarna/surface-300x35.png);background-position:0 0;}
+.interface-element-card-background-stretch{color:var(--pp-muted);text-shadow:var(--pp-text-shadow);background-image:url(../assets-production/img/polarna/surface-300x35.png);background-position:0 0;}
+.interface-element-border-window-header-middle{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.interface-element-header-1-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-tile.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.interface-element-header-2-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);border-image-source:url(../assets-production/img/polarna/header.png);}
+.interface-element-header-3-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.interface-element-header-1-background-stretch{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-tile.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.interface-element-header-2-background-stretch{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);border-image-source:url(../assets-production/img/polarna/header.png);}
+.interface-element-table-header-1-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-399x25-red.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;background-position:0 0;}
+.interface-element-table-header-3-background{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.interface-element-header-3{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.interface-element-table-3 .table-header-tr td{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.bottom-panel-of-bottom-positioner .hp-indicator-wrapper{border-radius:0;}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood{background-color:#5f0b11;background-image:url(../assets-production/img/polarna/blood.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .hp-indicator .hpp{color:#fff0f2;text-shadow:0 1px 2px #24000d,0 -1px 1px #24000d;}
+.skills-window .left-column .list-label-wrapper .list-label .label{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.skills-window .right-column .points-header-wrapper .skills-points-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);box-shadow:none;}
+.interface-element-header-1{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.main-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.header-bar{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.section-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.table-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.cards-header-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.points-header-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.list-label-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.addon-header{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.widget-button{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.green{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.red{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.blue{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.purple{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.violet{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.orange{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.black{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button.transparent{color:var(--pp-ivory);background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000066),url(../assets-production/img/polarna/surface-tile.png);border-color:#9fbdce;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 4px 7px #ffffff20;text-shadow:var(--pp-text-shadow);background-position:0 0;background-size:auto,256px 256px;}
+.widget-button:not(.disabled):hover{color:var(--pp-text-heading);background-color:#351419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:#739ebd;box-shadow:inset 0 0 0 1px #080c0f, inset 0 1px #90b2cb, inset 0 0 9px #000a, 0 0 4px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.widget-button.active{color:var(--pp-text-heading);background-color:#351419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:#739ebd;box-shadow:inset 0 0 0 1px #080c0f, inset 0 1px #90b2cb, inset 0 0 9px #000a, 0 0 4px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.widget-button.pressed{color:var(--pp-text-heading);background-color:#351419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:#739ebd;box-shadow:inset 0 0 0 1px #080c0f, inset 0 1px #90b2cb, inset 0 0 9px #000a, 0 0 4px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.widget-button.window-is-open{color:var(--pp-text-heading);background-color:#351419;background-image:linear-gradient(#bde9ff35,#00000033),url(../assets-production/img/polarna/crimson-tile.png);border-color:#739ebd;box-shadow:inset 0 0 0 1px #080c0f, inset 0 1px #90b2cb, inset 0 0 9px #000a, 0 0 4px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.widget-button.disabled{color:var(--pp-disabled);background-color:#0d1419;background-image:linear-gradient(#10253099,#07131dcc),url(../assets-production/img/polarna/surface-tile.png);border-color:#3e4d58;box-shadow:inset 0 0 5px #000;text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.button.red{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.blue{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.purple{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.violet{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.orange{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.black{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.transparent{background-color:#0c202c;background-image:linear-gradient(#ffffff18,#00000055),url(../assets-production/img/polarna/crimson-tile.png);border-color:#8faec2;box-shadow:inset 0 0 0 1px #dcf1ff,inset 0 0 0 3px #122837,inset 0 3px 6px #ffffff24,inset 0 -3px 4px #0008;background-size:auto,256px 256px;background-position:0 0;background-repeat:no-repeat,repeat;color:#e7f3fb;}
+.button.blink-violet{background-color:#0c202c;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;}
+.dropdown-menu .option{background-color:#0c202c;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;}
+:is(.alerts-layer, .console-layer, .mAlert-layer, .mAlert-mobile-layer) .option{background-color:#0c202c;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;}
+.tw-tabs > div{border-color:#406a89;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tw-one-tab{border-color:#406a89;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.tabs-nav:not(.chat-channel-card-wrapper) > div{border-color:#406a89;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;}
+.chat-channel-card-wrapper > .chat-channel-card{border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, inset 0 1px #568aaf, inset 0 0 6px #0009, 0 1px 2px #000;background-image:linear-gradient(#1d2c37, #0f181e 60%, #0a0f13);color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.dropdown-menu .option:hover{background-color:#141f27;background-image:url(../assets-production/img/polarna/surface-tile.png);border-color:var(--pp-gold-bright);}
+.chat-channel-card-wrapper > .chat-channel-card:not(.disabled):hover{border-color:var(--pp-gold-bright);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-image:linear-gradient(#533039, #16232c);box-shadow:inset 0 0 0 1px #4b7391;}
+:is(.btn-opt, .change-visible-button, .copy-btn, .item-details__copy-btn, .delete-button, .divide-button, .info-btn, .mission-next-button, .mission-prev-button, .pvp-btn, .settings-button, .toggle-size-button, .widget-bar-visible-btn){border-color:#406a89;box-shadow:inset 0 0 0 1px #06090c, 0 1px 2px #000;}
+:is(.btn-opt, .change-visible-button, .copy-btn, .item-details__copy-btn, .delete-button, .divide-button, .info-btn, .mission-next-button, .mission-prev-button, .pvp-btn, .settings-button, .toggle-size-button, .widget-bar-visible-btn):hover{border-color:var(--pp-gold-bright);box-shadow:inset 0 0 0 1px #0d1419, 0 0 4px #6a98b966;}
+.layer.interface-layer .positioner.top .hud-container .hero-data .heroname{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.layer.interface-layer .positioner.top .hud-container .map_ball{border-radius:50%;box-shadow:0 0 0 1px #06090c, 0 0 3px #000;}
+.border-window:not(.transparent) .header-label-positioner .header-label{box-shadow:none;}
+.border-window:not(.transparent) .header-label-positioner .header-label .text{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);box-shadow:none;}
+.border-window:not(.transparent).fixed-wnd .header-label .text{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.border-window:not(.transparent) .close-button-corner-decor{background-image:linear-gradient(145deg, #4d1b1e, #0c1318 62%, #06090c);box-shadow:inset 0 0 0 1px #467495, inset 0 1px #79a2c0, 0 1px 2px #000;}
+.border-window:not(.transparent) .close-button-corner-decor .close-button{background-image:linear-gradient(#69262c, #2a1115);color:var(--pp-ivory);box-shadow:inset 0 0 0 1px #090e12;text-shadow:var(--pp-text-shadow);}
+.border-window:not(.transparent) .close-button-corner-decor .close-button:hover{background-image:linear-gradient(#8c363d, #351318);border-color:#90b2cb;}
+.border-window:not(.transparent) > .bottom-bar{box-shadow:inset 0 1px #0d1419, inset 0 2px #6594b7;}
+.border-window:not(.transparent) .content > .bottom-bar{box-shadow:inset 0 1px #0d1419, inset 0 2px #6594b7;}
+.clan .header-bar{background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-tile.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;}
+.showcase .header-bar{background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-tile.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;}
+.news-panel .news-content .section-header{background-color:#121c24;background-image:url(../assets-production/img/polarna/surface-tile.png);box-shadow:inset 0 0 0 1px #0a0f12,
+    inset 0 1px #6091b4,
+    inset 0 2px #315067,
+    inset 0 -1px #06090c;}
+.cards-header-wrapper .header-background-graphic{background-image:linear-gradient(#1d2d38, #0d1318 58%, #06090c);box-shadow:inset 0 1px #4b7c9f, inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.matchmaking-ranking .ranking-tabs .header-background-graphic{background-image:linear-gradient(#1d2d38, #0d1318 58%, #06090c);box-shadow:inset 0 1px #4b7c9f, inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.mails-window .cards-header-wrapper .header-background-graphic{background-image:linear-gradient(#1d2d38, #0d1318 58%, #06090c);box-shadow:inset 0 1px #4b7c9f, inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.battle-pass-window .cards-header-wrapper .header-background-graphic{background-image:linear-gradient(#1d2d38, #0d1318 58%, #06090c);box-shadow:inset 0 1px #4b7c9f, inset 0 -1px #06090c;border-image-source:url(../assets-production/img/polarna/header.png);}
+.bubbledialog{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.bubbledialog .content-layer .inner .container{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);box-shadow:none;}
+.bubbledialog .bg-layer .top-frame{background-image:url(../assets-production/img/polarna/surface-228x13.png);background-color:#0d1318;border-color:#4c7ea2;border-top-color:#6a98b9;box-shadow:inset 0 2px #243847;background-position:0 0;}
+.bubbledialog .bg-layer .bottom-frame{background-image:url(../assets-production/img/polarna/surface-228x24.png);background-color:#0d1318;border-color:#4c7ea2;border-bottom-color:#5388ae;background-position:0 0;}
+.bubbledialog .bg-layer .left-frame{background-image:url(../assets-production/img/polarna/surface-4x50.png);background-color:#0d1318;border-color:#4c7ea2;background-position:0 0;}
+.bubbledialog .bg-layer .right-frame{background-image:url(../assets-production/img/polarna/surface-13x50.png);background-color:#0d1318;border-color:#4c7ea2;background-position:0 0;}
+.bubbledialog .left .bottom-frame{border-bottom-color:#5388ae;background-image:url(../assets-production/img/polarna/surface-228x24.png);background-position:0 0;}
+.bubbledialog .content-layer .inner .container .answers .answer{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.bubbledialog .content-layer .inner .container .answers a{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.bubbledialog .content-layer .inner .container .answers .answer:hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.bubbledialog .content-layer .inner .container .answers a:hover{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress .inner{background-image:linear-gradient(#361014, #9b2730 38%, #6d171f 65%, #1a090b);box-shadow:inset 0 1px #87acc6, inset 0 -1px #27070a;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress.noexp .inner{background-image:linear-gradient(#1a2833, #77746d 40%, #3c3d3d 66%, #0f171d);}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .end-game-ribbon{background-image:none;border-color:#5489af;}
+.bottom-panel-of-bottom-positioner .lagmeter{box-shadow:none;}
+.interface-element-one-item-slot-2{background-color:#081923;box-shadow:inset 0 0 4px #000b;background-image:url(../assets-production/img/polarna/slot.png);background-position:0 0;border-color:#8fb0c4;outline-color:#233f52;}
+.interface-element-one-item-slot-decor{background-image:url(../assets-production/img/polarna/slot-decor.png);box-shadow:inset 0 0 4px #000b;background-position:0 0;background-color:#081923;border-color:#8fb0c4;outline-color:#233f52;}
+.enhance__item{background-image:url(../assets-production/img/polarna/slot-decor.png);box-shadow:inset 0 0 4px #000b;background-position:0 0;background-color:#081923;border-color:#8fb0c4;outline-color:#233f52;}
+.enhance__progress{border-radius:5px;}
+.enhance__progress--current{background-image:linear-gradient(#7c9a49, #36531e 62%, #101920);}
+.enhance__progress--preview{background-image:linear-gradient(#b8d776, #668c38 62%, #263a16);}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .overlay{background-image:linear-gradient(#1f2f3b, #070b0e);border-radius:5px;}
+.battle-window .one-warrior .progress-bar-wrapper .stat-bar{background-color:#070b0e;border-color:#3a5f7a;box-shadow:0 1px #000;}
+.battle-window .one-warrior .progress-bar-wrapper .stat-bar.health-points .inner{background-image:linear-gradient(90deg, #551018, #c5393f);}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .progress{border-radius:0;background-color:#0b1116;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .progress{border-radius:0;}
+.bottom-panel-of-bottom-positioner .hp-indicator{background-color:#160b1c;mask-image:url(../assets-production/img/polarna/hp-mask.svg);-webkit-mask-image:url(../assets-production/img/polarna/hp-mask.svg);mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat;mask-size:98px 78px;-webkit-mask-size:98px 78px;}
+.bottom-panel-pointer-bg .pointer-exp-graphic{box-shadow:none;background-image:url(../assets-production/img/polarna/badge-exp.png);background-position:0 0;}
+.bottom-panel-pointer-bg .pointer-ttl-graphic{box-shadow:none;background-image:url(../assets-production/img/polarna/badge-ttl.png);background-position:0 0;}
+.bottom-panel-pointer-bg .pointer-exp{color:#e7f7ff;text-shadow:0 1px 1px #000;}
+.bottom-panel-pointer-bg .pointer-ttl{color:#e7f7ff;text-shadow:0 1px 1px #000;}
+.interface-element-green-box-background{background-image:linear-gradient(90deg, #0d1318, #141e26 15%, #16222b 50%, #141e26 85%, #0d1318);}
+.interface-element-green-box-background-stretch{background-image:linear-gradient(90deg, #0d1318, #141e26 15%, #16222b 50%, #141e26 85%, #0d1318);}
+.card-content .green-box input.default{color:var(--pp-ivory);background-color:#0d1318;border-color:#537893;box-shadow:inset 0 1px 3px #000;text-shadow:var(--pp-text-shadow);}
+.card-content .clan-list-find-panel input.default{color:var(--pp-ivory);background-color:#0d1318;border-color:#537893;box-shadow:inset 0 1px 3px #000;text-shadow:var(--pp-text-shadow);}
+.clan input.default{color:var(--pp-ivory);background-color:#0d1318;border-color:#537893;box-shadow:inset 0 1px 3px #000;text-shadow:var(--pp-text-shadow);}
+.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover{background-color:#253a49;color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover td{background-color:transparent;}
+.clan .card-content input.default:focus{border-color:#7aa3c1;}
+.clan .left-column .clan-info :is(.clan-name, .clan-level, .clan-member-amount, .clan-recruit-state){color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.tabs-nav:not(.chat-channel-card-wrapper) .card{background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.tabs-nav:not(.chat-channel-card-wrapper) .card.active{background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.tabs-nav:not(.chat-channel-card-wrapper) .card:not(.disabled):hover{background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);background-size:auto,256px 256px;background-position:0 0;box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;}
+.bubbledialog .bg-layer{background-image:linear-gradient(#182630, #0d1318);box-shadow:inset 0 0 0 2px #060a0d, inset 0 3px #42433d;}
+.console-wnd.border-window > .content{border-color:transparent;}
+.console-window .input-wrapper input{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.layer.interface-layer .positioner.bottom .bg{box-shadow:inset 0 1px #436f8f;background-color:#111a20;background-image:url(../assets-production/img/polarna/belka-gora-dol.png);background-position:0 0;}
+.main-buttons-container .empty-slot-widget{background-color:#1a2833b8;box-shadow:inset 0 0 0 1px #4e80a599, inset 0 0 5px #060a0d;}
+.main-buttons-container .empty-slot-widget:hover{background-color:#62404a99;}
+.border-window:not(.transparent) > .c-window__bottom-bar > .interface-element-bottom-bar-background-stretch{box-shadow:none;}
+.tabs-nav:not(.chat-channel-card-wrapper) > .card{box-shadow:inset 0 0 0 1px #070b0e;background-image:linear-gradient(#1d2c37, #0f181e 60%, #0a0f13);}
+.tabs-nav:not(.chat-channel-card-wrapper) .cards-header > .card{box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/surface-tile.png);background-size:auto,256px 256px;background-position:0 0;}
+.tabs-nav:not(.chat-channel-card-wrapper) > .card.active{background-image:linear-gradient(#533039, #16232c);box-shadow:inset 0 0 0 1px #4b7391;}
+.tabs-nav:not(.chat-channel-card-wrapper) > .card:not(.disabled):hover{background-image:linear-gradient(#533039, #16232c);box-shadow:inset 0 0 0 1px #4b7391;}
+.tabs-nav:not(.chat-channel-card-wrapper) .cards-header > .card.active{background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-size:auto,256px 256px;background-position:0 0;}
+.tabs-nav:not(.chat-channel-card-wrapper) .cards-header > .card:not(.disabled):hover{background-image:linear-gradient(#ffffff18,#00000044),url(../assets-production/img/polarna/crimson-tile.png);box-shadow:inset 0 1px 0 #c6e6f5,inset 0 -1px 0 #19374a;background-size:auto,256px 256px;background-position:0 0;}
+.world-window__info{color:var(--pp-ivory);background-image:linear-gradient(#5c2026 0%, #351418 24%, #121c23 70%, #0a1014 100%);border-color:#536c7e;text-shadow:var(--pp-text-shadow);}
+.skills-window .left-column .list-label-wrapper .list-label{box-shadow:none;}
+.skills-window .skill .icon-background{background-image:linear-gradient(#253947, #101920);border-color:#5b7688;}
+.skills-window .skill .val-background{border-color:#5b7688;}
+.skills-window .right-column .scroll-wrapper .scroll-pane .empty{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar:is(.mana, .energy) .overlay{border-radius:2px;box-shadow:inset 0 0 0 1px #070b0e;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .bar-overflow{background-color:#1e252b;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow{background-color:#09161b;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .bar-overflow .inner{background-image:linear-gradient(#b3cbdb, #5a8cb1 45%, #365973);box-shadow:none;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .bar-overflow .inner{background-image:linear-gradient(#78cce2, #268aac 45%, #124760);}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar .values{background-color:#0d141a;border-radius:3px;}
+:is(.border-window:not(.transparent):is(
+  .c-window--with-bottom-bar,
+  .global-addons-exist:has(> :where(.content) > :where(.inner-content) > .console-window),
+  :has(> :where(.content) > :where(.inner-content) > :is(
+    .skills-window,
+    .loot-window,
+    .mails-window,
+    .friend-enemy-list,
+    .auction-window,
+    .divide-panel,
+    .change-outfit,
+    .divide-and-color-edit,
+    .settings-window,
+    .quest-window,
+    .crafting,
+    .depo,
+    .matchmaking-summary,
+    .achievement-panel,
+    .matchmaking-panel,
+    .world-window,
+    .left-grouped-list-and-right-description-window,
+    .battle-pass-window
+  ))
+)) > .c-window__bottom-bar > .interface-element-bottom-bar-background-stretch{box-shadow:none;}
+:is(:is(.border-window:not(.transparent):is(
+  .c-window--with-bottom-bar,
+  .global-addons-exist:has(> :where(.content) > :where(.inner-content) > .console-window),
+  :has(> :where(.content) > :where(.inner-content) > :is(
+    .skills-window,
+    .loot-window,
+    .mails-window,
+    .friend-enemy-list,
+    .auction-window,
+    .divide-panel,
+    .change-outfit,
+    .divide-and-color-edit,
+    .settings-window,
+    .quest-window,
+    .crafting,
+    .depo,
+    .matchmaking-summary,
+    .achievement-panel,
+    .matchmaking-panel,
+    .world-window,
+    .left-grouped-list-and-right-description-window,
+    .battle-pass-window
+  ))
+)) > .c-window__bottom-bar,:is(.border-window:not(.transparent):is(
+  .c-window--with-bottom-bar,
+  .global-addons-exist:has(> :where(.content) > :where(.inner-content) > .console-window),
+  :has(> :where(.content) > :where(.inner-content) > :is(
+    .skills-window,
+    .loot-window,
+    .mails-window,
+    .friend-enemy-list,
+    .auction-window,
+    .divide-panel,
+    .change-outfit,
+    .divide-and-color-edit,
+    .settings-window,
+    .quest-window,
+    .crafting,
+    .depo,
+    .matchmaking-summary,
+    .achievement-panel,
+    .matchmaking-panel,
+    .world-window,
+    .left-grouped-list-and-right-description-window,
+    .battle-pass-window
+  ))
+)) > .content :is(
+    .skills-window > .bottom-part,
+    .loot-window > .bottom-wrapper,
+    .console-window > .console-bottom-panel-wrapper,
+    .mails-window > .bottom-mail-panel,
+    .friend-enemy-list > .bottom-friend-panel,
+    .auction-window > .bottom-part,
+    .divide-panel > .bottom-part,
+    .change-outfit > .bottom-change-outfit-panel,
+    .divide-and-color-edit > .bottom-bar,
+    .settings-window > .bottom-bar,
+    .depo > .bottom-bar,
+    .matchmaking-summary > .bottom-panel-graphics,
+    .achievement-panel > .bottom-panel-graphics,
+    .matchmaking-panel > .bottom-panel-graphics,
+    .world-window .bottom-bar,
+    .left-grouped-list-and-right-description-window > .bottom-row-panel,
+    .battle-pass-window > .bottom-row-panel
+  )) .button{border-radius:5px;}
+:is(.crafting, .quest-window) .left-grouped-list-and-right-description-window > .left-column > .left-scroll{border-color:#577e9a;}
+.auction-window > .main-column-auction{background-color:#0b1c26;background-image:url(../assets-production/img/polarna/surface-tile.png);}
+.addons-panel .left-column .one-addon-on-list{background-image:linear-gradient(#1d2c37, #0f181e 60%, #0a0f13);box-shadow:inset 0 0 0 1px #070b0e;}
+.addons-panel .left-column .one-addon-on-list:is(:hover, :active, :focus-within, .active){background-image:linear-gradient(#533039, #16232c);box-shadow:inset 0 0 0 1px #4b7391;}
+.addons-panel .left-column .one-addon-on-list:is(:hover, :active, :focus-within, .active) .title-wrapper{color:var(--pp-text-heading);text-shadow:var(--pp-text-shadow);}
+.depo .find-and-manage-money-section .right-part .money-info{background-image:linear-gradient(#351418, #121c23 70%, #0a1014);box-shadow:inset 0 0 0 1px #070b0e;}
+.depo .find-and-manage-money-section .right-part :is(.gold-amound, .date-available){color:var(--pp-muted);text-shadow:var(--pp-text-shadow);}
+.depo .find-and-manage-money-section .right-part :is(.gold-value, .date-value){color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.settings-window .hot-keys-list .table-header-tr > td{color:var(--pp-text-heading);background-image:linear-gradient(#5c2026, #351418 24%, #121c23 70%, #0a1014);border-color:#577e9a;text-shadow:var(--pp-text-shadow);}
+.world-window :is(.hunting-statistics-table, .hunting-statistics-table-header) th{color:var(--pp-text-heading);background-image:linear-gradient(#5c2026, #351418 24%, #121c23 70%, #0a1014);border-color:#577e9a;text-shadow:var(--pp-text-shadow);}
+.world-window .activities .c-table th{color:var(--pp-text-heading);background-image:linear-gradient(#5c2026, #351418 24%, #121c23 70%, #0a1014);border-color:#577e9a;text-shadow:var(--pp-text-shadow);}
+.world-window :is(.hunting-statistics-table, .hunting-statistics-table-header) th.can-hover:hover{background-image:linear-gradient(#63333b, #1b2a35);}
+.skills-window .skill-description .board-wrapper > :is(.requirements-wrapper, .stats-wrapper){background-image:linear-gradient(#351418, #121c23 70%, #0a1014);box-shadow:inset 0 0 0 1px #070b0e;}
+.game-window-positioner.classic-interface .additional-skill-panel .graphics .additional-skill-panel-border{background-image:linear-gradient(#5c2026 0%, #351418 24%, #121c23 70%, #0a1014 100%);}
+.game-window-positioner.classic-interface .additional-skill-panel .header-tip{color:var(--pp-text-heading);background-image:linear-gradient(#5c2026, #351418 24%, #121c23 70%, #0a1014);text-shadow:var(--pp-text-shadow);}
+.mails-window :is(.received-content, .sent-content) > .mail-column > .footer{color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper :is(.msg-content, .mail-footer, .one-mail-head .from b){color:var(--pp-ivory);text-shadow:var(--pp-text-shadow);}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .one-mail-head .special b{color:#74b8e6;}
+.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .msg-content{border-color:#577e9a;}
+.interface-element-border-window-frame{border-image-source:url(../assets-production/img/polarna/window-frame.png);}
+.additional-skill-panel .graphics .additional-skill-panel-border{border-image-source:url(../assets-production/img/polarna/window-frame.png);}
+.battle-controller .graphics .battle-border{border-image-source:url(../assets-production/img/polarna/window-frame.png);}
+.border-window{border-image-source:url(../assets-production/img/polarna/window-frame.png);}
+.interface-element-one-item-slot-background-to-repeat{background-image:url(../assets-production/img/polarna/surface-33x33.png);background-position:0 0;}
+.interface-element-item-slot-grid-stretch{background-image:url(../assets-production/img/polarna/surface-33x33.png);background-position:0 0;}
+.interface-element-vertical-wood{background-image:url(../assets-production/img/polarna/surface-10x69.png);background-position:0 0;}
+.interface-element-wood-box-background{background-image:url(../assets-production/img/polarna/surface-160x65.png);background-position:0 0;}
+.interface-element-one-item-slot{background-image:url(../assets-production/img/polarna/surface-36x36.png);background-position:0 0;}
+.search-component .search-x{background-image:url(../assets-production/img/polarna/surface-20x20.png);background-position:0 0;}
+.button .add-bck{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.widget-button .add-bck{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.settings-button{background-image:url(../assets-production/img/polarna/surface-13x13.png);background-position:0 0;}
+.toggle-size-button{background-image:url(../assets-production/img/polarna/surface-12x12.png);background-position:0 0;}
+.change-visible-button{background-image:url(../assets-production/img/polarna/surface-12x12.png);background-position:0 0;}
+.delete-button{background-image:url(../assets-production/img/polarna/surface-12x16.png);background-position:0 0;}
+.border-window .increase-opacity{background-image:url(../assets-production/img/polarna/surface-13x13.png);background-position:0 0;}
+.border-window .increase-opacity:hover{background-image:url(../assets-production/img/polarna/surface-13x13.png);background-position:0 0;}
+.border-window.transparent .collapse{background-image:url(../assets-production/img/polarna/surface-13x13.png);background-position:0 0;}
+.border-window .close-button-corner-decor{background-image:url(../assets-production/img/polarna/close-corner.png);background-position:0 0;}
+.border-window .close-button-corner-decor .close-button{background-image:url(../assets-production/img/polarna/close-button.png);background-position:0 0;}
+.border-window .header-label-positioner .header-label .left-decor{background-image:url(../assets-production/img/polarna/header-left.png);background-position:0 0;}
+.border-window .header-label-positioner .header-label .right-decor{background-image:url(../assets-production/img/polarna/header-right.png);background-position:0 0;}
+.search-component{border-image-source:url(../assets-production/img/polarna/header.png);}
+.cards-header-wrapper .cards-header .card{background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.cards-header-wrapper .cards-header .card.active{background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.want{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.not{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.enhance__progress-bg{background-image:url(../assets-production/img/polarna/surface-550x120.png);background-position:0 0;}
+.drop-down-menu-section .type-header{background-image:url(../assets-production/img/polarna/surface-158x36-red.png);background-position:0 0;}
+.auction-off-item-panel input.default{background-image:url(../assets-production/img/polarna/surface-300x35.png);background-position:0 0;}
+.auction-window .main-column-auction .all-auction-section .auction-table-header .item-bid-td .somebody-bid{background-image:url(../assets-production/img/polarna/surface-8x8-red.png);background-position:0 0;}
+.chat-input-wrapper .control-wrapper .chat-config-wrapper .chat-config-wrapper-button{background-image:url(../assets-production/img/polarna/surface-24x24.png);background-position:0 0;}
+.shop-wrapper .shop-background .outfit-pet-scene{background-image:url(../assets-production/img/polarna/surface-166x130.png);background-position:0 0;}
+.shop-wrapper .shop-background.normal-shop-zl .canopy{background-image:url(../assets-production/img/polarna/surface-488x42.png);background-position:0 0;}
+.shop-wrapper .shop-background.normal-shop-sl .canopy{background-image:url(../assets-production/img/polarna/surface-488x42.png);background-position:0 0;}
+.shop-wrapper .shop-background.pet-shop-zl .canopy{background-image:url(../assets-production/img/polarna/surface-488x42.png);background-position:0 0;}
+.shop-wrapper .shop-background.pet-shop-sl .canopy{background-image:url(../assets-production/img/polarna/surface-488x42.png);background-position:0 0;}
+.trade-window header .h_background .left{background-image:url(../assets-production/img/polarna/surface-52x28-red.png);background-position:0 0;}
+.trade-window header .h_background .right{background-image:url(../assets-production/img/polarna/surface-52x28-red.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .bottom-panel-graphic{background-image:url(../assets-production/img/polarna/hud-bottom.png);background-position:0 0;background-repeat:no-repeat;}
+.bottom-panel-of-bottom-positioner .hp-indicator .blood-frame{background-image:none;background-position:0 0;}
+.bottom-panel-of-bottom-positioner .glass{background-image:url(../assets-production/img/polarna/hp-glass.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress .overlay{background-image:url(../assets-production/img/polarna/exp-left.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-250x28.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon-up.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-69x19.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .ribbon-down.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-40x19.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .overlay{background-image:url(../assets-production/img/polarna/exp-right.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-250x28.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon-up.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-69x19.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.right .ribbon-down.end-game-ribbon{background-image:url(../assets-production/img/polarna/surface-40x19.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .background{background-image:url(../assets-production/img/polarna/surface-253x24.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.mana .overlay{background-image:url(../assets-production/img/polarna/surface-166x11.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .background{background-image:url(../assets-production/img/polarna/surface-249x24.png);background-position:0 0;}
+.bottom-panel-of-bottom-positioner .battle-bars-wrapper .battle-bar.energy .overlay{background-image:url(../assets-production/img/polarna/surface-166x11.png);background-position:0 0;}
+.battle-controller .graphics .timer-graphic{background-image:url(../assets-production/img/polarna/surface-532x20.png);background-position:0 0;}
+.progress-bar-wrapper .background{background-image:url(../assets-production/img/polarna/surface-139x14.png);background-position:0 0;}
+.progress-bar-wrapper.red .bar-percentage{background-image:url(../assets-production/img/polarna/surface-139x14-red.png);background-position:0 0;}
+.progress-bar-wrapper.blue .bar-percentage{background-image:url(../assets-production/img/polarna/surface-139x14.png);background-position:0 0;}
+.progress-bar-wrapper.yellow .bar-percentage{background-image:url(../assets-production/img/polarna/surface-139x14.png);background-position:0 0;}
+.one-battle-skill-tip .skill-tip-header .skill-graphic-wrapper{background-image:url(../assets-production/img/polarna/surface-36x36-red.png);background-position:0 0;}
+.battle-summary-item-wrapper .slot{background-image:url(../assets-production/img/polarna/surface-50x50.png);background-position:0 0;}
+.battle-summary-item-wrapper .change-state-btn .button .want{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.battle-summary-item-wrapper .change-state-btn .button .not{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.battle-summary-item-wrapper .change-state-btn .button .must{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .clan{background-image:url(../assets-production/img/polarna/surface-724x32-red.png);background-position:0 0;}
+.mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .friends{background-image:url(../assets-production/img/polarna/surface-96x32-red.png);background-position:0 0;}
+.clan .button .add-bck{background-image:url(../assets-production/img/polarna/surface-10x16.png);background-position:0 0;}
+.showcase .button .add-bck{background-image:url(../assets-production/img/polarna/surface-10x16.png);background-position:0 0;}
+.clan-members-content .scroll-wrapper .scroll-pane .clan-member .add-to-group .button .add-bck{background-image:url(../assets-production/img/polarna/surface-22x20.png);background-position:0 0;}
+.clan-info-content .scroll-wrapper .scroll-pane .ribbon{background-image:url(../assets-production/img/polarna/surface-404x50.png);background-position:0 0;}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar{background-image:url(../assets-production/img/polarna/surface-442x10.png);background-position:0 0;}
+.one-clan-quest .quest-progress-wrapper .clan-progress-bar .background-bar{background-image:url(../assets-production/img/polarna/surface-550x120.png);background-position:0 0;}
+.event-calendar .background.bck-en{background-image:url(../assets-production/img/polarna/surface-512x597.png);background-position:0 0;}
+.event-calendar .background.bck-pl{background-image:url(../assets-production/img/polarna/surface-512x597.png);background-position:0 0;}
+.event-calendar .background .controlls .month-switch:hover{background-image:url(../assets-production/img/polarna/surface-22x22.png);background-position:0 0;}
+.additional-skill-panel{background-image:url(../assets-production/img/polarna/surface-532x82.png);background-position:0 0;}
+#cloud-tip .cloud-tail{background-image:url(../assets-production/img/polarna/surface-21x22.png);background-position:0 0;}
+.matchmaking-panel .all-pages .choose-eq .choose-eq-bottom-panel .time-ball{background-image:url(../assets-production/img/polarna/surface-72x66.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.available-level{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.available-level{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.available-level-last{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.available-level-last{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.unavailable-level{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.unavailable-level{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-border.unavailable-level-last{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .items-wrapper .item-chest-slot.unavailable-level-last{background-image:url(../assets-production/img/polarna/surface-96x32.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar{background-image:url(../assets-production/img/polarna/surface-252x10.png);background-position:0 0;}
+.matchmaking-progress-stage .bar-and-item-side .progress-bar .background-bar{background-image:url(../assets-production/img/polarna/surface-550x8.png);background-position:0 0;}
+.matchmaking-ranking .ranking-tabs .cards-header .card{background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.matchmaking-ranking .ranking-tabs .cards-header .active{background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.battle-pass-window .cards-header-wrapper .cards-header .card{background-image:url(../assets-production/img/polarna/surface-300x35-red.png);background-position:0 0;}
+.battle-pass-mission-tile .mission-prev-button{background-image:url(../assets-production/img/polarna/surface-22x75.png);background-position:0 0;}
+.battle-pass-mission-tile .mission-prev-button:hover{background-image:url(../assets-production/img/polarna/surface-22x75.png);background-position:0 0;}
+.battle-pass-mission-tile .mission-next-button{background-image:url(../assets-production/img/polarna/surface-22x75.png);background-position:0 0;}
+.battle-pass-mission-tile .mission-next-button:hover{background-image:url(../assets-production/img/polarna/surface-22x75.png);background-position:0 0;}
+.border-window .close-button-corner-decor .close-button:hover{background-position:0 0;}
+.layer.interface-layer .positioner.top .hud-container{background-image:url(../assets-production/img/polarna/hud-top.png);background-position:0 0;background-repeat:no-repeat;}
+.layer.interface-layer .positioner.top .bg{background-image:url(../assets-production/img/polarna/belka-gora-dol.png);background-position:0 -61px;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-0{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:0px 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-1{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:-17px 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-2{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:-34px 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-3{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:-51px 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-4{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:-68px 0;}
+.bottom-panel-of-bottom-positioner .lagmeter .lag.lag-5{background-image:url(../assets-production/img/polarna/ms-states.png);background-position:-85px 0;}
+.extraction__item{background-image:url(../assets-production/img/polarna/slot-extraction.png);background-position:0 0;background-color:#081923;border-color:#8fb0c4;outline-color:#233f52;box-shadow:inset 0 0 4px #000b;}
+.item .highlight.h-exist{background-image:url(../assets-production/img/polarna/item-rarity.png);}
+.bottomItem .highlight.h-exist{background-image:url(../assets-production/img/polarna/item-rarity.png);}
+.item .icon.h-exist{background-image:url(../assets-production/img/polarna/item-rarity.png);}
+.bottomItem .icon.h-exist{background-image:url(../assets-production/img/polarna/item-rarity.png);}

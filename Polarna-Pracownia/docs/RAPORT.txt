@@ -1,0 +1,17 @@
+KONTROLA LOKALNA — POLARNA PRACOWNIA1.0.0
+
+Arkusz motywu:455 reguł,83891 bajtów. Brak deklaracji pozycji, wymiarów,
+marginów, paddingów, flex/grid, overflow oraz rodziny, rozmiaru i metryk fontu.
+Brak !important, @import, nowych fontów i pełnego arkusza klienta.
+74 własne pliki graficzne, wszystkie osiągalne z arkusza.
+
+Porównano prostokąty i obliczone właściwości elementów przed włączeniem motywu
+i po nim w16 wariantach reprezentatywnego lokalnego podglądu: osiem wielkości
+od920x555 do1920x1080 w układzie klasycznym i light. Nie wykryto różnic
+badanych parametrów geometrii i typografii. Podgląd obejmował HUD, wspólne
+okno, przyciski, pola i czat; nie wszystkie możliwe ekrany gry.
+
+Zasoby sprawdzane przez dekoder obrazów i lokalną przeglądarkę. Test
+instalatora w środowisku kontrolnym nie jest testem rozszerzenia na zalogowanej
+grze. Brak pomiaru wydajności i brak potwierdzenia działania przez użytkownika.
+Po publikacji dodatkowo sprawdzane są rzeczywiste adresy CSS i grafik GitHuba.
