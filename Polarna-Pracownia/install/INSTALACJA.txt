@@ -1,0 +1,15 @@
+POLARNA PRACOWNIA — INSTALACJA TAMpermonkey
+
+1. Otwórz:
+https://raw.githubusercontent.com/Doiua97/MotywyNI/main/Polarna-Pracownia/install/polarna-pracownia.user.js
+2. Zainstaluj skrypt w Tampermonkey.
+3. Wyłącz poprzedni motyw i przeładuj zalogowaną grę.
+
+Skrypt ma własny arkusz i grafiki. CSS i zasoby wydania 1.0.0 są przypięte
+do commitu 70a0bc77e2b9505595ae8dd47225ad9b6664251c.
+Instalator przyszłego wydania zmieni wersję i adres przypiętego kompletu.
+Nie trzeba importować lokalnego CSS, rozpakowywać zasobów do przeglądarki
+ani uruchamiać VPS. Gra nadal dostarcza swój oryginalny arkusz.
+
+Każdy motyw w repozytorium otrzymuje oddzielny userscript oparty na tym
+samym schemacie; należy mieć włączony jeden motyw jednocześnie.
