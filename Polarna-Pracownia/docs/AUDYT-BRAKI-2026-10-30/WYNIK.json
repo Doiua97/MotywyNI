@@ -1,0 +1,19 @@
+{
+  "shippingAssets": 74,
+  "dwarvenReferenceAssets": 92,
+  "dwarvenFileMatches": [],
+  "generalSurfaceFiles": 50,
+  "recorded96x32Fallbacks": 17,
+  "gapTasks": 59,
+  "priorities": {
+    "P1": 41,
+    "P2": 18
+  },
+  "selectorStatuses": {
+    "tylko geometria/zmienne/inne — nie kopiować automatycznie": 333,
+    "ma regułę motywu; wymaga oceny kompletności grafiki i stanów": 440,
+    "brak identycznej reguły; wymaga przypisania do komponentu wspólnego albo uzupełnienia": 355,
+    "oryginalna treść/piktogram klienta lub kursor — odrębna decyzja, żadnych grafik Dwarven": 23
+  },
+  "complete": false
+}

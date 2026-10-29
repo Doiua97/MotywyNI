@@ -1,0 +1,93 @@
+﻿zasob_Dwarven_referencja;status;plik_Dwarven_w_paczce;oryginalne_zrodlo_dostepne
+img/draconite_small.gif;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/exit.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/honorIconNormal.gif;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/money_small.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/advent-windows.png;wymaga przygotowania / dopracowania: PP-036;NIE;True
+img/gui/belka-gora-dol.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;True
+img/gui/buffs-in-fight.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/calendar-icons.png;wymaga przygotowania / dopracowania: PP-039;NIE;True
+img/gui/calendar-windows-1.png;wymaga przygotowania / dopracowania: PP-037;NIE;True
+img/gui/calendar-windows-2.png;wymaga przygotowania / dopracowania: PP-038;NIE;True
+img/gui/chest.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/clan_icons.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/cloud_tail.png;wymaga przygotowania / dopracowania: PP-043;NIE;True
+img/gui/direction.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/event-calendar-sprite-en.png;wymaga przygotowania / dopracowania: PP-035;NIE;True
+img/gui/event-calendar-sprite-pl.png;wymaga przygotowania / dopracowania: PP-034;NIE;True
+img/gui/friend-header.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/hpStateSprite.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/info-box-2.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/item-slot-anim-frame1.gif;wymaga przygotowania / dopracowania: PP-050;NIE;True
+img/gui/item-slot-anim-frame2.gif;wymaga przygotowania / dopracowania: PP-051;NIE;True
+img/gui/item-slot.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/krew-klatki.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;True
+img/gui/line-highlight-green2.png;wymaga przygotowania / dopracowania: PP-052;NIE;True
+img/gui/line-highlight-red2.png;wymaga przygotowania / dopracowania: PP-053;NIE;True
+img/gui/line-highlight-yellow2.png;wymaga przygotowania / dopracowania: PP-054;NIE;True
+img/gui/mail-gold.gif;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/map-icons.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/map-icons2.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/match-bar.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/middle_graphics.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/notyfikacje-sprite.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/o.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/ok-blackoutline.gif;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/oneItemSlotToRepeat.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/premium-panel-pl.png;wymaga przygotowania / dopracowania: PP-042;NIE;True
+img/gui/premium_sprite.png;wymaga przygotowania / dopracowania: PP-042;NIE;True
+img/gui/professions.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/progressbary.png;wymaga przygotowania / dopracowania: PP-031,PP-032,PP-033;NIE;True
+img/gui/ReverseButton.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/ReverseButtonHover.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/search.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/triangle.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/width-card-button-active.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/width-card-button.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/window-frame.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;True
+img/gui/X-blackoutline.gif;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/zoom1.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/zoom2.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/auctions/header_left.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/battle/battle-panel-timer.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/battlePass/battle_pass_sprite.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/bubble/bottom.png;wymaga przygotowania / dopracowania: PP-045;NIE;True
+img/gui/clan/clan-skills.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/cursor/1n.cur;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/cursor/1n.png;wymaga przygotowania / dopracowania: PP-055;NIE;True
+img/gui/cursor/2n.cur;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/cursor/2n.png;wymaga przygotowania / dopracowania: PP-056;NIE;True
+img/gui/cursor/3n.cur;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/cursor/3n.png;wymaga przygotowania / dopracowania: PP-057;NIE;True
+img/gui/cursor/4n.cur;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/cursor/4n.png;wymaga przygotowania / dopracowania: PP-058;NIE;True
+img/gui/cursor/5n.cur;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/cursor/5n.png;wymaga przygotowania / dopracowania: PP-059;NIE;True
+img/gui/dialogue/dialogi.png;wymaga przygotowania / dopracowania: PP-048,PP-049;NIE;True
+img/gui/dwarven-forge/badge-exhaustion@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/badge-exp@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/badge-ms@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/hud-bottom-frame@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/hud-top@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/ms-indicator-states@2x.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/panel-surface.png;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/progressBar/percent-blue.png;wymaga przygotowania / dopracowania: PP-029;NIE;True
+img/gui/progressBar/percent-red.png;wymaga przygotowania / dopracowania: PP-028;NIE;True
+img/gui/progressBar/percent-yellow.png;wymaga przygotowania / dopracowania: PP-030;NIE;True
+img/gui/progressBar/progress-bar.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;True
+img/gui/shop/canopy.png;wymaga przygotowania / dopracowania: PP-041;NIE;True
+img/gui/shop/pet-shop-gold.png;wymaga przygotowania / dopracowania: PP-040;NIE;True
+img/gui/skills/skill_hot_skills.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/skills/skill_icons_new.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True
+img/gui/dwarven-forge/v112/enhance-rail.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/dwarven-forge/v112/resource-red.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/dwarven-forge/v113/hp-mask.svg;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/v114/premium-atlas.png;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/dwarven-forge/v114/widget-extension.svg;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/dwarven-forge/v118/widget-extension.svg;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/dwarven-forge/v118/window-frame-footer.svg;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/v118/window-frame.svg;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/dwarven-forge/v118/window-sides.svg;wymaga osobnego przypisania używanych regionów do nowych plików — brak dowodu kompletnej podmiany;NIE;False
+img/gui/item_frames/frames/item_frames.svg;"nowy odpowiednik w paczce; ocena wizualna/stanów nie jest zakończona";NIE;False
+img/gui/buttony.png;wymaga przygotowania / dopracowania: PP-001,PP-002,PP-003,PP-004,PP-005,PP-006,PP-007,PP-008,PP-009,PP-010,PP-011,PP-012,PP-013,PP-014,PP-015,PP-016,PP-017,PP-018,PP-019,PP-020,PP-021,PP-022,PP-023,PP-024,PP-025,PP-026,PP-027;NIE;True
+img/gui/addons-icons.png;piktogram/treść gry: używany oryginał klienta, bez kopii z Dwarven;NIE;True

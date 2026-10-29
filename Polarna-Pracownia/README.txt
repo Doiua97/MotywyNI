@@ -1,4 +1,4 @@
-POLARNA PRACOWNIA 1.0.0
+POLARNA PRACOWNIA 1.0.0 — WERSJA ROBOCZA, NIEKOMPLETNA
 
 Autorska świąteczna oprawa nowego interfejsu Margonem.
 Repozytorium: https://github.com/Doiua97/MotywyNI
@@ -22,3 +22,8 @@ oryginalny klient. Zmienia się oprawa, bez zmiany logiki rozgrywki.
 Wydanie przygotowane do całościowego sprawdzenia w zalogowanej grze przez
 Karola. Kontrole lokalne nie stanowią potwierdzenia płynności gry ani
 wizualnej akceptacji każdego ekranu.
+
+AUDYT30.10.2026: nie zakończono wszystkich autorskich podmian. Zapisano59
+zadań produkcyjnych i kontrolnych. Patrz docs/AUDYT-BRAKI-2026-10-30.
+Instalator jest przygotowany technicznie; nie należy traktować obecnego
+pakietu jako ukończonego motywu do całościowego testu użytkownika.

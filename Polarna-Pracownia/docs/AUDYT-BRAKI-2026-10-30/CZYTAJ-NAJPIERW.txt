@@ -1,0 +1,50 @@
+﻿AUDYT KOMPLETNOŚCI — POLARNA PRACOWNIA — 30.10.2026
+
+WYNIK: ZESTAW NIE JEST UKOŃCZONY. Wydania1.0.0 nie należy przedstawiać jako
+finalnego autorskiego motywu obejmującego cały zakres Dwarven.
+
+POTWIERDZONE
+-74 własne pliki są obecne i osiągalne z CSS.
+-Żaden plik graficzny nie jest identyczną kopią zasobu Dwarven.
+-CSS nie zawiera pełnego arkusza klienta ani deklaracji zmieniających pozycje,
+ wymiary, przewijanie i metryki fontów.
+-Lokalna kontrola16 reprezentatywnych wariantów nie wykazała różnic badanej
+ geometrii. Nie jest to kontrola wszystkich ekranów ani pomiar płynności gry.
+
+BRAKI
+50 plików to ogólne powierzchnie wielokrotnego użytku. Taka grafika może być
+właściwa dla tła lub wspólnej ramki, lecz nie zastępuje symbolu kontrolki,
+sceny sklepu, atlasu kalendarza czy przezroczystej nakładki paska.
+W17 zapisach generator użył zastępczego rozmiaru96x32. Wymaga to ponownego
+odczytu natywnych reguł i atlasu; nie można uznać tych wymiarów za sprawdzone.
+Szczegóły i konkretne zlecenia produkcyjne są w BRAKI-GRAFIKI-I-CSS.csv.
+
+ZAKRES DO DOMKNIĘCIA
+Cały interfejs objęty zakresem Dwarven: HUD, walka, sklepy, klan, czat,
+okna, listy, ustawienia, rzemiosło, poczta, aukcje, zadania, społeczność,
+wydarzenia, kalendarze, kontrolki i wszystkie używane stany. To nie jest lista
+ograniczona do głównych ekranów. Do sprawdzenia służą także pełne zestawienia
+1151 selektorów i92 zasobów referencyjnych.
+
+ZASADY DALSZEJ PRODUKCJI
+1. Zero grafik Dwarven. Nowe dekoracje autorskie Polarnej Pracowni.
+2. Oryginalne rozmiary, pozycje i skalowanie z style.BcU1Dlu-.css.
+3. Oryginalne piktogramy widgetów, przedmiotów i umiejętności klienta pozostają
+ zgodnie z ustaleniami. Nie jest to zachowanie grafik Dwarven.
+4. Każdy atlas/stan musi mieć kartę regionów. Brak danych oznacza zadanie do
+ rozpoznania, a nie zgodę na wpisanie wymiaru zastępczego.
+5. Nową grafikę podłączyć w kanonicznej regule, zachowując geometrię. Nie
+ dopisywać kolejnej kontrreguły ani !important do własnego kodu.
+6. Przed przekazaniem do testu Karola zamknąć potwierdzone braki i przypisać
+ wszystkie pozostałe pozycje zakresu do wykonanej grafiki/komponentu albo
+ jednoznacznie zachowanej treści oryginalnego klienta.
+
+PLIKI
+BRAKI-GRAFIKI-I-CSS.csv — konkretne zadania: grafika, wymiary/region,
+stany, selektor, obecny błąd i sposób poprawnego podłączenia.
+POKRYCIE-SELEKTOROW.csv — pełny przegląd selektorów Dwarven; zgodność
+tekstu selektora nie jest procentem pokrycia widocznego interfejsu.
+PRZEGLAD-92-ZASOBOW.csv — referencyjne pliki Dwarven i status nowej podmiany.
+WYNIK.json — podsumowanie liczb i wynik audytu.
+
+Zapisanych zadań: 59
