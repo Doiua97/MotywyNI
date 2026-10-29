@@ -1,0 +1,16 @@
+SPRAWDZENIE ADRESÓW GITHUBA — 30.10.2026
+
+Motyw: Polarna Pracownia1.0.0
+Repozytorium: Doiua97/MotywyNI
+Przypięty komplet CSS/grafik: 70a0bc77e2b9505595ae8dd47225ad9b6664251c
+
+Sprawdzono rzeczywiste adresy74 grafik i jednego arkusza CSS.
+Wszystkie75 odpowiedzi zawierało pliki zgodne sumami SHA256 z lokalnym
+wydaniem. Sprawdzono także zgodność opublikowanego userscriptu.
+
+Mały instalator ma1743 znaki; odwołuje się wyłącznie do arkusza motywu.
+W kontroli wstrzyknięcia przepisano238 odwołań url() na adresy jednego
+przypiętego kompletu. Powtórne uruchomienie nie tworzy drugiego arkusza.
+
+Nie jest to potwierdzenie działania Tampermonkey na zalogowanej grze ani
+pomiar płynności. Test gry i ocena wszystkich ekranów należą do użytkownika.
