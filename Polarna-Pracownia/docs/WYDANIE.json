@@ -1,8 +1,0 @@
-{
-  "version": "1.0.0",
-  "assetsCommit": "70a0bc77e2b9505595ae8dd47225ad9b6664251c",
-  "installer": "https://raw.githubusercontent.com/Doiua97/MotywyNI/main/Polarna-Pracownia/install/polarna-pracownia.user.js",
-  "nativeCSS": "style.BcU1Dlu-.css",
-  "includesNativeClientCSS": false,
-  "liveGameTest": false
-}
