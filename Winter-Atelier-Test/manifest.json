@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0-test.b644757d",
-  "build": "b644757d2176bf96",
+  "version": "0.2.0-test.cc280517",
+  "build": "cc280517ebfcfb9e",
   "originals": {
     "/img/gui/cursor/1n.png": "img/gui/cursor/1n.png",
     "/img/gui/cursor/1n.cur": "img/gui/cursor/1n-cur.png",
@@ -653,22 +653,30 @@
     ],
     [
       "img/theme/hud-decoration.png",
-      "6420b71be70d9b794d3ea6b435b0115ff836d63366e9fa43dd391d2533da7d65"
+      "62db86727c8d38e0abece9d28d21d1f9aed3a2961bec18e2b0dd7dcda88c9585"
     ],
     [
       "img/theme/hp-mask.png",
-      "5e626fdb68bb8fc69c91777082c8948b69aed10194281cf40c6704516a2726f4"
+      "a52f6d30b89643de60fa3c98b900aa3a4df68f7eeb94ef3f68d297ae20be5e10"
     ],
     [
       "img/theme/hp-empty.png",
-      "8caedeafbef6aeb9db64c4cd303d6338abebbe6d8b26accdd10c729ddbc234a4"
+      "b37b2bfdc9f68ed2c7675eaa32aeb9faab29f0a19609f4931258d945a9e4df60"
+    ],
+    [
+      "img/theme/hud-rail-mask-0.png",
+      "9a3d551a25368e8975622a58e91973d2406209663028a8a2242c2f396c80fc5d"
+    ],
+    [
+      "img/theme/hud-rail-mask-1.png",
+      "093c1ebe706abb2a7c6b7cfaa4af384389731d2927fd6a756d0b5e2998a814e8"
     ],
     [
       "img/theme/panel-material.png",
       "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
     ]
   ],
-  "cssSHA256": "29bc17cac5908bd85acc9a0200a7a8e366139778ace43e294e9daa8ebed1289b",
-  "runtimeSHA256": "cdf32e4489a5384875a5690834de2fd4ae418a6f2ff72dce82220f7963d707a3",
+  "cssSHA256": "84932b6654957433e2aa48c10fe82440e11c60247ea8d8f089a14c6308438f45",
+  "runtimeSHA256": "b8d493bc6533e215cc0c2377ef185f088e2406c76530d3c090ac53bdf2fc77bb",
   "artworkApproved": false
 }
