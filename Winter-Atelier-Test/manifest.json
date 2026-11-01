@@ -1,762 +1,828 @@
 {
-  "version": "0.2.1-test",
-  "build": "b62404c91765679f",
-  "originals": {
-    "/img/gui/cursor/1n.png": "img/gui/cursor/1n.png",
-    "/img/gui/cursor/1n.cur": "img/gui/cursor/1n-cur.png",
-    "/img/gui/cursor/2n.png": "img/gui/cursor/2n.png",
-    "/img/gui/cursor/2n.cur": "img/gui/cursor/2n-cur.png",
-    "/img/gui/cursor/3n.png": "img/gui/cursor/3n.png",
-    "/img/gui/cursor/3n.cur": "img/gui/cursor/3n-cur.png",
-    "/img/gui/cursor/4n.png": "img/gui/cursor/4n.png",
-    "/img/gui/cursor/4n.cur": "img/gui/cursor/4n-cur.png",
-    "/img/gui/cursor/5n.png": "img/gui/cursor/5n.png",
-    "/img/gui/cursor/5n.cur": "img/gui/cursor/5n-cur.png",
-    "/img/gui/buttony.png": "img/gui/buttony.png",
-    "/img/gui/window-frame.png": "img/gui/window-frame.png",
-    "/img/gui/oneItemSlotToRepeat.png": "img/gui/oneItemSlotToRepeat.png",
-    "/img/gui/middle_graphics.png": "img/gui/middle_graphics.png",
-    "/img/gui/width-card-button.png": "img/gui/width-card-button.png",
-    "/img/gui/width-card-button-active.png": "img/gui/width-card-button-active.png",
-    "/img/gui/info-box-2.png": "img/gui/info-box-2.png",
-    "/img/gui/quests/quest_bar.png": "img/gui/quests/quest_bar.png",
-    "/img/gui/table_header.png": "img/gui/table_header.png",
-    "/img/gui/match-bar.png": "img/gui/match-bar.png",
-    "/img/gui/chest.png": "img/gui/chest.png",
-    "inline:437ac6bdd5a723d776568693962fb752c2ba35e6e334f9b25c0ca5976a980357": "inline-437ac6bdd5a723d7.png",
-    "inline:dda1742ad03c7a66cc57d78c9cec9e42f724990adaeb60fa740072cec0f0c6c3": "inline-dda1742ad03c7a66.png",
-    "inline:ad946dee4ddbcbd806470b11cc859c8486bb17f1bda342429d8473a905f70923": "inline-ad946dee4ddbcbd8.png",
-    "inline:825cc642f17af8950bf0580a9bde8250b33edf7e9deff70fbbd3898c125feff2": "inline-825cc642f17af895.png",
-    "inline:39af64f5fd93b69aa0bb38fb041ba157c4a9c0b951271dccf31c768d45b50958": "inline-39af64f5fd93b69a.png",
-    "inline:fc70d01f1ba8372c8aaf3ec4a9486a53e851a37685d677ef79096a76fc4584da": "inline-fc70d01f1ba8372c.png",
-    "inline:aceba032ac821d0c071fa6684cff012ad1506b59b53f614e8851097ab8fb57af": "inline-aceba032ac821d0c.png",
-    "inline:cd22fd91ca370645032b6f94607787b741ac8a5bd0d76b011e3867538fe98734": "inline-cd22fd91ca370645.png",
-    "inline:ddc59ce9772c77d8ff772b4df5daddac5e095f9f14f853f19db59a877feee6cf": "inline-ddc59ce9772c77d8.png",
-    "inline:71545b4647a7195d8f534a2d523e4c88b3f769b5b852caf22c8e94bdee85658e": "inline-71545b4647a7195d.png",
-    "inline:0e504c05a5a635109d81d85677aae106844f2038754e3d198802a5829aad58dc": "inline-0e504c05a5a63510.png",
-    "inline:e752e04c8abee396cb77124a5608ae757278b7e4f4d9535b82e38441bd9ff429": "inline-e752e04c8abee396.png",
-    "/img/draconite_small.gif": "img/draconite_small.png",
-    "/img/gui/notyfikacje-sprite.png": "img/gui/notyfikacje-sprite.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/quest_mark.gif": "obrazki/interface/emo/quest_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/daily_quest_mark.gif": "obrazki/interface/emo/daily_quest_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/inn_mark.gif": "obrazki/interface/emo/inn_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/auctions_mark.gif": "obrazki/interface/emo/auctions_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/mail_mark.gif": "obrazki/interface/emo/mail_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/depo_mark.gif": "obrazki/interface/emo/depo_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/heal_mark.gif": "obrazki/interface/emo/heal_mark.png",
-    "https://micc.garmory-cdn.cloud/obrazki/interface/emo/shop_mark.gif": "obrazki/interface/emo/shop_mark.png",
-    "/img/gui/map-icons.png": "img/gui/map-icons.png",
-    "/img/gui/belka-gora-dol.png": "img/gui/belka-gora-dol.png",
-    "/img/gui/chat-powtarzalny-podklad.png": "img/gui/chat-powtarzalny-podklad.png",
-    "/img/gui/o.png": "img/gui/o.png",
-    "/img/gui/zoom1.png": "img/gui/zoom1.png",
-    "/img/gui/zoom2.png": "img/gui/zoom2.png",
-    "/img/gui/X-blackoutline.gif": "img/gui/X-blackoutline.png",
-    "/img/gui/ok-blackoutline.gif": "img/gui/ok-blackoutline.png",
-    "/img/gui/skills/skill_icons_new.png": "img/gui/skills/skill_icons_new.png",
-    "/img/goldIconNormal.png": "img/goldIconNormal.png",
-    "/img/draconiteIconNormal.gif": "img/draconiteIconNormal.png",
-    "inline:d17d89f28967855cfe007f790501d689ea593cbd03e2a320ddf664b236e46b27": "inline-d17d89f28967855c.png",
-    "/img/gui/friend-header.png": "img/gui/friend-header.png",
-    "/img/gui/triangle.png": "img/gui/triangle.png",
-    "/img/gui/addons-icons.png": "img/gui/addons-icons.png",
-    "/img/gui/dialogue/dialogi.png": "img/gui/dialogue/dialogi.png",
-    "/img/gui/search.png": "img/gui/search.png",
-    "/img/exit.png": "img/exit.png",
-    "/img/gui/bubble/top.png": "img/gui/bubble/top.png",
-    "/img/gui/bubble/bottom.png": "img/gui/bubble/bottom.png",
-    "/img/gui/bubble/left.png": "img/gui/bubble/left.png",
-    "/img/gui/bubble/right.png": "img/gui/bubble/right.png",
-    "/img/gui/bubble/bottom_l.png": "img/gui/bubble/bottom_l.png",
-    "/img/honorIconNormal.gif": "img/honorIconNormal.png",
-    "/img/emo/battle.gif": "img/emo/battle.gif",
-    "/img/away.gif": "img/away.gif",
-    "/img/gui/progressbary.png": "img/gui/progressbary.png",
-    "/img/gui/auctions/header_left.png": "img/gui/auctions/header_left.png",
-    "/img/gui/premium-panel-pl.png": "img/gui/premium-panel-pl.png",
-    "/img/gui/shop/pet-shop-gold.png": "img/gui/shop/pet-shop-gold.png",
-    "/img/gui/shop/canopy.png": "img/gui/shop/canopy.png",
-    "/img/rip1.gif": "img/rip1.png",
-    "/img/gui/hpStateSprite.png": "img/gui/hpStateSprite.png",
-    "/img/gui/krew-klatki.png": "img/gui/krew-klatki.png",
-    "/img/gui/battle/battle-panel-timer.png": "img/gui/battle/battle-panel-timer.png",
-    "/img/gui/buffs-in-fight.png": "img/gui/buffs-in-fight.png",
-    "/img/gui/progressBar/progress-bar.png": "img/gui/progressBar/progress-bar.png",
-    "/img/gui/progressBar/percent-red.png": "img/gui/progressBar/percent-red.png",
-    "/img/gui/progressBar/percent-blue.png": "img/gui/progressBar/percent-blue.png",
-    "/img/gui/progressBar/percent-yellow.png": "img/gui/progressBar/percent-yellow.png",
-    "/img/rip2.gif": "img/rip2.png",
-    "/img/buffs.gif": "img/buffs.gif",
-    "/img/gui/line-highlight-green2.png": "img/gui/line-highlight-green2.png",
-    "/img/gui/line-highlight-red2.png": "img/gui/line-highlight-red2.png",
-    "/img/gui/line-highlight-yellow2.png": "img/gui/line-highlight-yellow2.png",
-    "/img/gui/battle-banner.jpg": "img/gui/battle-banner.png",
-    "/img/gui/item-slot.png": "img/gui/item-slot.png",
-    "/img/def-npc.gif": "img/def-npc.png",
-    "/img/gui/mail-gold.gif": "img/gui/mail-gold.png",
-    "/img/gui/draconite_small.gif": "img/gui/draconite_small.png",
-    "/img/gui/clan_icons.png": "img/gui/clan_icons.png",
-    "/img/gui/clan/clan-skills.png": "img/gui/clan/clan-skills.png",
-    "/img/gui/event-calendar-sprite-en.png": "img/gui/event-calendar-sprite-en.png",
-    "/img/gui/event-calendar-sprite-pl.png": "img/gui/event-calendar-sprite-pl.png",
-    "/img/gui/advent-calendar.png": "img/gui/advent-calendar.png",
-    "/img/gui/advent-windows.png": "img/gui/advent-windows.png",
-    "/img/gui/books-paper.jpg": "img/gui/books-paper.png",
-    "/img/gui/books-flower.png": "img/gui/books-flower.png",
-    "/img/gui/shop/gold-shop.png": "img/gui/shop/gold-shop.png",
-    "/img/gui/skills/skill_hot_skills.png": "img/gui/skills/skill_hot_skills.png",
-    "/img/gui/premium_sprite.png": "img/gui/premium_sprite.png",
-    "/img/gui/cloud_tail.png": "img/gui/cloud_tail.png",
-    "/img/gui/professions.png": "img/gui/professions.png",
-    "/img/gui/map-icons2.png": "img/gui/map-icons2.png",
-    "/img/gui/calendar-windows-1.png": "img/gui/calendar-windows-1.png",
-    "/img/gui/calendar-icons.png": "img/gui/calendar-icons.png",
-    "/img/gui/calendar-windows-2.png": "img/gui/calendar-windows-2.png",
-    "/img/gui/ReverseButton.png": "img/gui/ReverseButton.png",
-    "/img/gui/ReverseButtonHover.png": "img/gui/ReverseButtonHover.png",
-    "/img/gui/battlePass/battle_pass_sprite.png": "img/gui/battlePass/battle_pass_sprite.png",
-    "/img/money_small.png": "img/money_small.png",
-    "/img/gui/shop/gold-shop-lm.png": "img/gui/shop/gold-shop-lm.png",
-    "../img/notyfikacje-sprite.png": "img/notyfikacje-sprite.png",
-    "../img/paseczek.png": "img/paseczek.png",
-    "http://127.0.0.1:8892/Polarna-Pracownia-robocze/kontrola/podglad/original-common/notyfikacje-sprite.png": "Polarna-Pracownia-robocze/kontrola/podglad/original-common/notyfikacje-sprite.png",
-    "/img/gui/windowModeBorder.png": "img/gui/windowModeBorder.png",
-    "/img/gui/calendar-background.png": "img/gui/calendar-background.png",
-    "/img/questMapBorder/questMapCornerBorder.png": "img/questMapBorder/questMapCornerBorder.png",
-    "/img/questMapBorder/questMapMiddleBorder.png": "img/questMapBorder/questMapMiddleBorder.png",
-    "/img/questMapBorder/questTrackingCornerBorder.png": "img/questMapBorder/questTrackingCornerBorder.png",
-    "/img/questMapBorder/questTrackingMiddleBorder.png": "img/questMapBorder/questTrackingMiddleBorder.png",
-    "/img/gui/loader/loader-image.png": "img/winter-atelier/loading-logo.png"
-  },
-  "uiRoots": [
-    ".popup-menu-layer",
-    ".ni-mobile-input-layer",
-    ".captcha-layer",
-    ".console-layer",
-    ".mAlert-layer",
-    ".mAlert-mobile-layer",
-    ".alerts-layer",
-    ".sticky-tips-layer",
-    ".drop-to-delete-widget-layer",
-    ".tutorial-layer",
-    ".chat-layer",
-    ".loader-layer",
-    ".zoom-layer",
-    ".echh-layer",
-    ".tip-layer",
-    ".interface-layer"
-  ],
+  "version": "0.2.2-test",
+  "build": "098ab4b0067ae37b",
+  "mode": "css-and-map-marker",
+  "assetDirectory": "assets",
   "assetHashes": [
     [
-      "img/gui/cursor/1n.png",
-      "bd1195ffa3106d2b4943da2a882367a0129d97145e5cd3c0990e4352bd9162e1"
+      "away.gif",
+      "7984d8e52092114525c1351c091fa0f47c572c6e26f84e857f5cfd42aa600cd8"
     ],
     [
-      "img/gui/cursor/1n-cur.png",
-      "bd1195ffa3106d2b4943da2a882367a0129d97145e5cd3c0990e4352bd9162e1"
+      "belka-gora-dol.png",
+      "e7933ce71c1bdd89f04e30a277dcebea66daa68bdaab1e12ae0a23e08471db30"
     ],
     [
-      "img/gui/cursor/2n.png",
-      "68c3fbbdc753a394a71bed5dce6e1d5af2a634e10c9855befbbe89a542beffb1"
+      "bubble-bottom.png",
+      "0f290d8b8670a46ab160f603425b9c5f642b41bf8a4e01c0fffee6be33f025ce"
     ],
     [
-      "img/gui/cursor/2n-cur.png",
-      "68c3fbbdc753a394a71bed5dce6e1d5af2a634e10c9855befbbe89a542beffb1"
+      "bubble-left.png",
+      "07a030559406e45da4f379971bf7fb28d05dfcb2247fcd5ce2e086ac76f364a0"
     ],
     [
-      "img/gui/cursor/3n.png",
-      "5da985209abfcf92ea4cbed689b1e1faf953f1847af36386b4719a0d574dbd94"
+      "bubble-right.png",
+      "ed6c12d93969cfbfa9e512545d225007e46e54ae1804c032437c2816159e28da"
     ],
     [
-      "img/gui/cursor/3n-cur.png",
-      "5da985209abfcf92ea4cbed689b1e1faf953f1847af36386b4719a0d574dbd94"
+      "bubble-top.png",
+      "210b20e6d895ef84b776dde0562737456b6dddf895572959dbd59a3277a7690e"
     ],
     [
-      "img/gui/cursor/4n.png",
-      "904b5313c8719a9e4bc3b92c006447f7080955ddd12a9ab8159578e6db26204a"
+      "buffs.gif",
+      "e9a4a1a328d7ec84532b4c7e7654b1519bb261a9d6f72aaf99fc59e2ba0beb08"
     ],
     [
-      "img/gui/cursor/4n-cur.png",
-      "904b5313c8719a9e4bc3b92c006447f7080955ddd12a9ab8159578e6db26204a"
+      "chat-icons.png",
+      "1a82243e3b6087a9d4ed3973e48d854144e4a263ec1b932493495ce01089f55e"
     ],
     [
-      "img/gui/cursor/5n.png",
-      "ddb24b9445e478e8249aa1fae926f12b30bfc6207c53547ed3ba0220aa46d5f5"
+      "control-message-25x24.png",
+      "e717a35ca713c06cb60aece7a45a53adc92f5c4e1aaa48f384f60d2a884eb60f"
     ],
     [
-      "img/gui/cursor/5n-cur.png",
-      "ddb24b9445e478e8249aa1fae926f12b30bfc6207c53547ed3ba0220aa46d5f5"
+      "cursor-1n.png",
+      "55bdb978176f408f1d596661efbc3660e76dc2fd1b4efed6a24c85fc007ddc32"
     ],
     [
-      "img/gui/buttony.png",
+      "cursor-2n.png",
+      "b672d8d7158c466eb0c51fbd71598175ca5bffadac67c3c7e7927014fc0b14f0"
+    ],
+    [
+      "cursor-3n.png",
+      "fe4ee579fdd75aea6a19282baedf79b6faa04f85306e827f6b953f94c7f0d2b2"
+    ],
+    [
+      "cursor-4n.png",
+      "cfab97a1634e54a06edf8a868c55da816180c5dcfe503533ea5480902fecb8c2"
+    ],
+    [
+      "cursor-5n.png",
+      "cf870112314245638b0d51f38b7396c55172551087043110c02a903aec0f6180"
+    ],
+    [
+      "def-npc.png",
+      "9c3966a625414cd12115f3a698bc6b05ed2f676b88a6edf8b53c50feff5003ca"
+    ],
+    [
+      "dialogue-attack.png",
+      "a8b146ea0a681f249b99bcddae57ef647057841750f689bd8394bedf23a3c10d"
+    ],
+    [
+      "dialogue-auction.png",
+      "ae799e1caa320466713b40257d9a277a8752bbc27b2ba7d74c8b9a0db6b99deb"
+    ],
+    [
+      "dialogue-barter.png",
+      "22419323e8b238de481785b94822fc33c82ac450ffcdf691a2a91eefbf6e29ef"
+    ],
+    [
+      "dialogue-bonus_reselect.png",
+      "477ef89a2320fef64de8b12e8cd6dbdcae32246c958584a702eb4d091e94b84e"
+    ],
+    [
+      "dialogue-cont_quest.png",
+      "35a42354c0e3a97f3bf97b7544c72e58cfcc6f6222d3e59c9c90da7a7c8ecb2d"
+    ],
+    [
+      "dialogue-depo.png",
+      "0e56423b1cb95a195ea9d0c5cc910f5e8982143886b6ccbe5ca2e7c0c7f88a24"
+    ],
+    [
+      "dialogue-exit.png",
+      "863f5c276249f34f9b1cc3e083d0af1901e9c507f38827b6d939a64879cc6b59"
+    ],
+    [
+      "dialogue-game.png",
+      "f68a1ebe5188793a671cc380a2aa0b2632624dbfd3b59bc9228d454af4528466"
+    ],
+    [
+      "dialogue-heal.png",
+      "51b4d66ccf50074b9f4e5a023161708a15f3c070e1910e420c158cd8a6c07ba8"
+    ],
+    [
+      "dialogue-mail.png",
+      "ce33f725735e3a7b10658dcfb2056c2c2bdb7cdda6231875e07fd1ce01513edc"
+    ],
+    [
+      "dialogue-motel.png",
+      "f6876033e21eb239f6d9e2bd81cc5cdf808decf22950c6a63ad3b6f1b547c126"
+    ],
+    [
+      "dialogue-new_quest.png",
+      "29ace6696830e8c0adea403dd17477c7ea3edcb5e622a6481bd8f897dfe66632"
+    ],
+    [
+      "dialogue-next.png",
+      "7d1cc3caf91dafb80548c49905711793a2252fef48a8f8fe161b4238447608a6"
+    ],
+    [
+      "dialogue-shop.png",
+      "a8872a73d2a33ba7f591689268b247b202d1e1294b7948b9bab115832af52c1d"
+    ],
+    [
+      "draconiteIconNormal.png",
+      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
+    ],
+    [
+      "img--draconite_small.png",
+      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
+    ],
+    [
+      "battle.gif",
+      "581c22ca3a51f0a779e339372682b3f65bd7759ca4d6f4cad182fddff1720197"
+    ],
+    [
+      "goldIconNormal.png",
+      "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
+    ],
+    [
+      "ReverseButton.png",
+      "558ff4251251d3c0b625dd199fd91d4aa46f004578bf9967988494af16324551"
+    ],
+    [
+      "ReverseButtonHover.png",
+      "aa140169d5b05790c4cbbbdd67dc11c509d16366282398a73724b0e18cb720f6"
+    ],
+    [
+      "X-blackoutline.png",
+      "291edd83a7b53c16fcfeefc5c600d803fa9fe6ece6be9be154af2e98e30aa4ab"
+    ],
+    [
+      "addons-icons.png",
+      "a9b24cebe0040d5de594ba2ef780bf45cd1c68d3fdea623afc32c9c45b33a5e2"
+    ],
+    [
+      "advent-calendar.png",
+      "fe93a0b55cc0f62ba554743253088856c2b4a097e6d8f55d5e636012246b5d81"
+    ],
+    [
+      "advent-windows.png",
+      "19d655e15a06634c8b86060bf93b3bb8eecb8ad0f2554779de57529c072c4fff"
+    ],
+    [
+      "header_left.png",
+      "0974f5654495d699b3c2de8fa7466cd37947e5fb5ff87f0b3b505da8f4078d8a"
+    ],
+    [
+      "battle-banner.png",
+      "813c0999dd39ed93a8a7ac49459d233e7b6f66f6963d8738b8dbaa0940ebd8ff"
+    ],
+    [
+      "battle-panel-timer.png",
+      "dbaf29c0e85780ae6229f29b615b15cbc87047f16eddefa5c45ed21bc19ae976"
+    ],
+    [
+      "battle_pass_sprite.png",
+      "8cd9e473f2c385dffd970ce29ec86ef38b3892adf5fc290794368a92edb14f6a"
+    ],
+    [
+      "books-flower.png",
+      "182099ca77a7c882e0cbcd958e411e654dab3071efe07427bda68f94897372d9"
+    ],
+    [
+      "books-paper.png",
+      "bab19a12c46478d54efd91faa069015ee4f9147071debbbbfc1de4622864a37f"
+    ],
+    [
+      "bottom_l.png",
+      "4f451bc9a0eed0936864b8e2c32d56b77eadd8e060002e47859912bc5dbb5d4b"
+    ],
+    [
+      "buffs-in-fight.png",
+      "7023a0592e8735dd58d06db0a90353bc1b58c25f714d8c64353e717e38c52fe6"
+    ],
+    [
+      "buttony.png",
       "3b30a31eef52ccdf077ab41c75f733fa7e3bcb7f173ee96cace9d261aab629d5"
     ],
     [
-      "img/gui/window-frame.png",
-      "244e2bf5e7aa4a99e44bfdc11f7fae3e4a7c6024446b5d8403af8509b27832df"
+      "calendar-icons.png",
+      "6b671da43258d6918a1ac830266c73cc2be0888d919e2ddba5c165c8c9080c86"
     ],
     [
-      "img/gui/oneItemSlotToRepeat.png",
-      "eb1f350e939c38815587510afd696884b71f516a71e7eb38b665461e8b4b9c12"
+      "calendar-windows-1.png",
+      "60238f7ec12b28bd4b77586b784ef05ecbf68014473eadeac7fc185276dc3540"
     ],
     [
-      "img/gui/middle_graphics.png",
-      "1debf0ee5e83a849f2d171634053e3746aafdafedc30194444a921e1b95dba95"
+      "calendar-windows-2.png",
+      "817446eb50c039c06725d20f4e6feeb2ca210477735bb2ea02d81e1ea06628e4"
     ],
     [
-      "img/gui/width-card-button.png",
-      "8cf647315d011d215ebc79700a165f75c196684611de8c07bffa63fadad4cdd8"
+      "chat-powtarzalny-podklad.png",
+      "b89429280369ac8f999511dc8c9b3aca76ca55357698aa8eb505969161ac7f3c"
     ],
     [
-      "img/gui/width-card-button-active.png",
-      "31f4597149f977e836ef4ddd6b6c02091d3172a61340670e8973a06321ed1898"
-    ],
-    [
-      "img/gui/info-box-2.png",
-      "cd2a4dd669bd11d1d4212c37709e0367ac9b94f765daa6a2969ec2c5ff4c986c"
-    ],
-    [
-      "img/gui/quests/quest_bar.png",
-      "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
-    ],
-    [
-      "img/gui/table_header.png",
-      "e3828d8469710b1d100f957bf747bd860efd36e1dd3515a08d4175d63854c26e"
-    ],
-    [
-      "img/gui/match-bar.png",
-      "92da2017ecc390b3f289cb43ddd28c97b8265984ed04b06c28f6c95d0d342320"
-    ],
-    [
-      "img/gui/chest.png",
+      "chest.png",
       "8520c39e32e0c63e9d2bb40cb65eb30b255316334e37fdb7bba8c2e3126cb937"
     ],
     [
-      "inline-437ac6bdd5a723d7.png",
-      "6f4922aee228cb85c8353d3ac4bb50d3c2e403b0ee29d7a58bfa6e0070e0696e"
+      "clan_icons.png",
+      "40071b5a60af0fdc869b58fae1f94a408597918c21afe8246af79c585614fc96"
     ],
     [
-      "inline-dda1742ad03c7a66.png",
-      "c07fc5e422071007d3d68042a9cd6d84e576dc15abac5bf4260c49fc858886d1"
+      "cloud_tail.png",
+      "5b7d08a78594b81484c7cc3c39624bec0f915ca7128b223214f951d32f46f33b"
     ],
     [
-      "inline-ad946dee4ddbcbd8.png",
-      "be6b0d635052bba0c7b2413655df4462d2524f173296d0b42ccb01ada07bd284"
+      "dialogi.png",
+      "0efc6bcc8ad9c42991b913dfbc037835eb2b25c47936de75f095c47b364b3fe0"
     ],
     [
-      "inline-825cc642f17af895.png",
-      "a17d5f02339c40f18a9f1c32a9654f018e1d8142696f01264733f40e487c38fb"
+      "img--gui--draconite_small.png",
+      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
     ],
     [
-      "inline-39af64f5fd93b69a.png",
-      "bdc65ad70f8a0c36dae95180f45ad4896c5e17fd08e9928b7497ff31bfa5168d"
+      "event-calendar-sprite-en.png",
+      "49b7ea02dfaa95a744b1f4acb5aab0b882f8ad04295099164a78407f140bcc81"
     ],
     [
-      "inline-fc70d01f1ba8372c.png",
-      "7d6453a1d260b18e63f0032b20bbfa22781111f693f305c4a52e3fd33b795866"
+      "event-calendar-sprite-pl.png",
+      "7e1f8f2709860ae4a17b67021cdd234920b596719f1d29ab83539ffbf686972d"
     ],
     [
-      "inline-aceba032ac821d0c.png",
-      "f5cbee8a82ef5f983b1e015916764f97ac0590d5da1ae7d92f55fad5c6c59b69"
+      "friend-header.png",
+      "8c8ee9b91205727c1a94e7de2fc1af52dcb02cddc340a4654677e6ec09d66a49"
     ],
     [
-      "inline-cd22fd91ca370645.png",
-      "49c9a260afe4a7b5e77216f6fdc805158663a32ee1ee9dcb60a1106b238f0d6a"
+      "hpStateSprite.png",
+      "3ec5b5333f50e71c0c2c41718fb393af579004c6d9870d8941d4227e7ce04253"
     ],
     [
-      "inline-ddc59ce9772c77d8.png",
-      "632874f04a29b4646ab7ef672e058ed12e85139f259229c04f44f123db4d490f"
+      "info-box-2.png",
+      "cd2a4dd669bd11d1d4212c37709e0367ac9b94f765daa6a2969ec2c5ff4c986c"
     ],
     [
-      "inline-71545b4647a7195d.png",
-      "19b056918dee132b7f27fcafdc7df6f9172b6af57fffff945eea0135a149d5ef"
+      "item-slot.png",
+      "4be07aaeb053b29bf74e736badac467b62936c43bc49cac93aad9d4ef75e169a"
+    ],
+    [
+      "krew-klatki.png",
+      "287a465e87bbe2ed20e5cb6dfefd4d1da5555b2042039e7dc192405b18dedfed"
+    ],
+    [
+      "line-highlight-green2.png",
+      "25b5992854e61f652ce48670dc4e14724d52ee32cf3894c75aa21313d8deabfa"
+    ],
+    [
+      "line-highlight-red2.png",
+      "8772e3a795c828d7fb005ac66e7828ea2559c510d015c247c3d24d53324e8369"
+    ],
+    [
+      "line-highlight-yellow2.png",
+      "ff2fef0eb128314ac3e674cf271daf0805bbcb53b09abed372379909418144f8"
+    ],
+    [
+      "mail-gold.png",
+      "a7e7887772246bbd3342148904deb755833c26b00f76d187a82a7a673ec9b2cb"
+    ],
+    [
+      "map-icons.png",
+      "c027fe780aaf3e3d7ce4c3b2df13cfa3a57cfd144c601d8dfa8ca51c86b6e27b"
+    ],
+    [
+      "map-icons2.png",
+      "30b730ff864a9caab7c78003892959d8c5756c6f82550e0cdff5479a08b50544"
+    ],
+    [
+      "match-bar.png",
+      "92da2017ecc390b3f289cb43ddd28c97b8265984ed04b06c28f6c95d0d342320"
+    ],
+    [
+      "middle_graphics.png",
+      "1debf0ee5e83a849f2d171634053e3746aafdafedc30194444a921e1b95dba95"
+    ],
+    [
+      "o.png",
+      "b888d4cce6ae6815ebee90f76f0610462041a9e9b9b44b39a870020268304bb3"
+    ],
+    [
+      "ok-blackoutline.png",
+      "e9afb88aa291228f4b82290a45e0621c01ee25198004b8350542cadd5152d899"
+    ],
+    [
+      "oneItemSlotToRepeat.png",
+      "eb1f350e939c38815587510afd696884b71f516a71e7eb38b665461e8b4b9c12"
+    ],
+    [
+      "premium-panel-pl.png",
+      "2293e03735081ae2e681afbdce7e4aa1ff708f3947e09b3620df8954a487a5cf"
+    ],
+    [
+      "premium_sprite.png",
+      "0e8171b92f05f0e3fbc687c5c7e451f0f4899fca739095f161e5a2b7f32cfa33"
+    ],
+    [
+      "professions.png",
+      "ab0c0bb3152697afb5962ef3f1525fb6274a458e5a819c8c19e8008f1ad674b5"
+    ],
+    [
+      "percent-blue.png",
+      "acf2352653aced78dbdac9c4da49d5f5887dc9b052b3415ef0825dac0c232396"
+    ],
+    [
+      "percent-red.png",
+      "9be19024b3ed3fc36bbf82b7108014bed5b64ce0e552f89a3b5f53f0dd75b8aa"
+    ],
+    [
+      "percent-yellow.png",
+      "d2829ef499db12cbbeb0dd3b233f1e729539cc4f2ccf7135ac9887b3be317a7f"
+    ],
+    [
+      "progress-bar.png",
+      "6916cd0ac59962025d5548781ad540f40e87b517aa49f4860db3fce106424790"
+    ],
+    [
+      "progressbary.png",
+      "8de26a70227be17b30a7f7b86b744389297574f1f6d398a857d6974f9a256c5b"
+    ],
+    [
+      "quest_bar.png",
+      "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
+    ],
+    [
+      "search.png",
+      "e3a4bef451e3b972a4eb7f1c17beee2c670e47c02af5a5480411039de6caa9f3"
+    ],
+    [
+      "canopy.png",
+      "d8af5856fcf585a5bd70a7b4198b8ba4e60e703f251fc583e2662d26c7f0eccb"
+    ],
+    [
+      "gold-shop-lm.png",
+      "a418b2e54f484aa813fa7766dac7320a480c533722ae88cdea2aa7fc59ee82dd"
+    ],
+    [
+      "gold-shop.png",
+      "c01e75e3419b614818bb0650420384fae7ff196138a98ac96778f3b51e56b878"
+    ],
+    [
+      "pet-shop-gold.png",
+      "47c030038b22a45b246efe19c4beb23744c310bfb405a4c3df7387c80254d04f"
+    ],
+    [
+      "table_header.png",
+      "e3828d8469710b1d100f957bf747bd860efd36e1dd3515a08d4175d63854c26e"
+    ],
+    [
+      "triangle.png",
+      "ba65230cc3fcce3a917101210c6a6f89444774c205b7dc00f8ca545f304c5aac"
+    ],
+    [
+      "width-card-button-active.png",
+      "31f4597149f977e836ef4ddd6b6c02091d3172a61340670e8973a06321ed1898"
+    ],
+    [
+      "width-card-button.png",
+      "8cf647315d011d215ebc79700a165f75c196684611de8c07bffa63fadad4cdd8"
+    ],
+    [
+      "window-frame.png",
+      "244e2bf5e7aa4a99e44bfdc11f7fae3e4a7c6024446b5d8403af8509b27832df"
+    ],
+    [
+      "zoom1.png",
+      "a2b576274df9c559d35ce276ad9a709d5d0565e825daaec084bacd86f2df6025"
+    ],
+    [
+      "zoom2.png",
+      "c94223c15cf57db3b202abb92afe83d16c5644ba18c4d058320807618f5b6403"
+    ],
+    [
+      "honorIconNormal.png",
+      "0dfbb4aa4725b4804c28c80e75b2c1c75ce106fdaf6be740d659c57a5be04956"
+    ],
+    [
+      "money_small.png",
+      "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
+    ],
+    [
+      "move-marker.png",
+      "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
+    ],
+    [
+      "notyfikacje-sprite.png",
+      "f9d88856d6d5e13ddf47dd36223b84ac0c50337eb2154267a58a32a845799247"
+    ],
+    [
+      "paseczek.png",
+      "ab656abc76900d41088f3253a7f17111ee6d06c85330436aa69311a873fefcf0"
+    ],
+    [
+      "shop-interior.png",
+      "5705d2923737a562be577a5938dcdc2b770c4e04cb173c1bd8c031c85fd3143d"
+    ],
+    [
+      "shop-item-cell.png",
+      "8923fdbdd8f275ef8889ad20cf158c7c88ee8f527dff10308f5120bcd3fe4d12"
+    ],
+    [
+      "battle-skill-tray.png",
+      "2a85d67f0dde4bbd9439f285d9add094946643edf6d80cfd6adf1f97caf094b1"
+    ],
+    [
+      "frost-surface.png",
+      "8a3287d8acf636b7a94d2daf2d7fa7a72294f2785297918f78debf8dbf700ca5"
+    ],
+    [
+      "hp-empty.png",
+      "b37b2bfdc9f68ed2c7675eaa32aeb9faab29f0a19609f4931258d945a9e4df60"
+    ],
+    [
+      "hp-mask.png",
+      "a52f6d30b89643de60fa3c98b900aa3a4df68f7eeb94ef3f68d297ae20be5e10"
+    ],
+    [
+      "hud-decoration.png",
+      "bb2f8b552888e85a1f2a8f0d13d1b2a3ae1fd935cee1896d94884405e13db826"
+    ],
+    [
+      "hud-rail-mask-0.png",
+      "9a3d551a25368e8975622a58e91973d2406209663028a8a2242c2f396c80fc5d"
+    ],
+    [
+      "hud-rail-mask-1.png",
+      "093c1ebe706abb2a7c6b7cfaa4af384389731d2927fd6a756d0b5e2998a814e8"
+    ],
+    [
+      "panel-material.png",
+      "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
+    ],
+    [
+      "credits-gem.png",
+      "76262c195aa1b715b8b8b50ab97e0982da014a5a599660bd47ceb2904b52f087"
+    ],
+    [
+      "hud-top.png",
+      "45f8b8f98a70d26a4093ee501d6ecbd61039b9f46e3b0d4e5086089816270d58"
+    ],
+    [
+      "map-status-green.png",
+      "552d3b53586191fbe531dac3eee024b779c9eb39a1f2a125f9a1eb8a61270c15"
+    ],
+    [
+      "map-status-orange.png",
+      "cbf8a2e8277ca8fd3c70baab5b2530737ddf6e512766d6a9292ec87eeb45ad8c"
+    ],
+    [
+      "map-status-red.png",
+      "3d3144cdd90e8830f2b9b88fb307258b8ee095acfb2f0ef92ff23dd937081558"
+    ],
+    [
+      "map-status-yellow.png",
+      "998c40babc209d51a9da7542c2971b3830a4198e74888f38ade620f9f6be08b5"
+    ],
+    [
+      "profession-tracker.png",
+      "d6d208562b91bf6797a8885db7ba00def3eb50c2f1eaa3b9015475c0a9666136"
+    ],
+    [
+      "ui-gold-21x21.png",
+      "70d74c0b85735d317636f69d35654a8d699ef37e20b7bc3057b9687c0d74b2a2"
+    ],
+    [
+      "ui-hourglass-14x16.png",
+      "781aca8494e48b81a9d8902157483e07f2e422da078b8554e4ea4b8591ed7328"
+    ],
+    [
+      "ui-profession-b-20x20.png",
+      "473926dd605c34955ff0fbe58a7614cdbaf75bcf214257539a8df4ba8b0f8cc4"
+    ],
+    [
+      "ui-profession-h-20x20.png",
+      "a06044726c459484c12d7df96e9e973b5d8be5bb44a3bfbdcc0c5bc891427402"
+    ],
+    [
+      "ui-profession-m-20x20.png",
+      "1d69f4a49f3bbdd3c99a66d2a9e4cabe4a13a505519b655ff4ee3a065cb99234"
+    ],
+    [
+      "ui-profession-p-20x20.png",
+      "26ad965287f55adc01fc0bc41508720ada9eaca66ce81aa21f77b2e1f3bcf92c"
+    ],
+    [
+      "ui-profession-w-20x20.png",
+      "31fb970a588ea754489de489bdc9404eb0076cc4b9a45dbfe5163cb50fa31c18"
+    ],
+    [
+      "window-close.png",
+      "24351272610023be9efbb3af7352ca1a1d9583387c9c7cb947e06ab7ecbad142"
+    ],
+    [
+      "ui-attack-19x19.png",
+      "b7176b8c7a81cf789980bb66fbec86c7a99e16a2aa9685a314e42ca609377e11"
+    ],
+    [
+      "ui-collapse-13x13.png",
+      "e7ea730f9fe293188b83afeaa2949537ef6eae556a7833881c5cd1540dd3afb7"
+    ],
+    [
+      "ui-defence-19x19.png",
+      "70892342c5833d7f5a110b8b6bb832c3ec1124fa654b0e2316409d572f64c2ba"
+    ],
+    [
+      "ui-down-22x22.png",
+      "bd850b06bf81fdb4ede2ff452cdf4d368cde4bb6a2ceaf035e836e1012ac772d"
+    ],
+    [
+      "ui-eye-12x12.png",
+      "749bb94d609125fd9fb97ab96ce7c9def753b9facb4a460d51f25c1ff2d00e34"
+    ],
+    [
+      "ui-gear-13x13.png",
+      "70a8ad4414f8e7b3bfaee5029e98b3eb92c6aacc58d2494eae5703da692bbf69"
+    ],
+    [
+      "ui-gear-24x24.png",
+      "2c498cc9a137a78b1007fef95c2c7830347368af98a1e1506d785bbcc479d15b"
+    ],
+    [
+      "ui-info-14x16.png",
+      "60f205aece561510afb4fbdee9bd5983643d5d4f19e1bf411e76269d9719ca3e"
+    ],
+    [
+      "ui-opacity-13x13.png",
+      "9ddb02afaba078f12dfad886b6a6973adfc01f700d1e6c43760ae45de9fc7406"
+    ],
+    [
+      "ui-pin-20x16.png",
+      "090dbb38d2b55287a6076effe667a11826a24beb65c6d40bb121e3da402344c9"
+    ],
+    [
+      "ui-resist-19x19.png",
+      "9f3cccc99d51b2f2c4196c8ce477e200a203ff305091eb7ed3c9e70cca318c85"
+    ],
+    [
+      "ui-resize-12x12.png",
+      "50c041192e0d7648305f5a7029ba412fc9c9cf93803daa583525db75f12930a1"
+    ],
+    [
+      "ui-speed-19x19.png",
+      "1c74928ebbdc14d08463fbbd7cba63d84d3d11b6a8e29d334da767afa49d8a97"
+    ],
+    [
+      "widget-extension.png",
+      "ab08eafc7f19f9c639c11fe4a6e1983ca455dd3bf935ac90644678388682aa2d"
+    ],
+    [
+      "loading-logo.png",
+      "a899e58275ad126854c314628622989101bfcc6fde1235d0f6b00622d908dfb7"
     ],
     [
       "inline-0e504c05a5a63510.png",
       "5b601bae69a44049ecbe5bf08a7c988a67397edb4f7515eda23e00d793137749"
     ],
     [
+      "inline-39af64f5fd93b69a.png",
+      "bdc65ad70f8a0c36dae95180f45ad4896c5e17fd08e9928b7497ff31bfa5168d"
+    ],
+    [
+      "inline-437ac6bdd5a723d7.png",
+      "6f4922aee228cb85c8353d3ac4bb50d3c2e403b0ee29d7a58bfa6e0070e0696e"
+    ],
+    [
+      "inline-71545b4647a7195d.png",
+      "19b056918dee132b7f27fcafdc7df6f9172b6af57fffff945eea0135a149d5ef"
+    ],
+    [
+      "inline-825cc642f17af895.png",
+      "a17d5f02339c40f18a9f1c32a9654f018e1d8142696f01264733f40e487c38fb"
+    ],
+    [
+      "inline-aceba032ac821d0c.png",
+      "f5cbee8a82ef5f983b1e015916764f97ac0590d5da1ae7d92f55fad5c6c59b69"
+    ],
+    [
+      "inline-ad946dee4ddbcbd8.png",
+      "be6b0d635052bba0c7b2413655df4462d2524f173296d0b42ccb01ada07bd284"
+    ],
+    [
+      "inline-cd22fd91ca370645.png",
+      "49c9a260afe4a7b5e77216f6fdc805158663a32ee1ee9dcb60a1106b238f0d6a"
+    ],
+    [
+      "inline-dda1742ad03c7a66.png",
+      "c07fc5e422071007d3d68042a9cd6d84e576dc15abac5bf4260c49fc858886d1"
+    ],
+    [
+      "inline-ddc59ce9772c77d8.png",
+      "632874f04a29b4646ab7ef672e058ed12e85139f259229c04f44f123db4d490f"
+    ],
+    [
       "inline-e752e04c8abee396.png",
       "44dcb5fbcf0dca65e334a2e7ce38d3c99b90459bbf9c35d15b95ab21bd827482"
     ],
     [
-      "img/draconite_small.png",
-      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
+      "inline-fc70d01f1ba8372c.png",
+      "7d6453a1d260b18e63f0032b20bbfa22781111f693f305c4a52e3fd33b795866"
     ],
     [
-      "img/gui/notyfikacje-sprite.png",
-      "5b9ac738a967bfc64030f651f934c1fd2ad5ce566ec5d0053ac221470e476a78"
-    ],
-    [
-      "obrazki/interface/emo/quest_mark.png",
-      "a5bcd49ffb5815641d1074c54f91a4e1b583bf112e05ed7659a0fd55cf002092"
-    ],
-    [
-      "obrazki/interface/emo/daily_quest_mark.png",
-      "cc85a098b77433856d31ce30cb5413d2d4216cac763ed1ed799e34e7a4d08980"
-    ],
-    [
-      "obrazki/interface/emo/inn_mark.png",
-      "fe2063ab0ca00c18bbf85f0b9d3c247c37f04c1db429892bdf69d6f1219641c2"
-    ],
-    [
-      "obrazki/interface/emo/auctions_mark.png",
+      "auctions_mark.png",
       "5501b2e0531b82e2ea24f1c2c117988508e7a1d2d31fcb6fe62ddf154ac63aa9"
     ],
     [
-      "obrazki/interface/emo/mail_mark.png",
-      "2f02c047bfee13abf485eae19c59d9ea9ed385ab431bdd47fa485a194998a168"
+      "daily_quest_mark.png",
+      "cc85a098b77433856d31ce30cb5413d2d4216cac763ed1ed799e34e7a4d08980"
     ],
     [
-      "obrazki/interface/emo/depo_mark.png",
+      "depo_mark.png",
       "a549b976d3eec5791a0b01c4a5f78e0ee7fb99c29b6c3c93b65515e468a9f702"
     ],
     [
-      "obrazki/interface/emo/heal_mark.png",
+      "heal_mark.png",
       "914dcb6a835dba03eca654aa34b38aafcd78317b36fe708e87a92dfb0ace3ca7"
     ],
     [
-      "obrazki/interface/emo/shop_mark.png",
+      "inn_mark.png",
+      "fe2063ab0ca00c18bbf85f0b9d3c247c37f04c1db429892bdf69d6f1219641c2"
+    ],
+    [
+      "mail_mark.png",
+      "2f02c047bfee13abf485eae19c59d9ea9ed385ab431bdd47fa485a194998a168"
+    ],
+    [
+      "quest_mark.png",
+      "a5bcd49ffb5815641d1074c54f91a4e1b583bf112e05ed7659a0fd55cf002092"
+    ],
+    [
+      "shop_mark.png",
       "c1b5299c5c5c09d20051ddd00549e94fa4558e720d796ff35034063ecd280def"
-    ],
-    [
-      "img/gui/map-icons.png",
-      "c027fe780aaf3e3d7ce4c3b2df13cfa3a57cfd144c601d8dfa8ca51c86b6e27b"
-    ],
-    [
-      "img/gui/belka-gora-dol.png",
-      "36639aa048e218733b484e82fefd72d858135f786e5f6b0552b3ee856323d5b3"
-    ],
-    [
-      "img/gui/chat-powtarzalny-podklad.png",
-      "b89429280369ac8f999511dc8c9b3aca76ca55357698aa8eb505969161ac7f3c"
-    ],
-    [
-      "img/gui/o.png",
-      "b888d4cce6ae6815ebee90f76f0610462041a9e9b9b44b39a870020268304bb3"
-    ],
-    [
-      "img/gui/zoom1.png",
-      "a2b576274df9c559d35ce276ad9a709d5d0565e825daaec084bacd86f2df6025"
-    ],
-    [
-      "img/gui/zoom2.png",
-      "c94223c15cf57db3b202abb92afe83d16c5644ba18c4d058320807618f5b6403"
-    ],
-    [
-      "img/gui/X-blackoutline.png",
-      "291edd83a7b53c16fcfeefc5c600d803fa9fe6ece6be9be154af2e98e30aa4ab"
-    ],
-    [
-      "img/gui/ok-blackoutline.png",
-      "e9afb88aa291228f4b82290a45e0621c01ee25198004b8350542cadd5152d899"
-    ],
-    [
-      "img/gui/skills/skill_icons_new.png",
-      "a15f859513fc384d4ee1120ccc0b73ef6d622cb754d59fa92f9f6ac2ec39e419"
-    ],
-    [
-      "img/goldIconNormal.png",
-      "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
-    ],
-    [
-      "img/draconiteIconNormal.png",
-      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
-    ],
-    [
-      "inline-d17d89f28967855c.png",
-      "060b61522e97e5c27ae7f3bd7fb1d0b44e717694c81f26a4cdfad2d59eb855a2"
-    ],
-    [
-      "img/gui/friend-header.png",
-      "8c8ee9b91205727c1a94e7de2fc1af52dcb02cddc340a4654677e6ec09d66a49"
-    ],
-    [
-      "img/gui/triangle.png",
-      "ba65230cc3fcce3a917101210c6a6f89444774c205b7dc00f8ca545f304c5aac"
-    ],
-    [
-      "img/gui/addons-icons.png",
-      "a9b24cebe0040d5de594ba2ef780bf45cd1c68d3fdea623afc32c9c45b33a5e2"
-    ],
-    [
-      "img/gui/dialogue/dialogi.png",
-      "0efc6bcc8ad9c42991b913dfbc037835eb2b25c47936de75f095c47b364b3fe0"
-    ],
-    [
-      "img/gui/search.png",
-      "e3a4bef451e3b972a4eb7f1c17beee2c670e47c02af5a5480411039de6caa9f3"
-    ],
-    [
-      "img/exit.png",
-      "383fe92ac2af8ab9dd9be4dd81c2692bb98738edfd8fee5676267bce46ad4e51"
-    ],
-    [
-      "img/gui/bubble/top.png",
-      "739c1c8ca6909e8c28811759a1cf8103ec4a73210510d7bebfb2d0e3c821cfe8"
-    ],
-    [
-      "img/gui/bubble/bottom.png",
-      "7c6352d45c92fb21603365fdef6df3df8b253235ec587e6f7038e52cbb1ca10b"
-    ],
-    [
-      "img/gui/bubble/left.png",
-      "168e4811abad2dd26be55ebaa98cdb3081234a286851cbe5828a42172740a9c6"
-    ],
-    [
-      "img/gui/bubble/right.png",
-      "48ec9cb73d0ca6a85fe6aa5049856fa8278b1c83b49d4bd265a9b2cb99ad1203"
-    ],
-    [
-      "img/gui/bubble/bottom_l.png",
-      "4f451bc9a0eed0936864b8e2c32d56b77eadd8e060002e47859912bc5dbb5d4b"
-    ],
-    [
-      "img/honorIconNormal.png",
-      "0dfbb4aa4725b4804c28c80e75b2c1c75ce106fdaf6be740d659c57a5be04956"
-    ],
-    [
-      "img/emo/battle.gif",
-      "581c22ca3a51f0a779e339372682b3f65bd7759ca4d6f4cad182fddff1720197"
-    ],
-    [
-      "img/away.gif",
-      "7984d8e52092114525c1351c091fa0f47c572c6e26f84e857f5cfd42aa600cd8"
-    ],
-    [
-      "img/gui/progressbary.png",
-      "8de26a70227be17b30a7f7b86b744389297574f1f6d398a857d6974f9a256c5b"
-    ],
-    [
-      "img/gui/auctions/header_left.png",
-      "0974f5654495d699b3c2de8fa7466cd37947e5fb5ff87f0b3b505da8f4078d8a"
-    ],
-    [
-      "img/gui/premium-panel-pl.png",
-      "2293e03735081ae2e681afbdce7e4aa1ff708f3947e09b3620df8954a487a5cf"
-    ],
-    [
-      "img/gui/shop/pet-shop-gold.png",
-      "47c030038b22a45b246efe19c4beb23744c310bfb405a4c3df7387c80254d04f"
-    ],
-    [
-      "img/gui/shop/canopy.png",
-      "d8af5856fcf585a5bd70a7b4198b8ba4e60e703f251fc583e2662d26c7f0eccb"
-    ],
-    [
-      "img/rip1.png",
-      "99a91d3221a9816dfae471de9189c523c232dff4b7ffc2ed90d5f4745a06cbe9"
-    ],
-    [
-      "img/gui/hpStateSprite.png",
-      "3ec5b5333f50e71c0c2c41718fb393af579004c6d9870d8941d4227e7ce04253"
-    ],
-    [
-      "img/gui/krew-klatki.png",
-      "287a465e87bbe2ed20e5cb6dfefd4d1da5555b2042039e7dc192405b18dedfed"
-    ],
-    [
-      "img/gui/battle/battle-panel-timer.png",
-      "dbaf29c0e85780ae6229f29b615b15cbc87047f16eddefa5c45ed21bc19ae976"
-    ],
-    [
-      "img/gui/buffs-in-fight.png",
-      "7023a0592e8735dd58d06db0a90353bc1b58c25f714d8c64353e717e38c52fe6"
-    ],
-    [
-      "img/gui/progressBar/progress-bar.png",
-      "6916cd0ac59962025d5548781ad540f40e87b517aa49f4860db3fce106424790"
-    ],
-    [
-      "img/gui/progressBar/percent-red.png",
-      "9be19024b3ed3fc36bbf82b7108014bed5b64ce0e552f89a3b5f53f0dd75b8aa"
-    ],
-    [
-      "img/gui/progressBar/percent-blue.png",
-      "acf2352653aced78dbdac9c4da49d5f5887dc9b052b3415ef0825dac0c232396"
-    ],
-    [
-      "img/gui/progressBar/percent-yellow.png",
-      "d2829ef499db12cbbeb0dd3b233f1e729539cc4f2ccf7135ac9887b3be317a7f"
-    ],
-    [
-      "img/rip2.png",
-      "dd57ecaa470e4b2fb619289af6bfe6e7c408f9a8379e91555d963256d6392398"
-    ],
-    [
-      "img/buffs.gif",
-      "e9a4a1a328d7ec84532b4c7e7654b1519bb261a9d6f72aaf99fc59e2ba0beb08"
-    ],
-    [
-      "img/gui/line-highlight-green2.png",
-      "25b5992854e61f652ce48670dc4e14724d52ee32cf3894c75aa21313d8deabfa"
-    ],
-    [
-      "img/gui/line-highlight-red2.png",
-      "8772e3a795c828d7fb005ac66e7828ea2559c510d015c247c3d24d53324e8369"
-    ],
-    [
-      "img/gui/line-highlight-yellow2.png",
-      "ff2fef0eb128314ac3e674cf271daf0805bbcb53b09abed372379909418144f8"
-    ],
-    [
-      "img/gui/battle-banner.png",
-      "813c0999dd39ed93a8a7ac49459d233e7b6f66f6963d8738b8dbaa0940ebd8ff"
-    ],
-    [
-      "img/gui/item-slot.png",
-      "4be07aaeb053b29bf74e736badac467b62936c43bc49cac93aad9d4ef75e169a"
-    ],
-    [
-      "img/def-npc.png",
-      "9c3966a625414cd12115f3a698bc6b05ed2f676b88a6edf8b53c50feff5003ca"
-    ],
-    [
-      "img/gui/mail-gold.png",
-      "a7e7887772246bbd3342148904deb755833c26b00f76d187a82a7a673ec9b2cb"
-    ],
-    [
-      "img/gui/draconite_small.png",
-      "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
-    ],
-    [
-      "img/gui/clan_icons.png",
-      "40071b5a60af0fdc869b58fae1f94a408597918c21afe8246af79c585614fc96"
-    ],
-    [
-      "img/gui/clan/clan-skills.png",
-      "8b64e23779b3fae14d9f0204de4476ba1170f44bdeda7260677cfdcb74032d7c"
-    ],
-    [
-      "img/gui/event-calendar-sprite-en.png",
-      "49b7ea02dfaa95a744b1f4acb5aab0b882f8ad04295099164a78407f140bcc81"
-    ],
-    [
-      "img/gui/event-calendar-sprite-pl.png",
-      "7e1f8f2709860ae4a17b67021cdd234920b596719f1d29ab83539ffbf686972d"
-    ],
-    [
-      "img/gui/advent-calendar.png",
-      "fe93a0b55cc0f62ba554743253088856c2b4a097e6d8f55d5e636012246b5d81"
-    ],
-    [
-      "img/gui/advent-windows.png",
-      "19d655e15a06634c8b86060bf93b3bb8eecb8ad0f2554779de57529c072c4fff"
-    ],
-    [
-      "img/gui/books-paper.png",
-      "bab19a12c46478d54efd91faa069015ee4f9147071debbbbfc1de4622864a37f"
-    ],
-    [
-      "img/gui/books-flower.png",
-      "182099ca77a7c882e0cbcd958e411e654dab3071efe07427bda68f94897372d9"
-    ],
-    [
-      "img/gui/shop/gold-shop.png",
-      "c01e75e3419b614818bb0650420384fae7ff196138a98ac96778f3b51e56b878"
-    ],
-    [
-      "img/gui/skills/skill_hot_skills.png",
-      "80b34cf9b92dea521b6ba8d4dc10e83692eb333d2ba3c093e022397279eb6698"
-    ],
-    [
-      "img/gui/premium_sprite.png",
-      "0e8171b92f05f0e3fbc687c5c7e451f0f4899fca739095f161e5a2b7f32cfa33"
-    ],
-    [
-      "img/gui/cloud_tail.png",
-      "5b7d08a78594b81484c7cc3c39624bec0f915ca7128b223214f951d32f46f33b"
-    ],
-    [
-      "img/gui/professions.png",
-      "ab0c0bb3152697afb5962ef3f1525fb6274a458e5a819c8c19e8008f1ad674b5"
-    ],
-    [
-      "img/gui/map-icons2.png",
-      "30b730ff864a9caab7c78003892959d8c5756c6f82550e0cdff5479a08b50544"
-    ],
-    [
-      "img/gui/calendar-windows-1.png",
-      "60238f7ec12b28bd4b77586b784ef05ecbf68014473eadeac7fc185276dc3540"
-    ],
-    [
-      "img/gui/calendar-icons.png",
-      "6b671da43258d6918a1ac830266c73cc2be0888d919e2ddba5c165c8c9080c86"
-    ],
-    [
-      "img/gui/calendar-windows-2.png",
-      "817446eb50c039c06725d20f4e6feeb2ca210477735bb2ea02d81e1ea06628e4"
-    ],
-    [
-      "img/gui/ReverseButton.png",
-      "558ff4251251d3c0b625dd199fd91d4aa46f004578bf9967988494af16324551"
-    ],
-    [
-      "img/gui/ReverseButtonHover.png",
-      "aa140169d5b05790c4cbbbdd67dc11c509d16366282398a73724b0e18cb720f6"
-    ],
-    [
-      "img/gui/battlePass/battle_pass_sprite.png",
-      "8cd9e473f2c385dffd970ce29ec86ef38b3892adf5fc290794368a92edb14f6a"
-    ],
-    [
-      "img/money_small.png",
-      "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
-    ],
-    [
-      "img/gui/shop/gold-shop-lm.png",
-      "a418b2e54f484aa813fa7766dac7320a480c533722ae88cdea2aa7fc59ee82dd"
-    ],
-    [
-      "img/notyfikacje-sprite.png",
-      "f9d88856d6d5e13ddf47dd36223b84ac0c50337eb2154267a58a32a845799247"
-    ],
-    [
-      "img/paseczek.png",
-      "ab656abc76900d41088f3253a7f17111ee6d06c85330436aa69311a873fefcf0"
-    ],
-    [
-      "Polarna-Pracownia-robocze/kontrola/podglad/original-common/notyfikacje-sprite.png",
-      "f9d88856d6d5e13ddf47dd36223b84ac0c50337eb2154267a58a32a845799247"
-    ],
-    [
-      "img/gui/windowModeBorder.png",
-      "303be9fe22af496b2af0ba2c7fd6da5290332df6bd74cfc29dbcf11ad00eefa4"
-    ],
-    [
-      "img/gui/calendar-background.png",
-      "5ba12d008cef71b8986be2b35a08175bc63fab7c0a75109c76065b833b775f5c"
-    ],
-    [
-      "img/questMapBorder/questMapCornerBorder.png",
-      "fc16b0f0c8ac50b0530cff7b52e9dd4eddb7b2da4071592d4524e1f4e6d1dfce"
-    ],
-    [
-      "img/questMapBorder/questMapMiddleBorder.png",
-      "9dee44bef7a35bcb76d1d77ce9999e4a79a1095a3b566cc58d6b8b4a6113b024"
-    ],
-    [
-      "img/questMapBorder/questTrackingCornerBorder.png",
-      "323c1ed57cd43d2c4bf0f916fca7f38339f59122ace5ad7c56c78e4a78468c8a"
-    ],
-    [
-      "img/questMapBorder/questTrackingMiddleBorder.png",
-      "25803bbb5b916da1d8f9d5355b5f20549271f4bbb175f4b5025a77cd9201c5c1"
-    ],
-    [
-      "img/winter-atelier/loading-logo.png",
-      "a899e58275ad126854c314628622989101bfcc6fde1235d0f6b00622d908dfb7"
-    ],
-    [
-      "img/theme/shortcut-slot.png",
-      "874f97562057c78b0270a974271704e44968ea59d53dcc4639347222b0bff6fe"
-    ],
-    [
-      "img/theme/hud-decoration.png",
-      "bb2f8b552888e85a1f2a8f0d13d1b2a3ae1fd935cee1896d94884405e13db826"
-    ],
-    [
-      "img/theme/hp-mask.png",
-      "a52f6d30b89643de60fa3c98b900aa3a4df68f7eeb94ef3f68d297ae20be5e10"
-    ],
-    [
-      "img/theme/hp-empty.png",
-      "b37b2bfdc9f68ed2c7675eaa32aeb9faab29f0a19609f4931258d945a9e4df60"
-    ],
-    [
-      "img/theme/hud-rail-mask-0.png",
-      "9a3d551a25368e8975622a58e91973d2406209663028a8a2242c2f396c80fc5d"
-    ],
-    [
-      "img/theme/hud-rail-mask-1.png",
-      "093c1ebe706abb2a7c6b7cfaa4af384389731d2927fd6a756d0b5e2998a814e8"
-    ],
-    [
-      "img/theme/battle-skill-tray.png",
-      "2a85d67f0dde4bbd9439f285d9add094946643edf6d80cfd6adf1f97caf094b1"
-    ],
-    [
-      "img/theme/top/hud-top.png",
-      "45f8b8f98a70d26a4093ee501d6ecbd61039b9f46e3b0d4e5086089816270d58"
-    ],
-    [
-      "img/theme/top/ui-hourglass-14x16.png",
-      "781aca8494e48b81a9d8902157483e07f2e422da078b8554e4ea4b8591ed7328"
-    ],
-    [
-      "img/theme/top/map-status-green.png",
-      "552d3b53586191fbe531dac3eee024b779c9eb39a1f2a125f9a1eb8a61270c15"
-    ],
-    [
-      "img/theme/top/map-status-yellow.png",
-      "998c40babc209d51a9da7542c2971b3830a4198e74888f38ade620f9f6be08b5"
-    ],
-    [
-      "img/theme/top/map-status-red.png",
-      "3d3144cdd90e8830f2b9b88fb307258b8ee095acfb2f0ef92ff23dd937081558"
-    ],
-    [
-      "img/theme/top/map-status-orange.png",
-      "cbf8a2e8277ca8fd3c70baab5b2530737ddf6e512766d6a9292ec87eeb45ad8c"
-    ],
-    [
-      "img/theme/top/ui-profession-b-20x20.png",
-      "473926dd605c34955ff0fbe58a7614cdbaf75bcf214257539a8df4ba8b0f8cc4"
-    ],
-    [
-      "img/theme/top/ui-profession-w-20x20.png",
-      "31fb970a588ea754489de489bdc9404eb0076cc4b9a45dbfe5163cb50fa31c18"
-    ],
-    [
-      "img/theme/top/ui-profession-p-20x20.png",
-      "26ad965287f55adc01fc0bc41508720ada9eaca66ce81aa21f77b2e1f3bcf92c"
-    ],
-    [
-      "img/theme/top/ui-profession-m-20x20.png",
-      "1d69f4a49f3bbdd3c99a66d2a9e4cabe4a13a505519b655ff4ee3a065cb99234"
-    ],
-    [
-      "img/theme/top/ui-profession-h-20x20.png",
-      "a06044726c459484c12d7df96e9e973b5d8be5bb44a3bfbdcc0c5bc891427402"
-    ],
-    [
-      "img/theme/top/profession-tracker.png",
-      "d6d208562b91bf6797a8885db7ba00def3eb50c2f1eaa3b9015475c0a9666136"
-    ],
-    [
-      "img/theme/top/ui-gold-21x21.png",
-      "70d74c0b85735d317636f69d35654a8d699ef37e20b7bc3057b9687c0d74b2a2"
-    ],
-    [
-      "img/theme/top/credits-gem.png",
-      "76262c195aa1b715b8b8b50ab97e0982da014a5a599660bd47ceb2904b52f087"
-    ],
-    [
-      "img/theme/native-widget-icons.png",
-      "b212f726ca6fc0c1566b4cb7fb90fa41c787dc7149714fb7e2acc4611ca564c6"
-    ],
-    [
-      "img/theme/window-close.png",
-      "24351272610023be9efbb3af7352ca1a1d9583387c9c7cb947e06ab7ecbad142"
-    ],
-    [
-      "img/theme/frost-surface.png",
-      "8a3287d8acf636b7a94d2daf2d7fa7a72294f2785297918f78debf8dbf700ca5"
-    ],
-    [
-      "img/theme/widget-wing.png",
-      "0d3bdc9300fe58728e2abd3fca14f6b8af0e9b03c2d0c33fca822f21444c08aa"
-    ],
-    [
-      "img/theme/silver-band-wide.png",
-      "5fa652b576c0ddeba03eea9c73d3eb0dbc7299facfc5c2cff1d9be17d3df5c01"
-    ],
-    [
-      "img/theme/panel-material.png",
-      "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
     ]
   ],
-  "cssSHA256": "d3095845c31496ccced996d98b7885f30b498f9e2d7b12f8474a882fb739b3d7",
-  "runtimeSHA256": "e3bed1c7b62e704e35b19a962c745352c2a067be195b1f7f47b09110ab67cc4b",
+  "assetMap": {
+    "img/away.gif": "away.gif",
+    "img/belka-gora-dol.png": "belka-gora-dol.png",
+    "img/bubble-bottom.png": "bubble-bottom.png",
+    "img/bubble-left.png": "bubble-left.png",
+    "img/bubble-right.png": "bubble-right.png",
+    "img/bubble-top.png": "bubble-top.png",
+    "img/buffs.gif": "buffs.gif",
+    "img/chat-icons.png": "chat-icons.png",
+    "img/control-message-25x24.png": "control-message-25x24.png",
+    "img/cursor-1n.png": "cursor-1n.png",
+    "img/cursor-2n.png": "cursor-2n.png",
+    "img/cursor-3n.png": "cursor-3n.png",
+    "img/cursor-4n.png": "cursor-4n.png",
+    "img/cursor-5n.png": "cursor-5n.png",
+    "img/def-npc.png": "def-npc.png",
+    "img/dialogue-attack.png": "dialogue-attack.png",
+    "img/dialogue-auction.png": "dialogue-auction.png",
+    "img/dialogue-barter.png": "dialogue-barter.png",
+    "img/dialogue-bonus_reselect.png": "dialogue-bonus_reselect.png",
+    "img/dialogue-cont_quest.png": "dialogue-cont_quest.png",
+    "img/dialogue-depo.png": "dialogue-depo.png",
+    "img/dialogue-exit.png": "dialogue-exit.png",
+    "img/dialogue-game.png": "dialogue-game.png",
+    "img/dialogue-heal.png": "dialogue-heal.png",
+    "img/dialogue-mail.png": "dialogue-mail.png",
+    "img/dialogue-motel.png": "dialogue-motel.png",
+    "img/dialogue-new_quest.png": "dialogue-new_quest.png",
+    "img/dialogue-next.png": "dialogue-next.png",
+    "img/dialogue-shop.png": "dialogue-shop.png",
+    "img/draconiteIconNormal.png": "draconiteIconNormal.png",
+    "img/draconite_small.png": "img--draconite_small.png",
+    "img/emo/battle.gif": "battle.gif",
+    "img/goldIconNormal.png": "goldIconNormal.png",
+    "img/gui/ReverseButton.png": "ReverseButton.png",
+    "img/gui/ReverseButtonHover.png": "ReverseButtonHover.png",
+    "img/gui/X-blackoutline.png": "X-blackoutline.png",
+    "img/gui/addons-icons.png": "addons-icons.png",
+    "img/gui/advent-calendar.png": "advent-calendar.png",
+    "img/gui/advent-windows.png": "advent-windows.png",
+    "img/gui/auctions/header_left.png": "header_left.png",
+    "img/gui/battle-banner.png": "battle-banner.png",
+    "img/gui/battle/battle-panel-timer.png": "battle-panel-timer.png",
+    "img/gui/battlePass/battle_pass_sprite.png": "battle_pass_sprite.png",
+    "img/gui/books-flower.png": "books-flower.png",
+    "img/gui/books-paper.png": "books-paper.png",
+    "img/gui/bubble/bottom_l.png": "bottom_l.png",
+    "img/gui/buffs-in-fight.png": "buffs-in-fight.png",
+    "img/gui/buttony.png": "buttony.png",
+    "img/gui/calendar-icons.png": "calendar-icons.png",
+    "img/gui/calendar-windows-1.png": "calendar-windows-1.png",
+    "img/gui/calendar-windows-2.png": "calendar-windows-2.png",
+    "img/gui/chat-powtarzalny-podklad.png": "chat-powtarzalny-podklad.png",
+    "img/gui/chest.png": "chest.png",
+    "img/gui/clan_icons.png": "clan_icons.png",
+    "img/gui/cloud_tail.png": "cloud_tail.png",
+    "img/gui/dialogue/dialogi.png": "dialogi.png",
+    "img/gui/draconite_small.png": "img--gui--draconite_small.png",
+    "img/gui/event-calendar-sprite-en.png": "event-calendar-sprite-en.png",
+    "img/gui/event-calendar-sprite-pl.png": "event-calendar-sprite-pl.png",
+    "img/gui/friend-header.png": "friend-header.png",
+    "img/gui/hpStateSprite.png": "hpStateSprite.png",
+    "img/gui/info-box-2.png": "info-box-2.png",
+    "img/gui/item-slot.png": "item-slot.png",
+    "img/gui/krew-klatki.png": "krew-klatki.png",
+    "img/gui/line-highlight-green2.png": "line-highlight-green2.png",
+    "img/gui/line-highlight-red2.png": "line-highlight-red2.png",
+    "img/gui/line-highlight-yellow2.png": "line-highlight-yellow2.png",
+    "img/gui/mail-gold.png": "mail-gold.png",
+    "img/gui/map-icons.png": "map-icons.png",
+    "img/gui/map-icons2.png": "map-icons2.png",
+    "img/gui/match-bar.png": "match-bar.png",
+    "img/gui/middle_graphics.png": "middle_graphics.png",
+    "img/gui/o.png": "o.png",
+    "img/gui/ok-blackoutline.png": "ok-blackoutline.png",
+    "img/gui/oneItemSlotToRepeat.png": "oneItemSlotToRepeat.png",
+    "img/gui/premium-panel-pl.png": "premium-panel-pl.png",
+    "img/gui/premium_sprite.png": "premium_sprite.png",
+    "img/gui/professions.png": "professions.png",
+    "img/gui/progressBar/percent-blue.png": "percent-blue.png",
+    "img/gui/progressBar/percent-red.png": "percent-red.png",
+    "img/gui/progressBar/percent-yellow.png": "percent-yellow.png",
+    "img/gui/progressBar/progress-bar.png": "progress-bar.png",
+    "img/gui/progressbary.png": "progressbary.png",
+    "img/gui/quests/quest_bar.png": "quest_bar.png",
+    "img/gui/search.png": "search.png",
+    "img/gui/shop/canopy.png": "canopy.png",
+    "img/gui/shop/gold-shop-lm.png": "gold-shop-lm.png",
+    "img/gui/shop/gold-shop.png": "gold-shop.png",
+    "img/gui/shop/pet-shop-gold.png": "pet-shop-gold.png",
+    "img/gui/table_header.png": "table_header.png",
+    "img/gui/triangle.png": "triangle.png",
+    "img/gui/width-card-button-active.png": "width-card-button-active.png",
+    "img/gui/width-card-button.png": "width-card-button.png",
+    "img/gui/window-frame.png": "window-frame.png",
+    "img/gui/zoom1.png": "zoom1.png",
+    "img/gui/zoom2.png": "zoom2.png",
+    "img/honorIconNormal.png": "honorIconNormal.png",
+    "img/money_small.png": "money_small.png",
+    "img/move-marker.png": "move-marker.png",
+    "img/notyfikacje-sprite.png": "notyfikacje-sprite.png",
+    "img/paseczek.png": "paseczek.png",
+    "img/shop-interior.png": "shop-interior.png",
+    "img/shop-item-cell.png": "shop-item-cell.png",
+    "img/theme/battle-skill-tray.png": "battle-skill-tray.png",
+    "img/theme/frost-surface.png": "frost-surface.png",
+    "img/theme/hp-empty.png": "hp-empty.png",
+    "img/theme/hp-mask.png": "hp-mask.png",
+    "img/theme/hud-decoration.png": "hud-decoration.png",
+    "img/theme/hud-rail-mask-0.png": "hud-rail-mask-0.png",
+    "img/theme/hud-rail-mask-1.png": "hud-rail-mask-1.png",
+    "img/theme/panel-material.png": "panel-material.png",
+    "img/theme/top/credits-gem.png": "credits-gem.png",
+    "img/theme/top/hud-top.png": "hud-top.png",
+    "img/theme/top/map-status-green.png": "map-status-green.png",
+    "img/theme/top/map-status-orange.png": "map-status-orange.png",
+    "img/theme/top/map-status-red.png": "map-status-red.png",
+    "img/theme/top/map-status-yellow.png": "map-status-yellow.png",
+    "img/theme/top/profession-tracker.png": "profession-tracker.png",
+    "img/theme/top/ui-gold-21x21.png": "ui-gold-21x21.png",
+    "img/theme/top/ui-hourglass-14x16.png": "ui-hourglass-14x16.png",
+    "img/theme/top/ui-profession-b-20x20.png": "ui-profession-b-20x20.png",
+    "img/theme/top/ui-profession-h-20x20.png": "ui-profession-h-20x20.png",
+    "img/theme/top/ui-profession-m-20x20.png": "ui-profession-m-20x20.png",
+    "img/theme/top/ui-profession-p-20x20.png": "ui-profession-p-20x20.png",
+    "img/theme/top/ui-profession-w-20x20.png": "ui-profession-w-20x20.png",
+    "img/theme/window-close.png": "window-close.png",
+    "img/ui-attack-19x19.png": "ui-attack-19x19.png",
+    "img/ui-collapse-13x13.png": "ui-collapse-13x13.png",
+    "img/ui-defence-19x19.png": "ui-defence-19x19.png",
+    "img/ui-down-22x22.png": "ui-down-22x22.png",
+    "img/ui-eye-12x12.png": "ui-eye-12x12.png",
+    "img/ui-gear-13x13.png": "ui-gear-13x13.png",
+    "img/ui-gear-24x24.png": "ui-gear-24x24.png",
+    "img/ui-info-14x16.png": "ui-info-14x16.png",
+    "img/ui-opacity-13x13.png": "ui-opacity-13x13.png",
+    "img/ui-pin-20x16.png": "ui-pin-20x16.png",
+    "img/ui-resist-19x19.png": "ui-resist-19x19.png",
+    "img/ui-resize-12x12.png": "ui-resize-12x12.png",
+    "img/ui-speed-19x19.png": "ui-speed-19x19.png",
+    "img/widget-extension.png": "widget-extension.png",
+    "img/winter-atelier/loading-logo.png": "loading-logo.png",
+    "inline-0e504c05a5a63510.png": "inline-0e504c05a5a63510.png",
+    "inline-39af64f5fd93b69a.png": "inline-39af64f5fd93b69a.png",
+    "inline-437ac6bdd5a723d7.png": "inline-437ac6bdd5a723d7.png",
+    "inline-71545b4647a7195d.png": "inline-71545b4647a7195d.png",
+    "inline-825cc642f17af895.png": "inline-825cc642f17af895.png",
+    "inline-aceba032ac821d0c.png": "inline-aceba032ac821d0c.png",
+    "inline-ad946dee4ddbcbd8.png": "inline-ad946dee4ddbcbd8.png",
+    "inline-cd22fd91ca370645.png": "inline-cd22fd91ca370645.png",
+    "inline-dda1742ad03c7a66.png": "inline-dda1742ad03c7a66.png",
+    "inline-ddc59ce9772c77d8.png": "inline-ddc59ce9772c77d8.png",
+    "inline-e752e04c8abee396.png": "inline-e752e04c8abee396.png",
+    "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
+    "obrazki/interface/emo/auctions_mark.png": "auctions_mark.png",
+    "obrazki/interface/emo/daily_quest_mark.png": "daily_quest_mark.png",
+    "obrazki/interface/emo/depo_mark.png": "depo_mark.png",
+    "obrazki/interface/emo/heal_mark.png": "heal_mark.png",
+    "obrazki/interface/emo/inn_mark.png": "inn_mark.png",
+    "obrazki/interface/emo/mail_mark.png": "mail_mark.png",
+    "obrazki/interface/emo/quest_mark.png": "quest_mark.png",
+    "obrazki/interface/emo/shop_mark.png": "shop_mark.png"
+  },
+  "cssSHA256": "f4ea3b4c0b1ebe15af093ba6f98017ccc9fcf837302deec54bb7b83e11b7a256",
+  "runtimeDependency": false,
+  "dynamicImageReplacement": "map-marker-only",
+  "marker": {
+    "original": "/img/cross.gif",
+    "file": "move-marker.png",
+    "size": [
+      32,
+      32
+    ],
+    "sourceSHA256": "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
+  },
   "artworkApproved": false
 }
