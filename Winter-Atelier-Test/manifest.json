@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0-test.0146f8cb",
-  "build": "0146f8cbdd554a02",
+  "version": "0.2.0-test.b644757d",
+  "build": "b644757d2176bf96",
   "originals": {
     "/img/gui/cursor/1n.png": "img/gui/cursor/1n.png",
     "/img/gui/cursor/1n.cur": "img/gui/cursor/1n-cur.png",
@@ -668,7 +668,7 @@
       "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
     ]
   ],
-  "cssSHA256": "bcd915ab43cc1347641a3842deb57bd0b69735dfce7dcea5163ab48f2011b424",
-  "runtimeSHA256": "472fec30b260c209db90801a783c99a6866fa2318d83fe1ea30002677f3c50af",
+  "cssSHA256": "29bc17cac5908bd85acc9a0200a7a8e366139778ace43e294e9daa8ebed1289b",
+  "runtimeSHA256": "cdf32e4489a5384875a5690834de2fd4ae418a6f2ff72dce82220f7963d707a3",
   "artworkApproved": false
 }

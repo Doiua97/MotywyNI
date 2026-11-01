@@ -27,22 +27,19 @@ ins,mark{color:var(--wa-text-main);}
 .interface-element-middle-2-background,.interface-element-middle-2-background-stretch{background-color:var(--wa-bg-secondary);border-image-source:url(../assets-production/img/gui/middle_graphics.png);}
 .interface-element-background-color-3{background-color:var(--wa-bg-secondary);}
 .interface-element-middle-3-background,.interface-element-middle-3-background-stretch{background-color:var(--wa-bg-secondary);border-image-source:url(../assets-production/img/gui/middle_graphics.png);}
-.interface-element-background-color-4{background-color:var(--wa-bg-secondary);}
-.interface-element-middle-4-background{background-color:var(--wa-bg-secondary);border-image-source:url(../assets-production/img/gui/middle_graphics.png);}
 .interface-element-one-item-slot-2{background-color:var(--wa-bg-secondary);}
 .interface-element-one-item-slot,.interface-element-one-item-slot-decor{background-image:url(../assets-production/img/gui/buttony.png);}
+.interface-element-middle-4-background{border-image-source:url(../assets-production/img/gui/middle_graphics.png);}
 .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch{border-image-source:url(../assets-production/img/gui/quests/quest_bar.png);}
 .interface-element-header-1-background,.interface-element-header-1-background-stretch{border-image-source:url(../assets-production/img/gui/table_header.png);}
 .interface-element-header-2-background,.interface-element-header-2-background-stretch{border-image-source:url(../assets-production/img/gui/match-bar.png);}
 .interface-element-table-header-3-background,.interface-element-table-3 .table-header-tr td{background-color:var(--wa-bg-secondary);}
 .interface-element-header-3{background-color:var(--wa-bg-secondary);color:var(--wa-text-main);}
 .interface-element-table-3{color:var(--wa-text-main);}
-.interface-element-table-3 tr:nth-of-type(odd){background-color:var(--wa-bg-secondary);}
 .interface-element-table-header-1-background{background-image:url(../assets-production/img/gui/table_header.png);}
 .ie-chest{background-image:url(../assets-production/img/gui/chest.png);}
 .interface-element-sound-speaker,.interface-element-sound-speaker-mute{background-image:url(../assets-production/img/gui/buttony.png);}
-.interface-element-amount,.c-timer__text{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.one-observe__title,.interface-element-progress-bar-0 .value,.interface-element-progress-bar-1 .value,.interface-element-progress-bar-2 .value{color:var(--wa-text-main);}
+.interface-element-amount,.c-timer__text,.one-observe__title,.interface-element-progress-bar-0 .value,.interface-element-progress-bar-1 .value,.interface-element-progress-bar-2 .value{color:var(--wa-text-main);}
 .ie-grid__label{background-color:var(--wa-bg-secondary);}
 .show-more-icon{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .show-more-icon.show-more{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -61,7 +58,7 @@ ins,mark{color:var(--wa-text-main);}
 .ie-icon-arrow-left{background-image:url(../assets-production/inline-71545b4647a7195d.png);}
 .ie-icon-arrow-right{background-image:url(../assets-production/inline-0e504c05a5a63510.png);}
 .ie-icon-refresh{background-image:url(../assets-production/inline-e752e04c8abee396.png);}
-.c-amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
+.c-amount{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
 .draconite:after{background-image:url(../assets-production/img/gui/buttony.png);}
 .button .label .small-draconite{background-image:url(../assets-production/img/draconite_small.png);}
 .button .label .small-money{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
@@ -84,14 +81,10 @@ ins,mark{color:var(--wa-text-main);}
 .layer.interface-layer .positioner.top .matchmaking-timer,.layer.interface-layer .positioner.top .matchmaking-timer.green{background-image:url(../assets-production/img/gui/buttony.png);}
 .layer.interface-layer .positioner.bottom .bg{background-image:url(../assets-production/img/gui/belka-gora-dol.png);}
 .layer.interface-layer .positioner.bottom .bg-additional-widget-left,.layer.interface-layer .positioner.bottom .bg-additional-widget-right{background-image:url(../assets-production/img/gui/buttony.png);}
-.layer.interface-layer .mini-map{background-color:var(--wa-bg-secondary);}
 .layer.interface-layer .mini-map .mini-map-map .mini-local-map .more{background-image:url(../assets-production/img/gui/map-icons.png);}
-.layer.interface-layer .mini-map .mini-map-map .mini-local-map .hide-more .border-wrapper,body:not(.no-select) .layer.interface-layer .mini-map .mini-map-map .mini-global-map-overflow .mini-global-map .one-location-on-map.mark,body:not(.no-select) .layer.interface-layer .mini-map .mini-map-map .mini-global-map-overflow .mini-global-map .one-location-on-map:hover,.layer.interface-layer .mini-map .mini-map-map .mini-global-map-overflow .mini-global-map .hero-is-here{background-color:var(--wa-bg-secondary);}
 .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane .one-location-on-list:hover{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .layer.interface-layer .main-column{background-color:var(--wa-bg-secondary);}
-.layer.interface-layer .main-column.right-column,.layer.interface-layer .main-column.right-column .border{background-image:url(../assets-production/img/gui/chat-powtarzalny-podklad.png);}
-.layer.interface-layer .main-column .extended-stats,.additional-bar-br .layer.interface-layer .main-column .extended-stats:after{background-color:var(--wa-bg-secondary);}
-.layer.interface-layer .main-column .extended-stats .border{background-image:url(../assets-production/img/gui/chat-powtarzalny-podklad.png);}
+.layer.interface-layer .main-column.right-column,.layer.interface-layer .main-column.right-column .border,.layer.interface-layer .main-column .extended-stats .border{background-image:url(../assets-production/img/gui/chat-powtarzalny-podklad.png);}
 .alerts-layer .scroll-wrapper.menu-wrapper,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper,.mAlert-layer .scroll-wrapper.menu-wrapper,.console-layer .scroll-wrapper.menu-wrapper{background-color:var(--wa-bg-secondary);}
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background-image:url(../assets-production/img/gui/o.png);}
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
@@ -99,22 +92,17 @@ ins,mark{color:var(--wa-text-main);}
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true],.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option[blockclick=true]{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .zoom-layer .minus .m-graph{background-image:url(../assets-production/img/gui/zoom1.png);}
 .zoom-layer .plus .p-graph{background-image:url(../assets-production/img/gui/zoom2.png);}
-.main-buttons-container .empty-slot-widget{background-color:var(--wa-bg-secondary);}
 .main-buttons-container DIV.version-info{color:var(--wa-text-main);}
-.interface-layer .quick_messages .chat-message{background-color:var(--wa-bg-secondary);}
 .battle-msg{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
-.battle-msg .dmg,.battle-msg.txt{background-color:var(--wa-bg-secondary);}
 .game-window-positioner .character_wrapper .builds-interface:hover,.game-window-positioner .character_wrapper .stats-light-mode .stats-button,.game-window-positioner .character_wrapper .stats-wrapper .stats-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .game-window-positioner .character_wrapper .stats-light-mode .stats-list li .stat-icon,.game-window-positioner .character_wrapper .stats-wrapper .stats-list li .stat-icon,.game-window-positioner .character_wrapper .pvp-btn{background-image:url(../assets-production/img/gui/buttony.png);}
 .game-window-positioner .character_wrapper .pvp-btn:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.depo .grid-wrapper .grid .item.doubled .highlight.h-exist,.depo .grid-wrapper .grid .item.doubled .highlight,.inventory-grid .item.doubled .highlight.h-exist,.inventory-grid .item.doubled .highlight,.depo .grid-wrapper .grid .bottomItem.doubled .highlight.h-exist,.depo .grid-wrapper .grid .bottomItem.doubled .highlight,.inventory-grid .bottomItem.doubled .highlight.h-exist,.inventory-grid .bottomItem.doubled .highlight,.item .track,.bottomItem .track,.item .quest-item-require,.bottomItem .quest-item-require{background-color:var(--wa-bg-secondary);}
-.item .amount,.bottomItem .amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.item .amount.low-value,.bottomItem .amount.low-value,.item .cooldown,.bottomItem .cooldown{color:var(--wa-text-main);}
+.depo .grid-wrapper .grid .item.doubled .highlight.h-exist,.depo .grid-wrapper .grid .item.doubled .highlight,.inventory-grid .item.doubled .highlight.h-exist,.inventory-grid .item.doubled .highlight,.depo .grid-wrapper .grid .bottomItem.doubled .highlight.h-exist,.depo .grid-wrapper .grid .bottomItem.doubled .highlight,.inventory-grid .bottomItem.doubled .highlight.h-exist,.inventory-grid .bottomItem.doubled .highlight{background-color:var(--wa-bg-secondary);}
+.item .amount,.bottomItem .amount,.item .amount.low-value,.bottomItem .amount.low-value,.item .cooldown,.bottomItem .cooldown{color:var(--wa-text-main);}
 .addHoverFromBottomItem{background-image:url(../assets-production/img/gui/buttony.png);}
 .game-window-positioner .inventory_wrapper .bags-navigation .item{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .inventory-grid .item .disable-icon,.equipment-wrapper .item .disable-icon,.ib-item-list .item .disable-icon{background-image:url(../assets-production/img/gui/X-blackoutline.png);}
 .inventory-grid .item .choose-icon,.equipment-wrapper .item .choose-icon,.ib-item-list .item .choose-icon{background-image:url(../assets-production/img/gui/ok-blackoutline.png);}
-input.default{background-color:var(--wa-bg-secondary);}
 input.default:disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .skill-req-wrapper{background-image:url(../assets-production/img/gui/buttony.png);}
 .skill-drag{background-color:var(--wa-bg-secondary);}
@@ -123,11 +111,10 @@ input.default:disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),ur
 #lvl_up_notif,#consoleNotif,#loggedPriceNotif{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 #mailnotifier{background-image:url(../assets-production/img/gui/buttony.png);}
 .sticky-tip .item-head{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.info-box{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.info-box{color:var(--wa-text-main);}
 .copy-btn{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .character-avatar:not(.disabled),.character-avatar.inactive{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .character-avatar.active{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
-.loading-element-component{background-color:var(--wa-bg-secondary);}
 .loading-element-component .loading-element-text{color:var(--wa-text-main);}
 .cost-component.gold .icon{background-image:url(../assets-production/img/goldIconNormal.png);}
 .cost-component.gold.small .icon{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
@@ -154,23 +141,19 @@ input.default:disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),ur
 .color-picker .pick-color-palette .first-column-icon .icon-to-choose-wrapper:hover,.color-picker .pick-color-palette .first-column-color .palette-one-color,.color-picker .pick-color-palette .second-column-color .palette-one-color{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .c-slider__input{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;background-color:var(--wa-bg-secondary);}
 .c-slider__input::-webkit-slider-thumb,.c-slider__input::-moz-range-thumb{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.c-swiper .swiper-slide.swiper-lazy{background-color:var(--wa-bg-secondary);}
-.c-swiper .swiper-arrow{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
+.c-swiper .swiper-arrow{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .c-swiper .swiper-bullet{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.c-swiper .swiper-bullet:before,.c-swiper .swiper-bullet.swiper-bullet--active:before,.c-swiper .swiper-bullet:hover:before{background-color:var(--wa-bg-secondary);}
+.c-swiper .swiper-bullet.swiper-bullet--active:before,.c-swiper .swiper-bullet:hover:before{background-color:var(--wa-bg-secondary);}
 .c-table table th{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
 .c-table table td{color:var(--wa-text-main);}
-.c-table table tbody tr:not(:has(th)):nth-child(odd) td,.c-table table tbody tr:not(:has(th)):nth-child(odd) .is-featured,.c-table .table tbody td.is-featured{background-color:var(--wa-bg-secondary);}
+.c-table table tbody tr:not(:has(th)):nth-child(odd) .is-featured,.c-table .table tbody td.is-featured{background-color:var(--wa-bg-secondary);}
 .c-table .table .hover-td:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .c-table .table .item-bid-td .somebody-bid{background-image:url(../assets-production/img/gui/triangle.png);}
 .outfit-card{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.outfit-card .disable-text{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.outfit-card .text-wrapper{color:var(--wa-text-main);}
-.outfit-card .disable,.outfit-card .amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.outfit-card .disable-text,.outfit-card .text-wrapper,.outfit-card .disable,.outfit-card .amount{color:var(--wa-text-main);}
 .payment-selector__option--gold .payment-selector__icon{background-image:url(../assets-production/img/goldIconNormal.png);}
 .payment-selector__option--credits .payment-selector__icon{background-image:url(../assets-production/img/draconiteIconNormal.png);}
-.item-on-transparent-list-component{background-color:var(--wa-bg-secondary);}
-.item-on-transparent-list-component:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
+.item-on-transparent-list-component:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .item-on-transparent-list-component .name-wrapper,.item-on-transparent-list-component .value-wrapper{color:var(--wa-text-main);}
 .button,.widget-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;--wa-control-normal-image:linear-gradient(135deg,#e3f4ff18,transparent 22%,transparent 78%,#030c1440),linear-gradient(var(--wa-control-top,#203b49ed),var(--wa-control-bottom,#091c26f5)),var(--wa-panel-image);--wa-control-bevel:inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63;color:var(--wa-text-main);background-color:#0b1c26;background-image:var(--wa-control-normal-image);border-color:#061019;box-shadow:var(--wa-control-bevel);}
 .button.window-is-open:before,.widget-button.window-is-open:before,.button.red.window-is-open:before,.widget-button.red.window-is-open:before,.button.blue.window-is-open:before,.widget-button.blue.window-is-open:before,.button.green.window-is-open:before,.widget-button.green.window-is-open:before,.button.purple.window-is-open:before,.button.violet.window-is-open:before,.widget-button.purple.window-is-open:before,.widget-button.violet.window-is-open:before,.button.orange.window-is-open:before,.widget-button.orange.window-is-open:before,.button.transparent.window-is-open:before,.widget-button.transparent.window-is-open:before,.button.blink-violet.window-is-open:before,.widget-button.blink-violet.window-is-open:before,.button.pressed.window-is-open:before,.widget-button.pressed.window-is-open:before{background-color:transparent;box-shadow:none;pointer-events:none;}
@@ -178,7 +161,7 @@ input.default:disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),ur
 .button.background-gold .label:after,.widget-button.background-gold .label:after{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open:before,.button.black.window-is-open:before,body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).window-is-open:before,.widget-button.black.window-is-open:before{background-color:transparent;box-shadow:none;pointer-events:none;}
 .button .add-bck,.widget-button .add-bck{background-image:url(../assets-production/img/gui/buttony.png);}
-.widget-button .amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
+.widget-button .amount{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
 .btn-min{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .btn-min.disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .settings-button,.toggle-size-button,.change-visible-button,.delete-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
@@ -189,14 +172,9 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .divide-button .button .label .icon .pause,.divide-button .button .label .icon .play,.widget-button .icon{background-image:url(../assets-production/img/gui/buttony.png);}
 .widget-button .icon.send-clan-msg,.widget-button .icon.quick-party,.widget-button .icon.loot-filter-icon,.widget-button .icon.timer-icon,.widget-button .icon.clock-icon,.widget-button .icon.ground-items-browser-icon,.widget-button .icon.inventory-browser-icon,.widget-button .icon.autoHeal,.widget-button .icon.addon_1,.widget-button .icon.addon_2,.widget-button .icon.addon_3,.widget-button .icon.addon_4,.widget-button .icon.addon_5,.widget-button .icon.addon_6,.widget-button .icon.addon_7,.widget-button .icon.addon_8,.widget-button .icon.addon_9,.widget-button .icon.addon_10,.widget-button .icon.addon_11,.widget-button .icon.addon_12,.widget-button .icon.addon_13,.widget-button .icon.addon_14,.widget-button .icon.addon_15,.widget-button .icon.addon_16,.widget-button .icon.addon_17,.widget-button .icon.addon_18,.widget-button .icon.addon_19,.widget-button .icon.addon_20,.widget-button .icon.addon_21,.widget-button .icon.addon_22,.widget-button .icon.addon_23,.widget-button .icon.addon_24,.widget-button .icon.addon_25,.widget-button .icon.addon_27,.widget-button .icon.addon_29{background-image:url(../assets-production/img/gui/addons-icons.png);}
 .info-icon{background-image:url(../assets-production/img/gui/buttony.png);}
-.attach-icon{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
-.window-backdrop{background-color:var(--wa-bg-secondary);}
-.border-window .increase-opacity,.dialogue-window .increase-opacity{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
+.attach-icon,.border-window .increase-opacity,.dialogue-window .increase-opacity{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .border-window .increase-opacity:hover,.dialogue-window .increase-opacity:hover{background-image:url(../assets-production/img/gui/buttony.png);}
-.border-window.transparent .tw-tabs>div{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.border-window.transparent .tw-tabs>div:not(.disabled):hover{background-color:var(--wa-bg-secondary);}
-.border-window.transparent .tw-one-tab{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.border-window.transparent .tw-one-tab:not(.disabled):hover,.border-window.transparent .border-image{background-color:var(--wa-bg-secondary);}
+.border-window.transparent .tw-tabs>div,.border-window.transparent .tw-one-tab{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .border-window.transparent .collapse{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .border-window.transparent .close-button-corner-decor .close-button:hover{color:var(--wa-text-main);}
 .border-window.mAlert .paper-background,.border-window.mAlert-mobile-layer .paper-background{background-color:var(--wa-bg-secondary);}
@@ -210,9 +188,8 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .search-component{border-image-source:url(../assets-production/img/gui/search.png);}
 .search-component .search{color:var(--wa-text-main);}
 .gw{background-image:url(../assets-production/img/exit.png);}
-.scroll-wrapper .scrollbar-wrapper .track .handle{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
-.scroll-wrapper.scroll-wrapper--dark .scrollbar-wrapper .track .handle{background-color:var(--wa-bg-secondary);}
-.test-scroll{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.scroll-wrapper .scrollbar-wrapper .track .handle{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
+.test-scroll{color:var(--wa-text-main);}
 .checkbox,.checkbox.active{background-image:url(../assets-production/img/gui/buttony.png);}
 .myAutoComplete{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .myAutoComplete:hover{background-color:var(--wa-bg-secondary);}
@@ -235,10 +212,8 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .one-item-on-divide-list{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .one-item-on-divide-list:not(.disabled):not(.active):hover{background-color:var(--wa-bg-secondary);}
 .one-item-on-divide-list.active .name-wrapper{color:var(--wa-text-main);}
-.one-item-on-divide-list.quest-item-require{background-color:var(--wa-bg-secondary);}
 .one-item-on-divide-list.disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;background-color:var(--wa-bg-secondary);}
 .one-item-on-divide-list.disabled:after{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
-.crafting-reagent{background-color:var(--wa-bg-secondary);}
 .crafting-reagent .reagent-wrapper .reagent-info .amount-items,.crafting-reagent .reagent-wrapper .owned-items,.crafting-reagent .item-name,.crafting-reagent .offer-name,.crafting-description-header .item-name,.crafting-description-header .offer-name{color:var(--wa-text-main);}
 .cards-header-wrapper .header-background-graphic{border-image-source:url(../assets-production/img/gui/friend-header.png);}
 .cards-header-wrapper .cards-header .card{background-image:url(../assets-production/img/gui/width-card-button-active.png);color:#b7cedc;}
@@ -254,17 +229,15 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .loot-window .items-wrapper .loot-item-wrapper .button .label.want,.loot-window .items-wrapper .loot-item-wrapper .button .label.not,.loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets-production/img/gui/buttony.png);}
 .relogger__header{color:var(--wa-text-main);}
 .relogger__one-world{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.relogger__one-world:hover{background-color:var(--wa-bg-secondary);}
 .relogger__error,.who-is-here .scroll-wrapper .scroll-pane .empty,.who-is-here .scroll-wrapper .scroll-pane .one-other .center{color:var(--wa-text-main);}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .battle.active{background-image:url(../assets-production/img/emo/battle.gif);}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis.active{background-image:url(../assets-production/img/gui/buttony.png);}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .stasis-incoming.active{background-image:url(../assets-production/img/away.gif);}
 .who-is-here .scroll-wrapper .scroll-pane .one-other .center .wanted-wrapper .skull{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
-.dialogue-window .border-image,.dialogue-window .dialogue-background-color{background-color:var(--wa-bg-secondary);}
 .dialogue-window .content{color:var(--wa-text-main);}
 .dialogue-window .content .answers li{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .dialogue-window .content .answers li div.icon{background-image:url(../assets-production/img/gui/dialogue/dialogi.png);}
-.dialogue-window .content .answers li:hover,.salvage__label{background-color:var(--wa-bg-secondary);}
+.salvage__label{background-color:var(--wa-bg-secondary);}
 .salvage__arrows:before,.salvage__arrows:after{background-image:url(../assets-production/img/gui/buttony.png);}
 .enhance__progress-bg{background-image:url(../assets-production/img/gui/progressbary.png);}
 .enhance__progress-text{color:var(--wa-text-main);}
@@ -281,10 +254,10 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .popup-menu{background-color:var(--wa-bg-secondary);}
 .popup-menu__header{color:var(--wa-text-main);}
 .popup-menu .menu-item{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.popup-menu .menu-item.label{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;background-color:var(--wa-bg-secondary);}
+.popup-menu .menu-item.label{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .popup-menu .menu-item.menu-item--red,.popup-menu .menu-item.menu-item--red:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu),.popup-menu .menu-item.menu-item--debug,.popup-menu .menu-item.menu-item--debug:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){background-color:var(--wa-bg-secondary);}
 .popup-menu .menu-item.disabled,.popup-menu .menu-item.cooldown-disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;background-color:var(--wa-bg-secondary);}
-.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu),.popup-menu .s_cost{background-color:var(--wa-bg-secondary);}
+.popup-menu .menu-item:hover:not(.label):not(.disabled):not(.cooldown-disabled):not(.one-step-skill-menu){background-color:var(--wa-bg-secondary);}
 .drop-down-menu-section .state-of-type{background-image:url(../assets-production/img/gui/buttony.png);}
 .drop-down-menu-section .type-header{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/auctions/header_left.png);}
 .drop-down-menu-section .type-header .type-header-label{color:var(--wa-text-main);}
@@ -301,9 +274,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .auction-observe-action .observe-img,.auction-observe-action.is-observed .observe-img{background-image:url(../assets-production/img/gui/buttony.png);}
 .auction-off-item-panel,.chat-configure-window{color:var(--wa-text-main);}
 .new-chat-window{background-color:var(--wa-bg-secondary);}
-.new-chat-message{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.new-chat-message:nth-of-type(2n/**/+2),.new-chat-message:hover{background-color:var(--wa-bg-secondary);}
-.new-chat-message .information-part .author-section.click-able,.new-chat-message .information-part .receiver-section.click-able,.new-chat-message .message-part .message-section .click-able,.new-chat-message .message-part .link.mark-message-span,.new-chat-message .message-part .linked-chat-item,.new-chat-message .message-part .chat-message-clan-link,.new-chat-message .message-part .chat-message-profile-link{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
+.new-chat-message,.new-chat-message .information-part .author-section.click-able,.new-chat-message .information-part .receiver-section.click-able,.new-chat-message .message-part .message-section .click-able,.new-chat-message .message-part .link.mark-message-span,.new-chat-message .message-part .linked-chat-item,.new-chat-message .message-part .chat-message-clan-link,.new-chat-message .message-part .chat-message-profile-link{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .new-chat-message .information-part .author-section.click-able:hover,.new-chat-message .information-part .receiver-section.click-able:hover,.new-chat-message .message-part .message-section .click-able:hover,.new-chat-message .message-part .link.mark-message-span:hover,.new-chat-message .message-part .linked-chat-item:hover,.new-chat-message .message-part .chat-message-clan-link:hover,.new-chat-message .message-part .chat-message-profile-link:hover{background-color:var(--wa-bg-secondary);}
 .new-chat-message .message-part.special-style-7{color:var(--wa-text-main);}
 .new-chat-message .message-part.special-style-8 a:hover,.new-chat-message .message-part.special-style-9 a:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
@@ -314,17 +285,15 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .chat-input-wrapper .control-wrapper .menu-card .card-remove{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .chat-input-wrapper .control-wrapper .menu-card .card-list{background-color:var(--wa-bg-secondary);}
 .chat-input-wrapper .control-wrapper .menu-card .card-list .input-channel-item{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.chat-input-wrapper .control-wrapper .menu-card .card-list .input-channel-item:hover{background-color:var(--wa-bg-secondary);}
 .chat-input-wrapper .control-wrapper .style-message{color:var(--wa-text-main);}
 .chat-input-wrapper .control-wrapper .chat-config-wrapper .chat-config-wrapper-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .chat-input-wrapper .control-wrapper .chat-notification-wrapper .chat-notification{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
 .world-window__info{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.players-online__item:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
-.server-parameters__item:nth-child(odd),.location-parameters__item:nth-child(odd){background-color:var(--wa-bg-secondary);}
+.players-online__item:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .server-parameters__item-value a,.location-parameters__item-value a{color:var(--wa-text-main);}
 .server-parameters__sv,.location-parameters__sv{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .hunting-statistics{color:var(--wa-text-main);}
-.hunting-statistics-table tr:nth-child(2n),.hunting-statistics-table-header tr:nth-child(2n),.hunting-statistics-table th,.hunting-statistics-table-header th{background-color:var(--wa-bg-secondary);}
+.hunting-statistics-table th,.hunting-statistics-table-header th{background-color:var(--wa-bg-secondary);}
 .hunting-statistics-table th.can-hover:hover,.hunting-statistics-table-header th.can-hover:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .code-manager .wrapper .grid .group .black{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .promo-window .items-wrapper .shop-promo-item .item-price-new{color:var(--wa-text-main);}
@@ -344,25 +313,22 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .shop-wrapper .shop-content{color:var(--wa-text-main);}
 .shop-wrapper .shop-content .items-grid .label,.shop-wrapper .shop-content .for-you-plug-disabled{background-color:var(--wa-bg-secondary);}
 .shop-wrapper .shop-content .for-you-plug-disabled .disabled-text{color:var(--wa-text-main);}
-.shop-wrapper .shop-content .shop-balance:after{background-color:var(--wa-bg-secondary);}
 .shop-wrapper .shop-content .items-grid .item{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .trade-window header .h_background .left,.trade-window header .h_background .right{background-image:url(../assets-production/img/gui/dialogue/dialogi.png);}
 .trade-window .content .watch,.trade-window .content .show,.trade-window .content .buy,.trade-window .content .sell,.trade-window .content .gold-left,.trade-window .content .gold-right,.trade-window .content .credits-left,.trade-window .content .credits-right,.trade-window .content .other-watch-item,.trade-window .content .hero-show-item{background-color:var(--wa-bg-secondary);}
 .trade-window .content .info .label{color:var(--wa-text-main);}
-.trade-window .content .prize .gold-prize,.trade-window .content .prize .other-prize,.trade-window .content .prize .hero-prize{background-color:var(--wa-bg-secondary);}
+.trade-window .content .prize .other-prize,.trade-window .content .prize .hero-prize{background-color:var(--wa-bg-secondary);}
 .trade-window .content .prize .hero-prize input.default,.trade-window .content .prize .hero-prize input.default::placeholder{color:var(--wa-text-main);}
 .trade-window .content .hero-credits,.trade-window .content .other-credits{background-color:var(--wa-bg-secondary);}
 .trade-window .content .decision .dec-item{color:var(--wa-text-main);}
 .matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .star,.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .half-star,.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .empty-star,.matchmaking-summary .summary-content .result-panel .middle-side .arrow.win,.matchmaking-summary .summary-content .result-panel .middle-side .arrow.lose{background-image:url(../assets-production/img/gui/buttony.png);}
-.matchmaking-summary .bottom-panel-graphics .tokens-amount,.character-reset .prof-section .prof-description,.sraj-wnd .sraj-content,.activity-observe__empty,.captcha__question,.captcha__triesleft{color:var(--wa-text-main);}
-.captcha-pre-info{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.captcha-pre-info__toggler{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
+.matchmaking-summary .bottom-panel-graphics .tokens-amount,.character-reset .prof-section .prof-description,.sraj-wnd .sraj-content,.activity-observe__empty,.captcha__question,.captcha__triesleft,.captcha-pre-info{color:var(--wa-text-main);}
+.captcha-pre-info__toggler{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .captcha-pre-info__arrow{background-image:url(../assets-production/img/gui/buttony.png);}
 .captcha-toggle-btn{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .party__list .party-member{color:var(--wa-text-main);}
 .party__list .party-member.stasis .stasis-icon{background-image:url(../assets-production/img/gui/buttony.png);}
 .party__list .party-member.stasis-incoming .stasis-incoming-icon{background-image:url(../assets-production/img/away.gif);}
-.party__list .party-member .member-hp-bar{background-color:var(--wa-bg-secondary);}
 .party__list .party-member .table-wrapper .avatar .grave-warrior-other{background-image:url(../assets-production/img/rip1.png);}
 .party__list .party-member .table-wrapper .info-icons .party__crown{background-image:url(../assets-production/img/gui/buttony.png);}
 .party__list .party-member .table-wrapper .info-icons .give-lead,.party__list .party-member .table-wrapper .info-icons .kick-out,.party__list .party-member .table-wrapper .info-icons .party__disband{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
@@ -372,19 +338,14 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .party__loot_level_range,.party__professions,.poll__question{color:var(--wa-text-main);}
 .poll__answers-item [type=radio]+label{color:var(--wa-text-main);cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .ib-content .ib-filters .ib-filter-tab{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.ib-content .ib-filters .ib-filter-tab:hover{background-color:var(--wa-bg-secondary);}
 .ib-content .ib-filters .ib-filter-tab .ib-filter-icon{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
-.ib-content .ib-filters .ib-filter-tab .amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.ib-content .ib-item-list:empty:after,.gib-content .map_item_table .map_item_cell,.elite-timer .row,.elite-timer .row.long{color:var(--wa-text-main);}
+.ib-content .ib-filters .ib-filter-tab .amount,.ib-content .ib-item-list:empty:after,.gib-content .map_item_table .map_item_cell,.elite-timer .row,.elite-timer .row.long{color:var(--wa-text-main);}
 .elite-timer .row .col .btn-opt,.elite-timer .row .col .btn-opt:hover{background-image:url(../assets-production/img/gui/buttony.png);}
 .elite-timer .inp input,.elite-timer .inp .input-wrapper,.elite-timer-edit .all-options,.elite-timer-edit input,.elite-timer-edit input.sec-inp,.elite-timer-edit .sec-txt{color:var(--wa-text-main);}
 .elite-timer-edit .info-icon{background-image:url(../assets-production/img/gui/buttony.png);}
 .margo-watch-window .content{color:var(--wa-text-main);}
 .mm-mark-list .mm-mark-item{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.extended-stats .scroll-pane .stats-section{color:var(--wa-text-main);}
-.extended-stats .scroll-pane .stat-row:hover{background-color:var(--wa-bg-secondary);}
-.map-overlay.map-reloader-splash div,.map-overlay.dead-overlay .positioner,.map-overlay.dead-overlay .positioner .inner-text,.map-overlay.dead-overlay .positioner .dazed-time{color:var(--wa-text-main);}
-.stasis-incoming-overlay,.stasis-overlay{background-color:var(--wa-bg-secondary);}
+.extended-stats .scroll-pane .stats-section,.map-overlay.map-reloader-splash div,.map-overlay.dead-overlay .positioner,.map-overlay.dead-overlay .positioner .inner-text,.map-overlay.dead-overlay .positioner .dazed-time{color:var(--wa-text-main);}
 .bottom-panel-of-bottom-positioner .bottom-panel-graphic{background-image:url(../assets-production/img/theme/hud-decoration.png);width:664px;height:82px;left:0px;top:0px;z-index:1;background-position:0px 0px;background-size:664px 82px;}
 .bottom-panel-of-bottom-positioner .hp-indicator .blood-frame{background-image:url(../assets-production/img/gui/hpStateSprite.png);}
 .bottom-panel-of-bottom-positioner .hp-indicator .blood{background-image:url(../assets-production/img/gui/krew-klatki.png);}
@@ -399,40 +360,34 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .bottom-panel-pointer-bg .pointer-exp-graphic,.bottom-panel-pointer-bg .pointer-ttl-graphic{background-image:none;}
 .border-window.transparent .search-component:before{background-image:url(../assets-production/img/gui/buttony.png);}
 .border-window.transparent .search-component .search,.border-window.transparent .search-component .search::placeholder,.border-window.tip-window .header-label-positioner .header-label .text,.divide-panel .left-column .left-column-header,.divide-panel .left-column .search-item-wrapper .search-item{color:var(--wa-text-main);}
-.console-window .scroll-wrapper .scroll-pane,.console-window .input-wrapper{background-color:var(--wa-bg-secondary);}
 .battle-controller .graphics .timer-graphic{background-image:url(../assets-production/img/gui/battle/battle-panel-timer.png);}
 .battle-controller .battle-content .surrender{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .battle-controller .battle-content .surrender:hover{background-image:url(../assets-production/img/gui/buttony.png);}
-.battle-controller .battle-content .right-column .battle-end-layer{background-color:var(--wa-bg-secondary);}
 .battle-controller .battle-content .buffs-wrapper .buff{background-image:url(../assets-production/img/gui/buffs-in-fight.png);}
 .battle-controller .time .time-inner{background-image:url(../assets-production/img/gui/progressbary.png);}
 .battle-controller .skill-usable-add-slots.left .skill-usable-slot .cooldown-left,.battle-controller .skill-usable-add-slots.right .skill-usable-slot .cooldown-left{color:var(--wa-text-main);}
 .battle-controller .toggle-battle{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .battle-controller .toggle-battle.show-more{background-image:url(../assets-production/img/gui/buttony.png);}
-.battle-hot-skills-help-window .skill-usable-slot{background-color:var(--wa-bg-secondary);}
 .battle-hot-skills-help-window .skill-usable-slot .cooldown-left{color:var(--wa-text-main);}
 .progress-bar-wrapper .background{background-image:url(../assets-production/img/gui/progressBar/progress-bar.png);}
 .progress-bar-wrapper.red .bar-percentage{background-image:url(../assets-production/img/gui/progressBar/percent-red.png);}
 .progress-bar-wrapper.blue .bar-percentage{background-image:url(../assets-production/img/gui/progressBar/percent-blue.png);}
 .progress-bar-wrapper.yellow .bar-percentage{background-image:url(../assets-production/img/gui/progressBar/percent-yellow.png);}
 .battle-skill{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.battle-skill .background,.battle-skill .type{background-color:var(--wa-bg-secondary);}
+.battle-skill .background{background-color:var(--wa-bg-secondary);}
 .battle-skill.disabled,.battle-skill.cooldown-disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .combo-wrapper .combo-point.all,.combo-wrapper .combo-point.left,.combo-wrapper .combo-point.middle,.combo-wrapper .combo-point.right,.combo-wrapper .combo-point.active.all,.combo-wrapper .combo-point.active.left,.combo-wrapper .combo-point.active.middle,.combo-wrapper .combo-point.active.right{background-image:url(../assets-production/img/gui/buttony.png);}
-.battle-window .battle-area .dmg{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.battle-window .one-warrior .warrior-name{color:var(--wa-text-main);}
+.battle-window .battle-area .dmg,.battle-window .one-warrior .warrior-name{color:var(--wa-text-main);}
 .battle-window .one-warrior .warrior.grave-warrior-npc{background-image:url(../assets-production/img/rip2.png);}
 .battle-window .one-warrior .warrior.grave-warrior-other{background-image:url(../assets-production/img/rip1.png);}
-.battle-window .one-warrior .warrior .buff{background-color:var(--wa-bg-secondary);background-image:url(../assets-production/img/buffs.gif);}
+.battle-window .one-warrior .warrior .buff{background-image:url(../assets-production/img/buffs.gif);}
 .battle-window .one-warrior .warrior-buffs-wrapper .buff{background-image:url(../assets-production/img/gui/buffs-in-fight.png);}
 .battle-window .one-warrior .current-arrow .css-arrow{background-image:url(../assets-production/img/emo/battle.gif);}
 .battle-window .battlelog{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .battle-window .battlelog div{color:var(--wa-text-main);}
-.battle-window .battlelog div .dmg,.battle-window .battlelog div.txt{background-color:var(--wa-bg-secondary);}
 .battle-window .battlelog div.attack{background-image:url(../assets-production/img/gui/line-highlight-green2.png);}
 .battle-window .battlelog div.attack2{background-image:url(../assets-production/img/gui/line-highlight-red2.png);}
 .battle-window .battlelog div.neu{background-image:url(../assets-production/img/gui/line-highlight-yellow2.png);}
-.one-battle-skill-tip .skill-tip-header{background-color:var(--wa-bg-secondary);}
 .one-battle-skill-tip .skill-tip-header .skill-graphic-wrapper,.battle-summary .bottom-bar-wrapper .bottom-bar{background-image:url(../assets-production/img/gui/buttony.png);}
 .battle-summary .bottom-bar-wrapper .bottom-bar .settings-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .battle-summary .bottom-bar-wrapper .bottom-bar .settings-button .icon{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -441,23 +396,15 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .battle-banner .exp:after{background-image:url(../assets-production/img/gui/buttony.png);}
 .battle-summary-item-wrapper .slot{background-image:url(../assets-production/img/gui/item-slot.png);}
 .battle-summary-item-wrapper .change-state-btn .button .want,.battle-summary-item-wrapper .change-state-btn .button .not,.battle-summary-item-wrapper .change-state-btn .button .must{background-image:url(../assets-production/img/gui/buttony.png);}
-.battlelog{background-color:var(--wa-bg-secondary);}
 .battlelog .scroll-pane div{color:var(--wa-text-main);}
-.battlelog .scroll-pane div .dmg,.battlelog .scroll-pane div.txt{background-color:var(--wa-bg-secondary);}
 .battlelog .scroll-pane div.attack{background-image:url(../assets-production/img/gui/line-highlight-green2.png);}
 .battlelog .scroll-pane div.attack2{background-image:url(../assets-production/img/gui/line-highlight-red2.png);}
 .battlelog .scroll-pane div.neu{background-image:url(../assets-production/img/gui/line-highlight-yellow2.png);}
-.copy-log textarea{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
-.ansRound{background-color:var(--wa-bg-secondary);}
-.ansRound .message{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.copy-log textarea,.ansRound .message{color:var(--wa-text-main);}
 .ansRound .unit{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .quest-box .quest-content .q_icon{background-image:url(../assets-production/img/def-npc.png);}
-.settings-window .opt-setting:hover,.settings-window .opt-content:nth-of-type(odd) .normal-tr{background-color:var(--wa-bg-secondary);}
 .settings-window .normal-tr{color:var(--wa-text-main);}
-.settings-window .sound-notif{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.settings-window .sound-notif:hover{background-color:var(--wa-bg-secondary);}
-.settings-window .display-table .middle .loudly-panel .center .icon-wrapper .loudly-icon{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.todo-info-tmp h4{background-color:var(--wa-bg-secondary);}
+.settings-window .sound-notif,.settings-window .display-table .middle .loudly-panel .center .icon-wrapper .loudly-icon{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .addons-panel .left-column .main-header .addon-list-label,.addons-panel .right-column .addon-header .img-wrapper,.addons-panel .right-column .addon-header .title-wrapper{color:var(--wa-text-main);}
 .addons-panel .right-column .addon-header .img-wrapper .widget-button{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .one-addon-on-list{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
@@ -469,19 +416,17 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .atachment-exist{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-image:url(../assets-production/img/gui/buttony.png);}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-money.atachment-exist .img{background-image:url(../assets-production/img/gui/mail-gold.png);}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .mail-footer .a-tears.atachment-exist .img{background-image:url(../assets-production/img/gui/draconite_small.png);}
-.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .fraud{background-color:var(--wa-bg-secondary);}
 .mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .is-new,.mails-window .mail-column .scroll-wrapper .scroll-pane .one-mail-wraper .is-new.en{background-image:url(../assets-production/img/gui/buttony.png);}
 .mails-window .mail-column .footer{color:var(--wa-text-main);}
 .mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .clan,.mails-window .new-message .new-message-wrapper .content-header .to .to-item .button .friends{background-image:url(../assets-production/img/gui/buttony.png);}
-.mails-window .new-message .new-message-wrapper .text-area-wrapper textarea,.wanted-player,.wanted-player.r{background-color:var(--wa-bg-secondary);}
+.wanted-player,.wanted-player.r{background-color:var(--wa-bg-secondary);}
 .wanted-mini .wanted-mini-player{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
 .row-in-trans-window{color:var(--wa-text-main);}
-.quest{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;background-color:var(--wa-bg-secondary);}
+.quest{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .quest .box .info-btn{background-color:var(--wa-bg-secondary);}
 .friend-enemy-list .bottom-friend-panel .input-wrapper .add-person,.friend-enemy-list .bottom-friend-panel .button{color:var(--wa-text-main);}
 .clan .button .add-bck,.showcase .button .add-bck,.check-box,.check-box.active{background-image:url(../assets-production/img/gui/buttony.png);}
 .clan,.card-content .green-box input.default,.card-content .clan-list-find-panel input.default{color:var(--wa-text-main);}
-.card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd),.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr:nth-of-type(odd){background-color:var(--wa-bg-secondary);}
 .card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr .hover-header:hover{color:var(--wa-text-main);}
 .card-content .clan-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-other-members-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-list-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-rank-edit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-treasury-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-manage-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-info-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-diplomacy-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-history-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-socPlayGroup-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-priv-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-edit-official-page-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-quests-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-skills-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-other-recruit-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable,.card-content .clan-bless-content:not(.clan-official-page-content):not(.clan-priv-page-content) table tr td .enable{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -489,18 +434,15 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .card-content .table-header td.header-sort--asc:after,.card-content .table-header td.header-sort--desc:after{background-image:url(../assets-production/img/gui/buttony.png);}
 .clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .clan-list-find-panel .clan-list-find-content .input-wrapper .default{color:var(--wa-text-main);}
-.one-bless-skill{background-color:var(--wa-bg-secondary);}
 .clan-members-content .scroll-wrapper .scroll-pane .clan-member .add-to-group .button .add-bck,.clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content{background-image:url(../assets-production/img/gui/buttony.png);}
 .clan-rank-edit-content .check-rank .left-ranks .one-rank .v-align,.clan-rank-edit-content .check-rank .right-ranks .one-rank .v-align{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .clan-manage-content .socplay .v-align .v-item .label-box{background-color:var(--wa-bg-secondary);}
 .clan-info-content .scroll-wrapper .scroll-pane .ribbon{background-image:url(../assets-production/img/gui/buttony.png);}
 .clan-quests-content .black{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
-.one-clan-quest,.one-clan-quest.quest_unactive{background-color:var(--wa-bg-secondary);}
 .one-clan-quest .quest-progress-wrapper .clan-progress-bar,.one-clan-quest .quest-progress-wrapper .clan-progress-bar .background-bar{background-image:url(../assets-production/img/gui/progressbary.png);}
 .one-clan-quest .quest-state,.one-clan-quest .quest-state.quest_unactive{background-color:var(--wa-bg-secondary);}
 .clan-skills-content .black{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
 .clan-skills-content .clan-skill-reset .button .small-draconite{background-image:url(../assets-production/img/draconite_small.png);}
-.one-clan-skill{background-color:var(--wa-bg-secondary);}
 .one-clan-skill .skill-icon-wrapper .skill-icon{background-image:url(../assets-production/img/gui/clan/clan-skills.png);}
 .one-clan-skill .skill-icon-wrapper .skill-level-bck .skill-level{color:var(--wa-text-main);}
 .one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-1,.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-2,.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-3,.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-4,.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-5,.one-clan-skill .skill-icon-wrapper .skill-level-bck.cl-6,.one-clan-skill .skill-clan-info .skill-progress .skill-points-wrapper .use-lvl,.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.left,.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.middle,.one-clan-skill .skill-clan-info .skill-progress .skill-slots-wrapper .empty-lvl.right{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -508,17 +450,14 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .showcase .card-content{color:var(--wa-text-main);}
 .chat-ban .days .banday-row{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .registration .disabled{cursor:url(../assets-production/img/gui/cursor/1n.png),url(../assets-production/img/gui/cursor/1n-cur.png),auto;}
-.registration .registration-background{background-color:var(--wa-bg-secondary);}
 .registration .main-header{color:var(--wa-text-main);}
-.registration .short-info{background-color:var(--wa-bg-secondary);}
 .registration .check-area{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.registration .main-content .registration-section-wrapper,.registration .main-content .registration-section-wrapper.finish{background-color:var(--wa-bg-secondary);}
 .registration .main-content .registration-section-wrapper .disabled-lock{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
-.depo .depo-expired{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.depo .depo-expired{color:var(--wa-text-main);}
 .depo .bottom-section .cards-menu .card:not(.disabled){cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .depo .bottom-section .cards-menu .card:hover,.depo .bottom-section .cards-menu .card.active{color:var(--wa-text-main);}
 .depo .bottom-section .cards-menu .card .label .k-b{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
-.depo .bottom-section .cards-menu .card .amount{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
+.depo .bottom-section .cards-menu .card .amount{color:var(--wa-text-main);}
 .ico{background-image:url(../assets-production/img/gui/notyfikacje-sprite.png);}
 .event-calendar .background.bck-en{background-image:url(../assets-production/img/gui/event-calendar-sprite-en.png);}
 .event-calendar .background.bck-pl,.event-calendar .background .controlls .month-switch:hover{background-image:url(../assets-production/img/gui/event-calendar-sprite-pl.png);}
@@ -544,7 +483,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .skills-window .right-column .scroll-wrapper .scroll-pane .description-wrapper .skill-description .board-wrapper .stats-wrapper .icon-tip{background-image:url(../assets-production/img/gui/buttony.png);}
 .additional-skill-panel{background-image:url(../assets-production/img/gui/skills/skill_hot_skills.png);}
 .MBEditor .mb-label{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.MBEditor .skills-list .single-skill-row.usable:nth-child(odd),.MBEditor .skills-list .single-skill-row.usable:hover,.skill .icon-background,.skill.chosen .icon-background,.skill .val-background,.skill .notif{background-color:var(--wa-bg-secondary);}
+.MBEditor .skills-list .single-skill-row.usable:hover,.skill .icon-background,.skill.chosen .icon-background,.skill .val-background{background-color:var(--wa-bg-secondary);}
 .skill .active,.skill .quick-skill{background-image:url(../assets-production/img/gui/buttony.png);}
 .skill .label-wrapper{color:var(--wa-text-main);}
 .tutorial-dialogue{background-color:var(--wa-bg-secondary);}
@@ -552,20 +491,14 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .tutorial .con .skip-tutorial-span:hover{color:var(--wa-text-main);}
 .ability-points .ability-content .ability-row .img-wrapper .img,.help-profs-and-items .profs-content .help-one-prof .first-line .symbol{background-image:url(../assets-production/img/gui/buttony.png);}
 .help-profs-and-items .profs-content .help-one-prof .link,.help-premium .right-column a{color:var(--wa-text-main);}
-.tw-list-item{background-color:var(--wa-bg-secondary);}
-.tw-list-item:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
-.tw-list-avatar{background-color:var(--wa-bg-secondary);}
-.tw-list-avatar:hover{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
-.show-eq .character-name{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
+.tw-list-item:hover,.tw-list-avatar:hover,.show-eq .character-name{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .show-eq .player-info,.show-eq .eq-info,.window-list .header,.window-list .scroll-wrapper .scroll-pane .empty{color:var(--wa-text-main);}
 .chests-window .chests-choice-wrapper .promo-chest,.chests-window .chests-choice-wrapper .promo-chest .txt-wrapper .chest-img.black-dragon-chest-g,.chests-window .chests-choice-wrapper .promo-chest .img-wrapper .chest-img.black-dragon-chest-g,.chests-window .chests-choice-wrapper .promo-chest .txt-wrapper .chest-img.red-dragon-chest-g,.chests-window .chests-choice-wrapper .promo-chest .img-wrapper .chest-img.red-dragon-chest-g{background-image:url(../assets-production/img/gui/premium_sprite.png);}
 .chests-window .chests-choice-wrapper .promo-chest .txt-wrapper .txt-html{color:var(--wa-text-main);}
 #cloud-tip,#cloud-tip .close{background-color:var(--wa-bg-secondary);}
 #cloud-tip .close .cross{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 #cloud-tip .cloud-tail{background-image:url(../assets-production/img/gui/cloud_tail.png);}
-#cloud-tip .next{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
-.matchmaking-panel .matchmaking-tutorial-overlay{background-color:var(--wa-bg-secondary);}
-.matchmaking-panel .all-pages .main-wnd .section table .hover-tr{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
+#cloud-tip .next,.matchmaking-panel .all-pages .main-wnd .section table .hover-tr{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .matchmaking-panel .all-pages .main-wnd .section table .hover-tr:hover{background-color:var(--wa-bg-secondary);}
 .matchmaking-panel .all-pages .matchmaking-menu .matchmaking-menu-bottom-panel .warning-points{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
 .matchmaking-panel .all-pages .choose-eq .choose-eq-bottom-panel .time-ball{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -601,7 +534,6 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .require-and-receive-item .arrow,.require-and-receive-item .recive-wrapper .recive-wrapper-align .recive-item,.news-panel .news-content .c-swiper .swiper-arrow--prev,.news-panel .news-content .c-swiper .swiper-arrow--prev:hover,.news-panel .news-content .c-swiper .swiper-arrow--next,.news-panel .news-content .c-swiper .swiper-arrow--next:hover{background-image:url(../assets-production/img/gui/buttony.png);}
 .news-panel .news-content .news-section a{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .news-panel .news-content .news-time-promo-section .section-content .requires-text-wrapper{color:var(--wa-text-main);}
-.news-panel .news-content .news-time-promo-section .section-content .requires-text-wrapper .requires-text{background-color:var(--wa-bg-secondary);}
 .news-time-promo-tile .buy-button-wrapper .buy-button{cursor:url(../assets-production/img/gui/cursor/5n.png) 4 0,url(../assets-production/img/gui/cursor/5n-cur.png) 4 0,auto;}
 .news-time-promo-tile .buy-button-wrapper .buy-button .label,.news-time-promo-tile .title-time-promo-tile,.news-time-promo-tile .price-time-promo-tile{color:var(--wa-text-main);}
 .news-time-promo-tile .used-text-wrapper .used-text,.news-classic-tile .used-text{background-image:url(../assets-production/img/gui/buttony.png);}
@@ -639,17 +571,13 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .battle-pass-reward-record .amount-border{color:var(--wa-text-main);}
 .small-currency-icon .small-draconite{background-image:url(../assets-production/img/draconite_small.png);}
 .small-currency-icon .small-money{background-image:url(../assets-production/img/money_small.png);}
-body:not(.mobile-version) .item:hover,body:not(.mobile-version) .bottomItem:hover{background-image:url(../assets-production/img/gui/buttony.png);}
-.game-window-positioner.light-interface .widget-button,.mobile-version .game-window-positioner.light-interface .widget-button:active,.mobile-version .game-window-positioner.light-interface .widget-button[widget-pos=bottom-left].window-is-open:before,.mobile-version .game-window-positioner.light-interface .widget-button[widget-pos=bottom-left-additional].window-is-open:before,.mobile-version .game-window-positioner.light-interface .widget-button[widget-pos=bottom-right].window-is-open:before,.mobile-version .game-window-positioner.light-interface .widget-button[widget-pos=bottom-right-additional].window-is-open:before,.game-window-positioner.light-interface .interface-layer .widget-hamburger,.game-window-positioner.light-interface .interface-layer .widget-bar-visible-btn,.game-window-positioner.light-interface .interface-layer .column-visibility-toggle{background-color:var(--wa-bg-secondary);}
-.game-window-positioner.light-interface .interface-layer .widget-hamburger .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .widget-bar-visible-btn .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .column-visibility-toggle .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .top-left-column-visibility-toggle .icon,.game-window-positioner.light-interface .interface-layer .top-right-column-visibility-toggle .icon{background-image:url(../assets-production/img/gui/buttony.png);}
-.game-window-positioner.light-interface .interface-layer .skill-usable-slot{background-color:var(--wa-bg-secondary);}
+body:not(.mobile-version) .item:hover,body:not(.mobile-version) .bottomItem:hover,.game-window-positioner.light-interface .interface-layer .widget-hamburger .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .widget-bar-visible-btn .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .column-visibility-toggle .icon.hamburger-icon,.game-window-positioner.light-interface .interface-layer .top-left-column-visibility-toggle .icon,.game-window-positioner.light-interface .interface-layer .top-right-column-visibility-toggle .icon{background-image:url(../assets-production/img/gui/buttony.png);}
 .game-window-positioner.light-interface .interface-layer .skill-usable-slot .cooldown-left{color:var(--wa-text-main);}
-.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .graphics .battle-border,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .graphics .column-separator,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .battle-content .scroll-wrapper .scrollbar-wrapper .track .handle,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .battle-end-layer{background-color:var(--wa-bg-secondary);}
+.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .graphics .column-separator{background-color:var(--wa-bg-secondary);}
 .game-window-positioner.light-interface .interface-layer .bottom-panel-of-bottom-positioner .usable-slot:before{color:var(--wa-text-main);}
 .game-window-positioner.light-interface .interface-layer .right-column.main-column{background-color:var(--wa-bg-secondary);}
 .game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .mail-notifier-light-mode{background-image:url(../assets-production/img/gui/buttony.png);}
 .game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .location-wrapper-light-mode .location-wrapper-border .location-name,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .world-wrapper-light-mode .world-wrapper-border .world-name,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .stats-light-mode .stats-border .stats-list .sl-currency .amount,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .stats-light-mode .stats-border .stats-list .gold-currency .amount,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .stats-light-mode .stats-border .stats-list .attack .value,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .stats-light-mode .stats-border .stats-list .attack-speed .value,.game-window-positioner.light-interface .interface-layer .right-column.main-column .character_wrapper .stats-light-mode .stats-border .stats-list .defence .value{color:var(--wa-text-main);}
-.game-window-positioner.light-interface .interface-layer .slots .interface-element-one-item-slot-2,.game-window-positioner.light-interface.chat-size-1 .top-left-column-visibility-toggle,.game-window-positioner.light-interface.eq-column-size-1 .top-right-column-visibility-toggle,.game-window-positioner.light-interface .layer.interface-layer.show-skills-window .bottom-panel-of-bottom-positioner .additional-skill-panel .additional-skill-panel-border{background-color:var(--wa-bg-secondary);}
 .game-window-positioner.light-interface .gold-shop .one-offer{background-image:url(../assets-production/img/gui/shop/gold-shop-lm.png);}
 .t_item .content .warrior-tip,.tip-wrapper .content .warrior-tip{color:var(--wa-text-main);}
 .t_item[data-type=t_item],.tip-wrapper[data-type=t_item]{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
@@ -717,6 +645,7 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 .interface-element-one-gray-tile,.game-window-positioner .inventory_wrapper .bags-navigation .item:hover .highlight,.game-window-positioner .inventory_wrapper .bags-navigation .item.active .highlight{background-image:linear-gradient(#41657c,#203b4e);}
 .interface-element-line-1-background{background-image:linear-gradient(90deg,#04101a 0%,#577b90 30%,#b7d9eb 50%,#577b90 70%,#04101a 100%);}
 .map-overlay.dead-overlay{background-color:rgba(6,17,28,.90);}
+input.default{background-color:var(--wa-bg-secondary);}
 .console-window,.console-window .input-wrapper input,.console-wnd.global-addons-exist .content .console-bottom-panel-wrapper .button .label,.loader-layer .bottom-info,.one-battle-skill-tip,.turn-prediction__name,button,input,magic_input,select,textarea{font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
 /* Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
 
