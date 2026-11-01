@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0-test.cc280517",
-  "build": "cc280517ebfcfb9e",
+  "version": "0.2.1-test",
+  "build": "b62404c91765679f",
   "originals": {
     "/img/gui/cursor/1n.png": "img/gui/cursor/1n.png",
     "/img/gui/cursor/1n.cur": "img/gui/cursor/1n-cur.png",
@@ -193,7 +193,7 @@
     ],
     [
       "img/gui/window-frame.png",
-      "4a5bee2d097f8d67ed0d46778bd759a2c90af01686bdfac652d2ebc515d9fb0e"
+      "244e2bf5e7aa4a99e44bfdc11f7fae3e4a7c6024446b5d8403af8509b27832df"
     ],
     [
       "img/gui/oneItemSlotToRepeat.png",
@@ -217,7 +217,7 @@
     ],
     [
       "img/gui/quests/quest_bar.png",
-      "b0b1471b1096bff1f182d8d3ec5376b9bfe34ab2589928ce39d9975a510c17d4"
+      "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
     ],
     [
       "img/gui/table_header.png",
@@ -353,7 +353,7 @@
     ],
     [
       "img/gui/skills/skill_icons_new.png",
-      "e6e1bbbd2412ea3e20958bc4cb715dc66d2d7eb9d15a181d71f633c48beeafa8"
+      "a15f859513fc384d4ee1120ccc0b73ef6d622cb754d59fa92f9f6ac2ec39e419"
     ],
     [
       "img/goldIconNormal.png",
@@ -525,7 +525,7 @@
     ],
     [
       "img/gui/clan/clan-skills.png",
-      "5a3714b278fb5e20d19d9e4e7cdb8efdfebb42bdc543e5554e00da070be5db54"
+      "8b64e23779b3fae14d9f0204de4476ba1170f44bdeda7260677cfdcb74032d7c"
     ],
     [
       "img/gui/event-calendar-sprite-en.png",
@@ -557,7 +557,7 @@
     ],
     [
       "img/gui/skills/skill_hot_skills.png",
-      "e62c8c45853b7a1cc0e2a04ac58974e5a2b4a9ca2c0ac5e4740d475d2aee4f4e"
+      "80b34cf9b92dea521b6ba8d4dc10e83692eb333d2ba3c093e022397279eb6698"
     ],
     [
       "img/gui/premium_sprite.png",
@@ -653,7 +653,7 @@
     ],
     [
       "img/theme/hud-decoration.png",
-      "62db86727c8d38e0abece9d28d21d1f9aed3a2961bec18e2b0dd7dcda88c9585"
+      "bb2f8b552888e85a1f2a8f0d13d1b2a3ae1fd935cee1896d94884405e13db826"
     ],
     [
       "img/theme/hp-mask.png",
@@ -672,11 +672,91 @@
       "093c1ebe706abb2a7c6b7cfaa4af384389731d2927fd6a756d0b5e2998a814e8"
     ],
     [
+      "img/theme/battle-skill-tray.png",
+      "2a85d67f0dde4bbd9439f285d9add094946643edf6d80cfd6adf1f97caf094b1"
+    ],
+    [
+      "img/theme/top/hud-top.png",
+      "45f8b8f98a70d26a4093ee501d6ecbd61039b9f46e3b0d4e5086089816270d58"
+    ],
+    [
+      "img/theme/top/ui-hourglass-14x16.png",
+      "781aca8494e48b81a9d8902157483e07f2e422da078b8554e4ea4b8591ed7328"
+    ],
+    [
+      "img/theme/top/map-status-green.png",
+      "552d3b53586191fbe531dac3eee024b779c9eb39a1f2a125f9a1eb8a61270c15"
+    ],
+    [
+      "img/theme/top/map-status-yellow.png",
+      "998c40babc209d51a9da7542c2971b3830a4198e74888f38ade620f9f6be08b5"
+    ],
+    [
+      "img/theme/top/map-status-red.png",
+      "3d3144cdd90e8830f2b9b88fb307258b8ee095acfb2f0ef92ff23dd937081558"
+    ],
+    [
+      "img/theme/top/map-status-orange.png",
+      "cbf8a2e8277ca8fd3c70baab5b2530737ddf6e512766d6a9292ec87eeb45ad8c"
+    ],
+    [
+      "img/theme/top/ui-profession-b-20x20.png",
+      "473926dd605c34955ff0fbe58a7614cdbaf75bcf214257539a8df4ba8b0f8cc4"
+    ],
+    [
+      "img/theme/top/ui-profession-w-20x20.png",
+      "31fb970a588ea754489de489bdc9404eb0076cc4b9a45dbfe5163cb50fa31c18"
+    ],
+    [
+      "img/theme/top/ui-profession-p-20x20.png",
+      "26ad965287f55adc01fc0bc41508720ada9eaca66ce81aa21f77b2e1f3bcf92c"
+    ],
+    [
+      "img/theme/top/ui-profession-m-20x20.png",
+      "1d69f4a49f3bbdd3c99a66d2a9e4cabe4a13a505519b655ff4ee3a065cb99234"
+    ],
+    [
+      "img/theme/top/ui-profession-h-20x20.png",
+      "a06044726c459484c12d7df96e9e973b5d8be5bb44a3bfbdcc0c5bc891427402"
+    ],
+    [
+      "img/theme/top/profession-tracker.png",
+      "d6d208562b91bf6797a8885db7ba00def3eb50c2f1eaa3b9015475c0a9666136"
+    ],
+    [
+      "img/theme/top/ui-gold-21x21.png",
+      "70d74c0b85735d317636f69d35654a8d699ef37e20b7bc3057b9687c0d74b2a2"
+    ],
+    [
+      "img/theme/top/credits-gem.png",
+      "76262c195aa1b715b8b8b50ab97e0982da014a5a599660bd47ceb2904b52f087"
+    ],
+    [
+      "img/theme/native-widget-icons.png",
+      "b212f726ca6fc0c1566b4cb7fb90fa41c787dc7149714fb7e2acc4611ca564c6"
+    ],
+    [
+      "img/theme/window-close.png",
+      "24351272610023be9efbb3af7352ca1a1d9583387c9c7cb947e06ab7ecbad142"
+    ],
+    [
+      "img/theme/frost-surface.png",
+      "8a3287d8acf636b7a94d2daf2d7fa7a72294f2785297918f78debf8dbf700ca5"
+    ],
+    [
+      "img/theme/widget-wing.png",
+      "0d3bdc9300fe58728e2abd3fca14f6b8af0e9b03c2d0c33fca822f21444c08aa"
+    ],
+    [
+      "img/theme/silver-band-wide.png",
+      "5fa652b576c0ddeba03eea9c73d3eb0dbc7299facfc5c2cff1d9be17d3df5c01"
+    ],
+    [
       "img/theme/panel-material.png",
       "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
     ]
   ],
-  "cssSHA256": "84932b6654957433e2aa48c10fe82440e11c60247ea8d8f089a14c6308438f45",
-  "runtimeSHA256": "b8d493bc6533e215cc0c2377ef185f088e2406c76530d3c090ac53bdf2fc77bb",
+  "cssSHA256": "d3095845c31496ccced996d98b7885f30b498f9e2d7b12f8474a882fb739b3d7",
+  "runtimeSHA256": "e3bed1c7b62e704e35b19a962c745352c2a067be195b1f7f47b09110ab67cc4b",
   "artworkApproved": false
 }

@@ -31,3 +31,14 @@ Aby wrócić do starego wydania, wyłącz skrypt testowy, włącz poprzedni moty
 - Najpierw zatwierdzany jest commit zasobów. Następnie loader wskazuje jego niezmienny identyfikator. Kolejne wydania aktualizują ten sam folder i instalator.
 - Tylko dokładnie zarejestrowane grafiki oprawy UI są podmieniane. Mapy, postacie, przedmioty i ikony umiejętności zachowują zasoby klienta.
 - Testy lokalne nie oznaczają akceptacji wizualnej ani potwierdzenia działania w zalogowanej grze.
+
+
+## Wersja testowa 0.2.1
+
+- Pełny nowy panel umiejętności, wolne miejsca dla Zmiany celu i Szybkiej walki oraz dopasowany HUD. Zewnętrzna próbna otoczka wycofana.
+- Ikony górnej belki walki wyrównane do srebrnego pasa; strzałka kotwiczona do prawej krawędzi.
+- Wspólna rodzina ram i półprzezroczystych powierzchni okien, większe tytuły i dopasowany przycisk zamknięcia.
+- Nowe długie belki, górny HUD z wcześniejszego motywu w zaakceptowanym zakresie, zimowe tła czatu i EQ.
+- Natywne ikony widgetów, gracza i klanu. Pozostałe ikony UI i dalsze szczegóły wyglądu pozostają w opracowaniu.
+
+Ocena wyglądu w grze nadal należy do testu użytkownika. Kontrole lokalne obejmują także wolne miejsca przycisków, ornamenty nad polami, natywne szablony ikon32px i położenia kontrolek nagłówka. Wydanie nie jest oznaczone jako finalny motyw.
