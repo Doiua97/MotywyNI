@@ -1,12 +1,40 @@
 {
-  "version": "0.2.2-test",
-  "build": "098ab4b0067ae37b",
+  "version": "0.2.3-test",
+  "build": "d172505c02411884",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
     [
       "away.gif",
       "7984d8e52092114525c1351c091fa0f47c572c6e26f84e857f5cfd42aa600cd8"
+    ],
+    [
+      "battle-pass-badge-free-banner.png",
+      "d67990a097fbe5ae1100d6e0cfaddbf34889ff0d9c2c41ba7938b1ef3b6ce5a9"
+    ],
+    [
+      "battle-pass-badge-free-reward.png",
+      "e44b9413befba0131f9dbaf4200c0b6c80f8495ae602f276a6c6806156aee24f"
+    ],
+    [
+      "battle-pass-badge-premium-banner.png",
+      "5625b108becea59af8431dedcc6d37fa9be2606b46a3d6beba93c8f3b91b5907"
+    ],
+    [
+      "battle-pass-badge-premium-reward.png",
+      "2a2a8d4e3de6b32bb24083df9db2d12c894c97405dfcd0ccb389465e611d8597"
+    ],
+    [
+      "battle-pass-free-banner.png",
+      "83b6e3ab00e2eb8ca46c301c326fcdd16ff78a3d672bac3d98d73ae16e192f7d"
+    ],
+    [
+      "battle-pass-premium-banner.png",
+      "42db4bf0726a525afd104d160effa4e3b29a6954227e6ffc77d51498582fa0e6"
+    ],
+    [
+      "battle-timer-fill.png",
+      "fd92e40c24ecf57d81dc1188e37c2892cf8343154ac027dd0751e846c5fa10d5"
     ],
     [
       "belka-gora-dol.png",
@@ -33,12 +61,40 @@
       "e9a4a1a328d7ec84532b4c7e7654b1519bb261a9d6f72aaf99fc59e2ba0beb08"
     ],
     [
+      "build-index-frame.png",
+      "db1dff2f90e38e0a6f1ed1466f95b31c6798c0f8647a2a7d1e915448f61e06c9"
+    ],
+    [
       "chat-icons.png",
       "1a82243e3b6087a9d4ed3973e48d854144e4a263ec1b932493495ce01089f55e"
     ],
     [
+      "control-left-22x22.png",
+      "bc5318398771c3534dce008699c493744c51f06ee8ea45057e8abf259d7089e2"
+    ],
+    [
+      "control-lock-20x20.png",
+      "98cfec559c2942da402fed2e39775cdd3b3f8bca1123730c6102a461838152b8"
+    ],
+    [
       "control-message-25x24.png",
       "e717a35ca713c06cb60aece7a45a53adc92f5c4e1aaa48f384f60d2a884eb60f"
+    ],
+    [
+      "control-reset-14x14.png",
+      "4bf08f339754672ec064d593a24505bd47313a00c82a6ef3acf9afddb388e029"
+    ],
+    [
+      "control-right-22x22.png",
+      "be4bebb2be92535607ccb2d900b185c63fbd9d1d10d973e1ad661e3d9405e0e7"
+    ],
+    [
+      "control-star-12x16.png",
+      "87c9e238b477e0f6cc5f6b5bc74c260d72d675fbfe53999ef78e21ed2c0e0a94"
+    ],
+    [
+      "control-star-24x34.png",
+      "047dd461ce246ade458cc2dddfeafc861728ee8eb96c7ad4269d8a2309e3f845"
     ],
     [
       "cursor-1n.png",
@@ -133,6 +189,26 @@
       "581c22ca3a51f0a779e339372682b3f65bd7759ca4d6f4cad182fddff1720197"
     ],
     [
+      "equipment-empty-icons.png",
+      "6f5596ed5d4bb8e32a627a641651b9150269893882d53a2800ea43333f9e9d08"
+    ],
+    [
+      "event-calendar.png",
+      "c0affac93925a2a9f17df181be971ed0b4fd77dcf55b162306abfa60618a77b7"
+    ],
+    [
+      "field-material.png",
+      "d9a9746f7888f7f43f261ec6a06b2f50e8beaea9b7a13e54e1ed1b4c2106adeb"
+    ],
+    [
+      "gold-offers-light.png",
+      "37550c6157d2b06eac97135ef2843e44e1f5cbbab553e17085af63f5f30644a5"
+    ],
+    [
+      "gold-offers.png",
+      "ac6690dd2163ce8f0b26c631f546042eeddb2e4739315b21436c73c171876c65"
+    ],
+    [
       "goldIconNormal.png",
       "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
     ],
@@ -147,10 +223,6 @@
     [
       "X-blackoutline.png",
       "291edd83a7b53c16fcfeefc5c600d803fa9fe6ece6be9be154af2e98e30aa4ab"
-    ],
-    [
-      "addons-icons.png",
-      "a9b24cebe0040d5de594ba2ef780bf45cd1c68d3fdea623afc32c9c45b33a5e2"
     ],
     [
       "advent-calendar.png",
@@ -213,10 +285,6 @@
       "b89429280369ac8f999511dc8c9b3aca76ca55357698aa8eb505969161ac7f3c"
     ],
     [
-      "chest.png",
-      "8520c39e32e0c63e9d2bb40cb65eb30b255316334e37fdb7bba8c2e3126cb937"
-    ],
-    [
       "clan_icons.png",
       "40071b5a60af0fdc869b58fae1f94a408597918c21afe8246af79c585614fc96"
     ],
@@ -231,14 +299,6 @@
     [
       "img--gui--draconite_small.png",
       "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
-    ],
-    [
-      "event-calendar-sprite-en.png",
-      "49b7ea02dfaa95a744b1f4acb5aab0b882f8ad04295099164a78407f140bcc81"
-    ],
-    [
-      "event-calendar-sprite-pl.png",
-      "7e1f8f2709860ae4a17b67021cdd234920b596719f1d29ab83539ffbf686972d"
     ],
     [
       "friend-header.png",
@@ -301,10 +361,6 @@
       "e9afb88aa291228f4b82290a45e0621c01ee25198004b8350542cadd5152d899"
     ],
     [
-      "oneItemSlotToRepeat.png",
-      "eb1f350e939c38815587510afd696884b71f516a71e7eb38b665461e8b4b9c12"
-    ],
-    [
       "premium-panel-pl.png",
       "2293e03735081ae2e681afbdce7e4aa1ff708f3947e09b3620df8954a487a5cf"
     ],
@@ -341,22 +397,6 @@
       "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
     ],
     [
-      "search.png",
-      "e3a4bef451e3b972a4eb7f1c17beee2c670e47c02af5a5480411039de6caa9f3"
-    ],
-    [
-      "canopy.png",
-      "d8af5856fcf585a5bd70a7b4198b8ba4e60e703f251fc583e2662d26c7f0eccb"
-    ],
-    [
-      "gold-shop-lm.png",
-      "a418b2e54f484aa813fa7766dac7320a480c533722ae88cdea2aa7fc59ee82dd"
-    ],
-    [
-      "gold-shop.png",
-      "c01e75e3419b614818bb0650420384fae7ff196138a98ac96778f3b51e56b878"
-    ],
-    [
       "pet-shop-gold.png",
       "47c030038b22a45b246efe19c4beb23744c310bfb405a4c3df7387c80254d04f"
     ],
@@ -378,7 +418,7 @@
     ],
     [
       "window-frame.png",
-      "244e2bf5e7aa4a99e44bfdc11f7fae3e4a7c6024446b5d8403af8509b27832df"
+      "d8eab8aa201e43f0bc960555a08ea105309834c7b67c8ac110eb3422454e8f90"
     ],
     [
       "zoom1.png",
@@ -393,12 +433,52 @@
       "0dfbb4aa4725b4804c28c80e75b2c1c75ce106fdaf6be740d659c57a5be04956"
     ],
     [
+      "matchmaking-card.png",
+      "907228427b7d883f6033f677a66fead74d8e50ef2e6779724e8cbdb465154399"
+    ],
+    [
+      "mission-label.png",
+      "78867154a54c84816b9c488685e08c09af92e399f8606e5b570ece8261506835"
+    ],
+    [
+      "mission-next-hover.png",
+      "c6136d1dca03fa666f186de21e759f35208dd7a0356e59e64ec7e5308f710f0e"
+    ],
+    [
+      "mission-next.png",
+      "5092b5a48437a07f5e732cd9632631dee6d7166ab750fd8ce8491d7d54361e56"
+    ],
+    [
+      "mission-prev-hover.png",
+      "7f184bb9e7066d8d0330bf345ff30eb0a617ee3f005c83de524ee25239c3d7a2"
+    ],
+    [
+      "mission-prev.png",
+      "ac0ab166e8c24d57811baaf2b3f296f88803d7a3a5fe410db1bd52dfea7173b8"
+    ],
+    [
+      "mission-reward.png",
+      "c5d88db207bd00e08936a8dc249823a12a693b2c18b2f01c4e8dfefa73f5d4db"
+    ],
+    [
+      "mission-tile.png",
+      "e484516d43854e3787ee1572ffdcc4bb522f967c50465cdd3b41b553e73f0dd7"
+    ],
+    [
+      "mission-time.png",
+      "87a869c91be47754f0bda7fc8bd4010cae915e3b06ad2c7b39f131229f30c1cf"
+    ],
+    [
       "money_small.png",
       "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
     ],
     [
       "move-marker.png",
       "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
+    ],
+    [
+      "notification-atlas.png",
+      "ce92f1b7e6a37750ad3242f36f6e5e38c16dd7f69b3c599db320b463e199d465"
     ],
     [
       "notyfikacje-sprite.png",
@@ -409,12 +489,36 @@
       "ab656abc76900d41088f3253a7f17111ee6d06c85330436aa69311a873fefcf0"
     ],
     [
+      "premium-categories.png",
+      "f7d40da038337cd323724b752783e1a1f804db67223f2d5e8985304f5a68bbd0"
+    ],
+    [
+      "pvp-states.png",
+      "6ab8c1bec9272270bc076e414da00fd8249239ea88b9973454f5fef25d81c7b1"
+    ],
+    [
+      "search-frame.png",
+      "83c3de32cb2ee68aaf496b2bbcd08768622571820ea1c452dee6cbda2483afd7"
+    ],
+    [
+      "shop-canopy.png",
+      "a14752f012ed64aeab956a38dd5b1e206a7a18c53f122fa6dbd2e5d2b107462f"
+    ],
+    [
+      "shop-chests.png",
+      "6ac400f9725edc6cefefc186306206002f8d6dbbc59c2b1a5142f40671672a24"
+    ],
+    [
       "shop-interior.png",
       "5705d2923737a562be577a5938dcdc2b770c4e04cb173c1bd8c031c85fd3143d"
     ],
     [
       "shop-item-cell.png",
       "8923fdbdd8f275ef8889ad20cf158c7c88ee8f527dff10308f5120bcd3fe4d12"
+    ],
+    [
+      "slot-extraction.png",
+      "871e29e37024597676d9db8bc42f7a5e9f2735991e86f2e18df0de2628d7cffb"
     ],
     [
       "battle-skill-tray.png",
@@ -434,7 +538,7 @@
     ],
     [
       "hud-decoration.png",
-      "bb2f8b552888e85a1f2a8f0d13d1b2a3ae1fd935cee1896d94884405e13db826"
+      "91b25c8c073726cb1ab8a87a8e5709d0c01353a2a8ca12aeb58117692d5d6d11"
     ],
     [
       "hud-rail-mask-0.png",
@@ -537,8 +641,20 @@
       "2c498cc9a137a78b1007fef95c2c7830347368af98a1e1506d785bbcc479d15b"
     ],
     [
-      "ui-info-14x16.png",
-      "60f205aece561510afb4fbdee9bd5983643d5d4f19e1bf411e76269d9719ca3e"
+      "ui-info-17x17.png",
+      "7796750fd0010b42a2a62528010d1464d649986b8bee88c5dd169c2c0a08d242"
+    ],
+    [
+      "ui-matchmaking-history-96x96.png",
+      "0952e348ce3f99b45ca2e5462f9466697aea03043c7bb552e49e3fd09b58a06d"
+    ],
+    [
+      "ui-matchmaking-queue-96x96.png",
+      "4db1d45ecbb0492812d45686d59e97a40940eb9253b0d5852c420798cf9d2a57"
+    ],
+    [
+      "ui-matchmaking-statistick-96x96.png",
+      "82b479ca1618a3bf3fe52a36f05a93623c0cd2897342263cdc169290cbb460a8"
     ],
     [
       "ui-opacity-13x13.png",
@@ -647,18 +763,36 @@
     [
       "shop_mark.png",
       "c1b5299c5c5c09d20051ddd00549e94fa4558e720d796ff35034063ecd280def"
+    ],
+    [
+      "winter-atelier.woff2",
+      "89d6b517b557272aeb8eb1c57291480262b66c18afa23485ed95a9060e288abf"
     ]
   ],
   "assetMap": {
     "img/away.gif": "away.gif",
+    "img/battle-pass-badge-free-banner.png": "battle-pass-badge-free-banner.png",
+    "img/battle-pass-badge-free-reward.png": "battle-pass-badge-free-reward.png",
+    "img/battle-pass-badge-premium-banner.png": "battle-pass-badge-premium-banner.png",
+    "img/battle-pass-badge-premium-reward.png": "battle-pass-badge-premium-reward.png",
+    "img/battle-pass-free-banner.png": "battle-pass-free-banner.png",
+    "img/battle-pass-premium-banner.png": "battle-pass-premium-banner.png",
+    "img/battle-timer-fill.png": "battle-timer-fill.png",
     "img/belka-gora-dol.png": "belka-gora-dol.png",
     "img/bubble-bottom.png": "bubble-bottom.png",
     "img/bubble-left.png": "bubble-left.png",
     "img/bubble-right.png": "bubble-right.png",
     "img/bubble-top.png": "bubble-top.png",
     "img/buffs.gif": "buffs.gif",
+    "img/build-index-frame.png": "build-index-frame.png",
     "img/chat-icons.png": "chat-icons.png",
+    "img/control-left-22x22.png": "control-left-22x22.png",
+    "img/control-lock-20x20.png": "control-lock-20x20.png",
     "img/control-message-25x24.png": "control-message-25x24.png",
+    "img/control-reset-14x14.png": "control-reset-14x14.png",
+    "img/control-right-22x22.png": "control-right-22x22.png",
+    "img/control-star-12x16.png": "control-star-12x16.png",
+    "img/control-star-24x34.png": "control-star-24x34.png",
     "img/cursor-1n.png": "cursor-1n.png",
     "img/cursor-2n.png": "cursor-2n.png",
     "img/cursor-3n.png": "cursor-3n.png",
@@ -682,11 +816,15 @@
     "img/draconiteIconNormal.png": "draconiteIconNormal.png",
     "img/draconite_small.png": "img--draconite_small.png",
     "img/emo/battle.gif": "battle.gif",
+    "img/equipment-empty-icons.png": "equipment-empty-icons.png",
+    "img/event-calendar.png": "event-calendar.png",
+    "img/field-material.png": "field-material.png",
+    "img/gold-offers-light.png": "gold-offers-light.png",
+    "img/gold-offers.png": "gold-offers.png",
     "img/goldIconNormal.png": "goldIconNormal.png",
     "img/gui/ReverseButton.png": "ReverseButton.png",
     "img/gui/ReverseButtonHover.png": "ReverseButtonHover.png",
     "img/gui/X-blackoutline.png": "X-blackoutline.png",
-    "img/gui/addons-icons.png": "addons-icons.png",
     "img/gui/advent-calendar.png": "advent-calendar.png",
     "img/gui/advent-windows.png": "advent-windows.png",
     "img/gui/auctions/header_left.png": "header_left.png",
@@ -702,13 +840,10 @@
     "img/gui/calendar-windows-1.png": "calendar-windows-1.png",
     "img/gui/calendar-windows-2.png": "calendar-windows-2.png",
     "img/gui/chat-powtarzalny-podklad.png": "chat-powtarzalny-podklad.png",
-    "img/gui/chest.png": "chest.png",
     "img/gui/clan_icons.png": "clan_icons.png",
     "img/gui/cloud_tail.png": "cloud_tail.png",
     "img/gui/dialogue/dialogi.png": "dialogi.png",
     "img/gui/draconite_small.png": "img--gui--draconite_small.png",
-    "img/gui/event-calendar-sprite-en.png": "event-calendar-sprite-en.png",
-    "img/gui/event-calendar-sprite-pl.png": "event-calendar-sprite-pl.png",
     "img/gui/friend-header.png": "friend-header.png",
     "img/gui/hpStateSprite.png": "hpStateSprite.png",
     "img/gui/info-box-2.png": "info-box-2.png",
@@ -724,7 +859,6 @@
     "img/gui/middle_graphics.png": "middle_graphics.png",
     "img/gui/o.png": "o.png",
     "img/gui/ok-blackoutline.png": "ok-blackoutline.png",
-    "img/gui/oneItemSlotToRepeat.png": "oneItemSlotToRepeat.png",
     "img/gui/premium-panel-pl.png": "premium-panel-pl.png",
     "img/gui/premium_sprite.png": "premium_sprite.png",
     "img/gui/professions.png": "professions.png",
@@ -734,10 +868,6 @@
     "img/gui/progressBar/progress-bar.png": "progress-bar.png",
     "img/gui/progressbary.png": "progressbary.png",
     "img/gui/quests/quest_bar.png": "quest_bar.png",
-    "img/gui/search.png": "search.png",
-    "img/gui/shop/canopy.png": "canopy.png",
-    "img/gui/shop/gold-shop-lm.png": "gold-shop-lm.png",
-    "img/gui/shop/gold-shop.png": "gold-shop.png",
     "img/gui/shop/pet-shop-gold.png": "pet-shop-gold.png",
     "img/gui/table_header.png": "table_header.png",
     "img/gui/triangle.png": "triangle.png",
@@ -747,12 +877,28 @@
     "img/gui/zoom1.png": "zoom1.png",
     "img/gui/zoom2.png": "zoom2.png",
     "img/honorIconNormal.png": "honorIconNormal.png",
+    "img/matchmaking-card.png": "matchmaking-card.png",
+    "img/mission-label.png": "mission-label.png",
+    "img/mission-next-hover.png": "mission-next-hover.png",
+    "img/mission-next.png": "mission-next.png",
+    "img/mission-prev-hover.png": "mission-prev-hover.png",
+    "img/mission-prev.png": "mission-prev.png",
+    "img/mission-reward.png": "mission-reward.png",
+    "img/mission-tile.png": "mission-tile.png",
+    "img/mission-time.png": "mission-time.png",
     "img/money_small.png": "money_small.png",
     "img/move-marker.png": "move-marker.png",
+    "img/notification-atlas.png": "notification-atlas.png",
     "img/notyfikacje-sprite.png": "notyfikacje-sprite.png",
     "img/paseczek.png": "paseczek.png",
+    "img/premium-categories.png": "premium-categories.png",
+    "img/pvp-states.png": "pvp-states.png",
+    "img/search-frame.png": "search-frame.png",
+    "img/shop-canopy.png": "shop-canopy.png",
+    "img/shop-chests.png": "shop-chests.png",
     "img/shop-interior.png": "shop-interior.png",
     "img/shop-item-cell.png": "shop-item-cell.png",
+    "img/slot-extraction.png": "slot-extraction.png",
     "img/theme/battle-skill-tray.png": "battle-skill-tray.png",
     "img/theme/frost-surface.png": "frost-surface.png",
     "img/theme/hp-empty.png": "hp-empty.png",
@@ -783,7 +929,10 @@
     "img/ui-eye-12x12.png": "ui-eye-12x12.png",
     "img/ui-gear-13x13.png": "ui-gear-13x13.png",
     "img/ui-gear-24x24.png": "ui-gear-24x24.png",
-    "img/ui-info-14x16.png": "ui-info-14x16.png",
+    "img/ui-info-17x17.png": "ui-info-17x17.png",
+    "img/ui-matchmaking-history-96x96.png": "ui-matchmaking-history-96x96.png",
+    "img/ui-matchmaking-queue-96x96.png": "ui-matchmaking-queue-96x96.png",
+    "img/ui-matchmaking-statistick-96x96.png": "ui-matchmaking-statistick-96x96.png",
     "img/ui-opacity-13x13.png": "ui-opacity-13x13.png",
     "img/ui-pin-20x16.png": "ui-pin-20x16.png",
     "img/ui-resist-19x19.png": "ui-resist-19x19.png",
@@ -810,9 +959,10 @@
     "obrazki/interface/emo/inn_mark.png": "inn_mark.png",
     "obrazki/interface/emo/mail_mark.png": "mail_mark.png",
     "obrazki/interface/emo/quest_mark.png": "quest_mark.png",
-    "obrazki/interface/emo/shop_mark.png": "shop_mark.png"
+    "obrazki/interface/emo/shop_mark.png": "shop_mark.png",
+    "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "f4ea3b4c0b1ebe15af093ba6f98017ccc9fcf837302deec54bb7b83e11b7a256",
+  "cssSHA256": "8869394c72b614c57005c8850c7402cd2a5607575912a9cf6a630f8d2bbbac13",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {
