@@ -16,13 +16,13 @@ ins,mark{color:var(--wa-text-main);}
 .interface-element-additional-bag-eq-icon-background,.interface-element-equipment .eq-slot[data-st="9"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="9"] .eq-cl{background-image:url(../assets/equipment-empty-icons.png);background-size:234px 26px;background-position:-208px 0px;background-repeat:no-repeat;}
 .interface-element-boots-eq-icon-background,.interface-element-equipment .eq-slot[data-st="8"] .eq-cl,.interface-element-equipment-with-additional-bag .eq-slot[data-st="8"] .eq-cl{background-image:url(../assets/equipment-empty-icons.png);background-size:234px 26px;background-position:-182px 0px;background-repeat:no-repeat;}
 .interface-element-bag-eq-icon-background{background-image:url(../assets/buttony.png);}
-.interface-element-border-window-frame{border-image-source:url(../assets/window-frame.png);}
-.additional-skill-panel .graphics .additional-skill-panel-border{border-image-source:url(../assets/window-frame.png);bottom:0px;}
-.battle-controller .graphics .battle-border{border-image-source:url(../assets/window-frame.png);bottom:0px;background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);isolation:isolate;}
-.border-window{border-image-source:url(../assets/window-frame.png);color:var(--wa-text-main);background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);--wa-bg-secondary:rgba(9,20,25,.22);}
+.interface-element-border-window-frame{border-image-source:none;}
+.additional-skill-panel .graphics .additional-skill-panel-border{border-image-source:url(../assets/battle-compact-frame.png);bottom:0px;border-image-slice:80;border-image-width:40px;border-image-outset:0px 4px;border-image-repeat:stretch;}
+.battle-controller .graphics .battle-border{border-image-source:url(../assets/battle-compact-frame.png);bottom:0px;background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);isolation:isolate;border-image-slice:80;border-image-width:40px;border-image-outset:0px 4px;border-image-repeat:stretch;}
+.border-window{border-image-source:none;color:var(--wa-text-main);background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);--wa-bg-secondary:rgba(9,20,25,.22);}
 .interface-element-equipment .equipment-wrapper-outline .equipment-outline-1,.interface-element-equipment-with-additional-bag .equipment-wrapper-outline .equipment-outline-1,.interface-element-equipment .equipment-wrapper-outline .equipment-outline-2,.interface-element-equipment-with-additional-bag .equipment-wrapper-outline .equipment-outline-2,.interface-element-equipment .equipment-wrapper-outline .equipment-outline-3,.interface-element-equipment-with-additional-bag .equipment-wrapper-outline .equipment-outline-3,.interface-element-equipment .equipment-wrapper-outline .equipment-outline-4,.interface-element-equipment-with-additional-bag .equipment-wrapper-outline .equipment-outline-4{background-color:var(--wa-bg-secondary);}
-.interface-element-border-window-header-middle,.trade-window header .h_background .middle{background-color:var(--wa-ruby);background-image:linear-gradient(#4b1022,#8c1934 45%,#3b0b1b);box-shadow:inset 0 1px #071019,inset 0 2px #b4d6e8,inset 0 3px #54748b,inset 0 -1px #071019,inset 0 -2px #b4d6e8,inset 0 -3px #54748b;}
-.border-window .header-label-positioner .header-label{background-color:transparent;background-image:linear-gradient(to bottom,rgba(164,180,191,0.90196078) 0px 1px,rgba(173,188,199,1) 1px 2px,rgba(115,130,143,1) 2px 3px,rgba(47,32,40,1) 3px 4px,rgba(154,23,41,1) 4px 5px,rgba(95,7,12,1) 5px 6px,rgba(73,0,1,1) 6px 7px,rgba(75,0,3,1) 7px 8px,rgba(81,0,2,1) 8px 9px,rgba(84,0,3,1) 9px 10px,rgba(78,0,2,1) 10px 11px,rgba(83,0,3,1) 11px 12px,rgba(86,0,3,1) 12px 13px,rgba(96,0,6,1) 13px 14px,rgba(81,0,4,1) 14px 15px,rgba(72,0,2,1) 15px 16px,rgba(85,0,4,1) 16px 17px,rgba(88,0,4,1) 17px 18px,rgba(78,1,5,1) 18px 19px,rgba(64,0,0,1) 19px 20px,rgba(62,7,10,1) 20px 21px,rgba(122,142,161,1) 21px 22px,rgba(107,134,158,1) 22px 23px,rgba(62,84,104,1) 23px 24px,rgba(107,134,158,1) 24px 25px,rgba(107,133,158,1) 25px 26px,rgba(107,134,158,0.83529412) 26px 27px,rgba(107,134,158,0.2627451) 27px 28px);box-shadow:none;}
+.interface-element-border-window-header-middle{background-color:var(--wa-ruby);background-image:linear-gradient(#4b1022,#8c1934 45%,#3b0b1b);box-shadow:inset 0 1px #071019,inset 0 2px #b4d6e8,inset 0 3px #54748b,inset 0 -1px #071019,inset 0 -2px #b4d6e8,inset 0 -3px #54748b;}
+.trade-window header .h_background .middle,.border-window .header-label-positioner .header-label{background-color:transparent;box-shadow:none;}
 .interface-element-one-item-slot-background-to-repeat{background-image:url(../assets/shop-item-cell.png);background-position:0px 0px;background-repeat:repeat;background-size:33px 33px;}
 .shop-wrapper .shop-content .shop-items.scrollable .scroll-pane,.interface-element-item-slot-grid-stretch{background-image:url(../assets/shop-item-cell.png);background-size:33px 33px;background-position:0px 0px;background-repeat:repeat;}
 .interface-element-vertical-wood{background-image:url(../assets/middle_graphics.png);}
@@ -198,7 +198,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .border-window .close-button-corner-decor .close-button{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-image:url(../assets/window-close.png),linear-gradient(#751a2e,#290c18);background-color:#401020;background-position:0px 0px;background-size:100% 100%,100% 100%;background-repeat:no-repeat;box-shadow:inset 0 0 0 1px #e0f0f5,inset 0 0 0 2px #667e8b,0 0 0 1px #12212a;border-radius:3px;}
 .border-window .header-label-positioner{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .border-window .header-label-positioner .header-label .left-decor,.border-window .header-label-positioner .header-label .right-decor{background-image:url(../assets/dialogi.png);}
-.search-component{border-image-source:url(../assets/search-frame.png);}
+.search-component{border-image-source:none;}
 .search-component .search{color:var(--wa-text-main);}
 .scroll-wrapper .scrollbar-wrapper .track .handle{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .test-scroll{color:var(--wa-text-main);}
@@ -235,7 +235,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .cost-icon-component .cost-icon-wrapper .icon.honor-icon{background-image:url(../assets/honorIconNormal.png);}
 .pb-fifty:before{background-color:var(--wa-bg-secondary);}
 .card-button-test.active,.card-button-test:hover,.loot-window{color:var(--wa-text-main);}
-.loot-window .bottom-bar-wrapper .bottom-bar{background-image:url(../assets/buttony.png);left:0px;right:0px;}
+.loot-window .bottom-bar-wrapper .bottom-bar{background-image:none;left:-10px;right:-10px;border-image-source:none;width:auto;}
 .loot-window .items-wrapper .loot-item-wrapper .text-info{color:var(--wa-text-main);}
 .loot-window .items-wrapper .loot-item-wrapper .button .label.want,.loot-window .items-wrapper .loot-item-wrapper .button .label.not,.loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets/buttony.png);}
 .relogger__header{color:var(--wa-text-main);}
@@ -315,7 +315,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .one-handheld-build{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .one-handheld-build.active{background-color:var(--wa-bg-secondary);}
 .barter-window .crafting-cost-panel .cost-header-label,.barter-window .additional-container .c-slider__state{color:var(--wa-text-main);}
-.shop-wrapper .shop-background .outfit-pet-scene{background-image:url(../assets/pet-shop-gold.png);}
+.shop-wrapper .shop-background .outfit-pet-scene{background-image:url(../assets/shop-scene.png);background-position:0 0;background-repeat:no-repeat;background-size:166px 130px;}
 .shop-wrapper .shop-background.normal-shop-zl .canopy{background-image:url(../assets/shop-canopy.png);background-position:0 -2px;background-size:488px 92px;background-repeat:repeat-x;}
 .shop-wrapper .shop-background.normal-shop-sl .canopy{background-image:url(../assets/shop-canopy.png);background-position:0 -48px;background-size:488px 92px;background-repeat:repeat-x;}
 .shop-wrapper .shop-background.pet-shop-zl .canopy{background-image:url(../assets/shop-canopy.png);background-position:0 -2px;background-size:488px 92px;background-repeat:repeat-x;}
@@ -393,7 +393,8 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .battle-window .battlelog div.attack{background-image:url(../assets/line-highlight-green2.png);}
 .battle-window .battlelog div.attack2{background-image:url(../assets/line-highlight-red2.png);}
 .battle-window .battlelog div.neu{background-image:url(../assets/line-highlight-yellow2.png);}
-.one-battle-skill-tip .skill-tip-header .skill-graphic-wrapper,.battle-summary .bottom-bar-wrapper .bottom-bar{background-image:url(../assets/buttony.png);}
+.one-battle-skill-tip .skill-tip-header .skill-graphic-wrapper{background-image:url(../assets/buttony.png);}
+.battle-summary .bottom-bar-wrapper .bottom-bar{background-image:none;border-image-source:none;left:-10px;right:-10px;width:auto;}
 .battle-summary .bottom-bar-wrapper .bottom-bar .settings-button{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .battle-summary .bottom-bar-wrapper .bottom-bar .settings-button .icon{background-image:url(../assets/buttony.png);}
 .battle-banner{background-image:url(../assets/battle-banner.png);}
@@ -439,7 +440,8 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .card-content .table-header td.header-sort--asc:after,.card-content .table-header td.header-sort--desc:after{background-image:url(../assets/buttony.png);}
 .clan-list-content .first-scroll-wrapper .scroll-pane table .hover:hover{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .clan-list-find-panel .clan-list-find-content .input-wrapper .default{color:var(--wa-text-main);}
-.clan-members-content .scroll-wrapper .scroll-pane .clan-member .add-to-group .button .add-bck,.clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content{background-image:url(../assets/buttony.png);}
+.clan-members-content .scroll-wrapper .scroll-pane .clan-member .add-to-group .button .add-bck{background-image:url(../assets/buttony.png);}
+.clan-treasury-content .scroll-wrapper .scroll-pane .right-part .outfit-content{background-image:url(../assets/clan-outfit-scene.png);background-position:0 0;background-repeat:no-repeat;background-size:168px 256px;}
 .clan-rank-edit-content .check-rank .left-ranks .one-rank .v-align,.clan-rank-edit-content .check-rank .right-ranks .one-rank .v-align{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .clan-manage-content .socplay .v-align .v-item .label-box{background-color:var(--wa-bg-secondary);}
 .clan-info-content .scroll-wrapper .scroll-pane .ribbon{background-image:url(../assets/buttony.png);}
@@ -701,7 +703,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .battle-controller .battle-content .time-wrapper{top:5px;}
 .battle-controller .battle-watch{top:6px;line-height:14px;padding:0px 4px;white-space:nowrap;font-family:Arial,sans-serif;font-size:11px;font-variant-numeric:tabular-nums;font-weight:700;color:#ffffff;background-color:#102532;border-radius:2px;text-shadow:0 1px #02070b;}
 .battle-controller .battle-watch.right,.battle-controller .battle-watch.middle,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .battle-watch.right{right:136px;top:6px;}
-.battle-controller .battle-content .buttons-wrapper .button.square{bottom:5px;}
+.battle-controller .battle-content .buttons-wrapper .button.square{bottom:7px;}
 .battle-controller:not(.with-skills) .graphics .bottom-graphic{background-image:none;height:50px;background-color:rgba(10,20,25,.68);}
 .battle-controller:not(.with-skills) .battle-content .left-column,.battle-controller:not(.with-skills) .battle-content .right-column,.battle-controller:not(.with-skills) .graphics .middle-graphic{bottom:50px;}
 .battle-controller .battle-content .buttons-wrapper .change-target-btn.square,.battle-controller .battle-content .buttons-wrapper .copy-battle-logs.square{left:20px;}
@@ -721,7 +723,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .layer.interface-layer .positioner.top .hud-container .hero-data .hero_class.t{background-image:url(../assets/profession-tracker.png);background-position:0 0;background-repeat:no-repeat;background-size:20px 20px;}
 .layer.interface-layer .positioner.top .hud-container .gold-tip{background-image:url(../assets/ui-gold-21x21.png);background-position:0 0;background-repeat:no-repeat;background-size:21px 21px;}
 .layer.interface-layer .positioner.top .hud-container .credits-tip{background-image:url(../assets/credits-gem.png);background-position:center;background-repeat:no-repeat;background-size:16.5px 21px;}
-.trade-window{background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);border-bottom-width:42px;border-image-width:32px 20px;isolation:isolate;}
+.trade-window{background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);border-bottom-width:42px;isolation:isolate;border-image-source:none;--wa-frame-bottom:42px;}
 .bubbledialog{background-color:transparent;background-image:none;background-clip:padding-box;box-shadow:none;}
 .tip-wrapper{background-color:#071d2bdf;background-image:none;background-clip:padding-box;box-shadow:0 0 0 1px #8db1cc,0 3px 8px #0009;color:#e1eff8;border-color:#9cbfd5;}
 .border-window.transparent{--wa-bg-secondary:rgba(9,20,25,.12);background-color:transparent;background-image:none;box-shadow:none;}
@@ -821,7 +823,8 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .game-window-positioner .character_wrapper .pvp-btn.fight:hover{background-image:url(../assets/pvp-states.png);background-size:104px 28px;background-position:-78px 0px;background-repeat:no-repeat;}
 .one-build .build-index-wrapper,.one-build-to-buy .build-index-wrapper,.one-handheld-build .build-index-wrapper{background-image:url(../assets/build-index-frame.png);background-size:100% 100%;background-position:center;background-repeat:no-repeat;}
 .build-index{color:#edf7fc;text-shadow:0 1px 1px #02080d;}
-.border-window:not(.transparent)::before,.battle-controller .graphics .battle-border::before{content:"";position:absolute;top:-8px;right:-4px;bottom:-12px;left:-4px;background-color:#0b2331;clip-path:polygon(4px 0,calc(100% - 4px) 0,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 12px),calc(100% - 4px) calc(100% - 12px),calc(100% - 4px) 100%,4px 100%,4px calc(100% - 12px),0 calc(100% - 12px),0 8px,4px 8px);z-index:-1;pointer-events:none;}
+.border-window:not(.transparent)::before{content:"";position:absolute;top:-8px;right:-4px;bottom:-12px;left:-4px;background-color:#0b2331;clip-path:polygon(4px 0,calc(100% - 4px) 0,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 12px),calc(100% - 4px) calc(100% - 12px),calc(100% - 4px) 100%,4px 100%,4px calc(100% - 12px),0 calc(100% - 12px),0 8px,4px 8px);z-index:-1;pointer-events:none;}
+.battle-controller .graphics .battle-border::before{content:"";position:absolute;top:-12px;right:-12px;bottom:-20px;left:-12px;background-color:#0b2331;clip-path:polygon(4px 0,calc(100% - 4px) 0,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 12px),calc(100% - 4px) calc(100% - 12px),calc(100% - 4px) 100%,4px 100%,4px calc(100% - 12px),0 calc(100% - 12px),0 8px,4px 8px);z-index:-1;pointer-events:none;}
 .auction-window .left-column-auction .all-categories-auction .one-category-auction .icon{background-image:url(../assets/auction-categories.png);background-size:650px 26px;background-repeat:no-repeat;width:26px;height:26px;top:3px;}
 .auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-1{background-position:0px 0px;}
 .auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-2{background-position:-26px 0px;}
@@ -849,12 +852,23 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-32{background-position:-598px 0px;}
 .auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-99{background-position:-624px 0px;width:26px;}
 .enhance__progressbar::after{content:"";position:absolute;width:7px;height:7px;left:calc(50% - 3.5px);top:calc(50% - 3.5px);transform:rotate(45deg);background-image:linear-gradient(135deg,#ef8391,#940c29 55%,#340e20);box-shadow:0 0 0 1px #cde5ef;pointer-events:none;}
-.border-window:not(.transparent):is(.c-window--with-bottom-bar,:has(.bottom-row-panel:not([style*="display: none"]),.bottom-change-outfit-panel,.bottom-bar,.bottom-part,.bottom-wrapper,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics)){border-bottom-width:42px;border-image-width:32px 20px;}
-.border-window:not(.transparent):is(.c-window--with-bottom-bar,:has(.bottom-row-panel:not([style*="display: none"]),.bottom-change-outfit-panel,.bottom-bar,.bottom-part,.bottom-wrapper,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics))::before{bottom:-28px;}
-.left-grouped-list-and-right-description-window .bottom-row-panel,.change-outfit .bottom-change-outfit-panel,.battle-pass-window .bottom-row-panel,.trade-window .bottom-bar,.c-window__bottom-bar,.depo .bottom-bar{left:0px;right:0px;}
-.trade-window::before{content:"";position:absolute;top:-8px;bottom:-26px;left:0px;right:0px;background-color:#0b2331;z-index:-1;pointer-events:none;}
+.border-window:not(.transparent):is(.c-window--with-bottom-bar,:has(.bottom-row-panel:not([style*="display: none"]),.bottom-change-outfit-panel,.bottom-bar,.bottom-part,.bottom-wrapper,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics)){border-bottom-width:42px;--wa-frame-bottom:42px;}
+.left-grouped-list-and-right-description-window .bottom-row-panel,.change-outfit .bottom-change-outfit-panel,.battle-pass-window .bottom-row-panel{left:-10px;right:-10px;background-image:none;border-image-source:none;width:auto;}
+.trade-window .bottom-bar{left:-10px;right:-10px;background-image:linear-gradient(rgba(190,220,234,.09),transparent 25%,rgba(1,8,14,.46)),url(../assets/shop-interior.png);border-image-source:none;width:auto;background-size:100% 100%,cover;background-position:0px 0px,center bottom;background-repeat:no-repeat;background-color:#0b2331;box-shadow:inset 0 1px #a7c5d4,inset 0 3px #162e3c,inset 0 -3px #030d14,inset 0 8px 10px rgba(2,10,16,.3);border-color:transparent;}
+.c-window__bottom-bar,.depo .bottom-bar{left:-10px;right:-10px;background-image:none;border-image-source:none;width:auto;}
+.trade-window::before{content:"";position:absolute;top:-20px;bottom:calc(8px - var(--wa-frame-bottom));left:-12px;right:-12px;background-color:#0b2331;z-index:-1;pointer-events:none;background-image:none;clip-path:polygon(8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px),0 8px);}
 .border-window:has(.depo) .content{padding:16px 0 10px;}
-.border-window .bottom-bar,.loot-window .bottom-wrapper,.auction-window .bottom-part,.border-window .world-window .bottom-bar,.premium-panel .premium-bottom-panel,.matchmaking-summary .bottom-panel-graphics,.divide-panel .bottom-part,.console-window .console-bottom-panel-wrapper,.mails-window .bottom-mail-panel,.friend-enemy-list .bottom-friend-panel,.skills-window .bottom-part,.matchmaking-panel .bottom-panel-graphics{left:0px;right:0px;}
+.border-window .bottom-bar,.loot-window .bottom-wrapper,.auction-window .bottom-part,.border-window .world-window .bottom-bar,.premium-panel .premium-bottom-panel,.matchmaking-summary .bottom-panel-graphics,.divide-panel .bottom-part,.console-window .console-bottom-panel-wrapper,.mails-window .bottom-mail-panel,.friend-enemy-list .bottom-friend-panel,.skills-window .bottom-part,.matchmaking-panel .bottom-panel-graphics{left:-10px;right:-10px;background-image:none;border-image-source:none;width:auto;}
+.border-window:not(.transparent):not(.tip-window){border-image-source:none;--wa-frame-bottom:32px;isolation:isolate;}
+.border-window:not(.transparent):not(.tip-window)::before{content:"";position:absolute;top:-20px;right:-12px;bottom:calc(8px - var(--wa-frame-bottom));left:-12px;background-color:#0b2331;background-image:none;clip-path:polygon(8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px),0 8px);z-index:-1;pointer-events:none;}
+.border-window:not(.transparent):not(.tip-window)::after,.trade-window::after{content:"";position:absolute;top:-40px;right:-28px;bottom:calc(-8px - var(--wa-frame-bottom));left:-28px;border:40px solid transparent;border-image-source:url(../assets/window-outer-frame.png);border-image-slice:80;border-image-width:40px;border-image-repeat:stretch;box-sizing:border-box;z-index:2;pointer-events:none;}
+.border-window:not(.transparent):not(.tip-window) .header-label-positioner{z-index:3;}
+.border-window:not(.transparent):not(.tip-window) .close-button-corner-decor{z-index:4;}
+.trade-window header{z-index:3;}
+.border-window:not(.transparent):not(.tip-window) :is(.bottom-bar,.bottom-wrapper,.bottom-part,.bottom-row-panel,.bottom-change-outfit-panel,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics,.c-window__bottom-bar){background-image:linear-gradient(rgba(190,220,234,.09),transparent 25%,rgba(1,8,14,.46)),url(../assets/shop-interior.png);background-size:100% 100%,cover;background-position:0px 0px,center bottom;background-repeat:no-repeat;background-color:#0b2331;box-shadow:inset 0 1px #a7c5d4,inset 0 3px #162e3c,inset 0 -3px #030d14,inset 0 8px 10px rgba(2,10,16,.3);border-image-source:none;border-color:transparent;}
+.border-window .left-grouped-list-and-right-description-window .left-grouped-list-right-column-bottom-row-panel{left:-8px;right:-8px;}
+.border-window .players-online .players-online__content .bottom-bar{left:0px;right:0px;}
+.border-window:not(.transparent):not(.tip-window) .search-component{border-image-source:none;border-color:transparent;background-image:url(../assets/search-glass.png),linear-gradient(#102b3a,#091c27);background-size:16px 16px,100% 100%;background-position:8px center,0px 0px;background-repeat:no-repeat;background-origin:border-box;background-clip:border-box;border-radius:2px;box-shadow:inset 0 0 0 1px #587889,inset 0 2px 3px #051019;}
 .border-window input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]){color:#e5eff5!important;caret-color:#e5eff5;}
 .border-window input::placeholder{color:#9eb6c6;opacity:1;}
 .trade-window .content{color:#e5eff5;}
@@ -866,9 +880,11 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .game-window-positioner.classic-interface .interface-layer .main-buttons-container.top-right.static-widget-position{translate:0px 8px;}
 .game-window-positioner.classic-interface .interface-layer .main-buttons-container.bottom-right.static-widget-position{translate:0px -7px;}
 body[data-res]:not([data-res="default"]) .layer.interface-layer{border-image-source:url(../assets/window-mode-silver-frame.png)!important;border-image-slice:7!important;}
-.battle-controller[size="1"] .graphics .battle-border{border-image-source:url(../assets/battle-compact-frame.png);}
+.battle-controller[size="1"] .graphics .battle-border{border-image-source:url(../assets/battle-compact-frame.png);border-image-slice:80;border-image-width:40px;border-image-outset:0px 4px;border-image-repeat:stretch;}
+.battle-controller[size="1"].with-skills .graphics .bottom-graphic{mask-image:linear-gradient(transparent 0px,transparent 24px,#000 24px);background-color:transparent;}
 .bubbledialog .bg-layer.left .bottom-frame{background-image:url(../assets/bubble-bottom-left-joined.png);background-position:0px 0px;}
 .border-window .header-label-positioner .header-label .text,.trade-window header .h_content{color:var(--wa-text-main);}
+.border-window .header-label-positioner .header-label,.trade-window header .h_background .middle{background-image:linear-gradient(to bottom,rgba(164,180,191,0.90196078) 0px 1px,rgba(173,188,199,1) 1px 2px,rgba(115,130,143,1) 2px 3px,rgba(47,32,40,1) 3px 4px,rgba(154,23,41,1) 4px 5px,rgba(95,7,12,1) 5px 6px,rgba(73,0,1,1) 6px 7px,rgba(75,0,3,1) 7px 8px,rgba(81,0,2,1) 8px 9px,rgba(84,0,3,1) 9px 10px,rgba(78,0,2,1) 10px 11px,rgba(83,0,3,1) 11px 12px,rgba(86,0,3,1) 12px 13px,rgba(96,0,6,1) 13px 14px,rgba(81,0,4,1) 14px 15px,rgba(72,0,2,1) 15px 16px,rgba(85,0,4,1) 16px 17px,rgba(88,0,4,1) 17px 18px,rgba(78,1,5,1) 18px 19px,rgba(64,0,0,1) 19px 20px,rgba(62,7,10,1) 20px 21px,rgba(122,142,161,1) 21px 22px,rgba(107,134,158,1) 22px 23px,rgba(62,84,104,1) 23px 24px,rgba(107,134,158,1) 24px 25px,rgba(107,133,158,1) 25px 26px,rgba(107,134,158,0.83529412) 26px 27px,rgba(107,134,158,0.2627451) 27px 28px);}
 .button.red{--wa-control-top:#741a30ed;--wa-control-bottom:#300d1bf5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
 .button.blue{--wa-control-top:#244d62ed;--wa-control-bottom:#0b2130f5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
 .button.green{--wa-control-top:#20414bed;--wa-control-bottom:#0b2029f5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}

@@ -1,6 +1,6 @@
 {
-  "version": "0.2.4-test",
-  "build": "85e3a52e67bc651e",
+  "version": "0.2.5-test",
+  "build": "517e26d493ff5ca8",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -51,6 +51,10 @@
     [
       "chat-icons.png",
       "1a82243e3b6087a9d4ed3973e48d854144e4a263ec1b932493495ce01089f55e"
+    ],
+    [
+      "clan-outfit-scene.png",
+      "f961a8a55671c6147a4ded9aa4006483104533fcf2df181bf2a9296f33201b19"
     ],
     [
       "control-left-22x22.png",
@@ -250,7 +254,7 @@
     ],
     [
       "buttony.png",
-      "3b30a31eef52ccdf077ab41c75f733fa7e3bcb7f173ee96cace9d261aab629d5"
+      "ceced270540fc05a96d96f209617016a02a426f5684c99e26dd8e65aa4e7ca37"
     ],
     [
       "calendar-icons.png",
@@ -381,10 +385,6 @@
       "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
     ],
     [
-      "pet-shop-gold.png",
-      "47c030038b22a45b246efe19c4beb23744c310bfb405a4c3df7387c80254d04f"
-    ],
-    [
       "table_header.png",
       "e3828d8469710b1d100f957bf747bd860efd36e1dd3515a08d4175d63854c26e"
     ],
@@ -399,10 +399,6 @@
     [
       "width-card-button.png",
       "8cf647315d011d215ebc79700a165f75c196684611de8c07bffa63fadad4cdd8"
-    ],
-    [
-      "window-frame.png",
-      "f3607c609d3a4f0c117a4a5965ca64b3facfbdfc84692e83ce652cb799cb29c1"
     ],
     [
       "zoom1.png",
@@ -477,10 +473,6 @@
       "6ab8c1bec9272270bc076e414da00fd8249239ea88b9973454f5fef25d81c7b1"
     ],
     [
-      "search-frame.png",
-      "83c3de32cb2ee68aaf496b2bbcd08768622571820ea1c452dee6cbda2483afd7"
-    ],
-    [
       "shop-canopy.png",
       "a14752f012ed64aeab956a38dd5b1e206a7a18c53f122fa6dbd2e5d2b107462f"
     ],
@@ -497,6 +489,10 @@
       "8923fdbdd8f275ef8889ad20cf158c7c88ee8f527dff10308f5120bcd3fe4d12"
     ],
     [
+      "shop-scene.png",
+      "36b226ea0312c3be1e22430940b7f4c117bee0ff93547a8482a77d5131f60512"
+    ],
+    [
       "slot-extraction.png",
       "871e29e37024597676d9db8bc42f7a5e9f2735991e86f2e18df0de2628d7cffb"
     ],
@@ -506,7 +502,7 @@
     ],
     [
       "battle-compact-frame.png",
-      "c67f7abe54646f5386eebbe70535cfc3b04a96a95a91aae2ea032ca64cf32357"
+      "62d2d416c5ee36fd06e9708e148513c7dc902ef1b91bbf3e513237a3f77b62be"
     ],
     [
       "battle-skill-tray.png",
@@ -567,6 +563,10 @@
     [
       "panel-material.png",
       "f2c8186a834153773ab83865b3813fd4ef3cbc94b54f2cd2782572374a46b63f"
+    ],
+    [
+      "search-glass.png",
+      "cc9d482f023a12f1eb054830531298c62664516e55676da839d28371208a2a02"
     ],
     [
       "credits-gem.png",
@@ -631,6 +631,10 @@
     [
       "window-mode-silver-frame.png",
       "55013c0f31ae264ecd32108c757f7711df84c290d86825a6908720b11cf70777"
+    ],
+    [
+      "window-outer-frame.png",
+      "91acf338b8fc62178649ae42e90c943ac23ca197a1f8b26886b82652d21e6d02"
     ],
     [
       "ui-attack-19x19.png",
@@ -802,6 +806,7 @@
     "img/buffs.gif": "buffs.gif",
     "img/build-index-frame.png": "build-index-frame.png",
     "img/chat-icons.png": "chat-icons.png",
+    "img/clan-outfit-scene.png": "clan-outfit-scene.png",
     "img/control-left-22x22.png": "control-left-22x22.png",
     "img/control-lock-20x20.png": "control-lock-20x20.png",
     "img/control-message-25x24.png": "control-message-25x24.png",
@@ -884,12 +889,10 @@
     "img/gui/progressBar/progress-bar.png": "progress-bar.png",
     "img/gui/progressbary.png": "progressbary.png",
     "img/gui/quests/quest_bar.png": "quest_bar.png",
-    "img/gui/shop/pet-shop-gold.png": "pet-shop-gold.png",
     "img/gui/table_header.png": "table_header.png",
     "img/gui/triangle.png": "triangle.png",
     "img/gui/width-card-button-active.png": "width-card-button-active.png",
     "img/gui/width-card-button.png": "width-card-button.png",
-    "img/gui/window-frame.png": "window-frame.png",
     "img/gui/zoom1.png": "zoom1.png",
     "img/gui/zoom2.png": "zoom2.png",
     "img/honorIconNormal.png": "honorIconNormal.png",
@@ -908,11 +911,11 @@
     "img/paseczek.png": "paseczek.png",
     "img/premium-categories.png": "premium-categories.png",
     "img/pvp-states.png": "pvp-states.png",
-    "img/search-frame.png": "search-frame.png",
     "img/shop-canopy.png": "shop-canopy.png",
     "img/shop-chests.png": "shop-chests.png",
     "img/shop-interior.png": "shop-interior.png",
     "img/shop-item-cell.png": "shop-item-cell.png",
+    "img/shop-scene.png": "shop-scene.png",
     "img/slot-extraction.png": "slot-extraction.png",
     "img/theme/auction-categories.png": "auction-categories.png",
     "img/theme/battle-compact-frame.png": "battle-compact-frame.png",
@@ -931,6 +934,7 @@
     "img/theme/item-field-decor.png": "item-field-decor.png",
     "img/theme/item-field.png": "item-field.png",
     "img/theme/panel-material.png": "panel-material.png",
+    "img/theme/search-glass.png": "search-glass.png",
     "img/theme/top/credits-gem.png": "credits-gem.png",
     "img/theme/top/hud-top.png": "hud-top.png",
     "img/theme/top/map-status-green.png": "map-status-green.png",
@@ -947,6 +951,7 @@
     "img/theme/top/ui-profession-w-20x20.png": "ui-profession-w-20x20.png",
     "img/theme/window-close.png": "window-close.png",
     "img/theme/window-mode-silver-frame.png": "window-mode-silver-frame.png",
+    "img/theme/window-outer-frame.png": "window-outer-frame.png",
     "img/ui-attack-19x19.png": "ui-attack-19x19.png",
     "img/ui-collapse-13x13.png": "ui-collapse-13x13.png",
     "img/ui-defence-19x19.png": "ui-defence-19x19.png",
@@ -987,7 +992,7 @@
     "obrazki/interface/emo/shop_mark.png": "shop_mark.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "7c962c6c2638bd0a0c862e36489784f077e38f1e42360666e9ca36a371e95aee",
+  "cssSHA256": "ce6b88ee0b99c8930aa77bd09f1fc499e7924825fc52c49f2ed8b948017f1ccf",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {

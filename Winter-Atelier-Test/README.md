@@ -1,4 +1,12 @@
-# Winter Atelier — test 0.2.4
+# Winter Atelier — test 0.2.5
+
+Wydanie testowe 0.2.5-test. Wygląd i płynność oczekują na ocenę użytkownika w grze.
+
+Zmiany po0.2.4: jedna pełna rama9-slice dużych okien i osobna spójna rama walki, wypełnienie do wewnętrznej krawędzi, fakturowane stopki na pełną wewnętrzną szerokość, naturalne pola wyszukiwania, sceny podglądu stroju/maskotki i stroju klanowego ze wskazanego starego motywu. Usunięty osobny prostokątny środek tytułu handlu. Przyciski „Zmiana celu” i „Szybka walka” podniesione o kolejne2px. Najmniejsza walka bez dodatkowej górnej belki panelu umiejętności.
+
+Usunięte z eksportu zastąpione window-frame.png i search-frame.png. W zbiorczym buttony.png wyczyszczono13 zastąpionych pól HUD-u/belek, przy zachowaniu rozmiaru i chronionych współdzielonych pikseli. Audyt obecności URL nie oznacza pełnego audytu rzeczywistego użycia: raport effective-assets rozróżnia wybrane obrazy, nadpisane reguły i stany nieobjęte fixture. Jeden prawdziwy obraz zależny od JS, move-marker.png, jest zachowany.
+
+Pełny przegląd atlasu pozostaje otwarty:305 pozycji jego mapy nie ma reprezentacji w badanych stanach, więc nie zostały uznane za zbędne ani usunięte. Kontrola techniczna nie jest zatwierdzeniem wyglądu w rzeczywistej grze.
 
 [Zainstaluj lub zaktualizuj skrypt w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), a następnie przeładuj grę. Zostaw włączony tylko jeden skrypt motywu.
 
