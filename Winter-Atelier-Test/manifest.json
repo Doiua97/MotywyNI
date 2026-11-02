@@ -1,6 +1,6 @@
 {
-  "version": "0.2.6-test",
-  "build": "41e92ff573907c77",
+  "version": "0.2.7-test",
+  "build": "c335dc04f0447593",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -171,10 +171,6 @@
     [
       "img--draconite_small.png",
       "fa8e6e73ae4f2e8147a942b12e6e333db56232de8d3c982769eec0313c36a172"
-    ],
-    [
-      "battle.gif",
-      "581c22ca3a51f0a779e339372682b3f65bd7759ca4d6f4cad182fddff1720197"
     ],
     [
       "equipment-empty-icons.png",
@@ -377,10 +373,6 @@
       "30f957fc23f885b867211ffdda63bfc037f95220d9a6f73b63cbf180e1a2e90f"
     ],
     [
-      "table_header.png",
-      "e3828d8469710b1d100f957bf747bd860efd36e1dd3515a08d4175d63854c26e"
-    ],
-    [
       "triangle.png",
       "ba65230cc3fcce3a917101210c6a6f89444774c205b7dc00f8ca545f304c5aac"
     ],
@@ -447,10 +439,6 @@
     [
       "move-marker.png",
       "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
-    ],
-    [
-      "paseczek.png",
-      "ab656abc76900d41088f3253a7f17111ee6d06c85330436aa69311a873fefcf0"
     ],
     [
       "premium-categories.png",
@@ -545,10 +533,6 @@
       "125a8398d1538d95745c0fc7bb32d355c18d478ec684ac654810a3b9dce98321"
     ],
     [
-      "c183202eb.png",
-      "69b24605d3abf41c948682ceee0655bac9200cbc88db7cadd71ad712a9a26c4b"
-    ],
-    [
       "c1a0c565f.png",
       "7bd76252f6bf7406b151f6f0a1ba3f4374ee9c98c7bfb6a5b310eb027bbc7a1e"
     ],
@@ -641,10 +625,6 @@
       "846db548eee77c93030acef41a00e50dfb0ccfca1b03d1af5d5f7c66793a671a"
     ],
     [
-      "c5b7da3d3.png",
-      "e0f900765273de8876a13080c82dd03bb8acb93bf2a42ee93fcc357865b8eccd"
-    ],
-    [
       "c610527d8.png",
       "161c784889209dbb732960e4b83643dd5b2672f844a8917a77b6890470967525"
     ],
@@ -687,10 +667,6 @@
     [
       "c819c6721.png",
       "53e571786102b274e1aff13aa99cd357831f3a5bb3964a72af1aede7700013b9"
-    ],
-    [
-      "c8df9f1f9.png",
-      "7654d583a4be7b7da45270ae3c58d09025b7fb597ee4528a5a96f09fde402267"
     ],
     [
       "c8e8c5ad0.png",
@@ -749,14 +725,6 @@
       "f431757f92fa71ea3ff87b138c321177f7ace5ecd6685a098e02e6ac492db8af"
     ],
     [
-      "cb2c472ee.png",
-      "c7e0f58c9a91045617eb72846b0632c0f228834693646d5750fb1ddfe5083b22"
-    ],
-    [
-      "cb55862a4.png",
-      "7f686f7f198b8680db4cdce667da42f7a78159a45b4edc33fb2b396e2afdbe84"
-    ],
-    [
       "cbbcb5a9c.png",
       "77775c5dbfa880b449706353c87b70f6a9fb4fc4218b2f70f29d741a3e458d77"
     ],
@@ -807,10 +775,6 @@
     [
       "ce518b9c1.png",
       "6cc0b7782b06ef64c6dd7c08a30181ea9c5eb08b72d1ff90aa89ee04ab7ab460"
-    ],
-    [
-      "ce5440cd4.png",
-      "3de7754d63a44949eb081588b84295c2fe95986fb5972e0132a458e59339d87a"
     ],
     [
       "ce6ddb4ef.png",
@@ -1085,38 +1049,6 @@
       "7d6453a1d260b18e63f0032b20bbfa22781111f693f305c4a52e3fd33b795866"
     ],
     [
-      "auctions_mark.png",
-      "5501b2e0531b82e2ea24f1c2c117988508e7a1d2d31fcb6fe62ddf154ac63aa9"
-    ],
-    [
-      "daily_quest_mark.png",
-      "cc85a098b77433856d31ce30cb5413d2d4216cac763ed1ed799e34e7a4d08980"
-    ],
-    [
-      "depo_mark.png",
-      "a549b976d3eec5791a0b01c4a5f78e0ee7fb99c29b6c3c93b65515e468a9f702"
-    ],
-    [
-      "heal_mark.png",
-      "914dcb6a835dba03eca654aa34b38aafcd78317b36fe708e87a92dfb0ace3ca7"
-    ],
-    [
-      "inn_mark.png",
-      "fe2063ab0ca00c18bbf85f0b9d3c247c37f04c1db429892bdf69d6f1219641c2"
-    ],
-    [
-      "mail_mark.png",
-      "2f02c047bfee13abf485eae19c59d9ea9ed385ab431bdd47fa485a194998a168"
-    ],
-    [
-      "quest_mark.png",
-      "a5bcd49ffb5815641d1074c54f91a4e1b583bf112e05ed7659a0fd55cf002092"
-    ],
-    [
-      "shop_mark.png",
-      "c1b5299c5c5c09d20051ddd00549e94fa4558e720d796ff35034063ecd280def"
-    ],
-    [
       "winter-atelier.woff2",
       "89d6b517b557272aeb8eb1c57291480262b66c18afa23485ed95a9060e288abf"
     ]
@@ -1164,7 +1096,6 @@
     "img/dialogue-shop.png": "dialogue-shop.png",
     "img/draconiteIconNormal.png": "draconiteIconNormal.png",
     "img/draconite_small.png": "img--draconite_small.png",
-    "img/emo/battle.gif": "battle.gif",
     "img/equipment-empty-icons.png": "equipment-empty-icons.png",
     "img/event-calendar.png": "event-calendar.png",
     "img/field-material.png": "field-material.png",
@@ -1215,7 +1146,6 @@
     "img/gui/progressBar/progress-bar.png": "progress-bar.png",
     "img/gui/progressbary.png": "progressbary.png",
     "img/gui/quests/quest_bar.png": "quest_bar.png",
-    "img/gui/table_header.png": "table_header.png",
     "img/gui/triangle.png": "triangle.png",
     "img/gui/width-card-button-active.png": "width-card-button-active.png",
     "img/gui/width-card-button.png": "width-card-button.png",
@@ -1233,7 +1163,6 @@
     "img/mission-time.png": "mission-time.png",
     "img/money_small.png": "money_small.png",
     "img/move-marker.png": "move-marker.png",
-    "img/paseczek.png": "paseczek.png",
     "img/premium-categories.png": "premium-categories.png",
     "img/pvp-states.png": "pvp-states.png",
     "img/shop-canopy.png": "shop-canopy.png",
@@ -1257,7 +1186,6 @@
     "img/theme/c12960f03.png": "c12960f03.png",
     "img/theme/c13be630c.png": "c13be630c.png",
     "img/theme/c16232e20.png": "c16232e20.png",
-    "img/theme/c183202eb.png": "c183202eb.png",
     "img/theme/c1a0c565f.png": "c1a0c565f.png",
     "img/theme/c1aca8145.png": "c1aca8145.png",
     "img/theme/c1c0a5035.png": "c1c0a5035.png",
@@ -1281,7 +1209,6 @@
     "img/theme/c53d73563.png": "c53d73563.png",
     "img/theme/c5999a827.png": "c5999a827.png",
     "img/theme/c5b5ea059.png": "c5b5ea059.png",
-    "img/theme/c5b7da3d3.png": "c5b7da3d3.png",
     "img/theme/c610527d8.png": "c610527d8.png",
     "img/theme/c6267fa73.png": "c6267fa73.png",
     "img/theme/c64fab291.png": "c64fab291.png",
@@ -1293,7 +1220,6 @@
     "img/theme/c800d4fcb.png": "c800d4fcb.png",
     "img/theme/c818dd515.png": "c818dd515.png",
     "img/theme/c819c6721.png": "c819c6721.png",
-    "img/theme/c8df9f1f9.png": "c8df9f1f9.png",
     "img/theme/c8e8c5ad0.png": "c8e8c5ad0.png",
     "img/theme/c8fa15547.png": "c8fa15547.png",
     "img/theme/c92461850.png": "c92461850.png",
@@ -1308,8 +1234,6 @@
     "img/theme/cad4b2761.png": "cad4b2761.png",
     "img/theme/caf92174e.png": "caf92174e.png",
     "img/theme/cb0dbfad1.png": "cb0dbfad1.png",
-    "img/theme/cb2c472ee.png": "cb2c472ee.png",
-    "img/theme/cb55862a4.png": "cb55862a4.png",
     "img/theme/cbbcb5a9c.png": "cbbcb5a9c.png",
     "img/theme/cc7a8ce7a.png": "cc7a8ce7a.png",
     "img/theme/cca0da4b2.png": "cca0da4b2.png",
@@ -1323,7 +1247,6 @@
     "img/theme/cdc327a1f.png": "cdc327a1f.png",
     "img/theme/ce33eb873.png": "ce33eb873.png",
     "img/theme/ce518b9c1.png": "ce518b9c1.png",
-    "img/theme/ce5440cd4.png": "ce5440cd4.png",
     "img/theme/ce6ddb4ef.png": "ce6ddb4ef.png",
     "img/theme/ce8ca2127.png": "ce8ca2127.png",
     "img/theme/ce96b344c.png": "ce96b344c.png",
@@ -1392,17 +1315,9 @@
     "inline-ddc59ce9772c77d8.png": "inline-ddc59ce9772c77d8.png",
     "inline-e752e04c8abee396.png": "inline-e752e04c8abee396.png",
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
-    "obrazki/interface/emo/auctions_mark.png": "auctions_mark.png",
-    "obrazki/interface/emo/daily_quest_mark.png": "daily_quest_mark.png",
-    "obrazki/interface/emo/depo_mark.png": "depo_mark.png",
-    "obrazki/interface/emo/heal_mark.png": "heal_mark.png",
-    "obrazki/interface/emo/inn_mark.png": "inn_mark.png",
-    "obrazki/interface/emo/mail_mark.png": "mail_mark.png",
-    "obrazki/interface/emo/quest_mark.png": "quest_mark.png",
-    "obrazki/interface/emo/shop_mark.png": "shop_mark.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "17217c4db31060050b3b5fca5942f05beab8929dc8e5f9e82b7cdbe4e9cdfcd4",
+  "cssSHA256": "0df7bb2c12a5a7ffd7f9a2446db83b712a0eb2472d02c73d7749ba4607761b9b",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {
