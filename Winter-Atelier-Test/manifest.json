@@ -1,6 +1,6 @@
 {
-  "version": "0.2.3-test",
-  "build": "d172505c02411884",
+  "version": "0.2.4-test",
+  "build": "85e3a52e67bc651e",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -39,22 +39,6 @@
     [
       "belka-gora-dol.png",
       "e7933ce71c1bdd89f04e30a277dcebea66daa68bdaab1e12ae0a23e08471db30"
-    ],
-    [
-      "bubble-bottom.png",
-      "0f290d8b8670a46ab160f603425b9c5f642b41bf8a4e01c0fffee6be33f025ce"
-    ],
-    [
-      "bubble-left.png",
-      "07a030559406e45da4f379971bf7fb28d05dfcb2247fcd5ce2e086ac76f364a0"
-    ],
-    [
-      "bubble-right.png",
-      "ed6c12d93969cfbfa9e512545d225007e46e54ae1804c032437c2816159e28da"
-    ],
-    [
-      "bubble-top.png",
-      "210b20e6d895ef84b776dde0562737456b6dddf895572959dbd59a3277a7690e"
     ],
     [
       "buffs.gif",
@@ -418,7 +402,7 @@
     ],
     [
       "window-frame.png",
-      "d8eab8aa201e43f0bc960555a08ea105309834c7b67c8ac110eb3422454e8f90"
+      "f3607c609d3a4f0c117a4a5965ca64b3facfbdfc84692e83ce652cb799cb29c1"
     ],
     [
       "zoom1.png",
@@ -477,10 +461,6 @@
       "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
     ],
     [
-      "notification-atlas.png",
-      "ce92f1b7e6a37750ad3242f36f6e5e38c16dd7f69b3c599db320b463e199d465"
-    ],
-    [
       "notyfikacje-sprite.png",
       "f9d88856d6d5e13ddf47dd36223b84ac0c50337eb2154267a58a32a845799247"
     ],
@@ -521,8 +501,36 @@
       "871e29e37024597676d9db8bc42f7a5e9f2735991e86f2e18df0de2628d7cffb"
     ],
     [
+      "auction-categories.png",
+      "c6d581596420b5bdcc16698b3334c81b4c3863993f61529cb4e20e15af512c5f"
+    ],
+    [
+      "battle-compact-frame.png",
+      "c67f7abe54646f5386eebbe70535cfc3b04a96a95a91aae2ea032ca64cf32357"
+    ],
+    [
       "battle-skill-tray.png",
       "2a85d67f0dde4bbd9439f285d9add094946643edf6d80cfd6adf1f97caf094b1"
+    ],
+    [
+      "bubble-bottom-joined.png",
+      "a9a02f605a4725b107db9cb7a872d8fe3c15deaa721488cd9ff153f776998ae6"
+    ],
+    [
+      "bubble-bottom-left-joined.png",
+      "d7fb11b72906664d452d531bf78e72f3aaf410c789b0dc553713054c79a59ac2"
+    ],
+    [
+      "bubble-left-joined.png",
+      "685e08c2771a76c93a3049ef35cf7f1a0e02b1d16a372846598e12c43aa42d8c"
+    ],
+    [
+      "bubble-right-joined.png",
+      "828c352a90115be278f03157b3bbd1c0757d5c595dd69f1f5a21cd2da286c720"
+    ],
+    [
+      "bubble-top-joined.png",
+      "da0678c477204fa9c4436fe68f3e4d3d647e00e3423036f9340a07e4321af34e"
     ],
     [
       "frost-surface.png",
@@ -547,6 +555,14 @@
     [
       "hud-rail-mask-1.png",
       "093c1ebe706abb2a7c6b7cfaa4af384389731d2927fd6a756d0b5e2998a814e8"
+    ],
+    [
+      "item-field-decor.png",
+      "fcea9d098c1ff38ad2643861dac257daf9c560680ebd773bb70e14460d295372"
+    ],
+    [
+      "item-field.png",
+      "25aab8e7018262554da22a0e3ef318ea3142aafd20292cd010353f445bdef92d"
     ],
     [
       "panel-material.png",
@@ -611,6 +627,10 @@
     [
       "window-close.png",
       "24351272610023be9efbb3af7352ca1a1d9583387c9c7cb947e06ab7ecbad142"
+    ],
+    [
+      "window-mode-silver-frame.png",
+      "55013c0f31ae264ecd32108c757f7711df84c290d86825a6908720b11cf70777"
     ],
     [
       "ui-attack-19x19.png",
@@ -779,10 +799,6 @@
     "img/battle-pass-premium-banner.png": "battle-pass-premium-banner.png",
     "img/battle-timer-fill.png": "battle-timer-fill.png",
     "img/belka-gora-dol.png": "belka-gora-dol.png",
-    "img/bubble-bottom.png": "bubble-bottom.png",
-    "img/bubble-left.png": "bubble-left.png",
-    "img/bubble-right.png": "bubble-right.png",
-    "img/bubble-top.png": "bubble-top.png",
     "img/buffs.gif": "buffs.gif",
     "img/build-index-frame.png": "build-index-frame.png",
     "img/chat-icons.png": "chat-icons.png",
@@ -888,7 +904,6 @@
     "img/mission-time.png": "mission-time.png",
     "img/money_small.png": "money_small.png",
     "img/move-marker.png": "move-marker.png",
-    "img/notification-atlas.png": "notification-atlas.png",
     "img/notyfikacje-sprite.png": "notyfikacje-sprite.png",
     "img/paseczek.png": "paseczek.png",
     "img/premium-categories.png": "premium-categories.png",
@@ -899,13 +914,22 @@
     "img/shop-interior.png": "shop-interior.png",
     "img/shop-item-cell.png": "shop-item-cell.png",
     "img/slot-extraction.png": "slot-extraction.png",
+    "img/theme/auction-categories.png": "auction-categories.png",
+    "img/theme/battle-compact-frame.png": "battle-compact-frame.png",
     "img/theme/battle-skill-tray.png": "battle-skill-tray.png",
+    "img/theme/bubble-bottom-joined.png": "bubble-bottom-joined.png",
+    "img/theme/bubble-bottom-left-joined.png": "bubble-bottom-left-joined.png",
+    "img/theme/bubble-left-joined.png": "bubble-left-joined.png",
+    "img/theme/bubble-right-joined.png": "bubble-right-joined.png",
+    "img/theme/bubble-top-joined.png": "bubble-top-joined.png",
     "img/theme/frost-surface.png": "frost-surface.png",
     "img/theme/hp-empty.png": "hp-empty.png",
     "img/theme/hp-mask.png": "hp-mask.png",
     "img/theme/hud-decoration.png": "hud-decoration.png",
     "img/theme/hud-rail-mask-0.png": "hud-rail-mask-0.png",
     "img/theme/hud-rail-mask-1.png": "hud-rail-mask-1.png",
+    "img/theme/item-field-decor.png": "item-field-decor.png",
+    "img/theme/item-field.png": "item-field.png",
     "img/theme/panel-material.png": "panel-material.png",
     "img/theme/top/credits-gem.png": "credits-gem.png",
     "img/theme/top/hud-top.png": "hud-top.png",
@@ -922,6 +946,7 @@
     "img/theme/top/ui-profession-p-20x20.png": "ui-profession-p-20x20.png",
     "img/theme/top/ui-profession-w-20x20.png": "ui-profession-w-20x20.png",
     "img/theme/window-close.png": "window-close.png",
+    "img/theme/window-mode-silver-frame.png": "window-mode-silver-frame.png",
     "img/ui-attack-19x19.png": "ui-attack-19x19.png",
     "img/ui-collapse-13x13.png": "ui-collapse-13x13.png",
     "img/ui-defence-19x19.png": "ui-defence-19x19.png",
@@ -962,7 +987,7 @@
     "obrazki/interface/emo/shop_mark.png": "shop_mark.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "8869394c72b614c57005c8850c7402cd2a5607575912a9cf6a630f8d2bbbac13",
+  "cssSHA256": "7c962c6c2638bd0a0c862e36489784f077e38f1e42360666e9ca36a371e95aee",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {

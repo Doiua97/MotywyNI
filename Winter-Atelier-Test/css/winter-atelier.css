@@ -40,7 +40,8 @@ ins,mark{color:var(--wa-text-main);}
 .interface-element-background-color-3{background-color:var(--wa-bg-secondary);}
 .interface-element-middle-3-background,.interface-element-middle-3-background-stretch{background-color:var(--wa-bg-secondary);border-image-source:url(../assets/middle_graphics.png);}
 .interface-element-one-item-slot-2{background-color:var(--wa-bg-secondary);}
-.interface-element-one-item-slot,.interface-element-one-item-slot-decor{background-image:url(../assets/buttony.png);}
+.interface-element-one-item-slot{background-image:url(../assets/item-field.png);background-size:36px 36px;background-position:0px 0px;background-repeat:no-repeat;}
+.interface-element-one-item-slot-decor{background-image:url(../assets/item-field-decor.png);background-size:45px 46px;background-position:0px 0px;background-repeat:no-repeat;}
 .interface-element-middle-4-background{border-image-source:url(../assets/middle_graphics.png);}
 .interface-element-bottom-bar-background,.interface-element-bottom-bar-background-stretch{border-image-source:url(../assets/quest_bar.png);}
 .interface-element-header-1-background,.interface-element-header-1-background-stretch{border-image-source:url(../assets/table_header.png);}
@@ -88,15 +89,15 @@ ins,mark{color:var(--wa-text-main);}
 .layer.interface-layer .positioner.top .hud-container{background-image:url(../assets/hud-top.png);background-position:0 0;background-repeat:no-repeat;background-size:342px 65px;color:#e1eff8;font-family:"Winter Atelier Cinzel",Arimo,Calibri,"Segoe UI",Arial,sans-serif;}
 .layer.interface-layer .positioner.top .hud-container .hero-data .hero_class{background-image:none;}
 .layer.interface-layer .positioner.top .hud-container .map_ball{background-image:none;border-radius:50%;box-shadow:0 0 0 1px #06090c, 0 0 3px #000;}
-.layer.interface-layer .positioner.top .hud-container .btn-min{cursor:url(../assets/cursor-2n.png) 0 0,auto;}
+.layer.interface-layer .positioner.top .hud-container .btn-min{cursor:url(../assets/cursor-2n.png) 0 0,auto;display:flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;font-size:18px;line-height:1;padding:0px;}
 .layer.interface-layer .positioner.top .matchmaking-timer,.layer.interface-layer .positioner.top .matchmaking-timer.green{background-image:url(../assets/buttony.png);}
 .layer.interface-layer .positioner.bottom .bg{background-image:url(../assets/belka-gora-dol.png);background-size:1736px 121px;background-position:0 0;background-repeat:repeat-x;box-shadow:inset 0 1px #436f8f;background-color:#111a20;}
 .layer.interface-layer .positioner.bottom .bg-additional-widget-left,.layer.interface-layer .positioner.bottom .bg-additional-widget-right{background-image:url(../assets/widget-extension.png);background-position:0 0;background-size:437px 109px;background-repeat:no-repeat;}
 .layer.interface-layer .mini-map .mini-map-map .mini-local-map .more{background-image:url(../assets/map-icons.png);}
 .layer.interface-layer .mini-map .mini-map-content .mini-map-global-content .scroll-wrapper .scroll-pane .one-location-on-list:hover{color:var(--wa-text-main);cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .layer.interface-layer .main-column{background-color:var(--wa-bg-secondary);}
-.layer.interface-layer .main-column.right-column{background-image:url(../assets/shop-interior.png);background-color:#0b2331;background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);background-position:center;background-repeat:no-repeat;background-size:cover;}
-.layer.interface-layer .main-column.right-column .border{background-image:none;background-color:transparent;}
+.layer.interface-layer .main-column.right-column{background-image:url(../assets/shop-interior.png);background-color:#0b2331;background-clip:padding-box;box-shadow:inset -2px 0 #91b2c4,inset -4px 0 #122b3b;background-position:center;background-repeat:no-repeat;background-size:cover;}
+.layer.interface-layer .main-column.right-column .border{background-image:linear-gradient(90deg,#0a1720 0%,#e3f3f7 15%,#6f91a4 35%,#c4e1ed 50%,#254456 72%,#091923 100%);background-color:transparent;background-size:6px 100%;background-repeat:no-repeat;background-position:left top;pointer-events:none;}
 .layer.interface-layer .main-column .extended-stats .border{background-image:url(../assets/chat-powtarzalny-podklad.png);}
 .alerts-layer .scroll-wrapper.menu-wrapper,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper,.mAlert-layer .scroll-wrapper.menu-wrapper,.console-layer .scroll-wrapper.menu-wrapper{background-color:var(--wa-bg-secondary);}
 .alerts-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-mobile-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.mAlert-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero,.console-layer .scroll-wrapper.menu-wrapper .wrapper .bck-wrapper .option .icon .zero{background-image:url(../assets/o.png);}
@@ -179,7 +180,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .divide-button .button .label{color:var(--wa-text-main);}
 .divide-button .button .label .icon .zero{background-image:url(../assets/o.png);}
 .divide-button .button .label .icon .pause,.divide-button .button .label .icon .play{background-image:url(../assets/buttony.png);}
-.info-icon{background-image:url(../assets/ui-info-17x17.png);background-size:34px 17px;background-position:0px 0px;background-repeat:no-repeat;}
+.info-icon{background-image:url(../assets/ui-info-17x17.png)!important;background-size:200% 100%!important;background-position:0px 0px;background-repeat:no-repeat!important;}
 .attach-icon{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-image:url(../assets/buttony.png);}
 .border-window .increase-opacity{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-image:url(../assets/ui-opacity-13x13.png);background-size:26px 13px;background-position:0px 0px;background-repeat:no-repeat;}
 .dialogue-window .increase-opacity{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-image:url(../assets/ui-opacity-13x13.png);background-position:0px 0px;background-repeat:no-repeat;background-size:26px 13px;}
@@ -204,10 +205,10 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .checkbox,.checkbox.active{background-image:url(../assets/buttony.png);}
 .myAutoComplete{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-color:var(--wa-bg-secondary);}
 .myAutoComplete:hover{background-color:var(--wa-bg-secondary);}
-.bubbledialog .bg-layer .top-frame{background-image:url(../assets/bubble-top.png);background-color:transparent;border-color:#4c7ea2;border-top-color:#6a98b9;box-shadow:none;background-position:0 0;background-repeat:no-repeat;}
-.bubbledialog .bg-layer .bottom-frame{background-image:url(../assets/bubble-bottom.png);background-color:transparent;border-color:#4c7ea2;border-bottom-color:#5388ae;background-position:0 0;background-repeat:no-repeat;box-shadow:none;}
-.bubbledialog .bg-layer .left-frame{background-image:url(../assets/bubble-left.png);background-color:transparent;border-color:#4c7ea2;background-position:0 0;background-repeat:repeat-y;box-shadow:none;}
-.bubbledialog .bg-layer .right-frame{background-image:url(../assets/bubble-right.png);background-color:transparent;border-color:#4c7ea2;background-position:0 0;background-repeat:repeat-y;box-shadow:none;}
+.bubbledialog .bg-layer .top-frame{background-image:url(../assets/bubble-top-joined.png);background-color:transparent;border-color:#4c7ea2;border-top-color:#6a98b9;box-shadow:none;background-position:0px 0px;background-repeat:no-repeat;background-size:228px 13px;}
+.bubbledialog .bg-layer .bottom-frame{background-image:url(../assets/bubble-bottom-joined.png);background-color:transparent;border-color:#4c7ea2;border-bottom-color:#5388ae;background-position:0px 0px;background-repeat:no-repeat;box-shadow:none;background-size:228px 24px;}
+.bubbledialog .bg-layer .left-frame{background-image:url(../assets/bubble-left-joined.png);background-color:transparent;border-color:#4c7ea2;background-position:0px 0px;background-repeat:repeat-y;box-shadow:none;background-size:4px 4px;}
+.bubbledialog .bg-layer .right-frame{background-image:url(../assets/bubble-right-joined.png);background-color:transparent;border-color:#4c7ea2;background-position:0px 0px;background-repeat:repeat-y;box-shadow:none;background-size:13px 4px;}
 .bubbledialog .left .bottom-frame{background-image:url(../assets/bottom_l.png);border-bottom-color:#5388ae;background-position:-9px 0;}
 .menu-list .menu-option{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .menu-list .menu-option .icon .zero{background-image:url(../assets/o.png);}
@@ -234,7 +235,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .cost-icon-component .cost-icon-wrapper .icon.honor-icon{background-image:url(../assets/honorIconNormal.png);}
 .pb-fifty:before{background-color:var(--wa-bg-secondary);}
 .card-button-test.active,.card-button-test:hover,.loot-window{color:var(--wa-text-main);}
-.loot-window .bottom-bar-wrapper .bottom-bar{background-image:url(../assets/buttony.png);}
+.loot-window .bottom-bar-wrapper .bottom-bar{background-image:url(../assets/buttony.png);left:0px;right:0px;}
 .loot-window .items-wrapper .loot-item-wrapper .text-info{color:var(--wa-text-main);}
 .loot-window .items-wrapper .loot-item-wrapper .button .label.want,.loot-window .items-wrapper .loot-item-wrapper .button .label.not,.loot-window .items-wrapper .loot-item-wrapper .button .label.must{background-image:url(../assets/buttony.png);}
 .relogger__header{color:var(--wa-text-main);}
@@ -248,7 +249,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .dialogue-window .content .answers li div.icon{background-image:url(../assets/control-message-25x24.png);background-position:0 0;background-repeat:no-repeat;background-size:25px 24px;}
 .salvage__label{background-color:var(--wa-bg-secondary);}
 .salvage__arrows:before,.salvage__arrows:after{background-image:url(../assets/buttony.png);}
-.enhance__progress-bg{background-image:url(../assets/progressbary.png);}
+.enhance__progress-bg{background-image:linear-gradient(#091b26,#1e3b4c 50%,#08131d);background-size:100% 100%;background-position:0px 0px;box-shadow:inset 0 1px #b5d1df,inset 0 -1px #6e94aa;}
 .enhance__progress-text{color:var(--wa-text-main);}
 .enhance__label{background-color:var(--wa-bg-secondary);}
 .enhance__limit{color:var(--wa-text-main);}
@@ -270,8 +271,8 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .drop-down-menu-section .state-of-type{background-image:url(../assets/buttony.png);}
 .drop-down-menu-section .type-header{cursor:url(../assets/cursor-5n.png) 4 0,auto;background-image:url(../assets/header_left.png);}
 .drop-down-menu-section .type-header .type-header-label{color:var(--wa-text-main);}
-.auction-but{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
-.auction-but.disabled{cursor:url(../assets/cursor-1n.png) 0 0,auto;}
+.auction-but{cursor:url(../assets/cursor-5n.png) 4 0,auto;--wa-control-normal-image:linear-gradient(135deg,#e3f4ff18,transparent 22%,transparent 78%,#030c1440),linear-gradient(var(--wa-control-top,#203b49ed),var(--wa-control-bottom,#091c26f5)),var(--wa-panel-image);--wa-control-bevel:inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63;color:var(--wa-text-main);background-color:#0b1c26;background-image:var(--wa-control-normal-image);border-color:#061019;box-shadow:var(--wa-control-bevel);}
+.auction-but.disabled{cursor:url(../assets/cursor-1n.png) 0 0,auto;--wa-control-hover-image:linear-gradient(#182b36,#0b1922);--wa-control-hover-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;--wa-control-text:#8ca2b0;color:#8ca2b0;background-image:linear-gradient(#182b36,#0b1922);border-color:#101c26;box-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;}
 .auction-window input.default,.auction-off-item-panel input.default{color:var(--wa-text-main);background-image:url(../assets/width-card-button-active.png);}
 .auction-window{color:var(--wa-text-main);background-color:var(--wa-bg-secondary);}
 .auction-window .left-column-auction .all-categories-auction .action-menu-item,.auction-window .left-column-auction .all-categories-auction .one-category-auction{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
@@ -330,7 +331,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .trade-window .content .prize .other-prize,.trade-window .content .prize .hero-prize{background-color:var(--wa-bg-secondary);}
 .trade-window .content .prize .hero-prize input.default,.trade-window .content .prize .hero-prize input.default::placeholder{color:var(--wa-text-main);}
 .trade-window .content .hero-credits,.trade-window .content .other-credits{background-color:var(--wa-bg-secondary);}
-.trade-window .content .decision .dec-item{color:var(--wa-text-main);}
+.trade-window .content .decision .dec-item{color:#e5eff5;}
 .matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .star,.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .half-star,.matchmaking-summary .summary-content .difficult-stars .difficult-stars-val .stars-wrapper .empty-star,.matchmaking-summary .summary-content .result-panel .middle-side .arrow.win,.matchmaking-summary .summary-content .result-panel .middle-side .arrow.lose{background-image:url(../assets/buttony.png);}
 .matchmaking-summary .bottom-panel-graphics .tokens-amount,.character-reset .prof-section .prof-description,.sraj-wnd .sraj-content,.activity-observe__empty,.captcha__question,.captcha__triesleft,.captcha-pre-info{color:var(--wa-text-main);}
 .captcha-pre-info__toggler{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
@@ -348,7 +349,7 @@ body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.activ
 .ib-content .ib-filters .ib-filter-tab .amount,.ib-content .ib-item-list:empty:after,.gib-content .map_item_table .map_item_cell,.elite-timer .row,.elite-timer .row.long{color:var(--wa-text-main);}
 .elite-timer .row .col .btn-opt,.elite-timer .row .col .btn-opt:hover{background-image:url(../assets/buttony.png);}
 .elite-timer .inp input,.elite-timer .inp .input-wrapper,.elite-timer-edit .all-options,.elite-timer-edit input,.elite-timer-edit input.sec-inp,.elite-timer-edit .sec-txt{color:var(--wa-text-main);}
-.elite-timer-edit .info-icon{background-image:url(../assets/buttony.png);}
+.elite-timer-edit .info-icon{background-image:url(../assets/buttony.png);background-position:0px 0px;}
 .margo-watch-window .content{color:var(--wa-text-main);}
 .mm-mark-list .mm-mark-item{cursor:url(../assets/cursor-5n.png) 4 0,auto;}
 .extended-stats .scroll-pane .stats-section,.map-overlay.map-reloader-splash div,.map-overlay.dead-overlay .positioner,.map-overlay.dead-overlay .positioner .inner-text,.map-overlay.dead-overlay .positioner .dazed-time{color:var(--wa-text-main);}
@@ -644,7 +645,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .bottom-panel-of-bottom-positioner .skill-usable-slots .skill-usable-slot[slot="5"]{left:477.8255px;top:95.4312px;right:auto;bottom:auto;width:34.1543px;height:33.4846px;}
 .bottom-panel-of-bottom-positioner .skill-usable-slots .skill-usable-slot[slot="6"]{left:525.3737px;top:95.4312px;right:auto;bottom:auto;width:34.1543px;height:33.4846px;}
 .bottom-panel-of-bottom-positioner .skill-usable-slots .skill-usable-slot[slot="7"]{left:572.2521px;top:95.4312px;right:auto;bottom:auto;width:33.8195px;height:33.4846px;}
-.bottom-panel-of-bottom-positioner .slots .usable-slot .bottomItem{top:1px;left:1px;}
+.bottom-panel-of-bottom-positioner .slots .usable-slot .bottomItem{top:auto;bottom:0px;left:calc(50% - 16px);}
 .bottom-panel-of-bottom-positioner .skill-usable-slots .skill-usable-slot .battle-skill{left:1px;top:1px;width:32px;height:32px;padding:0px;float:none;box-sizing:border-box;}
 .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left{left:0px;top:0px;right:auto;bottom:auto;width:664px;height:140.6354px;pointer-events:none;}
 .bottom-panel-of-bottom-positioner .exp-bar-wrapper .exp-progress.left .progress{left:43.8649px;top:80.6979px;right:auto;bottom:auto;width:178.1382px;height:8.706px;mask-image:url(../assets/hud-rail-mask-0.png);mask-size:100% 100%;mask-repeat:no-repeat;pointer-events:auto;}
@@ -662,6 +663,8 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .bottom-panel-of-bottom-positioner .lagmeter{left:404.1594px;top:95.4312px;right:auto;bottom:auto;width:12.7242px;height:35.1589px;z-index:4;background-color:#071d2b;box-shadow:inset 0 0 3px #02090e;}
 .battle-controller{width:640px;margin-left:-320px;bottom:59.9375px;}
 .battle-controller.active,.battle-controller.with-skills{bottom:59.9375px;}
+.battle-controller[size="1"]{min-height:80px;}
+.battle-controller[size="1"].with-skills{min-height:112px;}
 .battle-controller .battle-content .right-column{left:468px;bottom:82px;background-color:#0b2331;background-image:url(../assets/shop-interior.png);background-position:center;background-repeat:no-repeat;background-size:cover;background-clip:padding-box;}
 .battle-controller .graphics .divide-wood{left:458px;bottom:82px;}
 .battle-controller .graphics .bottom-graphic{left:0px;right:0px;height:82px;background-image:url(../assets/battle-skill-tray.png);background-size:640px 82px;background-repeat:no-repeat;background-position:0px 0px;pointer-events:none;}
@@ -698,7 +701,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .battle-controller .battle-content .time-wrapper{top:5px;}
 .battle-controller .battle-watch{top:6px;line-height:14px;padding:0px 4px;white-space:nowrap;font-family:Arial,sans-serif;font-size:11px;font-variant-numeric:tabular-nums;font-weight:700;color:#ffffff;background-color:#102532;border-radius:2px;text-shadow:0 1px #02070b;}
 .battle-controller .battle-watch.right,.battle-controller .battle-watch.middle,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .battle-watch.right{right:136px;top:6px;}
-.battle-controller .battle-content .buttons-wrapper .button.square{bottom:3px;}
+.battle-controller .battle-content .buttons-wrapper .button.square{bottom:5px;}
 .battle-controller:not(.with-skills) .graphics .bottom-graphic{background-image:none;height:50px;background-color:rgba(10,20,25,.68);}
 .battle-controller:not(.with-skills) .battle-content .left-column,.battle-controller:not(.with-skills) .battle-content .right-column,.battle-controller:not(.with-skills) .graphics .middle-graphic{bottom:50px;}
 .battle-controller .battle-content .buttons-wrapper .change-target-btn.square,.battle-controller .battle-content .buttons-wrapper .copy-battle-logs.square{left:20px;}
@@ -718,7 +721,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .layer.interface-layer .positioner.top .hud-container .hero-data .hero_class.t{background-image:url(../assets/profession-tracker.png);background-position:0 0;background-repeat:no-repeat;background-size:20px 20px;}
 .layer.interface-layer .positioner.top .hud-container .gold-tip{background-image:url(../assets/ui-gold-21x21.png);background-position:0 0;background-repeat:no-repeat;background-size:21px 21px;}
 .layer.interface-layer .positioner.top .hud-container .credits-tip{background-image:url(../assets/credits-gem.png);background-position:center;background-repeat:no-repeat;background-size:16.5px 21px;}
-.trade-window{background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);}
+.trade-window{background-color:rgba(10,20,25,.68);background-image:linear-gradient(135deg,rgba(222,241,247,.065),transparent 35%,rgba(0,0,0,.16)),url(../assets/frost-surface.png);background-clip:padding-box;box-shadow:inset 0 1px rgba(210,237,245,.08),inset 0 -12px 28px rgba(0,0,0,.18);border-bottom-width:42px;border-image-width:32px 20px;isolation:isolate;}
 .bubbledialog{background-color:transparent;background-image:none;background-clip:padding-box;box-shadow:none;}
 .tip-wrapper{background-color:#071d2bdf;background-image:none;background-clip:padding-box;box-shadow:0 0 0 1px #8db1cc,0 3px 8px #0009;color:#e1eff8;border-color:#9cbfd5;}
 .border-window.transparent{--wa-bg-secondary:rgba(9,20,25,.12);background-color:transparent;background-image:none;box-shadow:none;}
@@ -755,9 +758,9 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .dialogue-window .content .npc-message{color:#e1eff8;}
 .dialogue-window .content .answers li:hover{color:#fff;background-color:#234b63;}
 .dialogue-window .content .answers li.exit,.dialogue-window .content .answers li.line_exit,.dialogue-window .content .npc-message a{color:var(--wa-text-main);}
-.border-window.transparent:is(.elite-timer,:has(.who-is-here,.handheld-mini-map)) .border-image{background-color:#0b2331;background-image:url(../assets/shop-interior.png);border-radius:3px;box-shadow:inset 0 0 0 1px #06090c, inset 0 0 12px #000b, 0 3px 10px #000b;color:#e1eff8;background-size:cover;background-position:center;background-repeat:no-repeat;border-color:#93bdd5;}
+.border-window.transparent .border-image{background-color:#0b2331;background-image:url(../assets/shop-interior.png);border-radius:3px;box-shadow:inset 0 0 0 1px #06090c, inset 0 0 12px #000b, 0 3px 10px #000b;color:#e1eff8;background-size:cover;background-position:center;background-repeat:no-repeat;border-color:#93bdd5;}
 .premium-panel .product-kind .premium-item-wrapper .premium-item:hover,.premium-panel .product-kind .premium-item-wrapper .premium-item.active{background-color:#42191f;box-shadow:inset 0 0 0 1px #16090a, inset 0 0 12px #0008, 0 0 6px #6695b766;}
-.bubbledialog .content-layer .inner .container{color:#e1eff8;box-shadow:none;background-color:#0b2331;}
+.bubbledialog .content-layer .inner .container{color:#e1eff8;box-shadow:none;background-color:#0b2331;background-image:none;}
 .bubbledialog .content-layer .inner .container .answers .answer,.bubbledialog .content-layer .inner .container .answers a,.bubbledialog .content-layer .inner .container .answers .answer:hover,.bubbledialog .content-layer .inner .container .answers a:hover{color:var(--wa-text-main);}
 .bubbledialog .bg-layer{background-image:none;box-shadow:none;background-color:transparent;}
 .premium-panel .product-kind .premium-item-wrapper .premium-item:hover:after{background-image:radial-gradient(circle,#bcecff66 0%,#0000 45%);}
@@ -777,7 +780,6 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .matchmaking-tile.queue .matchmaking-tile-img{background-image:url(../assets/ui-matchmaking-queue-96x96.png);background-position:0 0;background-repeat:no-repeat;background-size:96px 96px;}
 .matchmaking-tile.history .matchmaking-tile-img{background-image:url(../assets/ui-matchmaking-history-96x96.png);background-position:0 0;background-repeat:no-repeat;background-size:96px 96px;}
 .matchmaking-tile.active,.matchmaking-tile:hover,.matchmaking-tile:hover.active{background-image:url(../assets/matchmaking-card.png);background-position:0 0;background-repeat:no-repeat;background-size:130px 165px;box-shadow:inset 0 0 0 1px #b8e9ff,inset 0 0 9px #8fcee933;}
-.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon{background-image:url(../assets/notification-atlas.png);background-size:422px 140px;}
 .dialogue-window .content .answers li div.line_exit{background-image:url(../assets/dialogue-exit.png);background-position:0 0;background-repeat:no-repeat;background-size:25px 24px;}
 .dialogue-window .content .answers li div.line_new_quest{background-image:url(../assets/dialogue-new_quest.png);background-position:0 0;background-repeat:no-repeat;background-size:25px 24px;}
 .dialogue-window .content .answers li div.line_cont_quest{background-image:url(../assets/dialogue-cont_quest.png);background-position:0 0;background-repeat:no-repeat;background-size:25px 24px;}
@@ -806,7 +808,7 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .chat-input-wrapper .control-wrapper .chat-config-wrapper .chat-config-wrapper-button:hover{background-position:-24px 0px;}
 .border-window.transparent .settings-button{background-image:url(../assets/ui-gear-13x13.png);background-size:26px 13px;background-position:0px 0px;background-repeat:no-repeat;}
 .border-window.transparent .settings-button:hover{background-position:-13px 0px;}
-.info-icon:hover{background-position:-17px 0px;}
+.info-icon:hover{background-position:100% 0px;}
 .toggle-size-button:hover,.change-visible-button:hover{background-position:-12px 0px;}
 .border-window.transparent .collapse:hover{background-position:-13px 0px;}
 .battle-controller .attach-icon{background-image:url(../assets/ui-pin-20x16.png);background-size:40px 16px;background-position:0px 0px;background-repeat:no-repeat;}
@@ -820,6 +822,52 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .one-build .build-index-wrapper,.one-build-to-buy .build-index-wrapper,.one-handheld-build .build-index-wrapper{background-image:url(../assets/build-index-frame.png);background-size:100% 100%;background-position:center;background-repeat:no-repeat;}
 .build-index{color:#edf7fc;text-shadow:0 1px 1px #02080d;}
 .border-window:not(.transparent)::before,.battle-controller .graphics .battle-border::before{content:"";position:absolute;top:-8px;right:-4px;bottom:-12px;left:-4px;background-color:#0b2331;clip-path:polygon(4px 0,calc(100% - 4px) 0,calc(100% - 4px) 8px,100% 8px,100% calc(100% - 12px),calc(100% - 4px) calc(100% - 12px),calc(100% - 4px) 100%,4px 100%,4px calc(100% - 12px),0 calc(100% - 12px),0 8px,4px 8px);z-index:-1;pointer-events:none;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon{background-image:url(../assets/auction-categories.png);background-size:650px 26px;background-repeat:no-repeat;width:26px;height:26px;top:3px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-1{background-position:0px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-2{background-position:-26px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-3{background-position:-52px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-4{background-position:-78px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-5{background-position:-104px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-6{background-position:-130px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-7{background-position:-156px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-8{background-position:-182px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-9{background-position:-208px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-10{background-position:-234px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-11{background-position:-260px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-12{background-position:-286px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-13{background-position:-312px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-14{background-position:-338px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-15{background-position:-364px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-16{background-position:-390px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-21{background-position:-416px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-22{background-position:-442px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-23{background-position:-468px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-24{background-position:-494px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-27{background-position:-520px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-28{background-position:-546px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-29{background-position:-572px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-32{background-position:-598px 0px;}
+.auction-window .left-column-auction .all-categories-auction .one-category-auction .icon.cl-99{background-position:-624px 0px;width:26px;}
+.enhance__progressbar::after{content:"";position:absolute;width:7px;height:7px;left:calc(50% - 3.5px);top:calc(50% - 3.5px);transform:rotate(45deg);background-image:linear-gradient(135deg,#ef8391,#940c29 55%,#340e20);box-shadow:0 0 0 1px #cde5ef;pointer-events:none;}
+.border-window:not(.transparent):is(.c-window--with-bottom-bar,:has(.bottom-row-panel:not([style*="display: none"]),.bottom-change-outfit-panel,.bottom-bar,.bottom-part,.bottom-wrapper,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics)){border-bottom-width:42px;border-image-width:32px 20px;}
+.border-window:not(.transparent):is(.c-window--with-bottom-bar,:has(.bottom-row-panel:not([style*="display: none"]),.bottom-change-outfit-panel,.bottom-bar,.bottom-part,.bottom-wrapper,.premium-bottom-panel,.console-bottom-panel-wrapper,.bottom-mail-panel,.bottom-friend-panel,.bottom-panel-graphics))::before{bottom:-28px;}
+.left-grouped-list-and-right-description-window .bottom-row-panel,.change-outfit .bottom-change-outfit-panel,.battle-pass-window .bottom-row-panel,.trade-window .bottom-bar,.c-window__bottom-bar,.depo .bottom-bar{left:0px;right:0px;}
+.trade-window::before{content:"";position:absolute;top:-8px;bottom:-26px;left:0px;right:0px;background-color:#0b2331;z-index:-1;pointer-events:none;}
+.border-window:has(.depo) .content{padding:16px 0 10px;}
+.border-window .bottom-bar,.loot-window .bottom-wrapper,.auction-window .bottom-part,.border-window .world-window .bottom-bar,.premium-panel .premium-bottom-panel,.matchmaking-summary .bottom-panel-graphics,.divide-panel .bottom-part,.console-window .console-bottom-panel-wrapper,.mails-window .bottom-mail-panel,.friend-enemy-list .bottom-friend-panel,.skills-window .bottom-part,.matchmaking-panel .bottom-panel-graphics{left:0px;right:0px;}
+.border-window input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]){color:#e5eff5!important;caret-color:#e5eff5;}
+.border-window input::placeholder{color:#9eb6c6;opacity:1;}
+.trade-window .content{color:#e5eff5;}
+.trade-window .content .decision .accept{color:#99ebba;}
+.trade-window .content .decision .refuse{color:#ff9dad;}
+.trade-window input{color:#e5eff5!important;caret-color:#e5eff5;}
+.game-window-positioner.classic-interface .interface-layer .main-buttons-container.top-left.static-widget-position{translate:0px 8px;}
+.game-window-positioner.classic-interface .interface-layer .main-buttons-container.bottom-left.static-widget-position{translate:0px -7px;}
+.game-window-positioner.classic-interface .interface-layer .main-buttons-container.top-right.static-widget-position{translate:0px 8px;}
+.game-window-positioner.classic-interface .interface-layer .main-buttons-container.bottom-right.static-widget-position{translate:0px -7px;}
+body[data-res]:not([data-res="default"]) .layer.interface-layer{border-image-source:url(../assets/window-mode-silver-frame.png)!important;border-image-slice:7!important;}
+.battle-controller[size="1"] .graphics .battle-border{border-image-source:url(../assets/battle-compact-frame.png);}
+.bubbledialog .bg-layer.left .bottom-frame{background-image:url(../assets/bubble-bottom-left-joined.png);background-position:0px 0px;}
 .border-window .header-label-positioner .header-label .text,.trade-window header .h_content{color:var(--wa-text-main);}
 .button.red{--wa-control-top:#741a30ed;--wa-control-bottom:#300d1bf5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
 .button.blue{--wa-control-top:#244d62ed;--wa-control-bottom:#0b2130f5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
@@ -847,12 +895,22 @@ body{color:var(--wa-text-main);font-family:"Winter Atelier Cinzel",Arimo,Calibri
 .widget-button:not(.disabled):not(.disable):not(.inactive):active{background-image:linear-gradient(var(--wa-control-bottom,#091c26),var(--wa-control-top,#203b49));}
 .widget-button.disabled,.widget-button.disable,.widget-button.inactive,.widget-button[disabled]{--wa-control-hover-image:linear-gradient(#182b36,#0b1922);--wa-control-hover-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;--wa-control-text:#8ca2b0;color:#8ca2b0;background-image:linear-gradient(#182b36,#0b1922);border-color:#101c26;box-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;}
 .widget-button .label{text-shadow:0 1px 0 #010509;}
+.auction-but.green{--wa-control-top:#20414bed;--wa-control-bottom:#0b2029f5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
+.auction-but.violet{--wa-control-top:#49334fed;--wa-control-bottom:#211525f5;background-image:var(--wa-control-normal-image);box-shadow:var(--wa-control-bevel);}
+.auction-but.window-is-open{--wa-control-top:#70192f;--wa-control-bottom:#310e1c;}
+.auction-but.active{background-image:linear-gradient(var(--wa-control-bottom,#091c26),var(--wa-control-top,#203b49));box-shadow:inset 0 2px 0 #030a10,inset 0 -1px 0 #91b6cc,inset 1px 0 0 #263d50,inset -1px 0 0 #587b91;}
+.auction-but:not(.disabled):not(.disable):not(.inactive):active{background-image:linear-gradient(var(--wa-control-bottom,#091c26),var(--wa-control-top,#203b49));}
+.auction-but.disable,.auction-but.inactive,.auction-but[disabled]{--wa-control-hover-image:linear-gradient(#182b36,#0b1922);--wa-control-hover-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;--wa-control-text:#8ca2b0;color:#8ca2b0;background-image:linear-gradient(#182b36,#0b1922);border-color:#101c26;box-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;}
+.auction-but .label{text-shadow:0 1px 0 #010509;}
+.auction-but.disabled.green,.auction-but.disabled.violet{background-image:linear-gradient(#182b36,#0b1922);color:#8ca2b0;border-color:#101c26;box-shadow:inset 0 1px 0 #536c7c,inset 0 -1px 0 #030a10;}
+.auction-but.disabled.green:hover,.auction-but.disabled.violet:hover,.auction-but.green:hover,.auction-but.violet:hover{background-image:var(--wa-control-hover-image,linear-gradient(#c3eaff1c,#c3eaff0b),linear-gradient(var(--wa-control-top,#203b49ed),var(--wa-control-bottom,#091c26f5)),var(--wa-panel-image));box-shadow:var(--wa-control-hover-shadow,inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63);color:var(--wa-control-text,var(--wa-text-main));}
 .button.active:before,.button.black.active:before,.button.black:before,.button.blink-violet.active:before,.button.blink-violet:before,.button.blue.active:before,.button.blue:before,.button.green.active:before,.button.green:before,.button.orange.active:before,.button.orange:before,.button.pressed.active:before,.button.pressed:before,.button.purple.active:before,.button.purple:before,.button.red.active:before,.button.red:before,.button.transparent.active:before,.button.transparent:before,.button.violet.active:before,.button.violet:before,.button:before,.divide-button .button.active.active:before,.divide-button .button.active:before,.divide-button .button.left:before,.divide-button .button.middle:before,.divide-button .button.right:before,.divide-button .button:before,.game-window-positioner.light-interface .widget-button:before,.widget-button.active:before,.widget-button.black.active:before,.widget-button.black:before,.widget-button.blink-violet.active:before,.widget-button.blink-violet:before,.widget-button.blue.active:before,.widget-button.blue:before,.widget-button.green.active:before,.widget-button.green:before,.widget-button.orange.active:before,.widget-button.orange:before,.widget-button.pressed.active:before,.widget-button.pressed:before,.widget-button.purple.active:before,.widget-button.purple:before,.widget-button.red.active:before,.widget-button.red:before,.widget-button.transparent.active:before,.widget-button.transparent:before,.widget-button.violet.active:before,.widget-button.violet:before,.widget-button:before{box-shadow:none;background-color:transparent;pointer-events:none;}
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active){background-image:var(--wa-control-hover-image,linear-gradient(#c3eaff1c,#c3eaff0b),linear-gradient(var(--wa-control-top,#203b49ed),var(--wa-control-bottom,#091c26f5)),var(--wa-panel-image));box-shadow:var(--wa-control-hover-shadow,inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63);color:var(--wa-control-text,var(--wa-text-main));}
 body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active).active:before,body:not(.mobile-version) .button:not(.no-hover):not(.disabled):hover:not(.active):before{box-shadow:none;background-color:transparent;pointer-events:none;}
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active){background-image:var(--wa-control-hover-image,linear-gradient(#c3eaff1c,#c3eaff0b),linear-gradient(var(--wa-control-top,#203b49ed),var(--wa-control-bottom,#091c26f5)),var(--wa-panel-image));box-shadow:var(--wa-control-hover-shadow,inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63);color:var(--wa-control-text,var(--wa-text-main));}
 body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active).active:before,body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not(.active):before{box-shadow:none;background-color:transparent;pointer-events:none;}
 .widget-button:after{box-shadow:0 1px 0 #03090f;pointer-events:none;}
+.divide-button .button.active{background-image:linear-gradient(#31576a,#102d3d);box-shadow:inset 0 1px 0 #d0e6f2,inset 0 -1px 0 #02090f,inset 1px 0 0 #7297ad,inset -1px 0 0 #344f63;}
 .tabs-nav:not(.chat-channel-card-wrapper) .card{color:#b7cedc;background-color:#0b1e29;background-image:linear-gradient(135deg,#d8efff12,transparent 24%,transparent 76%,#030a1260),linear-gradient(#1a3544ed,#0a1b26f5),var(--wa-panel-image);box-shadow:inset 0 1px 0 #789db5,inset 0 -1px 0 #030a10,inset 1px 0 0 #203b4c,inset -1px 0 0 #030a10;}
 .tabs-nav:not(.chat-channel-card-wrapper) .card:not(.disabled):not(.active):hover{color:var(--wa-text-main);background-image:linear-gradient(#b7e5ff16,#b7e5ff08),linear-gradient(#25495b,#102b3b);box-shadow:inset 0 1px 0 #c5e2f2,inset 0 -1px 0 #07121c,inset 1px 0 0 #638fa8,inset -1px 0 0 #0a1e2b;}
 .tabs-nav:not(.chat-channel-card-wrapper) .card.active{color:var(--wa-text-main);background-color:#531026;background-image:linear-gradient(135deg,#f4d8e414,transparent 25%,transparent 75%,#0a040780),linear-gradient(#7d1933,#3a0d20);border-color:#7196ab;box-shadow:inset 0 1px 0 #d1e9f5,inset 0 -1px 0 #0a0810,inset 1px 0 0 #a6cbdc,inset -1px 0 0 #304a5c;}
