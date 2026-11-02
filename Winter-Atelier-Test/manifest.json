@@ -1,6 +1,6 @@
 {
-  "version": "0.2.5-test",
-  "build": "517e26d493ff5ca8",
+  "version": "0.2.6-test",
+  "build": "41e92ff573907c77",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -197,10 +197,6 @@
       "ac6690dd2163ce8f0b26c631f546042eeddb2e4739315b21436c73c171876c65"
     ],
     [
-      "goldIconNormal.png",
-      "c0e46adab1b9c0825680c29d4d518683826f4d21dacc7eb6998689178caa1e95"
-    ],
-    [
       "ReverseButton.png",
       "558ff4251251d3c0b625dd199fd91d4aa46f004578bf9967988494af16324551"
     ],
@@ -251,10 +247,6 @@
     [
       "buffs-in-fight.png",
       "7023a0592e8735dd58d06db0a90353bc1b58c25f714d8c64353e717e38c52fe6"
-    ],
-    [
-      "buttony.png",
-      "ceced270540fc05a96d96f209617016a02a426f5684c99e26dd8e65aa4e7ca37"
     ],
     [
       "calendar-icons.png",
@@ -457,10 +449,6 @@
       "8e9282194ef11f5b9bbfad591b86c8e1f69dacb1bbdb57bdeef372490781a8e9"
     ],
     [
-      "notyfikacje-sprite.png",
-      "f9d88856d6d5e13ddf47dd36223b84ac0c50337eb2154267a58a32a845799247"
-    ],
-    [
       "paseczek.png",
       "ab656abc76900d41088f3253a7f17111ee6d06c85330436aa69311a873fefcf0"
     ],
@@ -529,16 +517,352 @@
       "da0678c477204fa9c4436fe68f3e4d3d647e00e3423036f9340a07e4321af34e"
     ],
     [
+      "c021ffec3.png",
+      "df20aa8c01c807dd09f1f5cc8b117d0c27aa8ccb068765aa5350d8245adc4237"
+    ],
+    [
+      "c04d73750.png",
+      "ed1bda74877b3d030e82625474a976fb2e50d5665316d12e9ef73c14bb8451a2"
+    ],
+    [
+      "c0e5cc29d.png",
+      "358b07d2dd2eaf80fd6fb5591a88551fff2c8b5d245c1da117829a3fb60ea373"
+    ],
+    [
+      "c11377b33.png",
+      "cd6ccc44407362f49e4cd6e166dfeb6f53e37ae78e214c9e341b404848b9f6bc"
+    ],
+    [
+      "c12960f03.png",
+      "59f6a447f03a0a177a77b93282ed037f1fae8e45ff4146abce9741a979e1e3ac"
+    ],
+    [
+      "c13be630c.png",
+      "9065c274639d46f40d62e93b985d1b991f46c4a04aa80c6bd5c24a9d0e79847c"
+    ],
+    [
+      "c16232e20.png",
+      "125a8398d1538d95745c0fc7bb32d355c18d478ec684ac654810a3b9dce98321"
+    ],
+    [
+      "c183202eb.png",
+      "69b24605d3abf41c948682ceee0655bac9200cbc88db7cadd71ad712a9a26c4b"
+    ],
+    [
+      "c1a0c565f.png",
+      "7bd76252f6bf7406b151f6f0a1ba3f4374ee9c98c7bfb6a5b310eb027bbc7a1e"
+    ],
+    [
+      "c1aca8145.png",
+      "15ce58c7800bcdc289bb2749f2c8d7e5290e5c71e8011431f6402d32ead3e077"
+    ],
+    [
+      "c1c0a5035.png",
+      "7c01097b0ae3df7218c7e7498567c9bce7a15f44b2f4f4c66da8bd7f2ed1d115"
+    ],
+    [
+      "c1c1d47ae.png",
+      "933c1c8ff16a6f2ca2ecd393e568c3410a01c4d1e28dc3df38263be46bf29236"
+    ],
+    [
+      "c1e4a8fee.png",
+      "ea1c0ff7ecec7b76fecabcc90934e1f842979a533dadc64813fbf0ce314e2d23"
+    ],
+    [
+      "c24f4bef0.png",
+      "0349bb7817dc7d112bfdfcae2a5f11f849d7fbf3daf294d7c9049b9b31056199"
+    ],
+    [
+      "c256b1e9c.png",
+      "b8e047c8697207b8e8bd4d28236e955622873c4866f30ce91796fec2fb5b7021"
+    ],
+    [
+      "c258ab34c.png",
+      "b297777cd3e5f9a1c19a8a2d527c2fb5287cb14a92e3309d686add291c466164"
+    ],
+    [
+      "c27de1668.png",
+      "50a8c10eeef568c966ecb3deb4ed8c27988b6a3268b2042a5c790ce04f81cce0"
+    ],
+    [
+      "c2c57b2bf.png",
+      "fb64b745ff9362a630d20ffb03b4ffc9be4bd24f7f0335d8c18337e09e68ee6f"
+    ],
+    [
+      "c32624c45.png",
+      "56fc2fbd7a71800ea4e19aec330af03af1d4416edde99bce971a01aeffc09663"
+    ],
+    [
+      "c356995b5.png",
+      "8e12c9e97c98c0cb7048fe3de768a9b4e9d3b91f6b5354e91eb174795fd21408"
+    ],
+    [
+      "c3cf646cf.png",
+      "8ee9abf91df448e9177e1ebc0c7904089b4cce25190902ce6d5dfbca54677de5"
+    ],
+    [
+      "c404f8b94.png",
+      "21ac6609b63c44a625cab642c201f103eb4b11104d00e56cefe5ba3e104b5532"
+    ],
+    [
+      "c41eced34.png",
+      "77775c5dbfa880b449706353c87b70f6a9fb4fc4218b2f70f29d741a3e458d77"
+    ],
+    [
+      "c42419864.png",
+      "7348730c3a4cb0bf1ee0530ac11610f76eba087510088674a0cc6f0d3eefe27e"
+    ],
+    [
+      "c42c377fd.png",
+      "ca6ecfff46e040cf1abd81d34f07b0cc799fd2a8d3777184c317905d0c912e6b"
+    ],
+    [
+      "c436dc709.png",
+      "d4c07e5ce4a3218a9f0fbb81b02033570d3d6a19d66448e2eb790ba303371e2a"
+    ],
+    [
+      "c498fd1b3.png",
+      "10f291a7ad8e191cd3794c593cef3f34959fa4ce747d7e0a12e78dd9822e5630"
+    ],
+    [
+      "c5323416e.png",
+      "aa9c6a804227370bbe3563ee3c06de67939274947d0898fd9e4163e628e66f5f"
+    ],
+    [
+      "c53d73563.png",
+      "dc8fb5050e30adc652e83ea70741de4fcda037fa79b3f6f3fc49b579b6f71fb4"
+    ],
+    [
+      "c5999a827.png",
+      "355a2f49ae35b970e1445c862ce5e1bffe64ded2f23c4a4d3369b3878790175f"
+    ],
+    [
+      "c5b5ea059.png",
+      "846db548eee77c93030acef41a00e50dfb0ccfca1b03d1af5d5f7c66793a671a"
+    ],
+    [
+      "c5b7da3d3.png",
+      "e0f900765273de8876a13080c82dd03bb8acb93bf2a42ee93fcc357865b8eccd"
+    ],
+    [
+      "c610527d8.png",
+      "161c784889209dbb732960e4b83643dd5b2672f844a8917a77b6890470967525"
+    ],
+    [
+      "c6267fa73.png",
+      "73495c689457d07ab5e22301e9214022c1273d9c05de749283b53abbcc6b5615"
+    ],
+    [
+      "c64fab291.png",
+      "0486ee5a824d6c016b2bae2f666e9c90dc7690a9e79e6422c691e2887aab545a"
+    ],
+    [
+      "c65150fd4.png",
+      "85fbdc30f1a1a75d843f50c6a5efa0db2143281cc4baf0615e4cc33c47c5c678"
+    ],
+    [
+      "c666e4db6.png",
+      "71c4bbaee089bb42d03bd79dca78b194e99f5f1b0df97e0b85818cac60a40e1f"
+    ],
+    [
+      "c67e74b33.png",
+      "a7db239feae6c6836a38adfe22731e8a70593589bd9a9e758ac40a4874102553"
+    ],
+    [
+      "c795c5dab.png",
+      "c03df36b43ab04007801093af923ca1a7ac1009e04d3abc8be482a2bc89ec9fa"
+    ],
+    [
+      "c7a8e4762.png",
+      "eb4f02d264ab1861f740c047d671273d15e3d507274067ddd187227683eeaad6"
+    ],
+    [
+      "c800d4fcb.png",
+      "74737fc3ccdd22cb565ce40c5834dd7c8197bbcf212269fab3252851a54b1923"
+    ],
+    [
+      "c818dd515.png",
+      "8672ede51bbe7cb35214c9984c2783557f3423195987dc7a9e5ce15a4e84b7ca"
+    ],
+    [
+      "c819c6721.png",
+      "53e571786102b274e1aff13aa99cd357831f3a5bb3964a72af1aede7700013b9"
+    ],
+    [
+      "c8df9f1f9.png",
+      "7654d583a4be7b7da45270ae3c58d09025b7fb597ee4528a5a96f09fde402267"
+    ],
+    [
+      "c8e8c5ad0.png",
+      "97e95b9e29cd5f03b372ca0b046e8f1c0cccbee49579499a21f7c994c461c2ad"
+    ],
+    [
+      "c8fa15547.png",
+      "e5727a9cab153003cabf7686008b630046cf147cabf488c2c38160a524f29523"
+    ],
+    [
+      "c92461850.png",
+      "c5b4c063a4ef25e25fede2f30ce512526836407fc50a6cee5adefb4983bebc24"
+    ],
+    [
+      "c94090deb.png",
+      "77eb1e65f1521111811b671f61f20253857c307757fee93bbd260acae60e1109"
+    ],
+    [
+      "c95589817.png",
+      "73e04890909bcb85710bc14357d47f416634f75a32dc3898e1d30be0cc7a5158"
+    ],
+    [
+      "c97bf7a64.png",
+      "94a57d8ef3dd67005d3264d3d11a357fcc999915ae13a2b5fdb572a9b0494ca0"
+    ],
+    [
+      "c9fb2afac.png",
+      "3ed681c8c18c81a6962171c4f6b5e590ed368d08712a11247d1963ce49eead91"
+    ],
+    [
+      "ca0ca78de.png",
+      "2485cd0a6115d18675cabbb586848902ed1217ed250c086a53d2f29f3f2fa0d6"
+    ],
+    [
+      "ca3d19b76.png",
+      "05f1b4ade35788f87ac472473b4eb8088cef00d4884a06ef9789ba0f6dcf3078"
+    ],
+    [
+      "ca52c314e.png",
+      "ff729ccd295d2737455091d5b864f15eb0fe51c2e94339808a6631cd3225b829"
+    ],
+    [
+      "cac721ba0.png",
+      "a8f7f0f4e5af299e2d83dba209de086c486357ddd055acd44ad4cc150c03a61e"
+    ],
+    [
+      "cad4b2761.png",
+      "ec23a26b61e92baf52354c734189486955633647e58507ca761dc0c0f7ed1750"
+    ],
+    [
+      "caf92174e.png",
+      "e84b384cb6c50e7fcd9eb248e75c0f48b6b15327c56e3933050e2f608afa0a00"
+    ],
+    [
+      "cb0dbfad1.png",
+      "f431757f92fa71ea3ff87b138c321177f7ace5ecd6685a098e02e6ac492db8af"
+    ],
+    [
+      "cb2c472ee.png",
+      "c7e0f58c9a91045617eb72846b0632c0f228834693646d5750fb1ddfe5083b22"
+    ],
+    [
+      "cb55862a4.png",
+      "7f686f7f198b8680db4cdce667da42f7a78159a45b4edc33fb2b396e2afdbe84"
+    ],
+    [
+      "cbbcb5a9c.png",
+      "77775c5dbfa880b449706353c87b70f6a9fb4fc4218b2f70f29d741a3e458d77"
+    ],
+    [
+      "cc7a8ce7a.png",
+      "ca6ecfff46e040cf1abd81d34f07b0cc799fd2a8d3777184c317905d0c912e6b"
+    ],
+    [
+      "cca0da4b2.png",
+      "7c01097b0ae3df7218c7e7498567c9bce7a15f44b2f4f4c66da8bd7f2ed1d115"
+    ],
+    [
+      "ccac86ffa.png",
+      "0cca7b6095686452c3ace2a1b1eb48231afee86e9fee6913c8ca58649981c1a9"
+    ],
+    [
+      "cd12351df.png",
+      "358b07d2dd2eaf80fd6fb5591a88551fff2c8b5d245c1da117829a3fb60ea373"
+    ],
+    [
+      "cd1d550f9.png",
+      "c03df36b43ab04007801093af923ca1a7ac1009e04d3abc8be482a2bc89ec9fa"
+    ],
+    [
+      "cd8258d6c.png",
+      "a1bb18e6ff2f0a9071c766eb1df34ad28ac658251588d4c8af36ebeccb3e3d79"
+    ],
+    [
+      "cda70a783.png",
+      "2b6ecfca5121f53f13008f232d8656713de7d22d6685a6fc3fb91bbd45874021"
+    ],
+    [
+      "cdad6e80d.png",
+      "e61c07216371b9eaf2a937e9d300fffb7ddeda50c6816da448b216a2bb5f32a0"
+    ],
+    [
+      "cdb7c95f3.png",
+      "5ea8f98af0f087a36ae232027b0f58ae0cf2dcefe41da5653bac2c1ddb016947"
+    ],
+    [
+      "cdc327a1f.png",
+      "e903d258d6dfb09f91418a70f85390f54c7de4cd890c376d174931d048954e86"
+    ],
+    [
+      "ce33eb873.png",
+      "42777fa8eec7d45e820d2c8d0120c7c2a3aa356c48dbe3f458425598bd8034bb"
+    ],
+    [
+      "ce518b9c1.png",
+      "6cc0b7782b06ef64c6dd7c08a30181ea9c5eb08b72d1ff90aa89ee04ab7ab460"
+    ],
+    [
+      "ce5440cd4.png",
+      "3de7754d63a44949eb081588b84295c2fe95986fb5972e0132a458e59339d87a"
+    ],
+    [
+      "ce6ddb4ef.png",
+      "32d1c6229282b394d770341309ad5570dd05f8dd7a554912a1dfcc4a0de74957"
+    ],
+    [
+      "ce8ca2127.png",
+      "16b45ef88091112279708f9750c9c99578bbdb4d1c9fb9cda94c5327d7757062"
+    ],
+    [
+      "ce96b344c.png",
+      "661c021d8cf4ed0fa7dc2cf0bc1bc6f24fb86e6a85f85e8804fdc75dabde1f01"
+    ],
+    [
+      "cefda68db.png",
+      "9f5344e036981094b642c06e7981176bc0a31549616110f1681c54c29cb65bc5"
+    ],
+    [
+      "cf2c04f14.png",
+      "e953af78dfa37a52b336acbf1f47f97261e1dd4563d7ff0e96095f34b42f130b"
+    ],
+    [
+      "cf7f16293.png",
+      "05b2680ec3ab9f560fb7f9654d0b008b011f02f59fc745792d3965c1f281859d"
+    ],
+    [
+      "cf8580c30.png",
+      "41f44c6b6a8636ed9f45b6f4f123063d08af235dd35df093b021148baf2f29ac"
+    ],
+    [
+      "cff6893cc.png",
+      "1cc2fc44ebfcce4f2c6c807b2734ede0c6a0a78a4f6a8e44068fc93c01fedaa9"
+    ],
+    [
+      "cost-gold.png",
+      "aee0191382534f66d4145fe2798181bfa7faf2758be9621e37edcaf82101349b"
+    ],
+    [
+      "crafting-progress-track.png",
+      "ec26ccfd068422ffa13161fcd7a4ed688590ccd6ee4d28e4ed895879bff6d941"
+    ],
+    [
       "frost-surface.png",
       "8a3287d8acf636b7a94d2daf2d7fa7a72294f2785297918f78debf8dbf700ca5"
     ],
     [
-      "hp-empty.png",
-      "b37b2bfdc9f68ed2c7675eaa32aeb9faab29f0a19609f4931258d945a9e4df60"
-    ],
-    [
       "hp-mask.png",
       "a52f6d30b89643de60fa3c98b900aa3a4df68f7eeb94ef3f68d297ae20be5e10"
+    ],
+    [
+      "hp-zero.png",
+      "447b5a88a4dc41798cef25d1441543dda3db567dfc84aa571e2162416ecccc27"
     ],
     [
       "hud-decoration.png",
@@ -623,6 +947,10 @@
     [
       "ui-profession-w-20x20.png",
       "31fb970a588ea754489de489bdc9404eb0076cc4b9a45dbfe5163cb50fa31c18"
+    ],
+    [
+      "ui-control-atlas.png",
+      "322e8a9f3d8cd753242ddc441b0590a9899ae0ea0d7eb4039949b8c1c90014e5"
     ],
     [
       "window-close.png",
@@ -842,7 +1170,6 @@
     "img/field-material.png": "field-material.png",
     "img/gold-offers-light.png": "gold-offers-light.png",
     "img/gold-offers.png": "gold-offers.png",
-    "img/goldIconNormal.png": "goldIconNormal.png",
     "img/gui/ReverseButton.png": "ReverseButton.png",
     "img/gui/ReverseButtonHover.png": "ReverseButtonHover.png",
     "img/gui/X-blackoutline.png": "X-blackoutline.png",
@@ -856,7 +1183,6 @@
     "img/gui/books-paper.png": "books-paper.png",
     "img/gui/bubble/bottom_l.png": "bottom_l.png",
     "img/gui/buffs-in-fight.png": "buffs-in-fight.png",
-    "img/gui/buttony.png": "buttony.png",
     "img/gui/calendar-icons.png": "calendar-icons.png",
     "img/gui/calendar-windows-1.png": "calendar-windows-1.png",
     "img/gui/calendar-windows-2.png": "calendar-windows-2.png",
@@ -907,7 +1233,6 @@
     "img/mission-time.png": "mission-time.png",
     "img/money_small.png": "money_small.png",
     "img/move-marker.png": "move-marker.png",
-    "img/notyfikacje-sprite.png": "notyfikacje-sprite.png",
     "img/paseczek.png": "paseczek.png",
     "img/premium-categories.png": "premium-categories.png",
     "img/pvp-states.png": "pvp-states.png",
@@ -925,9 +1250,93 @@
     "img/theme/bubble-left-joined.png": "bubble-left-joined.png",
     "img/theme/bubble-right-joined.png": "bubble-right-joined.png",
     "img/theme/bubble-top-joined.png": "bubble-top-joined.png",
+    "img/theme/c021ffec3.png": "c021ffec3.png",
+    "img/theme/c04d73750.png": "c04d73750.png",
+    "img/theme/c0e5cc29d.png": "c0e5cc29d.png",
+    "img/theme/c11377b33.png": "c11377b33.png",
+    "img/theme/c12960f03.png": "c12960f03.png",
+    "img/theme/c13be630c.png": "c13be630c.png",
+    "img/theme/c16232e20.png": "c16232e20.png",
+    "img/theme/c183202eb.png": "c183202eb.png",
+    "img/theme/c1a0c565f.png": "c1a0c565f.png",
+    "img/theme/c1aca8145.png": "c1aca8145.png",
+    "img/theme/c1c0a5035.png": "c1c0a5035.png",
+    "img/theme/c1c1d47ae.png": "c1c1d47ae.png",
+    "img/theme/c1e4a8fee.png": "c1e4a8fee.png",
+    "img/theme/c24f4bef0.png": "c24f4bef0.png",
+    "img/theme/c256b1e9c.png": "c256b1e9c.png",
+    "img/theme/c258ab34c.png": "c258ab34c.png",
+    "img/theme/c27de1668.png": "c27de1668.png",
+    "img/theme/c2c57b2bf.png": "c2c57b2bf.png",
+    "img/theme/c32624c45.png": "c32624c45.png",
+    "img/theme/c356995b5.png": "c356995b5.png",
+    "img/theme/c3cf646cf.png": "c3cf646cf.png",
+    "img/theme/c404f8b94.png": "c404f8b94.png",
+    "img/theme/c41eced34.png": "c41eced34.png",
+    "img/theme/c42419864.png": "c42419864.png",
+    "img/theme/c42c377fd.png": "c42c377fd.png",
+    "img/theme/c436dc709.png": "c436dc709.png",
+    "img/theme/c498fd1b3.png": "c498fd1b3.png",
+    "img/theme/c5323416e.png": "c5323416e.png",
+    "img/theme/c53d73563.png": "c53d73563.png",
+    "img/theme/c5999a827.png": "c5999a827.png",
+    "img/theme/c5b5ea059.png": "c5b5ea059.png",
+    "img/theme/c5b7da3d3.png": "c5b7da3d3.png",
+    "img/theme/c610527d8.png": "c610527d8.png",
+    "img/theme/c6267fa73.png": "c6267fa73.png",
+    "img/theme/c64fab291.png": "c64fab291.png",
+    "img/theme/c65150fd4.png": "c65150fd4.png",
+    "img/theme/c666e4db6.png": "c666e4db6.png",
+    "img/theme/c67e74b33.png": "c67e74b33.png",
+    "img/theme/c795c5dab.png": "c795c5dab.png",
+    "img/theme/c7a8e4762.png": "c7a8e4762.png",
+    "img/theme/c800d4fcb.png": "c800d4fcb.png",
+    "img/theme/c818dd515.png": "c818dd515.png",
+    "img/theme/c819c6721.png": "c819c6721.png",
+    "img/theme/c8df9f1f9.png": "c8df9f1f9.png",
+    "img/theme/c8e8c5ad0.png": "c8e8c5ad0.png",
+    "img/theme/c8fa15547.png": "c8fa15547.png",
+    "img/theme/c92461850.png": "c92461850.png",
+    "img/theme/c94090deb.png": "c94090deb.png",
+    "img/theme/c95589817.png": "c95589817.png",
+    "img/theme/c97bf7a64.png": "c97bf7a64.png",
+    "img/theme/c9fb2afac.png": "c9fb2afac.png",
+    "img/theme/ca0ca78de.png": "ca0ca78de.png",
+    "img/theme/ca3d19b76.png": "ca3d19b76.png",
+    "img/theme/ca52c314e.png": "ca52c314e.png",
+    "img/theme/cac721ba0.png": "cac721ba0.png",
+    "img/theme/cad4b2761.png": "cad4b2761.png",
+    "img/theme/caf92174e.png": "caf92174e.png",
+    "img/theme/cb0dbfad1.png": "cb0dbfad1.png",
+    "img/theme/cb2c472ee.png": "cb2c472ee.png",
+    "img/theme/cb55862a4.png": "cb55862a4.png",
+    "img/theme/cbbcb5a9c.png": "cbbcb5a9c.png",
+    "img/theme/cc7a8ce7a.png": "cc7a8ce7a.png",
+    "img/theme/cca0da4b2.png": "cca0da4b2.png",
+    "img/theme/ccac86ffa.png": "ccac86ffa.png",
+    "img/theme/cd12351df.png": "cd12351df.png",
+    "img/theme/cd1d550f9.png": "cd1d550f9.png",
+    "img/theme/cd8258d6c.png": "cd8258d6c.png",
+    "img/theme/cda70a783.png": "cda70a783.png",
+    "img/theme/cdad6e80d.png": "cdad6e80d.png",
+    "img/theme/cdb7c95f3.png": "cdb7c95f3.png",
+    "img/theme/cdc327a1f.png": "cdc327a1f.png",
+    "img/theme/ce33eb873.png": "ce33eb873.png",
+    "img/theme/ce518b9c1.png": "ce518b9c1.png",
+    "img/theme/ce5440cd4.png": "ce5440cd4.png",
+    "img/theme/ce6ddb4ef.png": "ce6ddb4ef.png",
+    "img/theme/ce8ca2127.png": "ce8ca2127.png",
+    "img/theme/ce96b344c.png": "ce96b344c.png",
+    "img/theme/cefda68db.png": "cefda68db.png",
+    "img/theme/cf2c04f14.png": "cf2c04f14.png",
+    "img/theme/cf7f16293.png": "cf7f16293.png",
+    "img/theme/cf8580c30.png": "cf8580c30.png",
+    "img/theme/cff6893cc.png": "cff6893cc.png",
+    "img/theme/cost-gold.png": "cost-gold.png",
+    "img/theme/crafting-progress-track.png": "crafting-progress-track.png",
     "img/theme/frost-surface.png": "frost-surface.png",
-    "img/theme/hp-empty.png": "hp-empty.png",
     "img/theme/hp-mask.png": "hp-mask.png",
+    "img/theme/hp-zero.png": "hp-zero.png",
     "img/theme/hud-decoration.png": "hud-decoration.png",
     "img/theme/hud-rail-mask-0.png": "hud-rail-mask-0.png",
     "img/theme/hud-rail-mask-1.png": "hud-rail-mask-1.png",
@@ -949,6 +1358,7 @@
     "img/theme/top/ui-profession-m-20x20.png": "ui-profession-m-20x20.png",
     "img/theme/top/ui-profession-p-20x20.png": "ui-profession-p-20x20.png",
     "img/theme/top/ui-profession-w-20x20.png": "ui-profession-w-20x20.png",
+    "img/theme/ui-control-atlas.png": "ui-control-atlas.png",
     "img/theme/window-close.png": "window-close.png",
     "img/theme/window-mode-silver-frame.png": "window-mode-silver-frame.png",
     "img/theme/window-outer-frame.png": "window-outer-frame.png",
@@ -992,7 +1402,7 @@
     "obrazki/interface/emo/shop_mark.png": "shop_mark.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "ce6b88ee0b99c8930aa77bd09f1fc499e7924825fc52c49f2ed8b948017f1ccf",
+  "cssSHA256": "17217c4db31060050b3b5fca5942f05beab8929dc8e5f9e82b7cdbe4e9cdfcd4",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {

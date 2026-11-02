@@ -1,52 +1,29 @@
-# Winter Atelier — test 0.2.5
+# Winter Atelier — test 0.2.6
 
-Wydanie testowe 0.2.5-test. Wygląd i płynność oczekują na ocenę użytkownika w grze.
+Wydanie testowe **0.2.6-test**. Wygląd i płynność wymagają oceny w grze.
 
-Zmiany po0.2.4: jedna pełna rama9-slice dużych okien i osobna spójna rama walki, wypełnienie do wewnętrznej krawędzi, fakturowane stopki na pełną wewnętrzną szerokość, naturalne pola wyszukiwania, sceny podglądu stroju/maskotki i stroju klanowego ze wskazanego starego motywu. Usunięty osobny prostokątny środek tytułu handlu. Przyciski „Zmiana celu” i „Szybka walka” podniesione o kolejne2px. Najmniejsza walka bez dodatkowej górnej belki panelu umiejętności.
+[Zainstaluj lub zaktualizuj w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), a następnie przeładuj grę. Pozostaw włączony jeden skrypt motywu.
 
-Usunięte z eksportu zastąpione window-frame.png i search-frame.png. W zbiorczym buttony.png wyczyszczono13 zastąpionych pól HUD-u/belek, przy zachowaniu rozmiaru i chronionych współdzielonych pikseli. Audyt obecności URL nie oznacza pełnego audytu rzeczywistego użycia: raport effective-assets rozróżnia wybrane obrazy, nadpisane reguły i stany nieobjęte fixture. Jeden prawdziwy obraz zależny od JS, move-marker.png, jest zachowany.
+## Zmiany po 0.2.5
 
-Pełny przegląd atlasu pozostaje otwarty:305 pozycji jego mapy nie ma reprezentacji w badanych stanach, więc nie zostały uznane za zbędne ani usunięte. Kontrola techniczna nie jest zatwierdzeniem wyglądu w rzeczywistej grze.
+- Wyśrodkowane ikony32×32 w pojedynczych polach rzemiosła i innych wspólnych slotach. Handel zachowuje rozstaw klienta; dopasowane osadzenie ikon w ramkach. Liczniki i oznaczenia pozostają elementami klienta.
+- Naprawiona kolejność warstw paska postępu ulepszania. Klient nadal wyznacza szerokość wypełnienia.
+- Wyrównane styki bocznych linii treści, nagłówków i stopek dużych okien, również konfiguracji, poczty, umiejętności i listy znajomych.
+- Aktualności bez błędnej rezerwy stopki; spójny nagłówek „Dla Ciebie”; nowe strzałki lewo/prawo i stany hover.
+- Neutralny szary rubin przy0HP; czerwona klatka ostrzegawcza ukrywana tylko przy0%. Ostrzeżenia niskiego dodatniego HP zachowane.
+- Różowy pasek EXP przy braku wyczerpania. Normalny EXP nadal fioletowy.
+- Uzupełnienia kontrolek ze wskazanego starszego motywu, z rejestrem zastosowań. Współdzielone wycinki odizolowane, aby większa grafika nie nadpisywała sąsiedniej ikony. Pozycje dynamiczne atlasu zachowane.
+- Cały atlas notyfikacje-sprite i canvasowe oznaczenia przedmiotów pozostają oryginalne zgodnie z ostatnią decyzją. Zachowane autorskie kategorie aukcji i waluty górnego HUD-u. Widgety i ikony umiejętności nadal oryginalne.
+- Mniej powtarzanych deklaracji CSS i wspólne wartości. Arkusz źródłowy179396B/890reguł, bez nowych filtrów, animacji i duplikatów. Limity CSS nie zostały podniesione.
 
-[Zainstaluj lub zaktualizuj skrypt w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), a następnie przeładuj grę. Zostaw włączony tylko jeden skrypt motywu.
+## Ładowanie
 
-Instalator ładuje jeden arkusz CSS. Wszystkie zasoby są bezpośrednio w assets/, a CSS ma ścieżki względne. CSS i zasoby wydania są przypięte do niezmiennego commita. Dotychczasowy font jest osobnym WOFF2, z identycznymi bajtami jak wcześniej; usunięto jego base64 z arkusza.
+Mały instalator ładuje arkusz CSS i celowany znacznik X32×32 do wpisu /img/cross.gif w pamięci obrazów klienta. Bez @require, ogólnego runtime, MutationObserver i globalnych podmian IMG/XHR. Oryginalne grafiki dostarcza klient.
 
-Nie ma @require, ogólnego runtime, obserwatorów DOM ani globalnych podmian IMG/XHR. Jedyny celowany fragment JavaScript podłącza move-marker.png 32×32 do wpisu /img/cross.gif w cache klienta. Pliki pozostające oryginalne dostarcza klient gry.
+CSS i grafiki są przypięte do niezmiennego commita. Wszystkie279 zależności wydania są w jednym płaskim assets/:278 wskazanych przez CSS (grafiki i font) oraz znacznik X używany przez loader. Brak luźnych i brakujących plików. CSS używa ścieżek względnych. Starszy katalog Winter-Atelier pozostaje osobnym wydaniem.
 
-## Zmiany do sprawdzenia
+## Kontrola i test w grze
 
-W stosunku do 0.2.3:
+Lokalny pipeline przeszedł:116 odpowiedników oryginalnych grafik,111 wariantów okien,7 stanów HUD-u,18 scenariuszy walki,16 nagłówka walki/96 prób daty,84 złożenia ram,23 przypadki zgodności,24 regresje,11 prób uzupełnienia audytu i9 domen loadera. Obliczone style111 fixture są identyczne z wersją CSS przed optymalizacją.
 
-- Wspólne tło całej rodziny okien przezroczystych, w tym przelogowania, grupy, filtra łupów, obserwowanych zadań i podglądu wyposażenia. Zachowane natywne poziomy przezroczystości i małe tytuły.
-- Ramy obejmujące stopki, mniejszy odstęp pod stopką, poprawione połączenia narożników. Wspólne reguły obejmują handel, rzemiosło, depozyt, stroje i pozostałe rozpoznane stopki.
-- Nowy atlas 25 kategorii aukcji bez nierównomiernego skalowania; poprzedni atlas kategorii wyłączony z eksportu. Stylizacja „Kup teraz”, „Licytuj” i aktywnych przełączników mapy, również stanów hover/disabled.
-- Nowe wspólne ramki pól przedmiotów handlu/rzemiosła i łącznik rzemiosła; oddzielenie zawartości depozytu od górnej ramy.
-- Połączona ramka ogonka dymka NPC w obu kierunkach, bez dodatkowego prostokątnego tła pod dymkiem.
-- Najmniejszy wariant walki: dopasowana rama i minimalna wysokość wariantu z dodatkowymi umiejętnościami. „Zmiana celu” i „Szybka walka” podniesione o 2 px.
-- Przedmioty w slotach 1–8 wyrównane do dołu pola, bez zmiany rozmiaru ikon 32×32.
-- Wyśrodkowane znaki + górnego HUD-u i kontenery widgetów na belkach, bez ingerencji w oryginalne ikony widgetów.
-- Srebrna krawędź prawego panelu i ramka trybu okienkowego; jasny tekst formularzy komunikatów i handlu; rozszerzona wspólna ikona pomocy.
-
-Zachowane poprawki z poprzednich wydań:
-
-- Usunięta ingerencja w grafiki widgetów: klient wyświetla własne oryginalne ikony.
-- Wypełnione wewnętrzne pasy pod górną i nad dolną ramą okien, komunikatów i walki; zewnętrzna przezroczystość zachowana.
-- Data i godzina walki na niewielkim ciemnym tle jak licznik sekund, bez podmiany danych klienta.
-- Poprawione składanie dolnych krawędzi pól EXP/wyczerpania w HUD-zie.
-- Usunięte dodatkowe tło z zewnętrznej warstwy dymka NPC.
-- Naprawione reguły suwaków odrzucane wcześniej przez przeglądarkę; nowe uchwyty zamiast zielonych.
-- Globalna ikona pomocy i naprawione tło ikony przezroczystości podczas hover.
-- Minutnik, gracze na mapie i minimapa: tło starego motywu z natywnymi poziomami przezroczystości i małym tytułem. Przelogowanie ponownie półprzezroczyste.
-- Grafiki starego motywu w premium, ofertach złota, wspólnych skrzyniach złota/łusek, daszkach sklepów, wyszukiwaniu i Otchłani; rozszerzone zastosowania w aukcjach, kalendarzu, Battle Passie i timerze walki.
-- Wspólne kafelki ekwipunku, autorskie symbole pustego wyposażenia, oprawa numerów zestawów i stany zgody/braku zgody PvP. Numery pozostają tekstem klienta.
-
-## Test w grze
-
-Sprawdź cztery rozmiary walki, dodatkowe umiejętności i zakończenie walki, wartości energii/many, powrót EXP i brak zasłaniania pól. Obejrzyj małe i duże okna, komunikaty, dymek NPC oraz tooltipy. Przy zgłoszeniu dołącz screen z gry i nazwę okna.
-
-To wersja testowa. Lokalne kontrole obejmują 110 wariantów okien, 24 regresje, 23 przypadki zgodności komponentów, 18 scenariuszy walki oraz 16 scenariuszy nagłówka walki z 96 próbami daty. Nie zatwierdzają wyglądu ani wydajności w grze. Podejrzana nakładka ulepszenia nadal wymaga rozpoznania; nie jest oznaczona jako naprawiona. Pełny przegląd wszystkich złożeń i stanów dynamicznych pozostaje otwarty.
-
-Wycofano poprzedni ogólny runtime, więc polecenie WinterAtelierTest.downloadReport() nie jest dostępne w tej wersji. Nie dodano modułu animacji notyfikacji ani item-rarity.png.
-
-Katalog Winter-Atelier z wcześniejszym wydaniem pozostaje osobny.
+To próby na natywnych szablonach i wybranych funkcjach klienta, a nie test zalogowanej gry. Sprawdź przedmioty, ilości i oznaczenia w rzemiośle/handlu, przeciąganie, postęp ulepszania,0HP, EXP bez wyczerpania, aktualności, styki ram i cztery rozmiary walki. Pozostałe stany serwera i wariant500+ wymagają potwierdzenia. Kontrole techniczne nie zatwierdzają wszystkich grafik ani FPS.
