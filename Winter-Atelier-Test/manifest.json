@@ -1,6 +1,6 @@
 {
-  "version": "0.2.8-test",
-  "build": "2d501c26547dcb14",
+  "version": "0.2.9-test",
+  "build": "fa9cb272d64e39d3",
   "mode": "css-and-map-marker",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -958,7 +958,7 @@
     ],
     [
       "ui-info-17x17.png",
-      "7796750fd0010b42a2a62528010d1464d649986b8bee88c5dd169c2c0a08d242"
+      "b333ac93eb64ba817172af1be07128b6f1383202c44082489e090012b23679c5"
     ],
     [
       "ui-matchmaking-history-96x96.png",
@@ -1317,7 +1317,7 @@
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "60e893e14c9df8a191f3f64573c3e6d14e6b67803e86ccf4eeb4ef86c6d93f4e",
+  "cssSHA256": "bfeea1e9e5e9f7f56a84c774120b23bd46f0957715ccffafbdbff7b3f7e8059f",
   "runtimeDependency": false,
   "dynamicImageReplacement": "map-marker-only",
   "marker": {
