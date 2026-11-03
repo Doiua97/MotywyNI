@@ -1,6 +1,6 @@
 {
-  "version": "0.2.11-test",
-  "build": "3afa4060dc1c51dd",
+  "version": "0.2.12-test",
+  "build": "b84ccb2235dd3dae",
   "mode": "css-map-marker-and-palette",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -478,7 +478,7 @@
     ],
     [
       "battle-compact-frame.png",
-      "62d2d416c5ee36fd06e9708e148513c7dc902ef1b91bbf3e513237a3f77b62be"
+      "88a4bb5b53a016788376c247a3e6162385d25b3c680dc0165a22094d518e2547"
     ],
     [
       "battle-skill-tray.png",
@@ -1317,12 +1317,12 @@
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "ce10d87af0e926dbbdc6e16584d4baeaf46c265d1daa38415cd230d253f16f4f",
+  "cssSHA256": "c8673d74f6e0bcf3648c966eac7fade10babb817b727af97de4f659cce5f9b75",
   "runtimeDependency": true,
   "scripts": [
     {
       "file": "scripts/palette-bindings.js",
-      "sha256": "4904943bd63aa11a735f13a8b09893e50ae1bd8db052393662687c135b894e62"
+      "sha256": "552dc2e2e87049289760ebfc7a4d2a57115cf8bd8a750567644f7e41f254bfec"
     }
   ],
   "dynamicImageReplacement": "map-marker-only",

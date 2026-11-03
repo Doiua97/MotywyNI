@@ -587,7 +587,7 @@ body{color:var(--wa-text-main);font-family:var(--wa16);}
 .battle-controller .battle-watch{background-color:#102532;border-radius:2px;color:#ffffff;font-family:Arial,sans-serif;font-size:11px;font-variant-numeric:tabular-nums;font-weight:700;line-height:14px;padding:0px 4px;text-shadow:0 1px #02070b;top:6px;white-space:nowrap;}
 .battle-controller .battle-watch.right,.battle-controller .battle-watch.middle,.game-window-positioner.light-interface .interface-layer .bottom.positioner .battle-controller .battle-watch.right{right:136px;top:6px;}
 .battle-controller .battle-content .buttons-wrapper .button.square{bottom:7px;}
-.battle-controller:not(.with-skills) .graphics .bottom-graphic{background-color:rgba(10,20,25,.68);background-image:none;height:50px;}
+.battle-controller:not(.with-skills) .graphics .bottom-graphic{background-color:transparent;background-image:none;height:50px;}
 .battle-controller:not(.with-skills) .battle-content .left-column,.battle-controller:not(.with-skills) .battle-content .right-column,.battle-controller:not(.with-skills) .graphics .middle-graphic{bottom:50px;}
 .battle-controller .battle-content .buttons-wrapper .change-target-btn.square,.battle-controller .battle-content .buttons-wrapper .copy-battle-logs.square{left:20px;}
 .battle-controller .battle-content .buttons-wrapper .auto-fight-btn.square,.battle-controller .battle-content .buttons-wrapper .auto-fight-cancel-btn.square,.battle-controller .battle-content .buttons-wrapper .close-battle-ground.square,.battle-controller .battle-content .buttons-wrapper .close-battle-logs.square{right:20px;}
@@ -911,8 +911,7 @@ input.default{background-color:#081820;}
 .skill .label-wrapper.cl-5 .label-background{background-image:linear-gradient(#3a4b72,#3a4b72);}
 .skill .label-wrapper.cl-6 .label-background{background-image:linear-gradient(#60415f,#60415f);}
 .battle-msg.neu{background-image:linear-gradient(90deg,#344451,#273744);color:#e5eff5;}
-.game-window-positioner .inventory_wrapper .bags-navigation .item .icon{opacity:1;}
-.game-window-positioner .inventory_wrapper .bags-navigation-bg .bag-slot-wrapper{background-color:#081820;}
+.game-window-positioner .inventory_wrapper .bags-navigation .item .icon{background-color:var(--wa-bg-secondary);opacity:1;}
 .console-window,.console-window .input-wrapper input,.console-wnd.global-addons-exist .content .console-bottom-panel-wrapper .button .label,.loader-layer .bottom-info,.one-battle-skill-tip,.turn-prediction__name,button,input,magic_input,select,textarea{font-family:var(--wa16);}
 /* Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
 

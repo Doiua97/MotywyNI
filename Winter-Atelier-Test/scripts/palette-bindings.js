@@ -2,7 +2,7 @@
  const mark=Symbol.for('winter-atelier.palette.v1');
  for(let attempt=0;attempt<150;attempt++){
   const e=window.Engine;
-  if(!e?.hero?.createStrTip||!e?.others?.createStrTip||!e?.npcs?.getTip){await new Promise(resolve=>setTimeout(resolve,200));continue;}
+  if(!e?.hero?.createStrTip||!e?.others?.createStrTip||!e?.npcs?.getTip||!e?.showEqManager?.newWindow){await new Promise(resolve=>setTimeout(resolve,200));continue;}
   if(e[mark])return;
   const template=document.createElement('template');
   const decorate=(text,update)=>{if(typeof text!=='string')return text;template.innerHTML=text;update(template.content);return template.innerHTML;};
@@ -32,10 +32,13 @@
     if(last?.nodeType===3&&last.textContent.endsWith(suffix)){const value=last.textContent;last.textContent=value.slice(0,-suffix.length);const span=document.createElement('span');span.className='wa-npc-level';span.textContent=suffix;strong.append(span);}
    });
   };
-  const wrap=(owner,key,after)=>{const original=owner?.[key];if(typeof original!=='function')return;owner[key]=function(...args){const result=original.apply(this,args);try{return after(result,args);}catch{return result;}};};
+  const wrap=(owner,key,after)=>{const original=owner?.[key];if(typeof original!=='function')return;owner[key]=function(...args){const result=original.apply(this,args);try{return after(result,args,this);}catch{return result;}};};
   wrap(e.hero,'createStrTip',(text)=>player(text,e.hero.d?.uprawnienia,true));
   wrap(e.others,'createStrTip',(text,args)=>player(text,args[0]?.rights,false));
   wrap(e.npcs,'getTip',(text,args)=>npc(text,args[0]));
+  const equipment=(manager,data)=>{const view=manager.windows?.[data?.id],nick=view?.contentEl?.querySelector('.player-info .character-name');if(!nick)return;const d=view.playerData||data,known=String(d.id)===String(e.hero.d?.id)?e.hero.d:e.others.getById?.(d.id)?.d;nick.dataset.waPlayerRole=role(Number(d.uprawnienia??d.rights??known?.uprawnienia??known?.rights)||0);};
+  wrap(e.showEqManager,'newWindow',(value,args,manager)=>{equipment(manager,args[0]);return value;});
+  for(const view of Object.values(e.showEqManager.windows||{}))equipment(e.showEqManager,view.playerData);
   wrap(e.hero,'showGainedExp',(value,args)=>{for(const node of document.querySelectorAll('.gained-exp-indicator,.gained-exp-indicator-light-mode'))node.dataset.waDelta=args[0]>0?'gain':'loss';return value;});
   wrap(e.hero,'showDifference',(value,args)=>{if(args[2]&&args[1]!==args[2]){const node=(args[0]?.[0]||args[0])?.querySelector?.('.diff-msg');if(node)node.dataset.waDelta=args[1]>args[2]?'gain':'loss';}return value;});
   e[mark]=true;
