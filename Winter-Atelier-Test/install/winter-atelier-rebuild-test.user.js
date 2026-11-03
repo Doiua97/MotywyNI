@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name Winter Atelier — nowa przebudowa TEST
 // @namespace Doiua97/MotywyNI/rebuild-test
-// @version 0.2.10-test
-// @description Arkusz motywu i celowane podłączenie znacznika X do klienta.
+// @version 0.2.11-test
+// @description CSS motywu, znacznik X i oznaczenia palety tooltipów.
 // @match https://*.margonem.pl/*
 // @exclude https://margonem.pl/*
 // @exclude https://www.margonem.pl/*
@@ -35,8 +35,13 @@
   const link = document.createElement('link');
   link.id = id;
   link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@4dd9cc2d2e1616a9107e2a39389c927c09b9c1c6/Winter-Atelier-Test/css/winter-atelier.css';
+  link.href = 'https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@79b8d81698b0a6040a1675b025a147e72e59a536/Winter-Atelier-Test/css/winter-atelier.css';
   document.head.appendChild(link);
+  const palette = document.createElement('script');
+  palette.src = 'https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@79b8d81698b0a6040a1675b025a147e72e59a536/Winter-Atelier-Test/scripts/palette-bindings.js';
+  palette.onload = () => palette.remove();
+  palette.onerror = () => console.warn('Winter Atelier: nie załadowano palety UI.');
+  document.head.appendChild(palette);
   (async function installMapMarker(url){
  try{
   const response=await fetch(url);if(!response.ok)throw Error('HTTP '+response.status);
@@ -52,5 +57,5 @@
   }
   console.warn('Winter Atelier: klient nie udostępnił znacznika X.');
  }catch(error){console.warn('Winter Atelier: nie załadowano znacznika X.',error);}
-})('https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@4dd9cc2d2e1616a9107e2a39389c927c09b9c1c6/Winter-Atelier-Test/assets/move-marker.png');
+})('https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@79b8d81698b0a6040a1675b025a147e72e59a536/Winter-Atelier-Test/assets/move-marker.png');
 })();
