@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Winter Atelier — nowa przebudowa TEST
 // @namespace Doiua97/MotywyNI/rebuild-test
-// @version 0.2.9-test
+// @version 0.2.10-test
 // @description Arkusz motywu i celowane podłączenie znacznika X do klienta.
 // @match https://*.margonem.pl/*
 // @exclude https://margonem.pl/*
@@ -35,7 +35,7 @@
   const link = document.createElement('link');
   link.id = id;
   link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@b54d2c6bbd6a55118f230d9a6a94f392ebfa8a34/Winter-Atelier-Test/css/winter-atelier.css';
+  link.href = 'https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@4dd9cc2d2e1616a9107e2a39389c927c09b9c1c6/Winter-Atelier-Test/css/winter-atelier.css';
   document.head.appendChild(link);
   (async function installMapMarker(url){
  try{
@@ -52,5 +52,5 @@
   }
   console.warn('Winter Atelier: klient nie udostępnił znacznika X.');
  }catch(error){console.warn('Winter Atelier: nie załadowano znacznika X.',error);}
-})('https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@b54d2c6bbd6a55118f230d9a6a94f392ebfa8a34/Winter-Atelier-Test/assets/move-marker.png');
+})('https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@4dd9cc2d2e1616a9107e2a39389c927c09b9c1c6/Winter-Atelier-Test/assets/move-marker.png');
 })();
