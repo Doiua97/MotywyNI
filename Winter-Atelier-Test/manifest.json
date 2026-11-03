@@ -1,6 +1,6 @@
 {
-  "version": "0.2.14-test",
-  "build": "6993164998ad534f",
+  "version": "0.2.15-test",
+  "build": "e86f2c62a8a927d3",
   "mode": "css-map-marker-and-palette",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -1317,7 +1317,7 @@
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "3d3ff557d89ada534e71fc9c1b8f55bc3599747f33650393c92ca54dec95a83b",
+  "cssSHA256": "539b31071dd2112b73ec9149868e6a1d1bc2e5c892a486642aec8c7aa9863c70",
   "runtimeDependency": true,
   "scripts": [
     {
