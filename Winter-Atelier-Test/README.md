@@ -1,23 +1,25 @@
-# Winter Atelier — test 0.2.13
+# Winter Atelier — test 0.2.14
 
-Wydanie testowe **0.2.13-test**.
+Wydanie testowe **0.2.14-test**.
 
 [Zaktualizuj w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), następnie przeładuj grę. Pozostaw włączony jeden skrypt motywu.
 
-## Zmiany po 0.2.12
+## Zmiany po 0.2.13
 
-- Naprawiony kolor nicku w „Pokaż ekwipunek” otwartym z listy graczy online, także dla postaci nieobecnej na mapie. Klient pomijał rangę przy przekazywaniu danych do tego okna. Adapter zachowuje ją z wybranego wpisu i stosuje istniejącą paletę CSS.
-- Rozdzielenie informacji o rangach według świata i ID postaci. Zachowane oryginalne dane, menu i handlery. Bez dodatkowych zapytań do serwera.
-- CSS i wszystkie262pliki assets identyczne z0.2.12.
+- Oprawa rodziny okien Darrefulla: pełny i przezroczysty wariant, tytuły, przyciski, formularze i wybrane powierzchnie wewnętrzne. Zachowany przycisk zmiany stylu i oryginalna ikona dodatku przy tytule.
+- Osobne reguły dla paska teleportów: nagłówek, podkład siatki, sloty, menu i uchwyt rozmiaru. Ikony autora, przedmiotów i potworów pozostają oryginalne.
+- Wypełnienie pełnego panelu dochodzi pod widoczną krawędź ramy. Kontrolki zmiany wyglądu, zwijania i rozmiaru korzystają z istniejących grafik motywu.
+- Wdrożenie Darrefulla przez ograniczony do jego kontenerów CSS. Bez nowego runtime, obserwatora DOM i zmian komunikacji z serwerem.
+- Wszystkie262pliki assets oraz skrypt palety identyczne bajtowo z0.2.13. Materiały i grafiki są współdzielone z motywem; zmienia się CSS.
 
 ## Ładowanie
 
-Instalator pobiera CSS, znacznik X i scripts/palette-bindings.js z jednego przypiętego commita. Kolory pozostają w CSS. Adapter dekoruje osiem funkcji UI: trzy tooltipy, dopiski EXP/wartości, utworzenie podglądu ekwipunku oraz otwarcie listy online i jej menu. Zachowuje argumenty, this, wartości zwracane, dane i istniejące handlery. Bez MutationObserver, globalnych podmian IMG/XHR i zmian komunikacji. Ograniczone oczekiwanie na gotowość UI, bez stałej pętli gry.
-
-262 pliki assets/: 261 zależności CSS i znacznik X. Względem0.2.12 wszystkie262pliki identyczne. Skrypt palety osobno w scripts/, z SHA256 w manifeście. Starszy Winter-Atelier pozostaje osobnym wydaniem.
+Mały instalator pobiera CSS, znacznik X i istniejący scripts/palette-bindings.js z jednego przypiętego commita. Pozostaje dotychczasowa obsługa rang i znacznika X. Obsługa Darrefulla nie dodaje JavaScriptu.
 
 ## Kontrola
 
-Kontrole lokalne obejmują107 obrazów,111 wariantów okien,84 złożenia ram,7HUD,18 konfiguracji walki,16 nagłówka i96 dat. Paleta:24tooltipy postaci,182przypadki potworów,24podglądy ekwipunku z zachowaniem kliknięcia nicku. Dodatkowo28przypadków rzeczywistego menu listy online: brak rangi w danych przekazywanych do show-eq, postać nieobecna na mapie, różne światy, ponowne otwarcie listy, zachowanie zwracanej wartości i oryginalnych danych. Torby:16kombinacji zajętości w obu trybach i odczyt pikseli przezroczystego natywnego canvasa; pełny podkład, brak przebijania. CSS182912B/915reguł;0zdublowanych deklaracji dla tego samego scope/selektora/właściwości,0nowych filtrów i animacji. Instalator poniżej4KB, skrypt palety około5.8KB osobno.
+Lokalny odczyt struktury panelu i teleportów Darrefulla:163elementy,8kombinacji klas wyglądu/zwinięcia/przypięcia, zachowane rozmiary i oryginalne źródła obrazków. Dodatkowo formularze w obu wariantach, hover kontrolek, jednoczesne różne tryby okien, CSS dodatku załadowany po motywie oraz kontrola pikseli prześwitów. To kontrola odtworzonego DOM i statycznego CSS autora, bez wykonywania jego skryptu.
 
-To kontrole techniczne. Wygląd, współpraca z dodatkami i płynność wymagają oceny w zalogowanej grze.
+Kontrole klienta obejmują107obrazów,111wariantów okien,7HUD,18konfiguracji walki,16nagłówka i96dat. CSS192151B/974reguły;0zdublowanych deklaracji,0nowych filtrów, rozmyć i animacji. Grafiki i skrypt palety bez zmian.
+
+Wygląd, funkcje dodatków i płynność wymagają oceny w zalogowanej grze. Wersja Dev i inne pakiety dodatków nie są objęte deklaracją zgodności tego wydania.
