@@ -1,6 +1,6 @@
 {
   "version": "0.2.11-test",
-  "build": "19539e01c60dcecb",
+  "build": "3afa4060dc1c51dd",
   "mode": "css-map-marker-and-palette",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -1322,7 +1322,7 @@
   "scripts": [
     {
       "file": "scripts/palette-bindings.js",
-      "sha256": "cdc8740e8f5e612c2e1cc780fda8d8dab22af32c3fd95add4c6441b19485e129"
+      "sha256": "4904943bd63aa11a735f13a8b09893e50ae1bd8db052393662687c135b894e62"
     }
   ],
   "dynamicImageReplacement": "map-marker-only",
