@@ -1,25 +1,25 @@
-# Winter Atelier — test 0.2.10
+# Winter Atelier — test 0.2.11
 
-Wydanie testowe **0.2.10-test**. Wygląd i płynność wymagają oceny w grze.
+Wydanie testowe **0.2.11-test**. Wygląd i płynność wymagają oceny w grze.
 
-[Zainstaluj lub zaktualizuj w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), a następnie przeładuj grę. Pozostaw włączony jeden skrypt motywu.
+[Zaktualizuj w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), a następnie przeładuj grę. Pozostaw włączony jeden skrypt motywu.
 
-## Zmiany po 0.2.9
+## Zmiany po 0.2.10
 
-- Własne tury mają jaśniejszy lodowy turkus #205d6b → #194f5e → #153f50, odcinający się od tła okna. Rubin przeciwnika zachowany.
-- Pola neutralne i tury bez natywnych odstępów 2 px odsłaniających fakturę okna. Jednolita, nieprzezroczysta linia podziału 1 px usuwa poszarpane prześwity.
-- Bez nowych grafik ani funkcji skryptu. Klient nadal dostarcza klasy i treść logów.
+- Rangi postaci według zaakceptowanej palety. Zwykły gracz biały; nick w tooltipie ma kolor rangi, podpis „Moja postać” pozostaje biały.
+- Sześć osobnych kolorów rang potworów. Nazwa korzysta z barwy rangi i wariantu zależnego od różnicy poziomów; poziom dodatkowo sygnalizuje trudność. Zwykłe potwory srebrzystobiałe, poniżej progu łupu szare, ponad5 poziomów złocistożółte, ponad10 koralowe. Progi klienta i świata zachowane.
+- Dopasowane radio, hover plusów górnego HUD-u, statystyki, dopiski zysku/straty, paski lekkiego interfejsu, tła stopni umiejętności i neutralne wpisy walki.
+- Poprawiona widoczność toreb: pełne krycie ikon i ciemny podkład pól w zwykłym oraz lekkim interfejsie. Aktywna torba nadal wyróżniona ramką.
+- Grafiki i oryginalne ikony bez zmian.
 
 ## Ładowanie
 
-Mały instalator ładuje arkusz CSS i celowany znacznik X 32×32 do wpisu /img/cross.gif w pamięci obrazów klienta. Bez nowego runtime, @require, MutationObserver i globalnych podmian IMG/XHR. Widgety, umiejętności i oryginalne oznaczenia dostarcza klient.
+Instalator pobiera CSS, znacznik X i **scripts/palette-bindings.js** z jednego niezmiennego commita. Kolory są w CSS. Adapter dopisuje oznaczenia rang/poziomów, dekorując pięć funkcji UI: tworzenie tooltipów własnej/innej postaci i NPC oraz dopiski EXP i wartości. Zachowuje argumenty, this, wartości zwracane i dane klienta. Bez MutationObserver, globalnych podmian IMG/XHR i zmian komunikacji. Jednorazowe odświeżenie cache tooltipów; ograniczone oczekiwanie na gotowość metod, bez stałej pętli gry.
 
-CSS i grafiki są przypięte do niezmiennego commita. Wszystkie 262 zależności wydania są w jednym płaskim assets/: 261 wskazanych przez CSS (grafiki i font) oraz znacznik X używany przez loader. Brak luźnych i brakujących plików. CSS używa ścieżek względnych. Starszy katalog Winter-Atelier pozostaje osobnym wydaniem.
+262 zależności assets/ identyczne bajtowo z0.2.10:261 zależności CSS i znacznik X. Jedna nowa zależność JS w scripts/ z SHA256 w manifeście. Starszy Winter-Atelier pozostaje osobnym wydaniem.
 
-## Kontrola i test w grze
+## Kontrola
 
-Pełny lokalny pipeline 15 etapów przeszedł: 107 odpowiedników oryginalnych obrazów, 111 wariantów okien, 7 stanów HUD-u, 18 scenariuszy walki, 16 nagłówka/96 prób daty i 84 złożenia ram. Nowa kontrola kosmetyki obejmuje 11 przypadków, w tym piksele obwódki pomocy, zachowanie inputu konsoli, statusy i etykiety przycisków oraz 4 rozmiary walki w 2 trybach interfejsu z próbami kliknięcia i hover. Style 111 fixture zgodne z CSS przed optymalizacją. Arkusz źródłowy 179753 B/877 reguł, bez nowych filtrów, animacji i duplikatów; limity nie zostały podniesione.
+Pełny lokalny pipeline16etapów przeszedł.107 obrazów,111 wariantów okien,84 złożenia ram,7HUD,18walki,16 nagłówka/96 dat. Test palety:24 warianty postaci i182 warianty potworów na izolowanych funkcjach klienta, granice poziomów/wag, elastyczny poziom, próg świata również jako tekst liczbowy, zachowanie tekstów/liczb i kolor nicku względem rangi. Sprawdzono też kontrolki, opóźniony start, ograniczenie oczekiwania, idempotencję i zachowanie this/argumentów/return. Po korekcie toreb odświeżono kontrole zależne od CSS; sprawdzono także cztery ikony i podkłady pól toreb w obu trybach interfejsu.
 
-To próby na natywnych szablonach i wybranych funkcjach klienta, a nie test zalogowanej gry. Kontrast sprawdzono względem punktów gradientu, nie każdego piksela tekstury. Kontrole techniczne nie zatwierdzają wszystkich grafik ani FPS. Do oceny w grze: czytelność pomocy i statusów, belka oraz kolory logów walki, wejście konsoli.
-
-Kontrola pól tur obejmuje wielowierszowe wpisy, styki prostokątów i rzeczywiste piksele dolnych linii. W badanych odcinkach wszystkich trzech typów pól linie są w 100% jednolite; kontrast tekstu własnej tury względem punktów gradientu wynosi co najmniej 5.26:1. Nie jest to test zalogowanej gry.
+CSS182987B/916reguł, około3KB przyrostu w zatwierdzonym nowym zakresie. Bez nowych filtrów, animacji i duplikatów. Instalator poniżej4KB, adapter palety około4.1KB osobno. To lokalne kontrole techniczne; wygląd, współpraca z dodatkami i płynność wymagają oceny w zalogowanej grze.

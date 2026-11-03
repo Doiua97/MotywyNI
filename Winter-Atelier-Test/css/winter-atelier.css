@@ -874,6 +874,45 @@ body:not(.mobile-version) .widget-button:not(.no-hover):not(.disabled):hover:not
 .interface-element-one-gray-tile,.game-window-positioner .inventory_wrapper .bags-navigation .item:hover .highlight,.game-window-positioner .inventory_wrapper .bags-navigation .item.active .highlight{background-image:linear-gradient(#41657c,#203b4e);}
 .map-overlay.dead-overlay{background-color:rgba(6,17,28,.90);}
 input.default{background-color:#081820;}
+[data-wa-player-role=administrator]{color:#ff4146!important;}
+[data-wa-player-role=game-master]{color:#89ff18!important;}
+[data-wa-player-role=super-chat-moderator]{color:#7bdff8!important;}
+[data-wa-player-role=super-game-master]{color:#ffe534!important;}
+[data-wa-player-role=chat-moderator]{color:#ff38c7!important;}
+[data-wa-player-role=player]{color:#ffffff!important;}
+:is(.t_item,.tip-wrapper)[data-type=t_other] .rank,:is(.t_item,.tip-wrapper)[data-type=t_other] .nick{color:#fff;}
+:is(.t_item,.tip-wrapper)[data-type=t_other] .clan-in-tip{color:#b9c7d7;}
+[data-wa-kind=elite1]{--wa-npc:#81ddb0;}
+[data-wa-kind=elite2]{--wa-npc:#82b9ff;}
+[data-wa-kind=elite3]{--wa-npc:#bf9aff;}
+[data-wa-kind=heros]{--wa-npc:#ffbe72;}
+[data-wa-kind=colossus]{--wa-npc:#f49bc3;}
+[data-wa-kind=tytan]{--wa-npc:#ff7488;}
+[data-wa-npc]{color:var(--wa-npc,#dfe8ef)!important;}
+[data-wa-kind][data-wa-level=weak]{color:color-mix(in srgb,var(--wa-npc) 35%,#7c899b)!important;}
+[data-wa-kind][data-wa-level=higher]{color:color-mix(in srgb,var(--wa-npc) 78%,#fff)!important;}
+[data-wa-kind][data-wa-level=danger]{color:color-mix(in srgb,var(--wa-npc) 55%,#fff)!important;}
+[data-wa-level=weak] .wa-npc-level,[data-wa-npc]:not([data-wa-kind])[data-wa-level=weak]{color:#9aa5b4!important;}
+[data-wa-level=normal] .wa-npc-level,[data-wa-npc]:not([data-wa-kind])[data-wa-level=normal]{color:#dfe8ef!important;}
+[data-wa-level=higher] .wa-npc-level,[data-wa-npc]:not([data-wa-kind])[data-wa-level=higher]{color:#e7d476!important;}
+[data-wa-level=danger] .wa-npc-level,[data-wa-npc]:not([data-wa-kind])[data-wa-level=danger]{color:#ff8c63!important;}
+.radio-custom [type=radio]+label:after{background-color:#b8e4f1;}
+.btn-min:not(.disabled):hover{background-color:#285365;color:#eaf4f8;}
+.game-window-positioner .character_wrapper :is(.stats-light-mode,.stats-wrapper) .stats-list .stat.green{color:#99ebba;}
+.game-window-positioner .character_wrapper :is(.stats-light-mode,.stats-wrapper) .stats-list .stat.orange{color:#d3bdff;}
+[data-wa-delta=gain]{color:#99ebba!important;}
+[data-wa-delta=loss]{color:#ff9dad!important;}
+:is(.interface-element-progress-bar-0,.interface-element-progress-bar-1) .inner{background-image:linear-gradient(#ff98a6,#b33250);}
+:is(.interface-element-progress-bar-0,.interface-element-progress-bar-1).green .inner{background-image:linear-gradient(#c29bff,#7542ad);}
+.skill .label-wrapper.cl-1 .label-background{background-image:linear-gradient(#162a39,#162a39);}
+.skill .label-wrapper.cl-2 .label-background{background-image:linear-gradient(#1a3548,#1a3548);}
+.skill .label-wrapper.cl-3 .label-background{background-image:linear-gradient(#204254,#204254);}
+.skill .label-wrapper.cl-4 .label-background{background-image:linear-gradient(#294c65,#294c65);}
+.skill .label-wrapper.cl-5 .label-background{background-image:linear-gradient(#3a4b72,#3a4b72);}
+.skill .label-wrapper.cl-6 .label-background{background-image:linear-gradient(#60415f,#60415f);}
+.battle-msg.neu{background-image:linear-gradient(90deg,#344451,#273744);color:#e5eff5;}
+.game-window-positioner .inventory_wrapper .bags-navigation .item .icon{opacity:1;}
+.game-window-positioner .inventory_wrapper .bags-navigation-bg .bag-slot-wrapper{background-color:#081820;}
 .console-window,.console-window .input-wrapper input,.console-wnd.global-addons-exist .content .console-bottom-panel-wrapper .button .label,.loader-layer .bottom-info,.one-battle-skill-tip,.turn-prediction__name,button,input,magic_input,select,textarea{font-family:var(--wa16);}
 /* Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)
 

@@ -1,7 +1,7 @@
 {
-  "version": "0.2.10-test",
-  "build": "2d26cf7310bb5eed",
-  "mode": "css-and-map-marker",
+  "version": "0.2.11-test",
+  "build": "19539e01c60dcecb",
+  "mode": "css-map-marker-and-palette",
   "assetDirectory": "assets",
   "assetHashes": [
     [
@@ -1317,8 +1317,14 @@
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "0e205f698ec09259fa3a29070b3d234d8cd448396c6dd4adaee42181e2c4a280",
-  "runtimeDependency": false,
+  "cssSHA256": "ce10d87af0e926dbbdc6e16584d4baeaf46c265d1daa38415cd230d253f16f4f",
+  "runtimeDependency": true,
+  "scripts": [
+    {
+      "file": "scripts/palette-bindings.js",
+      "sha256": "cdc8740e8f5e612c2e1cc780fda8d8dab22af32c3fd95add4c6441b19485e129"
+    }
+  ],
   "dynamicImageReplacement": "map-marker-only",
   "marker": {
     "original": "/img/cross.gif",
