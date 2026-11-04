@@ -1,24 +1,18 @@
-# Winter Atelier — test 0.2.15
+# Winter Atelier — test 0.2.16
 
-Wydanie testowe **0.2.15-test**.
+Wydanie 0.2.16-test, build `fec89eb708ae29b0`. Nowy zestaw do oceny w grze; kontrola lokalna nie zastępuje tego testu.
 
-[Zaktualizuj w Tampermonkey przez jsDelivr](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), następnie przeładuj grę. Pozostaw włączony jeden skrypt motywu.
+Zmiany względem 0.2.15:
 
-## Zmiany po 0.2.14
+- Uzupełniona oprawa wnętrz Darrefulla: konfiguracja dodatków, wspólne przyciski, pola, rozwijane listy i sloty, pełne teleporty oraz Prowadź. Jasny tekst także we własnych klasach dodatku. Zachowana oryginalna ikona autora oraz oba przełączane warianty okien.
+- Konfiguracja ramek i badanie aktywności: wspólne zimowe tło, dopasowane zakładki i czytelne napisy/statusy. Podglądy ramek oraz dane pozostają oryginalne. SI nie jest objęty nową adaptacją.
+- Tytuły: ta sama ilustracja, dedykowane zakończenia 4× i dopasowany środek CSS; nowy montaż oczekuje oceny.
+- Oryginalny minutnik klienta: nazwa na liście i nazwa/ranga w tooltipie korzystają z uzgodnionej palety. Bez zmian czasu, danych i obsługi odrodzenia.
 
-- Usunięto zbędny warunek `html body.ni` z reguł Darrefulla. Style są przypisane bezpośrednio do `.dad-popup`, `#dad-popup-addons` i `#dad-tp-bag`.
-- Wybrane właściwości tła i kolorów zachowują pierwszeństwo także wtedy, gdy arkusz dodatku zostanie załadowany po motywie.
-- Zachowano dwa warianty okien, oryginalną ikonę autora, rozmiary i obsługę kontrolek. Bez nowych elementów DOM i JavaScriptu.
-- Wszystkie 262 pliki assets oraz istniejący skrypt palety są identyczne bajtowo z 0.2.14.
+[Zainstaluj lub zaktualizuj w Tampermonkey](https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier-Test/install/winter-atelier-rebuild-test.user.js), sprawdź wersję 0.2.16-test i przeładuj grę. Zostaw włączony jeden skrypt motywu.
 
-## Ładowanie
+Instalator jest mały; pobiera CSS, grafiki i istniejący mały skrypt metadanych palety z przypiętego commita. Grafiki/font są w jednym płaskim assets/. Brak ogólnego runtime, obserwatora DOM, globalnych podmian IMG/XHR i modułu animacji notyfikacji. Celowany znacznik X mapy oraz adapter palety UI pozostają jawnie częścią zestawu. Darrefull jest stylizowany przez CSS.
 
-Mały instalator pobiera CSS, znacznik X i istniejący scripts/palette-bindings.js z jednego przypiętego commita. Pozostaje dotychczasowa obsługa rang i znacznika X. Obsługa Darrefulla nie dodaje JavaScriptu.
+Lokalnie przeszły kontrole 111 wariantów klienta, ośmiu stanów panelu Darrefulla i ośmiu zestawów jego komponentów w obu trybach/kolejnościach CSS. Arkusz źródłowy 204004 B, zero zduplikowanych deklaracji, filtrów, rozmyć i nowych animacji. Nie jest to potwierdzenie wszystkich prywatnych/przyszłych okien ani płynności gry. Pozostałe pakiety Yuuki/Lootlog/Maddonz nie mają jeszcze wdrożonej oprawy.
 
-## Kontrola
-
-Kontrola korzysta z rozprowadzanego CSS i faktycznych plików assets. Obejmuje 163 elementy panelu i teleportów, 8 kombinacji wyglądu/zwinięcia/przypięcia oraz oba warianty w dwóch kolejnościach arkuszy przy pustej klasie body, klasie ni i niezwiązanej ll-mounted. Brak różnic wynikowego malowania zależnych od tych warunków. Dodatkowo formularze, hover, kontrola źródeł obrazków, klikalny X i brak prześwitów pełnego panelu. To lokalna rekonstrukcja DOM i statycznego CSS autora; kod dodatku nie jest wykonywany.
-
-Kontrole klienta: 107 obrazów, 111 wariantów okien, 7 HUD, 18 konfiguracji walki, 16 nagłówka i 96 dat. CSS 191616 B / 975 reguł; bez zdublowanych deklaracji i nowych filtrów, rozmyć czy animacji.
-
-W 0.2.14 test wymuszał klasę body.ni i nie wykrywał zależności od niej. Obecny test nie dodaje tej klasy jako warunku działania adaptera. Zgłoszony przez użytkownika brak efektu w grze wymaga ponownej oceny po aktualizacji. Nie deklarujemy testu zalogowanej gry ani wersji Dev.
+Do oceny przede wszystkim wnętrza Darrefulla, przełączanie wyglądu, tytuły oraz kolory minutnika. Dotychczasowy folder Winter-Atelier pozostaje osobny.

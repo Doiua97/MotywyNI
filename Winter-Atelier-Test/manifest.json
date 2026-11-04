@@ -1,6 +1,6 @@
 {
-  "version": "0.2.15-test",
-  "build": "e86f2c62a8a927d3",
+  "version": "0.2.16-test",
+  "build": "fec89eb708ae29b0",
   "mode": "css-map-marker-and-palette",
   "assetDirectory": "assets",
   "assetHashes": [
@@ -267,10 +267,6 @@
     [
       "cloud_tail.png",
       "5b7d08a78594b81484c7cc3c39624bec0f915ca7128b223214f951d32f46f33b"
-    ],
-    [
-      "dialogi.png",
-      "0efc6bcc8ad9c42991b913dfbc037835eb2b25c47936de75f095c47b364b3fe0"
     ],
     [
       "img--gui--draconite_small.png",
@@ -857,6 +853,14 @@
       "cc9d482f023a12f1eb054830531298c62664516e55676da839d28371208a2a02"
     ],
     [
+      "title-left-hd.png",
+      "d1d251e1e5edeb748f966d4c5a0557bed35b7c9bbe5a225972528e245e1f4f86"
+    ],
+    [
+      "title-right-hd.png",
+      "a6022582380d1c8cb406794230396db082e1c87044555ea0954aff581c30df82"
+    ],
+    [
       "credits-gem.png",
       "76262c195aa1b715b8b8b50ab97e0982da014a5a599660bd47ceb2904b52f087"
     ],
@@ -1120,7 +1124,6 @@
     "img/gui/chat-powtarzalny-podklad.png": "chat-powtarzalny-podklad.png",
     "img/gui/clan_icons.png": "clan_icons.png",
     "img/gui/cloud_tail.png": "cloud_tail.png",
-    "img/gui/dialogue/dialogi.png": "dialogi.png",
     "img/gui/draconite_small.png": "img--gui--draconite_small.png",
     "img/gui/friend-header.png": "friend-header.png",
     "img/gui/hpStateSprite.png": "hpStateSprite.png",
@@ -1267,6 +1270,8 @@
     "img/theme/item-field.png": "item-field.png",
     "img/theme/panel-material.png": "panel-material.png",
     "img/theme/search-glass.png": "search-glass.png",
+    "img/theme/title-left-hd.png": "title-left-hd.png",
+    "img/theme/title-right-hd.png": "title-right-hd.png",
     "img/theme/top/credits-gem.png": "credits-gem.png",
     "img/theme/top/hud-top.png": "hud-top.png",
     "img/theme/top/map-status-green.png": "map-status-green.png",
@@ -1317,12 +1322,12 @@
     "inline-fc70d01f1ba8372c.png": "inline-fc70d01f1ba8372c.png",
     "winter-atelier.woff2": "winter-atelier.woff2"
   },
-  "cssSHA256": "539b31071dd2112b73ec9149868e6a1d1bc2e5c892a486642aec8c7aa9863c70",
+  "cssSHA256": "9c7b870bdaceb89c4f856075b7496a479ef1bbd3ac74a00709885926a713698a",
   "runtimeDependency": true,
   "scripts": [
     {
       "file": "scripts/palette-bindings.js",
-      "sha256": "421f76e533b9b305913676d196266bc254809f43ce52f1131676f434dd34abfb"
+      "sha256": "c6b6063e05a3b26ad0529b061201160b2419129583c0d1585e3d588b99ce7f93"
     }
   ],
   "dynamicImageReplacement": "map-marker-only",

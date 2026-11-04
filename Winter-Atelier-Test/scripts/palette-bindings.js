@@ -2,7 +2,8 @@
  const mark=Symbol.for('winter-atelier.palette.v1');
  for(let attempt=0;attempt<150;attempt++){
   const e=window.Engine;
-  if(!e?.hero?.createStrTip||!e?.others?.createStrTip||!e?.npcs?.getTip||!e?.showEqManager?.newWindow||!e?.worldWindow?.open){await new Promise(resolve=>setTimeout(resolve,200));continue;}
+  const jq=window.$?.fn?.tip?window.$:window.jQuery;
+  if(!e?.hero?.createStrTip||!e?.others?.createStrTip||!e?.npcs?.getTip||!e?.showEqManager?.newWindow||!e?.worldWindow?.open||typeof jq?.fn?.tip!=='function'){await new Promise(resolve=>setTimeout(resolve,200));continue;}
   if(e[mark])return;
   const template=document.createElement('template');
   const decorate=(text,update)=>{if(typeof text!=='string')return text;template.innerHTML=text;update(template.content);return template.innerHTML;};
@@ -46,6 +47,39 @@
   for(const view of Object.values(e.showEqManager.windows||{}))equipment(e.showEqManager,view.playerData);
   wrap(e.hero,'showGainedExp',(value,args)=>{for(const node of document.querySelectorAll('.gained-exp-indicator,.gained-exp-indicator-light-mode'))node.dataset.waDelta=args[0]>0?'gain':'loss';return value;});
   wrap(e.hero,'showDifference',(value,args)=>{if(args[2]&&args[1]!==args[2]){const node=(args[0]?.[0]||args[0])?.querySelector?.('.diff-msg');if(node)node.dataset.waDelta=args[1]>args[2]?'gain':'loss';}return value;});
+  // CharacterTimer stores numeric type in the row's jQuery data("obj"), not
+  // CSS classes. Reuse it at the native tooltip setter, before its equality
+  // check. Caching avoids reparsing/rebinding unchanged tips each timer tick.
+  const timerMark=Symbol.for('winter-atelier.timer-tip.v1');
+  if(!jq.fn.tip[timerMark]){
+   const original=jq.fn.tip,cache=new WeakMap();
+   const timerKinds={1:'elite1',2:'elite2',3:'heros',4:'tytan',5:'elite3'};
+   const setKind=(node,kind)=>{if(!node)return;if(kind){if(node.dataset.waNpc!=='')node.dataset.waNpc='';if(node.dataset.waKind!==kind)node.dataset.waKind=kind;}else{delete node.dataset.waNpc;delete node.dataset.waKind;}if(node.dataset.waLevel!==undefined)delete node.dataset.waLevel;};
+   const decorated=function(...args){
+    try{
+     const node=this[0];
+     if(typeof args[0]==='string'&&node?.classList&&(node.classList.contains('time-val')||node.classList.contains('name')&&node.classList.contains('cell'))){
+      const row=node.closest('.elite-timer .row'),data=row&&jq(row).data('obj');
+      if(data){
+       const kind=data.user?null:timerKinds[data.type]||null;
+       setKind(row.querySelector('.name-val'),kind);
+       if(kind){
+        const saved=cache.get(row),text=args[0];
+        if(saved?.kind===kind&&(saved.text===text||saved.html===text))args[0]=saved.html;
+        else{
+         const html=decorate(text,root=>{const name=root.querySelector('.elite_timer_tip_name');setKind(name,kind);const rank=name?.nextElementSibling;if(rank?.tagName==='I')setKind(rank,kind);});
+         cache.set(row,{kind,text,html});args[0]=html;
+        }
+       }
+      }
+     }
+    }catch{}
+    return original.apply(this,args);
+   };
+   Object.defineProperty(decorated,timerMark,{value:true});jq.fn.tip=decorated;
+   // Also cover timer rows already rendered before the palette was installed.
+   for(const node of document.querySelectorAll('.elite-timer .name.cell,.elite-timer .time-val')){const target=jq(node),text=target.getTipData?.();if(typeof text==='string')target.tip(text);}
+  }
   e[mark]=true;
   // A single refresh of cached tooltips; no document observer or game loop.
   try{e.hero.updateTip?.();e.others.otherTipRefresh?.();for(const obj of Object.values(e.npcs.check?.()||{}))obj.createTipFromNpcData?.();}catch{}
