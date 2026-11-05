@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Winter Atelier
 // @namespace Doiua/MotywyNI/Winter-Atelier
-// @version 1.2.1
+// @version 1.2.2
 // @author Doiua
 // @icon https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@b26085c3c7a9e8886d8a11b8195fbc55221a2e69/Winter-Atelier/assets/winter-atelier-icon.png
 // @description Zimowy motyw interfejsu Margonem.
@@ -10,16 +10,6 @@
 // @exclude https://www.margonem.pl/*
 // @exclude https://forum.margonem.pl/*
 // @exclude https://pomoc.margonem.pl/*
-// @exclude https://support.margonem.pl/*
-// @exclude https://blog.margonem.pl/*
-// @exclude https://panel.margonem.pl/*
-// @exclude https://api.margonem.pl/*
-// @exclude https://static.margonem.pl/*
-// @exclude https://cdn.margonem.pl/*
-// @exclude https://account.margonem.pl/*
-// @exclude https://accounts.margonem.pl/*
-// @exclude https://auth.margonem.pl/*
-// @exclude https://login.margonem.pl/*
 // @updateURL https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier/install/winter-atelier.user.js
 // @downloadURL https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@main/Winter-Atelier/install/winter-atelier.user.js
 // @grant none
