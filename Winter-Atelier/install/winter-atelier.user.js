@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Winter Atelier
 // @namespace Doiua/MotywyNI/Winter-Atelier
-// @version 1.2.2
+// @version 1.2.1
 // @author Doiua
 // @icon https://cdn.jsdelivr.net/gh/Doiua97/MotywyNI@b26085c3c7a9e8886d8a11b8195fbc55221a2e69/Winter-Atelier/assets/winter-atelier-icon.png
 // @description Zimowy motyw interfejsu Margonem.
