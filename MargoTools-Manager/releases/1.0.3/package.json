@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.3",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "- Widget Menedżera wyświetla złote logo „M” ze strony MargoTools."
+}
