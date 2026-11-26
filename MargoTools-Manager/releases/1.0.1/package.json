@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.1",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "- Arkusz zapisanego motywu może zostać wczytany podczas startowego ładowania gry. Kod modułu uruchamia się po gotowości interfejsu klienta.\n- Wybranie motywu lub powrót do oryginalnego wyglądu zapisuje wybór. Menedżer stosuje go po kliknięciu „Odśwież grę”.\n- Instalator wykorzystuje zapisane logo i kolory paska wybranego motywu podczas startu, ograniczając mignięcie oryginalnego interfejsu."
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "winter-atelier",
+  "version": "1.2.10",
+  "entry": {
+    "css": "css/winter-atelier.css",
+    "js": "scripts/winter-atelier.js"
+  },
+  "changelog": "- Ekran zmiany mapy pokazuje logo Winter Atelier i pasek w tej samej palecie co przy starcie gry.\n- Komunikaty systemowe są białe i pozostają widoczne przy wąskim oknie gry i na postaci na 6. poziomie."
+}
