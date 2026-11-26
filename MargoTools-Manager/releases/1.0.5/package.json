@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.5",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "Logo MargoTools wypełnia cały obszar widgetu w rozmiarze ustawionym przez klienta gry.\nOkno Menedżera korzysta z grafitowej palety i złotych akcentów strony MargoTools."
+}
