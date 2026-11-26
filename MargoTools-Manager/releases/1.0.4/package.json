@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.4",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "- Usunięto zasłanianie gry przy starcie i zapis logo przez instalator. Motyw ładuje się z bieżącego katalogu MargoTools.\n- Menedżer rejestruje widget także przy wyłączonym motywie i bez odpowiedzi katalogu.\n- Dodano ponowne przydzielenie miejsca przez klienta, gdy zapisany slot widgetu jest już zajęty."
+}
