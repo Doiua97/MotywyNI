@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "winter-atelier",
+  "version": "1.2.9",
+  "entry": {
+    "css": "css/winter-atelier.css",
+    "js": "scripts/winter-atelier.js"
+  },
+  "changelog": "- Przystosowano Winter Atelier do włączania i aktualizowania w Menedżerze MargoTools.\n- Zachowano arkusz i grafiki wersji 1.2.8, paletę dymków i mapy oraz znacznik ruchu.\n- Zmiana lub wyłączenie aktywnego motywu w Menedżerze jest stosowane po odświeżeniu gry."
+}

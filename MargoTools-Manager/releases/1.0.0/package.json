@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.0",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "- Dodano Menedżer MargoTools otwierany z widgetu Margonem NI.\n- Dodano wybór jednego motywu lub oryginalnego wyglądu oraz niezależne włączanie dodatków.\n- Menedżer pobiera katalog MargoTools, sprawdza sumy SHA-256 plików i rozpoznaje aktualizacje oraz przywrócone wydania.\n- Wybór motywu, dodatków i zakładki oraz ustawienia modułów są zapisywane lokalnie w Tampermonkey.\n- Menedżer informuje o samodzielnie uruchomionym motywie oraz o zmianach wymagających odświeżenia gry."
+}
