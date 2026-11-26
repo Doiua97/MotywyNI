@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.6",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "Widget Menedżera korzysta z ramki, tła i podświetlenia klienta Margonem NI. Złoty znak M mieści się w standardowym polu ikony."
+}
