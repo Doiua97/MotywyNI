@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "manager",
+  "version": "1.0.2",
+  "entry": {
+    "css": "css/manager.css",
+    "js": "scripts/manager.js"
+  },
+  "changelog": "- Widget Menedżera wyświetla logo MargoTools ze strony."
+}
